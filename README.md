@@ -1,15 +1,25 @@
-# Addition-chain search: checkable results and methods
+# Addition-chain search: results, history, and tools
 
-This project is a small, inspectable record of Tommy Tai's AI-assisted search following [Brian Smith's public 2017 P-384 addition-chain article](https://briansmith.org/ecc-inversion-addition-chains-01). Brian has not reviewed or endorsed these results.
+Tommy Tai's AI-assisted research follows [Brian Smith's public 2017 addition-chain
+article](https://briansmith.org/ecc-inversion-addition-chains-01). Brian has not
+reviewed or endorsed this project.
 
-## Two-minute read
+## Start with one of three packages
 
-1. **Check the strongest result.** The frozen P-384 scalar `n−2` certificate has **421 operations: 380 squarings and 41 other multiplications**. It is 12 below the article's 433 count and nine below a pinned-source `ring` recount of 430. Run `cd chains && python -B verify_all.py` to replay the arithmetic and negative controls. This is an operation-count result, not measured native speed or a proof of the shortest possible chain.
-2. **See how the search was recorded.** [HISTORY](chains/HISTORY.md), [EXPERIMENTS](chains/EXPERIMENTS.md), and [METHOD](chains/METHOD.md) explain selected 425→421 checkpoints, different constructions, and bounded negative searches. The September 24 CPU annealing run produced the frozen 421. Its selected source and genotype survive privately, but the six original per-seed logs are missing from this project. These checkpoints are not one proven mutation lineage.
-3. **Inspect the later evolutionary case separately.** [The OpenEvolve case](openevolve-case/README.md) starts from a *different* 421 certificate, 381S+40M. Run `cd openevolve-case && python -B replay_ledger.py --selftest`. Its 17 reported children yielded nine distinct certificates; the best generated child was 425, so the seed remained best. This local ledger replay does not authenticate omitted model traces or show that OpenEvolve discovered the frozen CPU-annealed 421.
+| Package | Plain-language use | Download |
+| --- | --- | --- |
+| [1. Addition-chain results and checkers](chains/README.md) | Check the exact candidate chains, including P-384 scalar `n−2` at **421 = 380S + 41M**. | [ZIP](01_addition_chains_r4.zip) |
+| [2. Search-history reconstruction](search-history/README.md) | See selected 425→421 checkpoints, methods, failed regions, and missing records. | [ZIP](02_search_history_reconstruction_r1.zip) |
+| [3. Agent skills](skills/README.md) | Reuse five MIT-licensed procedures, grouped into general search and addition-chain-specific checks. | [ZIP](03_agent_skills_r9_mit_public.zip) |
 
-The [five MIT-licensed portable agent skills](skills/README.md) describe the verification, search, cost, frontier-reporting, and packaging workflow. Their [reuse terms](skills/REUSE_TERMS.md) are separate from the chain archive's MIT and third-party notices. The OpenEvolve case is available for review only. Read [limitations](LIMITATIONS_AND_UNKNOWN.md) before reusing any result.
+The search-history reconstruction is public for inspection only; its
+[reuse terms](search-history/REUSE_TERMS.md) are distinct from the skills' MIT grant.
 
-For deeper context, see [intermediate results and receipts](INTERMEDIATE_RESULTS_RECEIPTS.md) and [search process and failures](RESEARCH_METHOD_AND_FAILURES.md). Those notes distinguish replayable certificates, reported aggregates, bounded negative searches, and unknowns.
+Optional fourth appendix: [a later OpenEvolve P-384 case](openevolve-case/README.md)
+([ZIP](04_openevolve_p384_case_r3_public.zip)). It generated no improvement over
+its different 421 seed and is public for inspection only, without a reuse grant.
 
-Tommy chose targets, search direction, and timeboxes; agents implemented and ran many experiments. The durable record and automatic resource allocation are still incomplete. Neither a model suggestion nor a scheduled wake counts as a verified improvement without a checker and a bound receipt.
+The 421 certificate passes local arithmetic replay. These files do not establish
+native speed, a shortest chain, a full raw search trajectory, or adoption in a
+cryptographic library. Read the [limitations](LIMITATIONS_AND_UNKNOWN.md) and
+the [release hashes](PUBLIC_SHA256SUMS.txt) before relying on a result.

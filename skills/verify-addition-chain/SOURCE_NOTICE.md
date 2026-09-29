@@ -4,5 +4,5 @@
 Its MIT `LICENSE` is preserved here and now covers the new standalone skill
 instructions as well, per Tao's approval. It does not license any third-party
 implementation cited in research notes. The separate chain release is
-`01_addition_chains_r3.zip`, SHA-256
-`ac3f8d2b34ee1324f3c99f75bb5777ad63cb56496cef60531c348b3598816553`.
+`01_addition_chains_r4.zip`, SHA-256
+`e850af310dc732eba5329692987e6ce43fcc15e8186c1c691cf47f9c1fd0ac4e`.

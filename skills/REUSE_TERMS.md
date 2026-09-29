@@ -8,7 +8,7 @@ this skills archive, subject to the notices below.
 | --- | --- |
 | `verify-addition-chain/scripts/verify_scalar_dag.py` | MIT under `verify-addition-chain/LICENSE`; exact copied-code provenance is recorded in `SOURCE_NOTICE.md`. |
 | `README.md`, `LESSONS.md`, `REUSE_TERMS.md`, all five `SKILL.md` files, and their `references/*.md` and `SOURCE_NOTICE.md` | MIT under the root `LICENSE`; each standalone skill folder carries a copy of the MIT notice. |
-| `01_addition_chains_r3.zip` | Separate release, not inside this archive; see its own `LICENSE`, `THIRD_PARTY.md`, and BSD notice. |
+| `01_addition_chains_r4.zip` | Separate release, not inside this archive; see its own `LICENSE`, `THIRD_PARTY.md`, and BSD notice. |
 
 The separate chain release has its own original-material MIT terms and
 third-party BSD notice; the separate OpenEvolve case study is **not** licensed

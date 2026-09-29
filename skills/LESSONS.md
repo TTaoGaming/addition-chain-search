@@ -1,8 +1,8 @@
 # What worked, failed, and remains unknown
 
 This is selected research evidence, not an exhaustive experiment log. The
-separate `01_addition_chains_r3.zip` (SHA-256
-`ac3f8d2b34ee1324f3c99f75bb5777ad63cb56496cef60531c348b3598816553`)
+separate `01_addition_chains_r4.zip` (SHA-256
+`e850af310dc732eba5329692987e6ce43fcc15e8186c1c691cf47f9c1fd0ac4e`)
 has the exact certificates, verifiers, dated history, and source citations.
 
 | Observation | Status | Lesson for an agent |
