@@ -15,7 +15,7 @@ The frozen chain checker exits nonzero on failure and prints JSON with `"status"
 | --- | --- |
 | What are the exact exponents, schedules, and dated baselines? | [Results and checkers](chains/README.md) |
 | What are the newer P-521 and secp256k1 arithmetic leads? | [Review-only candidates](review-candidates/README.md) and their separate checker |
-| How were the selected P-384 milestones reached? | [Episodes](search-history/EPISODES.md) and [island map](search-history/ISLAND_MAP.md) |
+| How did the search proceed and where were resources spent? | [Dated episodes](search-history/EPISODES.md), [island and resource map](search-history/ISLAND_MAP.md), and [bounded methods](search-history/METHODS_AND_LIMITS.md) |
 | Which procedures can another agent try? | [Five MIT skills](skills/README.md) |
 | Which claims remain open? | [Limitations and unknowns](LIMITATIONS_AND_UNKNOWN.md) |
 

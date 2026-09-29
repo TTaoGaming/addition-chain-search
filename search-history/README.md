@@ -18,12 +18,19 @@ replaying a final certificate checks its arithmetic, not the path that found it.
 **Evidence key:** included certificates pass local arithmetic replay; 424 and
 423 bytes were reconstructed from recipes and matched to recorded hashes;
 six-seed annealing totals are reported aggregates because the original raw
-per-seed logs are absent here. The 425→421 rows came from different episodes,
-not a proven direct mutation lineage. The frozen 421 came from CPU annealing. See [limitations](../LIMITATIONS_AND_UNKNOWN.md) for the evidence boundary.
+per-seed logs are absent here. The 432, 429, and 426 source episodes are
+reported history with no bundled certificates. The 425→421 rows came from
+different episodes, not a proven direct mutation lineage. The frozen 421 came
+from CPU annealing. Newer [P-521 581 and secp256k1 288 review candidates](../review-candidates/README.md)
+sit outside the frozen chain ZIP and use a separate checker. See
+[limitations](../LIMITATIONS_AND_UNKNOWN.md) for the evidence boundary.
 
-For offline browsing, extract `01_addition_chains_r4.zip` into a `chains/`
-directory and `02_search_history_reconstruction_r3.zip` into a sibling
-`search-history/` directory. Then the relative certificate links work; run the
-checker from `chains/`. [Reuse terms](REUSE_TERMS.md): this reconstructed prose is
-public for inspection only, with no reuse license granted. Private logs and
+For complete offline navigation, clone or download the **whole repository**;
+from its root run `python -B chains/verify_all.py` and, separately,
+`python -B review-candidates/verify.py`. The standalone history ZIP has only
+the narrative, so links into `chains/`, `review-candidates/`, and root-level
+documents need the full checkout. The frozen chains ZIP is independently
+runnable; its current archive link is in the [project README](../README.md).
+[Reuse terms](REUSE_TERMS.md): this reconstructed prose is public for
+inspection only, with no reuse license granted. Private logs and
 correspondence are not included.

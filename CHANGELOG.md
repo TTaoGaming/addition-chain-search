@@ -1,5 +1,17 @@
 # Changes
 
+## v10 search-history reconstruction — 2026-09-29 UTC
+
+- Reconciled selected private Slack and source-bound receipts into dated P-384
+  432→421 episodes, other-target pivots, an island map, and a resource ledger.
+  Search work counts are reported observations; the bundled arithmetic
+  certificates provide the stronger independently replayable evidence.
+- Linked the newer P-521 581 and secp256k1 288 review certificates from the
+  history and fixed offline navigation instructions. The older chain ZIP is
+  unchanged. Rebuilt the history ZIP as r4; retained r3 so existing URLs work.
+- No complete raw search trajectory, equal-budget policy comparison, current
+  world-best claim, or measured native speed is added by this reconstruction.
+
 ## v9 review-candidate addition — 2026-09-29 UTC
 
 - Added a separate, review-only section with two P-521 scalar 581 cost variants

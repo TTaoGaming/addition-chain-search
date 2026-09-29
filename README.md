@@ -5,7 +5,7 @@ Tommy Tai's AI-assisted research builds on [Brian Smith's public 2017 article](h
 | Project area | What it contains | Open |
 | --- | --- | --- |
 | **1. Published chain candidates** | Exact exponents, schedules, checkers, and dated comparisons. | [Results](chains/README.md) · [ZIP](01_addition_chains_r4.zip) |
-| **2. Search history** | Selected 425→421 episodes, explored islands, resource records, and gaps. | [History](search-history/README.md) · [ZIP](02_search_history_reconstruction_r3.zip) |
+| **2. Search history** | Dated 432→421 P-384 milestones, other-target pivots, explored islands, reported search resources, and gaps. | [History](search-history/README.md) · [ZIP](02_search_history_reconstruction_r4.zip) |
 | **3. Agent skills** | Five MIT-licensed procedures that may transfer to other agents and targets; behavioral transfer has not been tested. | [Skills](skills/README.md) · [ZIP](03_agent_skills_r10_mit_public.zip) |
 | **4. New review candidates** | P-521 scalar 581 variants and secp256k1 scalar 288, with exact certificates and a separate checker. These files carry no reuse license. | [Review candidates](review-candidates/README.md) |
 
