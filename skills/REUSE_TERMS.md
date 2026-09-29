@@ -11,7 +11,4 @@ this skills archive, subject to the notices below.
 | `01_addition_chains_r4.zip` | Separate release, not inside this archive; see its own `LICENSE`, `THIRD_PARTY.md`, and BSD notice. |
 
 The separate chain release has its own original-material MIT terms and
-third-party BSD notice; the separate OpenEvolve case study is **not** licensed
-by this skills grant. Mentioning Brian Smith's public article credits the
-comparison source; it does not imply his endorsement. No upstream
-implementation source is bundled by these skills.
+third-party BSD notice. Mentioning Brian Smith's public article credits the comparison source; it does not imply his endorsement. No upstream implementation source is bundled by these skills.
