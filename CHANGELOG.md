@@ -1,5 +1,14 @@
 # Changes
 
+## v9 review-candidate addition — 2026-09-29 UTC
+
+- Added a separate, review-only section with two P-521 scalar 581 cost variants
+  and a secp256k1 scalar 288 certificate. Its separate checker replays the
+  exact targets and counts but makes no speed or current-best claim.
+- Kept the older chain ZIP and existing MIT-covered `chains/` bytes frozen,
+  except for one cross-link in its README. The new section carries no reuse
+  license and uses a separate verification command.
+
 ## v8 — 2026-09-29 UTC
 
 - Recast the front page as a conventional three-area project: published chain candidates, selected search history, and potentially transferable agent skills.

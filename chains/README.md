@@ -47,6 +47,10 @@ A separate [Curve448 field appendix](FIELD_CURVE448.md) replays a published
 **460 = 447S + 13M** baseline and two narrowly declared split variants.
 The best is a **tie**, not a lower chain, and its target is `p - 2`.
 
+Newer [P-521 581 and secp256k1 288 review candidates](../review-candidates/README.md)
+are outside this frozen `chains/` package and its MIT license. Run their
+separate checker; they are not included in `01_addition_chains_r4.zip`.
+
 ## Open the certificates
 
 - P-384: [425](p384/certificates/p384_425.txt) →
