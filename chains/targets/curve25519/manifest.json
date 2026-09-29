@@ -1,0 +1,10 @@
+{
+  "schema": "hfo.chain_target.v0",
+  "target_id": "Curve25519-scalar-n-minus-2",
+  "target_rule": "scalar_n_minus_2",
+  "order_hex": "1000000000000000000000000000000014def9dea2f79cd65812631a5cf5d3ed",
+  "target_hex": "1000000000000000000000000000000014def9dea2f79cd65812631a5cf5d3eb",
+  "source": "ECC inversion addition chains (2017 public article; source URL held in private original)",
+  "max_candidate_bytes": 1000000,
+  "max_rows": 2000
+}

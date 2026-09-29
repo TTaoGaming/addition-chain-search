@@ -1,0 +1,1430 @@
+{
+  "first_window": {
+    "bits": 7,
+    "exponent": 64
+  },
+  "multiplications": 31,
+  "operation_count": 280,
+  "operations": [
+    {
+      "left": 0,
+      "phase": "precompute",
+      "right": 0
+    },
+    {
+      "left": 0,
+      "phase": "precompute",
+      "right": 1
+    },
+    {
+      "left": 1,
+      "phase": "precompute",
+      "right": 1
+    },
+    {
+      "left": 3,
+      "phase": "precompute",
+      "right": 3
+    },
+    {
+      "left": 2,
+      "phase": "precompute",
+      "right": 4
+    },
+    {
+      "left": 3,
+      "phase": "precompute",
+      "right": 5
+    },
+    {
+      "left": 4,
+      "phase": "precompute",
+      "right": 6
+    },
+    {
+      "left": 6,
+      "phase": "precompute",
+      "right": 7
+    },
+    {
+      "left": 0,
+      "phase": "precompute",
+      "right": 8
+    },
+    {
+      "left": 7,
+      "phase": "precompute",
+      "right": 8
+    },
+    {
+      "left": 2,
+      "phase": "precompute",
+      "right": 10
+    },
+    {
+      "left": 8,
+      "phase": "precompute",
+      "right": 10
+    },
+    {
+      "left": 4,
+      "phase": "precompute",
+      "right": 12
+    },
+    {
+      "left": 11,
+      "phase": "accumulate",
+      "right": 11
+    },
+    {
+      "left": 14,
+      "phase": "accumulate",
+      "right": 14
+    },
+    {
+      "left": 15,
+      "phase": "accumulate",
+      "right": 15
+    },
+    {
+      "left": 16,
+      "phase": "accumulate",
+      "right": 16
+    },
+    {
+      "left": 17,
+      "phase": "accumulate",
+      "right": 17
+    },
+    {
+      "left": 18,
+      "phase": "accumulate",
+      "right": 18
+    },
+    {
+      "left": 19,
+      "phase": "accumulate",
+      "right": 19
+    },
+    {
+      "left": 20,
+      "phase": "accumulate",
+      "right": 20
+    },
+    {
+      "left": 21,
+      "phase": "accumulate",
+      "right": 21
+    },
+    {
+      "left": 22,
+      "phase": "accumulate",
+      "right": 22
+    },
+    {
+      "left": 23,
+      "phase": "accumulate",
+      "right": 23
+    },
+    {
+      "left": 24,
+      "phase": "accumulate",
+      "right": 24
+    },
+    {
+      "left": 25,
+      "phase": "accumulate",
+      "right": 25
+    },
+    {
+      "left": 26,
+      "phase": "accumulate",
+      "right": 26
+    },
+    {
+      "left": 27,
+      "phase": "accumulate",
+      "right": 27
+    },
+    {
+      "left": 28,
+      "phase": "accumulate",
+      "right": 28
+    },
+    {
+      "left": 29,
+      "phase": "accumulate",
+      "right": 29
+    },
+    {
+      "left": 30,
+      "phase": "accumulate",
+      "right": 30
+    },
+    {
+      "left": 31,
+      "phase": "accumulate",
+      "right": 31
+    },
+    {
+      "left": 32,
+      "phase": "accumulate",
+      "right": 32
+    },
+    {
+      "left": 33,
+      "phase": "accumulate",
+      "right": 33
+    },
+    {
+      "left": 34,
+      "phase": "accumulate",
+      "right": 34
+    },
+    {
+      "left": 35,
+      "phase": "accumulate",
+      "right": 35
+    },
+    {
+      "left": 36,
+      "phase": "accumulate",
+      "right": 36
+    },
+    {
+      "left": 37,
+      "phase": "accumulate",
+      "right": 37
+    },
+    {
+      "left": 38,
+      "phase": "accumulate",
+      "right": 38
+    },
+    {
+      "left": 39,
+      "phase": "accumulate",
+      "right": 39
+    },
+    {
+      "left": 40,
+      "phase": "accumulate",
+      "right": 40
+    },
+    {
+      "left": 41,
+      "phase": "accumulate",
+      "right": 41
+    },
+    {
+      "left": 42,
+      "phase": "accumulate",
+      "right": 42
+    },
+    {
+      "left": 43,
+      "phase": "accumulate",
+      "right": 43
+    },
+    {
+      "left": 44,
+      "phase": "accumulate",
+      "right": 44
+    },
+    {
+      "left": 45,
+      "phase": "accumulate",
+      "right": 45
+    },
+    {
+      "left": 46,
+      "phase": "accumulate",
+      "right": 46
+    },
+    {
+      "left": 47,
+      "phase": "accumulate",
+      "right": 47
+    },
+    {
+      "left": 48,
+      "phase": "accumulate",
+      "right": 48
+    },
+    {
+      "left": 49,
+      "phase": "accumulate",
+      "right": 49
+    },
+    {
+      "left": 50,
+      "phase": "accumulate",
+      "right": 50
+    },
+    {
+      "left": 51,
+      "phase": "accumulate",
+      "right": 51
+    },
+    {
+      "left": 52,
+      "phase": "accumulate",
+      "right": 52
+    },
+    {
+      "left": 53,
+      "phase": "accumulate",
+      "right": 53
+    },
+    {
+      "left": 54,
+      "phase": "accumulate",
+      "right": 54
+    },
+    {
+      "left": 55,
+      "phase": "accumulate",
+      "right": 55
+    },
+    {
+      "left": 56,
+      "phase": "accumulate",
+      "right": 56
+    },
+    {
+      "left": 57,
+      "phase": "accumulate",
+      "right": 57
+    },
+    {
+      "left": 58,
+      "phase": "accumulate",
+      "right": 58
+    },
+    {
+      "left": 59,
+      "phase": "accumulate",
+      "right": 59
+    },
+    {
+      "left": 60,
+      "phase": "accumulate",
+      "right": 60
+    },
+    {
+      "left": 61,
+      "phase": "accumulate",
+      "right": 61
+    },
+    {
+      "left": 62,
+      "phase": "accumulate",
+      "right": 62
+    },
+    {
+      "left": 63,
+      "phase": "accumulate",
+      "right": 63
+    },
+    {
+      "left": 64,
+      "phase": "accumulate",
+      "right": 64
+    },
+    {
+      "left": 65,
+      "phase": "accumulate",
+      "right": 65
+    },
+    {
+      "left": 66,
+      "phase": "accumulate",
+      "right": 66
+    },
+    {
+      "left": 67,
+      "phase": "accumulate",
+      "right": 67
+    },
+    {
+      "left": 68,
+      "phase": "accumulate",
+      "right": 68
+    },
+    {
+      "left": 69,
+      "phase": "accumulate",
+      "right": 69
+    },
+    {
+      "left": 70,
+      "phase": "accumulate",
+      "right": 70
+    },
+    {
+      "left": 71,
+      "phase": "accumulate",
+      "right": 71
+    },
+    {
+      "left": 72,
+      "phase": "accumulate",
+      "right": 72
+    },
+    {
+      "left": 73,
+      "phase": "accumulate",
+      "right": 73
+    },
+    {
+      "left": 74,
+      "phase": "accumulate",
+      "right": 74
+    },
+    {
+      "left": 75,
+      "phase": "accumulate",
+      "right": 75
+    },
+    {
+      "left": 76,
+      "phase": "accumulate",
+      "right": 76
+    },
+    {
+      "left": 77,
+      "phase": "accumulate",
+      "right": 77
+    },
+    {
+      "left": 78,
+      "phase": "accumulate",
+      "right": 78
+    },
+    {
+      "left": 79,
+      "phase": "accumulate",
+      "right": 79
+    },
+    {
+      "left": 80,
+      "phase": "accumulate",
+      "right": 80
+    },
+    {
+      "left": 81,
+      "phase": "accumulate",
+      "right": 81
+    },
+    {
+      "left": 82,
+      "phase": "accumulate",
+      "right": 82
+    },
+    {
+      "left": 83,
+      "phase": "accumulate",
+      "right": 83
+    },
+    {
+      "left": 84,
+      "phase": "accumulate",
+      "right": 84
+    },
+    {
+      "left": 85,
+      "phase": "accumulate",
+      "right": 85
+    },
+    {
+      "left": 86,
+      "phase": "accumulate",
+      "right": 86
+    },
+    {
+      "left": 87,
+      "phase": "accumulate",
+      "right": 87
+    },
+    {
+      "left": 88,
+      "phase": "accumulate",
+      "right": 88
+    },
+    {
+      "left": 89,
+      "phase": "accumulate",
+      "right": 89
+    },
+    {
+      "left": 90,
+      "phase": "accumulate",
+      "right": 90
+    },
+    {
+      "left": 91,
+      "phase": "accumulate",
+      "right": 91
+    },
+    {
+      "left": 92,
+      "phase": "accumulate",
+      "right": 92
+    },
+    {
+      "left": 93,
+      "phase": "accumulate",
+      "right": 93
+    },
+    {
+      "left": 94,
+      "phase": "accumulate",
+      "right": 94
+    },
+    {
+      "left": 95,
+      "phase": "accumulate",
+      "right": 95
+    },
+    {
+      "left": 96,
+      "phase": "accumulate",
+      "right": 96
+    },
+    {
+      "left": 97,
+      "phase": "accumulate",
+      "right": 97
+    },
+    {
+      "left": 98,
+      "phase": "accumulate",
+      "right": 98
+    },
+    {
+      "left": 99,
+      "phase": "accumulate",
+      "right": 99
+    },
+    {
+      "left": 100,
+      "phase": "accumulate",
+      "right": 100
+    },
+    {
+      "left": 101,
+      "phase": "accumulate",
+      "right": 101
+    },
+    {
+      "left": 102,
+      "phase": "accumulate",
+      "right": 102
+    },
+    {
+      "left": 103,
+      "phase": "accumulate",
+      "right": 103
+    },
+    {
+      "left": 104,
+      "phase": "accumulate",
+      "right": 104
+    },
+    {
+      "left": 105,
+      "phase": "accumulate",
+      "right": 105
+    },
+    {
+      "left": 106,
+      "phase": "accumulate",
+      "right": 106
+    },
+    {
+      "left": 107,
+      "phase": "accumulate",
+      "right": 107
+    },
+    {
+      "left": 108,
+      "phase": "accumulate",
+      "right": 108
+    },
+    {
+      "left": 109,
+      "phase": "accumulate",
+      "right": 109
+    },
+    {
+      "left": 110,
+      "phase": "accumulate",
+      "right": 110
+    },
+    {
+      "left": 111,
+      "phase": "accumulate",
+      "right": 111
+    },
+    {
+      "left": 112,
+      "phase": "accumulate",
+      "right": 112
+    },
+    {
+      "left": 113,
+      "phase": "accumulate",
+      "right": 113
+    },
+    {
+      "left": 114,
+      "phase": "accumulate",
+      "right": 114
+    },
+    {
+      "left": 115,
+      "phase": "accumulate",
+      "right": 115
+    },
+    {
+      "left": 116,
+      "phase": "accumulate",
+      "right": 116
+    },
+    {
+      "left": 117,
+      "phase": "accumulate",
+      "right": 117
+    },
+    {
+      "left": 118,
+      "phase": "accumulate",
+      "right": 118
+    },
+    {
+      "left": 119,
+      "phase": "accumulate",
+      "right": 119
+    },
+    {
+      "left": 120,
+      "phase": "accumulate",
+      "right": 120
+    },
+    {
+      "left": 121,
+      "phase": "accumulate",
+      "right": 121
+    },
+    {
+      "left": 122,
+      "phase": "accumulate",
+      "right": 122
+    },
+    {
+      "left": 123,
+      "phase": "accumulate",
+      "right": 123
+    },
+    {
+      "left": 124,
+      "phase": "accumulate",
+      "right": 124
+    },
+    {
+      "left": 125,
+      "phase": "accumulate",
+      "right": 125
+    },
+    {
+      "left": 126,
+      "phase": "accumulate",
+      "right": 126
+    },
+    {
+      "left": 127,
+      "phase": "accumulate",
+      "right": 127
+    },
+    {
+      "left": 128,
+      "phase": "accumulate",
+      "right": 128
+    },
+    {
+      "left": 129,
+      "phase": "accumulate",
+      "right": 129
+    },
+    {
+      "left": 130,
+      "phase": "accumulate",
+      "right": 130
+    },
+    {
+      "left": 131,
+      "phase": "accumulate",
+      "right": 131
+    },
+    {
+      "left": 132,
+      "phase": "accumulate",
+      "right": 132
+    },
+    {
+      "left": 133,
+      "phase": "accumulate",
+      "right": 133
+    },
+    {
+      "left": 134,
+      "phase": "accumulate",
+      "right": 134
+    },
+    {
+      "left": 135,
+      "phase": "accumulate",
+      "right": 0
+    },
+    {
+      "left": 136,
+      "phase": "accumulate",
+      "right": 136
+    },
+    {
+      "left": 137,
+      "phase": "accumulate",
+      "right": 137
+    },
+    {
+      "left": 138,
+      "phase": "accumulate",
+      "right": 138
+    },
+    {
+      "left": 139,
+      "phase": "accumulate",
+      "right": 139
+    },
+    {
+      "left": 140,
+      "phase": "accumulate",
+      "right": 140
+    },
+    {
+      "left": 141,
+      "phase": "accumulate",
+      "right": 141
+    },
+    {
+      "left": 142,
+      "phase": "accumulate",
+      "right": 142
+    },
+    {
+      "left": 143,
+      "phase": "accumulate",
+      "right": 8
+    },
+    {
+      "left": 144,
+      "phase": "accumulate",
+      "right": 144
+    },
+    {
+      "left": 145,
+      "phase": "accumulate",
+      "right": 145
+    },
+    {
+      "left": 146,
+      "phase": "accumulate",
+      "right": 146
+    },
+    {
+      "left": 147,
+      "phase": "accumulate",
+      "right": 147
+    },
+    {
+      "left": 148,
+      "phase": "accumulate",
+      "right": 6
+    },
+    {
+      "left": 149,
+      "phase": "accumulate",
+      "right": 149
+    },
+    {
+      "left": 150,
+      "phase": "accumulate",
+      "right": 150
+    },
+    {
+      "left": 151,
+      "phase": "accumulate",
+      "right": 151
+    },
+    {
+      "left": 152,
+      "phase": "accumulate",
+      "right": 152
+    },
+    {
+      "left": 153,
+      "phase": "accumulate",
+      "right": 153
+    },
+    {
+      "left": 154,
+      "phase": "accumulate",
+      "right": 6
+    },
+    {
+      "left": 155,
+      "phase": "accumulate",
+      "right": 155
+    },
+    {
+      "left": 156,
+      "phase": "accumulate",
+      "right": 156
+    },
+    {
+      "left": 157,
+      "phase": "accumulate",
+      "right": 157
+    },
+    {
+      "left": 158,
+      "phase": "accumulate",
+      "right": 158
+    },
+    {
+      "left": 159,
+      "phase": "accumulate",
+      "right": 159
+    },
+    {
+      "left": 160,
+      "phase": "accumulate",
+      "right": 160
+    },
+    {
+      "left": 161,
+      "phase": "accumulate",
+      "right": 9
+    },
+    {
+      "left": 162,
+      "phase": "accumulate",
+      "right": 162
+    },
+    {
+      "left": 163,
+      "phase": "accumulate",
+      "right": 163
+    },
+    {
+      "left": 164,
+      "phase": "accumulate",
+      "right": 164
+    },
+    {
+      "left": 165,
+      "phase": "accumulate",
+      "right": 165
+    },
+    {
+      "left": 166,
+      "phase": "accumulate",
+      "right": 166
+    },
+    {
+      "left": 167,
+      "phase": "accumulate",
+      "right": 167
+    },
+    {
+      "left": 168,
+      "phase": "accumulate",
+      "right": 168
+    },
+    {
+      "left": 169,
+      "phase": "accumulate",
+      "right": 10
+    },
+    {
+      "left": 170,
+      "phase": "accumulate",
+      "right": 170
+    },
+    {
+      "left": 171,
+      "phase": "accumulate",
+      "right": 171
+    },
+    {
+      "left": 172,
+      "phase": "accumulate",
+      "right": 0
+    },
+    {
+      "left": 173,
+      "phase": "accumulate",
+      "right": 173
+    },
+    {
+      "left": 174,
+      "phase": "accumulate",
+      "right": 174
+    },
+    {
+      "left": 175,
+      "phase": "accumulate",
+      "right": 175
+    },
+    {
+      "left": 176,
+      "phase": "accumulate",
+      "right": 176
+    },
+    {
+      "left": 177,
+      "phase": "accumulate",
+      "right": 177
+    },
+    {
+      "left": 178,
+      "phase": "accumulate",
+      "right": 178
+    },
+    {
+      "left": 179,
+      "phase": "accumulate",
+      "right": 179
+    },
+    {
+      "left": 180,
+      "phase": "accumulate",
+      "right": 180
+    },
+    {
+      "left": 181,
+      "phase": "accumulate",
+      "right": 7
+    },
+    {
+      "left": 182,
+      "phase": "accumulate",
+      "right": 182
+    },
+    {
+      "left": 183,
+      "phase": "accumulate",
+      "right": 183
+    },
+    {
+      "left": 184,
+      "phase": "accumulate",
+      "right": 184
+    },
+    {
+      "left": 185,
+      "phase": "accumulate",
+      "right": 185
+    },
+    {
+      "left": 186,
+      "phase": "accumulate",
+      "right": 186
+    },
+    {
+      "left": 187,
+      "phase": "accumulate",
+      "right": 7
+    },
+    {
+      "left": 188,
+      "phase": "accumulate",
+      "right": 188
+    },
+    {
+      "left": 189,
+      "phase": "accumulate",
+      "right": 189
+    },
+    {
+      "left": 190,
+      "phase": "accumulate",
+      "right": 190
+    },
+    {
+      "left": 191,
+      "phase": "accumulate",
+      "right": 191
+    },
+    {
+      "left": 192,
+      "phase": "accumulate",
+      "right": 192
+    },
+    {
+      "left": 193,
+      "phase": "accumulate",
+      "right": 193
+    },
+    {
+      "left": 194,
+      "phase": "accumulate",
+      "right": 9
+    },
+    {
+      "left": 195,
+      "phase": "accumulate",
+      "right": 195
+    },
+    {
+      "left": 196,
+      "phase": "accumulate",
+      "right": 196
+    },
+    {
+      "left": 197,
+      "phase": "accumulate",
+      "right": 197
+    },
+    {
+      "left": 198,
+      "phase": "accumulate",
+      "right": 198
+    },
+    {
+      "left": 199,
+      "phase": "accumulate",
+      "right": 199
+    },
+    {
+      "left": 200,
+      "phase": "accumulate",
+      "right": 200
+    },
+    {
+      "left": 201,
+      "phase": "accumulate",
+      "right": 201
+    },
+    {
+      "left": 202,
+      "phase": "accumulate",
+      "right": 202
+    },
+    {
+      "left": 203,
+      "phase": "accumulate",
+      "right": 203
+    },
+    {
+      "left": 204,
+      "phase": "accumulate",
+      "right": 13
+    },
+    {
+      "left": 205,
+      "phase": "accumulate",
+      "right": 205
+    },
+    {
+      "left": 206,
+      "phase": "accumulate",
+      "right": 206
+    },
+    {
+      "left": 207,
+      "phase": "accumulate",
+      "right": 207
+    },
+    {
+      "left": 208,
+      "phase": "accumulate",
+      "right": 208
+    },
+    {
+      "left": 209,
+      "phase": "accumulate",
+      "right": 209
+    },
+    {
+      "left": 210,
+      "phase": "accumulate",
+      "right": 210
+    },
+    {
+      "left": 211,
+      "phase": "accumulate",
+      "right": 5
+    },
+    {
+      "left": 212,
+      "phase": "accumulate",
+      "right": 212
+    },
+    {
+      "left": 213,
+      "phase": "accumulate",
+      "right": 213
+    },
+    {
+      "left": 214,
+      "phase": "accumulate",
+      "right": 214
+    },
+    {
+      "left": 215,
+      "phase": "accumulate",
+      "right": 215
+    },
+    {
+      "left": 216,
+      "phase": "accumulate",
+      "right": 216
+    },
+    {
+      "left": 217,
+      "phase": "accumulate",
+      "right": 217
+    },
+    {
+      "left": 218,
+      "phase": "accumulate",
+      "right": 218
+    },
+    {
+      "left": 219,
+      "phase": "accumulate",
+      "right": 0
+    },
+    {
+      "left": 220,
+      "phase": "accumulate",
+      "right": 220
+    },
+    {
+      "left": 221,
+      "phase": "accumulate",
+      "right": 221
+    },
+    {
+      "left": 222,
+      "phase": "accumulate",
+      "right": 222
+    },
+    {
+      "left": 223,
+      "phase": "accumulate",
+      "right": 223
+    },
+    {
+      "left": 224,
+      "phase": "accumulate",
+      "right": 224
+    },
+    {
+      "left": 225,
+      "phase": "accumulate",
+      "right": 225
+    },
+    {
+      "left": 226,
+      "phase": "accumulate",
+      "right": 226
+    },
+    {
+      "left": 227,
+      "phase": "accumulate",
+      "right": 227
+    },
+    {
+      "left": 228,
+      "phase": "accumulate",
+      "right": 8
+    },
+    {
+      "left": 229,
+      "phase": "accumulate",
+      "right": 229
+    },
+    {
+      "left": 230,
+      "phase": "accumulate",
+      "right": 230
+    },
+    {
+      "left": 231,
+      "phase": "accumulate",
+      "right": 231
+    },
+    {
+      "left": 232,
+      "phase": "accumulate",
+      "right": 232
+    },
+    {
+      "left": 233,
+      "phase": "accumulate",
+      "right": 233
+    },
+    {
+      "left": 234,
+      "phase": "accumulate",
+      "right": 234
+    },
+    {
+      "left": 235,
+      "phase": "accumulate",
+      "right": 235
+    },
+    {
+      "left": 236,
+      "phase": "accumulate",
+      "right": 236
+    },
+    {
+      "left": 237,
+      "phase": "accumulate",
+      "right": 237
+    },
+    {
+      "left": 238,
+      "phase": "accumulate",
+      "right": 12
+    },
+    {
+      "left": 239,
+      "phase": "accumulate",
+      "right": 239
+    },
+    {
+      "left": 240,
+      "phase": "accumulate",
+      "right": 240
+    },
+    {
+      "left": 241,
+      "phase": "accumulate",
+      "right": 0
+    },
+    {
+      "left": 242,
+      "phase": "accumulate",
+      "right": 242
+    },
+    {
+      "left": 243,
+      "phase": "accumulate",
+      "right": 243
+    },
+    {
+      "left": 244,
+      "phase": "accumulate",
+      "right": 244
+    },
+    {
+      "left": 245,
+      "phase": "accumulate",
+      "right": 245
+    },
+    {
+      "left": 246,
+      "phase": "accumulate",
+      "right": 246
+    },
+    {
+      "left": 247,
+      "phase": "accumulate",
+      "right": 247
+    },
+    {
+      "left": 248,
+      "phase": "accumulate",
+      "right": 248
+    },
+    {
+      "left": 249,
+      "phase": "accumulate",
+      "right": 7
+    },
+    {
+      "left": 250,
+      "phase": "accumulate",
+      "right": 250
+    },
+    {
+      "left": 251,
+      "phase": "accumulate",
+      "right": 251
+    },
+    {
+      "left": 252,
+      "phase": "accumulate",
+      "right": 252
+    },
+    {
+      "left": 253,
+      "phase": "accumulate",
+      "right": 253
+    },
+    {
+      "left": 254,
+      "phase": "accumulate",
+      "right": 254
+    },
+    {
+      "left": 255,
+      "phase": "accumulate",
+      "right": 255
+    },
+    {
+      "left": 256,
+      "phase": "accumulate",
+      "right": 6
+    },
+    {
+      "left": 257,
+      "phase": "accumulate",
+      "right": 257
+    },
+    {
+      "left": 258,
+      "phase": "accumulate",
+      "right": 258
+    },
+    {
+      "left": 259,
+      "phase": "accumulate",
+      "right": 259
+    },
+    {
+      "left": 260,
+      "phase": "accumulate",
+      "right": 260
+    },
+    {
+      "left": 261,
+      "phase": "accumulate",
+      "right": 261
+    },
+    {
+      "left": 262,
+      "phase": "accumulate",
+      "right": 262
+    },
+    {
+      "left": 263,
+      "phase": "accumulate",
+      "right": 7
+    },
+    {
+      "left": 264,
+      "phase": "accumulate",
+      "right": 264
+    },
+    {
+      "left": 265,
+      "phase": "accumulate",
+      "right": 265
+    },
+    {
+      "left": 266,
+      "phase": "accumulate",
+      "right": 266
+    },
+    {
+      "left": 267,
+      "phase": "accumulate",
+      "right": 267
+    },
+    {
+      "left": 268,
+      "phase": "accumulate",
+      "right": 268
+    },
+    {
+      "left": 269,
+      "phase": "accumulate",
+      "right": 269
+    },
+    {
+      "left": 270,
+      "phase": "accumulate",
+      "right": 270
+    },
+    {
+      "left": 271,
+      "phase": "accumulate",
+      "right": 9
+    },
+    {
+      "left": 272,
+      "phase": "accumulate",
+      "right": 272
+    },
+    {
+      "left": 273,
+      "phase": "accumulate",
+      "right": 273
+    },
+    {
+      "left": 274,
+      "phase": "accumulate",
+      "right": 274
+    },
+    {
+      "left": 275,
+      "phase": "accumulate",
+      "right": 275
+    },
+    {
+      "left": 276,
+      "phase": "accumulate",
+      "right": 276
+    },
+    {
+      "left": 277,
+      "phase": "accumulate",
+      "right": 277
+    },
+    {
+      "left": 278,
+      "phase": "accumulate",
+      "right": 278
+    },
+    {
+      "left": 279,
+      "phase": "accumulate",
+      "right": 13
+    }
+  ],
+  "precompute_values": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    11,
+    15,
+    23,
+    38,
+    39,
+    61,
+    64,
+    99,
+    107
+  ],
+  "schema": "curve25519.scalar_addition_chain.certificate.v1",
+  "source_plan_sha256": "69576686cf4c14dcd0b811fab610dbb2b764fd3e497ac48e0cfb343be930157f",
+  "squarings": 249,
+  "target_hex": "1000000000000000000000000000000014def9dea2f79cd65812631a5cf5d3eb"
+}

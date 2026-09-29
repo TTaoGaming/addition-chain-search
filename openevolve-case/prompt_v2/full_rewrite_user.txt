@@ -1,0 +1,17 @@
+Current genotype:
+{current_program}
+
+Metrics:
+{metrics}
+
+Return exactly one complete JSON object with keys schema, bridge, ranks.
+schema must be "p384.scalar.microdict.v1"; bridge is integer 0 or 1; ranks
+is four integers. Ranks are positional selectors: at each slot the compiler
+uses rank modulo that slot's changing number of helper choices. Larger rank
+values are not better. For this bounded exploration choose four pairwise-
+distinct rank integers from 0 through 63; change at least two positions
+from the current genotype. Do not echo the current genotype. Minimize valid
+operation count, but try a new helper combination even when the current
+candidate is worse than the 421-operation seed.
+
+Output only JSON, with no prose or code fence.

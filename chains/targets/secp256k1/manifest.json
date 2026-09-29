@@ -1,0 +1,12 @@
+{
+  "schema": "hfo.chain_target.v0",
+  "target_id": "secp256k1-scalar-n-minus-2",
+  "target_rule": "scalar_n_minus_2",
+  "order_hex": "fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141",
+  "target_hex": "fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd036413f",
+  "source_certificate_sha256": "732a902b344e7175f509784111097e250e7b05f093e963093075176b82bc608e",
+  "source_receipt_sha256": "4d912f0cc99ada95b5a10e9f593f44187ad78f6628085c0be79138c5c9364a23",
+  "source_verifier_sha256": "e6354c96b73c6b3c062eb039e10a70ad7ef95b0453491f1cf2b4e1793cfd1185",
+  "max_candidate_bytes": 1000000,
+  "max_rows": 2000
+}
