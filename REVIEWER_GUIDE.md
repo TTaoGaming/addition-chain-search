@@ -1,6 +1,6 @@
 # Reviewer guide
 
-This page is the fourth part of the [review packet](README.md). Start with one clean checkout:
+This is the short verification path for the [project](README.md). Start with one clean checkout:
 
 ```sh
 git clone https://github.com/TTaoGaming/addition-chain-search.git

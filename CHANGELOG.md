@@ -1,5 +1,11 @@
 # Changes
 
+## v8 — 2026-09-29 UTC
+
+- Recast the front page as a conventional three-area project: published chain candidates, selected search history, and potentially transferable agent skills.
+- Kept the verification guide as a support page rather than a fourth research package. Only locally replayed public candidates appear in the lead table; further internal leads remain under review.
+- No certificate, checker, search-history, or skill bytes changed from v7.
+
 ## v7 — 2026-09-29 UTC
 
 - Made the four-part reader path shorter and consolidated claim boundaries in `LIMITATIONS_AND_UNKNOWN.md`.
