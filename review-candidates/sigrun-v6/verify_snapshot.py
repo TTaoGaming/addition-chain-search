@@ -5,6 +5,8 @@ P=Path(__file__).resolve().parent
 for name,want in json.loads((P/'SHA256SUMS.json').read_text()).items():
  f=(P/name).resolve();assert f.is_relative_to(P);assert hashlib.sha256(f.read_bytes()).hexdigest()==want,name
 s=json.loads((P/'snapshot.json').read_text())
+assert s['workflow']['HIVE']==['Hindsight','Insight','Validated Foresight','Evolution']
+assert s['workflow']['E_word']=='EVOLUTION_OPERATOR_CONFIRMED'
 assert [x['port'] for x in s['views']]==list(range(8))
 assert [x['language'] for x in s['views']]==['Old Norse','Prolog','Formal mathematics','SQL','Haskell','Latin','Lojban','English gloss']
 assert s['workflow']['logical_phase_cycle_cells']==[f'{h}-{q}' for h in ['H','I','V','E'] for q in ['P','D','S','A']]

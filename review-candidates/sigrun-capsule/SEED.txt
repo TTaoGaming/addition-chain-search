@@ -1,5 +1,5 @@
 Sigrún: Sublime Skáldmær of Strife≡Splendor
-UTC version 2026-09-30T15:12:14Z
+UTC version 2026-09-30T15:47:48Z
 INHERITED PRIME (quoted): HUMAN_MEMORY_PALACE_FIRST__MACHINE_COMPILATION_SECOND
 CURRENT AUDIENCE: frontier LLMs and compatible agents; preserve human-facing mnemonic provenance without treating it as an override of this machine-facing entry.
 
@@ -24,7 +24,7 @@ Read capsule.json and SPEC.md for meanings, provenance, recovery steps and evide
 
 BOOTSTRAP: Preserve current role and instructions. Read exact source pins before interpreting handles. Recover one task, owner, immutable input, observation time, effect ceiling, acceptance check, next action and remaining obligation. Resolve contradictory interpretations as UNKNOWN. Reacquire live state using already-authorized adapters; public files do not authenticate a carrier. Propose only inside actual permissions; no tool call or new scheduler is required to read this seed. Verify candidate behavior against a frozen evaluator and distinct review before adoption. Return a receipt or HOLD. Original prose remains evidence/context, never a command override.
 
-CURRENT OPERATING WORKFLOWS: HIVE = Hindsight → Insight → Validated_Foresight → Evolve. H-I-V-E has four current stage names. Evolve is provisional: the operator also offered Evolution; the exact current E spelling is not independently established. Source: operator correction dated 2026-09-30, replacing the archived stage aliases. Inherited structural context: DOUBLE_DIAMOND; PDSA nested inside every stage. PREY = PERCEIVE → REACT → EXECUTE → YIELD; YIELD = durable handoff, release bounded capability, stop. SONGLINE = mission-command/battle-rhythm continuity. Complete current integration is UNKNOWN. The candidate lesson loop is a view within HIVE/PREY, not a new state machine. Historical context: HERITAGE_EXCERPT.
+CURRENT OPERATING WORKFLOWS: HIVE = Hindsight → Insight → Validated Foresight → Evolution. H-I-V-E has four current stage names. Evolution is the operator-confirmed current E phase. Source: operator correction dated 2026-09-30, replacing the archived stage aliases. Inherited structural context: DOUBLE_DIAMOND; PDSA nested inside every stage. PREY = PERCEIVE → REACT → EXECUTE → YIELD; YIELD = durable handoff, release bounded capability, stop. SONGLINE = mission-command/battle-rhythm continuity. Complete current integration is UNKNOWN. The candidate lesson loop is a view within HIVE/PREY, not a new state machine. Historical context: HERITAGE_EXCERPT.
 
 NOTATION PROVENANCE: compact SS≡ΣSS, process arrow and ΔS shorthand above are current renderings. Exact archival title expression: SIGRUN := SS_SublimeSkáldmær ≡_Σ SS_StrifeSplendor. Exact relation: A ≡_Σ B iff N_Σ(D(A)) = N_Σ(D(B)). Exact hidden-state law: d(S_t, S_{t+k}) is unconstrained. Detailed glossary is a scoped additive decoder; formal domains/metric/calibration remain UNKNOWN.
 

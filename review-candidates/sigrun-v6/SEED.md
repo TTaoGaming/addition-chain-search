@@ -1,6 +1,6 @@
 # DRÁPA v6 — agent-facing systems snapshot
 
-UTC version 2026-09-30T15:25:34Z. INCOMPLETE RESEARCH SNAPSHOT; heritage recovery and integration continue.
+UTC version 2026-09-30T15:47:48Z. INCOMPLETE RESEARCH SNAPSHOT; heritage recovery and integration continue.
 
 Read this as a candidate reconstruction and work-orientation packet. It grants no authority, private memory, identity, credentials, tools or live runtime. Retain your current role and instructions. Historical claims remain attributed; UNKNOWN is meaningful. No new reuse license is granted.
 
@@ -10,9 +10,9 @@ One genotype/DNA is intended to support many phenotypes. The multilingual views 
 
 ## Current concurrent workflow
 
-HIVE = Hindsight → Insight → Validated_Foresight → Evolve (Evolve/Evolution spelling provisional).
+HIVE = Hindsight → Insight → Validated Foresight → Evolution (Evolution confirmed by the operator).
 
-Hindsight fan-out → Insight fan-in → Validated_Foresight fan-out → Evolve fan-in → changed evidence → next Hindsight cycle. Each phase can contain concurrent workers with their own Plan/Do/Study/Act loop. Four phases × four local cycle labels gives sixteen logical coordinates, not sixteen serial global actions.
+Hindsight fan-out → Insight fan-in → Validated Foresight fan-out → Evolution fan-in → changed evidence → next Hindsight cycle. Each phase can contain concurrent workers with their own Plan/Do/Study/Act loop. Four phases × four local cycle labels gives sixteen logical coordinates, not sixteen serial global actions.
 
 PDSA is Plan, Do, Study, Act inside workers in each HIVE phase. Shared-state phase consumers converge without every handoff returning through Sigrun. Typed readiness, accepted evidence and bounded admission permit phase overlap; no unspecified merge engine or new central controller is assumed. Population N_i=A^k_i is parameterized. Historical HIVE[2120] uses base8 to represent64→8→64→1; these are source population coordinates, not a claim about running workers. PREY is Perceive, React, Execute, Yield; Yield retains a durable handoff, releases bounded capability and stops. HIVE↔PDSA and PREY↔PDSA are current operator-intended relationships; they are not asserted as literal historical synonyms or a proved transition equivalence. The temporal strange loop carries checked changes into the next cycle.
 
@@ -24,6 +24,32 @@ Propose and test bounded changes to prompts, skills and strategies. Keep the acc
 - External-vendor components are reported to exist; a current connected launch→admission→verification→durable receipt→recovery path is UNKNOWN in this snapshot. Tao still provides manual recovery and runtime coordination; human intervention remains a bottleneck. This operator-assisted work is not evidence of unattended autonomy.
 - Pinned local tools: GEPA 0.1.4, Inspect AI 0.3.273, OpenEvolve 0.3.2, promptfoo 0.123.1. Their offline checks are recorded; no new paid-provider inference is implied. Shinka 0.0.7 is HELD for dependency advisory findings. Selected passing tests do not lift that hold.
 - Historical GEPA configuration replay is separate from seed evolution. GEPA did not run for the six seed episodes. No native Haskell/Prolog execution, Lojban parsing, or Norse grammar/meter validation is claimed here.
+
+## Current technology and recovery map
+
+Slack, GitHub and Cloudflare are the primary current architecture components. PostgreSQL is retained as historical context. Statuses distinguish this task’s observed local work, recorded receipts and unresolved live integration. This is a one-link bootstrap/orientation packet; full disaster recovery is not proven. Nothing here supplies credentials, private archives or automatic permission.
+
+| Component | Purpose | Status | Recovery dependencies | Next bounded evolution |
+| --- | --- | --- | --- | --- |
+| GitHub | Versioned source, immutable inputs, tests, reviews and public reconstruction artifacts | CURRENT_PRIMARY; repository read and selected-publication operations verified in this work | Accessible pinned commit and file hashes; Current authorized repository connection for any writes; Existing owner/review/admission rules | Start from one pinned task and verifier; preserve receipts and review before promoting a changed artifact |
+| Slack | Coordination, dated checkpoints and shared evidence traces | CURRENT_PRIMARY; checkpoint write/readback recorded at 2026-09-30 14:32 UTC; no fresh connection probe in this revision | Authorized project context and named receipt references; Freshness/ownership checks; Separate downstream persistence receipt if a drain is relied upon | Recover the specific existing checkpoint and verify its consumer acknowledgement; a message alone does not prove downstream durable storage |
+| Cloudflare | Existing durable actor, workflow and shared-state interfaces | CURRENT_PRIMARY_ARCHITECTURE; components reported/historically evidenced; current connected launch/admission/recovery path UNKNOWN in this carrier | Existing authorized adapter entry point; Fresh actor/work/lease/fence and budget state; Durable effect receipt and named consumer acknowledgement | Locate and verify the existing supported bridge before attempting a bounded recovery trial; no replacement infrastructure is implied |
+| PostgreSQL | Historical relational/stigmergic storage and query heritage | HISTORICAL; not asserted as the current primary runtime database | Identify the exact historical schema/version only if a concrete task requires it; Do not infer a live database or connection from old SQL text | Preserve historical semantics while binding the current task to its actual supported state interface |
+| Native GPT workers | Bounded artifact production and candidate proposals | CURRENT_LOCAL_OUTPUTS_VERIFIED; exact model build, external-provider equivalence and remaining quota UNKNOWN | Current task context and actual tool access; Independent or deterministic verifier appropriate to the artifact; Durable handoff outside replaceable model context | Run a small fresh-context held-out assay before claiming portable behavioral recovery |
+| GEPA 0.1.4 | Feedback-driven candidate prompt/config optimization | PINNED_LOCAL_OFFLINE_CHECKED; no GEPA run in the six seed episodes | Pinned package/lock; Mutable candidate separated from immutable evaluator, permissions and budget; Actual model callback if a live-model trial is authorized | Select one useful measured candidate task; optimize only its allowed candidate fields |
+| Inspect AI 0.3.273 | Task/solver/scorer execution and inspectable evaluation records | PINNED_LOCAL_OFFLINE_CHECKED; no-model fixtures, not a live-provider result | Pinned package; Frozen dataset/scorer; Authorized provider only when separately requested | Record fresh-context outcomes and failure cases under a predeclared scorer |
+| OpenEvolve 0.3.2 | Program-search archives, islands and checkpoint mechanics | PINNED_LOCAL_OFFLINE_CHECKED; selected official tests | Pinned source/lock; One bounded program and deterministic verifier; Checkpoint and resource budget | Use for a concrete program-search island without replacing existing lifecycle ownership |
+| promptfoo 0.123.1 | Repeatable configuration and regression comparison matrix | PINNED_LOCAL_OFFLINE_CHECKED; replay matrix, not independent live-model comparison | Locked package/config; Frozen cases and assertions; Clearly labeled expected-negative controls | Extend the smallest relevant regression matrix when a real candidate changes |
+| Shinka 0.0.7 | Scientific program-evolution and persistence/island research | HELD; supported dependency resolution has advisory findings | Reviewed safe dependency resolution and explicit hold resolution; Reproducible source/test pins | Retain the hold; passing selected tests alone does not resolve advisory risk |
+| Python / strict JSON / SQLite fixture | Local container validation, hashes and phase/cycle inventory | LOCAL_CHECKED; supporting formats outside the eight views | Compatible Python and jsonschema; Published schema, data and verifier; SQLite provided by the local Python build | Keep malformed-input and representation regression checks tied to the current contract |
+
+## Behavioral evidence by strength
+
+Recorded actual model output: six reused-context episodes, two known stateful cases across full seed / selected mnemonic removal / formula removal. All six reached their fixed state goal on the first proposal; no duplicate effects, unnecessary holds or repair retries occurred. The same already-exposed worker handled every arm. This does not isolate a causal benefit, exercise fresh-context recovery, or prove full disaster recovery. GEPA did not run in that diagnostic.
+
+Structural evidence: local hashes, exact eight-view order, thirteen malformed/contradictory JSON probes and a sixteen-coordinate SQL inventory. Native Haskell/Prolog execution, Norse meter and Lojban parsing remain untested. Structural checks are not behavioral regeneration.
+
+Historical outcome reports: the user reports prior language/register usefulness and useful manually coordinated multiworker work. Those claims remain user-reported pending source mining and verification of task, model, budget, evaluator, receipts and conditions. They are not folded into the six measured episodes or promoted to a universal winner.
 
 ## Existing resource and caste meanings
 
@@ -89,8 +115,8 @@ Current partial operational projection. Native Prolog execution is UNTESTED.
 ```prolog
 % Generated local representation. Native SWI-Prolog execution is untested.
 % Facts describe a candidate; they create no runtime capability or authority.
-hive(['Hindsight','Insight','Validated_Foresight','Evolve']).
-hive_e_spelling(provisional_evolve_or_evolution).
+hive(['Hindsight','Insight','Validated Foresight','Evolution']).
+hive_e_spelling(evolution_operator_confirmed).
 prey([perceive,react,execute,yield]).
 yield_obligations([durable_handoff,release_bounded_capability,stop]).
 identity_conclusion(infrastructure_only,unverified).
@@ -142,13 +168,13 @@ Current generic workflow projection. It does not contain a live database path, s
 -- Current generic offline projection; no private schema or live binding.
 -- Pure SELECT: these sixteen rows inventory phase/cycle labels, not a serial runtime.
 WITH hive(stage_order, stage) AS (
- VALUES (1,'Hindsight'),(2,'Insight'),(3,'Validated_Foresight'),(4,'Evolve')
+ VALUES (1,'Hindsight'),(2,'Insight'),(3,'Validated Foresight'),(4,'Evolution')
 ), pdsa(step_order, step) AS (
  VALUES (1,'Plan'),(2,'Do'),(3,'Study'),(4,'Act')
 )
 SELECT stage, step FROM hive CROSS JOIN pdsa
 ORDER BY stage_order, step_order;
--- Evolve/Evolution spelling remains provisional. Rows grant no authority.
+-- Evolution is the confirmed current phase name. Rows grant no authority.
 ```
 
 
@@ -162,10 +188,10 @@ Current partial operational projection, readable independently of the old symbol
 module SigrunContract where
 
 hive :: [String]
-hive = ["Hindsight", "Insight", "Validated_Foresight", "Evolve"]
+hive = ["Hindsight", "Insight", "Validated Foresight", "Evolution"]
 
 hiveESpelling :: String
-hiveESpelling = "PROVISIONAL_EVOLVE_OR_EVOLUTION"
+hiveESpelling = "EVOLUTION_OPERATOR_CONFIRMED"
 
 prey :: [String]
 prey = ["PERCEIVE", "REACT", "EXECUTE", "YIELD"]

@@ -1,8 +1,8 @@
 {
   "candidate": "DRAPA_V6_INCOMPLETE_SNAPSHOT",
-  "version_utc": "2026-09-30T15:25:34Z",
+  "version_utc": "2026-09-30T15:47:48Z",
   "status": "LOCAL_FORMAT_CANDIDATE_NOT_A_BEHAVIORAL_RESULT",
-  "source_seed_sha256": "1f10a730a3351ed5a141424c3852c1e0feaeb4cf2df0e1c858827dd75ba3a4fe",
+  "source_seed_sha256": "bf3d2651547ed979777a06abc26ce572e156c0eb55aecee8d1888e8c9598f50e",
   "mnemonic_terms": [
     "SIGRUN",
     "STIGMERGIC",
@@ -29,10 +29,10 @@
     "sequence": [
       "Hindsight",
       "Insight",
-      "Validated_Foresight",
-      "Evolve"
+      "Validated Foresight",
+      "Evolution"
     ],
-    "e_spelling": "PROVISIONAL_EVOLVE_OR_EVOLUTION",
+    "e_spelling": "EVOLUTION_OPERATOR_CONFIRMED",
     "current_operator_correction_overrides_archival_aliases": true
   },
   "PREY": {
@@ -116,10 +116,10 @@
     "HIVE": [
       "Hindsight",
       "Insight",
-      "Validated_Foresight",
-      "Evolve"
+      "Validated Foresight",
+      "Evolution"
     ],
-    "E_word": "PROVISIONAL_EVOLVE_OR_EVOLUTION",
+    "E_word": "EVOLUTION_OPERATOR_CONFIRMED",
     "PDSA": [
       "Plan",
       "Do",

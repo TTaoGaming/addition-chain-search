@@ -3,10 +3,10 @@
 module SigrunContract where
 
 hive :: [String]
-hive = ["Hindsight", "Insight", "Validated_Foresight", "Evolve"]
+hive = ["Hindsight", "Insight", "Validated Foresight", "Evolution"]
 
 hiveESpelling :: String
-hiveESpelling = "PROVISIONAL_EVOLVE_OR_EVOLUTION"
+hiveESpelling = "EVOLUTION_OPERATOR_CONFIRMED"
 
 prey :: [String]
 prey = ["PERCEIVE", "REACT", "EXECUTE", "YIELD"]

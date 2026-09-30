@@ -1,5 +1,10 @@
 # Changes
 
+## Evolution and recovery-map revision — 2026-09-30T15:47:48Z
+
+- Confirmed Hindsight, Insight, Validated Foresight and Evolution across current views and checks; retained historical quotations separately.
+- Added component purpose/status/dependencies/next steps and distinguished actual model episodes from reported historical outcomes. Full disaster recovery remains unproved.
+
 ## DRÁPA v6 incomplete systems snapshot — 2026-09-30T15:25:34Z
 
 - Added one agent-facing packet with eight selected language views, concurrent HIVE fan-out/fan-in with worker-local PDSA, current tool/model status, resource roles and public arithmetic/search evidence links.

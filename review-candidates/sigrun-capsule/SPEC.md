@@ -1,6 +1,6 @@
 # Sigrún: a shared regeneration seed
 
-**UTC version: 2026-09-30T15:12:14Z · review candidate**
+**UTC version: 2026-09-30T15:47:48Z · review candidate**
 
 Sigrún is a persistent, verifier-guided evolutionary system for coordinating AI workers. The compound system learns by retaining evaluated changes to its memory, skills and orchestration across replaceable models. The memory palace, poetic voices and capacity archetypes are part of its human–machine interface, alongside explicit contracts and evidence.
 
@@ -79,7 +79,7 @@ Only the selected mnemonic chain, formulas, workflow, relationship specification
 
 ## Operating workflow anchors
 
-The current operator correction defines **HIVE = Hindsight → Insight → Validated_Foresight → Evolve**: four named stages spelling H-I-V-E. **Evolve is provisional** because the operator also offered “Evolution”; this packet has not independently established the exact current E spelling. The current correction takes precedence over the older archive.
+The current operator correction defines **HIVE = Hindsight → Insight → Validated Foresight → Evolution**: four named stages spelling H-I-V-E. **Evolution is the confirmed current E phase**, following the latest operator correction. The current correction takes precedence over the older archive.
 
 Historical context only: HERITAGE_EXCERPT used “Hindsight/Harvest → Insight/Interface → Validate/Foresight → Evolve”, followed by changed Web/world and next Hindsight. Harvest and Interface are superseded aliases, not current stage names. The double-diamond shape and nested PDSA are inherited structural anchors.
 

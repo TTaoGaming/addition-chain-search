@@ -34,7 +34,7 @@
     },
     "source_seed_sha256": {
       "type": "string",
-      "const": "1f10a730a3351ed5a141424c3852c1e0feaeb4cf2df0e1c858827dd75ba3a4fe"
+      "const": "bf3d2651547ed979777a06abc26ce572e156c0eb55aecee8d1888e8c9598f50e"
     },
     "mnemonic_terms": {
       "type": "array",
@@ -148,18 +148,18 @@
             },
             {
               "type": "string",
-              "const": "Validated_Foresight"
+              "const": "Validated Foresight"
             },
             {
               "type": "string",
-              "const": "Evolve"
+              "const": "Evolution"
             }
           ],
           "items": false
         },
         "e_spelling": {
           "type": "string",
-          "const": "PROVISIONAL_EVOLVE_OR_EVOLUTION"
+          "const": "EVOLUTION_OPERATOR_CONFIRMED"
         },
         "current_operator_correction_overrides_archival_aliases": {
           "type": "boolean",
@@ -550,18 +550,18 @@
             },
             {
               "type": "string",
-              "const": "Validated_Foresight"
+              "const": "Validated Foresight"
             },
             {
               "type": "string",
-              "const": "Evolve"
+              "const": "Evolution"
             }
           ],
           "items": false
         },
         "E_word": {
           "type": "string",
-          "const": "PROVISIONAL_EVOLVE_OR_EVOLUTION"
+          "const": "EVOLUTION_OPERATOR_CONFIRMED"
         },
         "PDSA": {
           "type": "array",
