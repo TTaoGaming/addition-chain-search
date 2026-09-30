@@ -1,0 +1,31 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded getrandom v0.4.3
+  Downloaded cfg-if v1.0.1
+  Downloaded find-msvc-tools v0.1.9
+  Downloaded shlex v1.3.0
+  Downloaded untrusted v0.9.0
+  Downloaded cc v1.2.57
+  Downloaded libc v0.2.174
+   Compiling find-msvc-tools v0.1.9
+   Compiling libc v0.2.174
+   Compiling shlex v1.3.0
+   Compiling getrandom v0.4.3
+   Compiling cfg-if v1.0.1
+   Compiling untrusted v0.9.0
+   Compiling cc v1.2.57
+   Compiling ring v0.17.16000 (<BUILD_ROOT>/ring)
+    Finished `release` profile [optimized] target(s) in 26.52s
+     Running tests/ecdsa_tests.rs (target/release/deps/ecdsa_tests-dc1ad17c96007339)
+
+running 7 tests
+test ecdsa_test_public_key_coverage ... ok
+test signature_ecdsa_sign_asn1_test ... ok
+test ecdsa_from_pkcs8_test ... ok
+test ecdsa_generate_pkcs8_test ... ok
+test signature_ecdsa_verify_fixed_test ... ok
+test signature_ecdsa_sign_fixed_sign_and_verify_test ... ok
+test signature_ecdsa_verify_asn1_test ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+

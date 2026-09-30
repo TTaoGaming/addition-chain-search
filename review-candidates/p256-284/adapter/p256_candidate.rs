@@ -1,0 +1,323 @@
+// Copyright 2016-2023 Brian Smith.
+//
+// Permission to use, copy, modify, and/or distribute this software for any
+// purpose with or without fee is hereby granted, provided that the above
+// copyright notice and this permission notice appear in all copies.
+//
+// THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+// WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+// MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+// SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+// WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+// OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+// CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+use super::{
+    PublicModulus,
+    elem::{binary_op, binary_op_assign},
+    elem_sqr_mul, elem_sqr_mul_acc, *,
+};
+use cfg_if::cfg_if;
+
+pub(super) const NUM_LIMBS: usize = 256 / LIMB_BITS;
+
+pub static COMMON_OPS: CommonOps = CommonOps {
+    num_limbs: elem::NumLimbs::P256,
+
+    q: PublicModulus {
+        p: limbs_from_hex("ffffffff00000001000000000000000000000000ffffffffffffffffffffffff"),
+        rr: PublicElem::from_hex("4fffffffdfffffffffffffffefffffffbffffffff0000000000000003"),
+    },
+    n: PublicElem::from_hex("ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551"),
+
+    a: PublicElem::from_hex("fffffffc00000004000000000000000000000003fffffffffffffffffffffffc"),
+    b: PublicElem::from_hex("dc30061d04874834e5a220abf7212ed6acf005cd78843090d89cdf6229c4bddf"),
+
+    elem_mul_mont: p256_mul_mont,
+    elem_sqr_mont: p256_sqr_mont,
+};
+
+#[cfg(test)]
+pub(super) static GENERATOR: (PublicElem<R>, PublicElem<R>) = (
+    PublicElem::from_hex("18905f76a53755c679fb732b7762251075ba95fc5fedb60179e730d418a9143c"),
+    PublicElem::from_hex("8571ff1825885d85d2e88688dd21f3258b4ab8e4ba19e45cddf25357ce95560a"),
+);
+
+pub static PRIVATE_KEY_OPS: PrivateKeyOps = PrivateKeyOps {
+    common: &COMMON_OPS,
+    elem_inv_squared: p256_elem_inv_squared,
+    point_mul_base_impl: p256_point_mul_base_impl,
+    point_mul_impl: p256_point_mul,
+    point_add_jacobian_impl: p256_point_add,
+};
+
+fn p256_elem_inv_squared(q: &Modulus<Q>, a: &Elem<R>) -> Elem<R> {
+    // Calculate a**-2 (mod q) == a**(q - 3) (mod q)
+    //
+    // The exponent (q - 3) is:
+    //
+    //    0xffffffff00000001000000000000000000000000fffffffffffffffffffffffc
+
+    #[inline]
+    fn sqr_mul(q: &Modulus<Q>, a: &Elem<R>, squarings: LeakyWord, b: &Elem<R>) -> Elem<R> {
+        elem_sqr_mul(&COMMON_OPS, a, squarings, b, q.cpu())
+    }
+
+    #[inline]
+    fn sqr_mul_acc(q: &Modulus<Q>, a: &mut Elem<R>, squarings: LeakyWord, b: &Elem<R>) {
+        elem_sqr_mul_acc(&COMMON_OPS, a, squarings, b, q.cpu())
+    }
+
+    let b_1 = &a;
+    let b_11 = sqr_mul(q, b_1, 1, b_1);
+    let b_111 = sqr_mul(q, &b_11, 1, b_1);
+    let f_11 = sqr_mul(q, &b_111, 3, &b_111);
+    let fff = sqr_mul(q, &f_11, 6, &f_11);
+    let fff_111 = sqr_mul(q, &fff, 3, &b_111);
+    let fffffff_11 = sqr_mul(q, &fff_111, 15, &fff_111);
+    let ffffffff = sqr_mul(q, &fffffff_11, 2, &b_11);
+
+    // ffffffff00000001
+    let mut acc = sqr_mul(q, &ffffffff, 31 + 1, b_1);
+
+    // ffffffff00000001000000000000000000000000ffffffff
+    sqr_mul_acc(q, &mut acc, 96 + 32, &ffffffff);
+
+    // ffffffff00000001000000000000000000000000ffffffffffffffff
+    sqr_mul_acc(q, &mut acc, 32, &ffffffff);
+
+    // ffffffff00000001000000000000000000000000fffffffffffffffffffffff_11
+    sqr_mul_acc(q, &mut acc, 30, &fffffff_11);
+
+    // ffffffff00000001000000000000000000000000fffffffffffffffffffffffc
+    q.elem_square(&mut acc);
+    q.elem_square(&mut acc);
+
+    acc
+}
+
+fn p256_point_mul_base_impl(g_scalar: &Scalar, _cpu: cpu::Features) -> Point {
+    prefixed_extern! {
+        unsafe fn p256_point_mul_base(
+            r: *mut Limb,          // [3][COMMON_OPS.num_limbs]
+            g_scalar: *const Limb, // [COMMON_OPS.num_limbs]
+        );
+    }
+
+    let mut r = Point::new_at_infinity();
+    unsafe {
+        p256_point_mul_base(r.xyz.as_mut_ptr(), g_scalar.limbs.as_ptr());
+    }
+    r
+}
+
+pub static PUBLIC_KEY_OPS: PublicKeyOps = PublicKeyOps {
+    common: &COMMON_OPS,
+};
+
+pub static SCALAR_OPS: ScalarOps = ScalarOps {
+    common: &COMMON_OPS,
+    scalar_mul_mont: p256_scalar_mul_mont,
+};
+
+pub static PUBLIC_SCALAR_OPS: PublicScalarOps = PublicScalarOps {
+    scalar_ops: &SCALAR_OPS,
+    public_key_ops: &PUBLIC_KEY_OPS,
+
+    twin_mul,
+
+    q_minus_n: PublicElem::from_hex("4319055358e8617b0c46353d039cdaae"),
+
+    // TODO: Use an optimized variable-time implementation.
+    scalar_inv_to_mont_vartime: |s, cpu| PRIVATE_SCALAR_OPS.scalar_inv_to_mont(s, cpu),
+};
+
+fn point_mul_base_vartime(g_scalar: &Scalar, cpu: cpu::Features) -> Point {
+    cfg_if! {
+        if #[cfg(any(all(target_arch = "aarch64", target_endian = "little"),
+                         target_arch = "x86_64"))] {
+            prefixed_extern! {
+                unsafe fn p256_point_mul_base_vartime(
+                    r: *mut Limb,          // [3][COMMON_OPS.num_limbs]
+                    g_scalar: *const Limb, // [COMMON_OPS.num_limbs]
+                );
+            }
+            let mut scaled_g = Point::new_at_infinity();
+            let _ = cpu;
+            unsafe {
+                p256_point_mul_base_vartime(
+                    scaled_g.xyz.as_mut_ptr(),
+                    g_scalar.limbs.as_ptr());
+            }
+            scaled_g
+        } else {
+            p256_point_mul_base_impl(g_scalar, cpu)
+        }
+    }
+}
+
+fn twin_mul(
+    g_scalar: &Scalar,
+    p_scalar: &Scalar,
+    p_xy: &(Elem<R>, Elem<R>),
+    cpu: cpu::Features,
+) -> Point {
+    // XXX: This is inefficient for the same reason as `twin_mul_inefficient`
+    // when we don't have `p256_point_mul_base_vartime`.
+    let scaled_g = point_mul_base_vartime(g_scalar, cpu);
+    let scaled_p = PRIVATE_KEY_OPS.point_mul(p_scalar, p_xy, cpu);
+    PRIVATE_KEY_OPS.point_sum(&scaled_g, &scaled_p, cpu)
+}
+
+pub static PRIVATE_SCALAR_OPS: PrivateScalarOps = PrivateScalarOps {
+    scalar_ops: &SCALAR_OPS,
+
+    oneRR_mod_n: PublicScalar::from_hex(
+        "66e12d94f3d956202845b2392b6bec594699799c49bd6fa683244c95be79eea2",
+    ),
+    scalar_inv_to_mont: p256_scalar_inv_to_mont,
+};
+
+#[allow(clippy::just_underscores_and_digits)]
+fn p256_scalar_inv_to_mont(a: Scalar<R>, cpu: cpu::Features) -> Scalar<R> {
+    // Calculate the modular inverse of scalar |a| using Fermat's Little
+    // Theorem:
+    //
+    //    a**-1 (mod n) == a**(n - 2) (mod n)
+    //
+    // The exponent (n - 2) is:
+    //
+    //    0xffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f
+
+    #[inline]
+    fn mul(a: &Scalar<R>, b: &Scalar<R>, _cpu: cpu::Features) -> Scalar<R> {
+        binary_op(p256_scalar_mul_mont, a, b)
+    }
+
+    #[inline]
+    fn sqr(a: &Scalar<R>, _cpu: cpu::Features) -> Scalar<R> {
+        let mut tmp = Scalar::zero();
+        unsafe { p256_scalar_sqr_rep_mont(tmp.limbs.as_mut_ptr(), a.limbs.as_ptr(), 1) }
+        tmp
+    }
+
+    // Returns (`a` squared `squarings` times) * `b`.
+    #[inline]
+    fn sqr_mul(
+        a: &Scalar<R>,
+        squarings: LeakyWord,
+        b: &Scalar<R>,
+        cpu: cpu::Features,
+    ) -> Scalar<R> {
+        debug_assert!(squarings >= 1);
+        let mut tmp = Scalar::zero();
+        unsafe { p256_scalar_sqr_rep_mont(tmp.limbs.as_mut_ptr(), a.limbs.as_ptr(), squarings) }
+        mul(&tmp, b, cpu)
+    }
+
+    // Sets `acc` = (`acc` squared `squarings` times) * `b`.
+    #[inline]
+    fn sqr_mul_acc(acc: &mut Scalar<R>, squarings: LeakyWord, b: &Scalar<R>, _cpu: cpu::Features) {
+        debug_assert!(squarings >= 1);
+        {
+            let acc = acc.limbs.as_mut_ptr();
+            unsafe { p256_scalar_sqr_rep_mont(acc, acc.cast_const(), squarings) }
+        }
+        binary_op_assign(p256_scalar_mul_mont, acc, b);
+    }
+
+    // Generated from certificate SHA-256 46ba0fb4a02926e02aad7c51cb9c41225952a5549e4c0012964f2de5ad15d148.
+    // Exact scalar exponent n-2: 284 = 251 squarings + 33 multiplications.
+    // Public, fixed schedule; existing ring Montgomery helpers unchanged.
+    let c2 = sqr_mul(&a, 1, &a, cpu); // certificate row 2
+    let c3 = sqr(&c2, cpu); // certificate row 3
+    let c4 = sqr(&c3, cpu); // certificate row 4
+    let c5 = mul(&c2, &c4, cpu); // certificate row 5
+    let c6 = mul(&c4, &c5, cpu); // certificate row 6
+    let c7 = mul(&c5, &c6, cpu); // certificate row 7
+    let c8 = mul(&c5, &c7, cpu); // certificate row 8
+    let c9 = mul(&c7, &c8, cpu); // certificate row 9
+    let c10 = mul(&c8, &c9, cpu); // certificate row 10
+    let c11 = mul(&c9, &c10, cpu); // certificate row 11
+    let c12 = sqr(&c11, cpu); // certificate row 12
+    let c13 = sqr(&c12, cpu); // certificate row 13
+    let c14 = sqr(&c13, cpu); // certificate row 14
+    let c15 = sqr(&c14, cpu); // certificate row 15
+    let c16 = sqr(&c15, cpu); // certificate row 16
+    let c20 = sqr_mul(&c16, 3, &c11, cpu); // certificate row 20
+    let c37 = sqr_mul(&c20, 16, &c20, cpu); // certificate row 37
+    let c102 = sqr_mul(&c37, 64, &c37, cpu); // certificate row 102
+    let c135 = sqr_mul(&c102, 32, &c37, cpu); // certificate row 135
+    let c136 = mul(&c11, &c16, cpu); // certificate row 136
+    let mut acc = sqr_mul(&c135, 8, &c10, cpu); // certificate row 145
+    sqr_mul_acc(&mut acc, 3, &c11, cpu); // certificate row 149
+    sqr_mul_acc(&mut acc, 10, &c136, cpu); // certificate row 160
+    sqr_mul_acc(&mut acc, 7, &c7, cpu); // certificate row 168
+    sqr_mul_acc(&mut acc, 5, &c6, cpu); // certificate row 174
+    sqr_mul_acc(&mut acc, 9, &c10, cpu); // certificate row 184
+    sqr_mul_acc(&mut acc, 9, &c10, cpu); // certificate row 194
+    sqr_mul_acc(&mut acc, 8, &c136, cpu); // certificate row 203
+    sqr_mul_acc(&mut acc, 1, &c7, cpu); // certificate row 205
+    sqr_mul_acc(&mut acc, 9, &c10, cpu); // certificate row 215
+    sqr_mul_acc(&mut acc, 4, &c6, cpu); // certificate row 220
+    sqr_mul_acc(&mut acc, 3, &c9, cpu); // certificate row 224
+    sqr_mul_acc(&mut acc, 8, &c10, cpu); // certificate row 233
+    sqr_mul_acc(&mut acc, 8, &c10, cpu); // certificate row 242
+    sqr_mul_acc(&mut acc, 4, &c11, cpu); // certificate row 247
+    sqr_mul_acc(&mut acc, 6, &c11, cpu); // certificate row 254
+    sqr_mul_acc(&mut acc, 10, &c9, cpu); // certificate row 265
+    sqr_mul_acc(&mut acc, 3, &a, cpu); // certificate row 269
+    sqr_mul_acc(&mut acc, 8, &c7, cpu); // certificate row 278
+    sqr_mul_acc(&mut acc, 5, &c5, cpu); // certificate row 284
+
+    acc
+
+}
+
+prefixed_extern! {
+    pub(super) unsafe fn p256_mul_mont(
+        r: *mut Limb,   // [COMMON_OPS.num_limbs]
+        a: *const Limb, // [COMMON_OPS.num_limbs]
+        b: *const Limb, // [COMMON_OPS.num_limbs]
+    );
+    pub(super) unsafe fn p256_sqr_mont(
+        r: *mut Limb,   // [COMMON_OPS.num_limbs]
+        a: *const Limb, // [COMMON_OPS.num_limbs]
+    );
+
+    unsafe fn p256_point_add(
+        r: *mut Limb,   // [3][COMMON_OPS.num_limbs]
+        a: *const Limb, // [3][COMMON_OPS.num_limbs]
+        b: *const Limb, // [3][COMMON_OPS.num_limbs]
+    );
+    unsafe fn p256_point_mul(
+        r: *mut Limb,          // [3][COMMON_OPS.num_limbs]
+        p_scalar: *const Limb, // [COMMON_OPS.num_limbs]
+        p_x: *const Limb,      // [COMMON_OPS.num_limbs]
+        p_y: *const Limb,      // [COMMON_OPS.num_limbs]
+    );
+
+    unsafe fn p256_scalar_mul_mont(
+        r: *mut Limb,   // [COMMON_OPS.num_limbs]
+        a: *const Limb, // [COMMON_OPS.num_limbs]
+        b: *const Limb, // [COMMON_OPS.num_limbs]
+    );
+    unsafe fn p256_scalar_sqr_rep_mont(
+        r: *mut Limb,   // [COMMON_OPS.num_limbs]
+        a: *const Limb, // [COMMON_OPS.num_limbs]
+        rep: LeakyWord,
+    );
+}
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn p256_point_mul_base_vartime_test() {
+        use super::{super::tests::point_mul_base_tests, *};
+        point_mul_base_tests(
+            &PRIVATE_KEY_OPS,
+            point_mul_base_vartime,
+            test_vector_file!("p256_point_mul_base_tests.txt"),
+        );
+    }
+}

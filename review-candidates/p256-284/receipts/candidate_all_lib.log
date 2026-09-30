@@ -1,0 +1,104 @@
+   Compiling ring v0.17.16000 (<BUILD_ROOT>/ring)
+    Finished `release` profile [optimized] target(s) in 11.29s
+     Running unittests src/lib.rs (target/release/deps/ring-9ef32f25f78ca143)
+
+running 96 tests
+test aead::aes::tests::aes_gcm_tests::test_aes_gcm_counter_blocks_max ... ok
+test aead::aes::tests::aes_gcm_tests::test_aes_gcm_counter_blocks_max_minus_one ... ok
+test aead::aes::tests::aes_tests::test_aes ... ok
+test arithmetic::bigint::tests::test_elem_reduced_once ... ok
+test aead::tests::poly1305_tests::test_poly1305 ... ok
+test arithmetic::bigint::tests::test_elem_reduced_mont ... ok
+test arithmetic::bigint::tests::test_elem_squared ... ok
+test bssl::tests::result::size_and_alignment ... ok
+test bssl::tests::result::semantics ... ok
+test cpu::tests::test_static_is_subset_of_dynamic ... ok
+test digest::tests::max_input::SHA1_FOR_LEGACY_USE_ONLY::max_input_test ... ok
+test arithmetic::limbs::fallback::mont::tests::test_mul_add_words ... ok
+test digest::tests::max_input::SHA1_FOR_LEGACY_USE_ONLY::too_long_input_test_byte - should panic ... ok
+test digest::tests::max_input::SHA1_FOR_LEGACY_USE_ONLY::too_long_input_test_block - should panic ... ok
+test digest::tests::max_input::SHA256::too_long_input_test_block - should panic ... ok
+test digest::tests::max_input::SHA256::max_input_test ... ok
+test digest::tests::max_input::SHA256::too_long_input_test_byte - should panic ... ok
+test digest::tests::max_input::SHA384::max_input_test ... ok
+test digest::tests::max_input::SHA384::too_long_input_test_block - should panic ... ok
+test digest::tests::max_input::SHA384::too_long_input_test_byte - should panic ... ok
+test digest::tests::max_input::SHA512::max_input_test ... ok
+test digest::tests::max_input::SHA512::too_long_input_test_block - should panic ... ok
+test digest::tests::max_input::SHA512::too_long_input_test_byte - should panic ... ok
+test ec::curve25519::x25519::tests::test_x25519_public_from_private ... ok
+test ec::suite_b::ecdh::tests::test_agreement_suite_b_ecdh_generate ... ok
+test ec::suite_b::ecdsa::digest_scalar::tests::test ... ok
+test arithmetic::bigint::tests::test_elem_mul ... ok
+test ec::suite_b::ecdsa::signing::tests::signature_ecdsa_sign_asn1_test ... ok
+test ec::suite_b::ops::p256::chain284_validation::p256_chain284_paired_microbenchmark ... ignored, run deliberately in release with --test-threads=1
+test ec::suite_b::ops::tests::p256_elem_mul_test ... ok
+test ec::suite_b::ops::tests::p256_elem_neg_test ... ok
+test ec::suite_b::ops::tests::p256_point_double_test ... ok
+test ec::suite_b::ops::tests::p256_elem_add_test ... ok
+test ec::suite_b::ops::p256::tests::p256_point_mul_base_vartime_test ... ok
+test ec::suite_b::ops::tests::p256_point_mul_serialized_test ... ok
+test ec::suite_b::ops::tests::p256_point_sum_mixed_test ... ok
+test ec::suite_b::ops::tests::p256_point_sum_test ... ok
+test ec::suite_b::ops::tests::p256_q_minus_n_plus_n_equals_0_test ... ok
+test ec::suite_b::ops::tests::p256_scalar_inv_to_mont_zero_test ... ok
+test ec::suite_b::ops::tests::p256_scalar_mul_test ... ok
+test ec::suite_b::ops::tests::p256_scalar_square_test ... ok
+test ec::suite_b::ops::tests::p384_elem_add_test ... ok
+test ec::suite_b::ops::tests::p384_elem_div_by_2_test ... ok
+test ec::suite_b::ops::tests::p384_elem_mul_test ... ok
+test ec::suite_b::ops::tests::p384_elem_neg_test ... ok
+test ec::suite_b::ops::tests::p384_elem_sub_test ... ok
+test ec::suite_b::ops::tests::p384_point_double_test ... ok
+test ec::suite_b::ops::tests::p256_point_mul_base_test ... ok
+test ec::suite_b::ecdsa::signing::tests::signature_ecdsa_sign_fixed_test ... ok
+test ec::suite_b::ops::tests::p384_point_sum_test ... ok
+test ec::suite_b::ops::tests::p384_q_minus_n_plus_n_equals_0_test ... ok
+test ec::suite_b::ops::tests::p384_scalar_inv_to_mont_zero_test ... ok
+test ec::suite_b::ops::tests::p384_scalar_mul_test ... ok
+test ec::suite_b::public_key::tests::parse_uncompressed_point_test ... ok
+test hmac::tests::hmac_signing_key_coverage ... ok
+test io::der::tests::test_positive_integer ... ok
+test io::der::tests::test_small_nonnegative_integer ... ok
+test io::positive::tests::test_from_be_bytes ... ok
+test limb::tests::test_big_endian_from_limbs_fewer_limbs - should panic ... ok
+test limb::tests::test_big_endian_from_limbs_same_length ... ok
+test limb::tests::test_limbs_are_even ... ok
+test limb::tests::test_limbs_are_zero ... ok
+test limb::tests::test_limbs_equal_limb ... ok
+test limb::tests::test_parse_big_endian_and_pad_consttime ... ok
+test polyfill::array_flat_map::tests::test_array_flat_map ... ok
+test polyfill::array_flat_map::tests::test_array_flat_map_len_overflow ... ok
+test polyfill::leading_zeros_skipped::tests::test_leading_zeroes_stripped ... ok
+test polyfill::tests::test_usize_from_u64_saturated ... ok
+test rsa::base::public_exponent::tests::test_public_exponent_constants ... ok
+test ec::suite_b::ops::tests::p256_point_mul_test ... ok
+test rsa::tests::padding_tests::test_pss_padding_encode ... ok
+test ec::suite_b::ops::p256::chain284_validation::p256_chain284_independent_oracle ... ok
+test tests::bb_boolmask_tests::test_bool_mask_bitwise_and_is_logical_and ... ok
+test tests::bb_bytes_tests::constant_time_conditional_memcpy ... ok
+test tests::bb_bytes_tests::constant_time_conditional_memxor ... ok
+test tests::bits_tests::test_from_byte_len_overflow ... ok
+test tests::c_constant_time_tests::test_constant_time ... ok
+test tests::ownedmodulusvalue_tests::ownedmodulusvalue_from_be_bytes_test ... ok
+test testutil::tests::first_err - should panic ... ok
+test testutil::tests::first_panic - should panic ... ok
+test testutil::tests::last_err - should panic ... ok
+test testutil::tests::last_panic - should panic ... ok
+test testutil::tests::middle_err - should panic ... ok
+test rsa::tests::padding_tests::test_pss_padding_verify ... ok
+test testutil::tests::middle_panic - should panic ... ok
+test testutil::tests::one_ok ... ok
+test testutil::tests::one_err - should panic ... ok
+test testutil::tests::one_panics - should panic ... ok
+test testutil::tests::syntax_error - should panic ... ok
+test rsa::keypair::tests::test_rsakeypair_private_exponentiate ... ok
+test ec::suite_b::ecdsa::verification::tests::test_digest_based_test_vectors ... ok
+test arithmetic::bigint::exp::tests::test_elem_exp_consttime ... ok
+test ec::suite_b::ops::tests::p384_point_mul_test ... ok
+test ec::suite_b::ops::tests::p384_point_mul_base_test ... ok
+test aead::chacha::tests::chacha20_test_default ... ok
+test aead::chacha::tests::chacha20_test_fallback ... ok
+
+test result: ok. 95 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 4.73s
+

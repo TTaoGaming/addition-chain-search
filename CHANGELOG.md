@@ -1,5 +1,11 @@
 # Changes
 
+## P-256 native review — 2026-09-30 UTC
+
+- Added a 284 = 251S + 33M scalar n−2 certificate and an actual ring patch against pinned 289 = 254S + 35M.
+- Included exact replay, native test evidence, paired raw measurements and a concise search reconstruction. Inversion improved in one host run; signing was inconclusive.
+- Preserved the earlier certificate archives and other targets. New project materials remain review-only; copied ring source retains upstream notices.
+
 ## v10 search-history reconstruction — 2026-09-29 UTC
 
 - Reconciled selected private Slack and source-bound receipts into dated P-384

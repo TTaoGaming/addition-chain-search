@@ -1,0 +1,22 @@
+   Compiling ring v0.17.16000 (<BUILD_ROOT>/ring)
+    Finished `release` profile [optimized] target(s) in 10.93s
+     Running unittests src/lib.rs (target/release/deps/ring-9ef32f25f78ca143)
+
+running 14 tests
+test ec::suite_b::ops::tests::p256_elem_mul_test ... ok
+test ec::suite_b::ops::tests::p256_elem_neg_test ... ok
+test ec::suite_b::ops::tests::p256_point_double_test ... ok
+test ec::suite_b::ops::tests::p256_elem_add_test ... ok
+test ec::suite_b::ops::tests::p256_point_sum_mixed_test ... ok
+test ec::suite_b::ops::tests::p256_point_mul_serialized_test ... ok
+test ec::suite_b::ops::tests::p256_q_minus_n_plus_n_equals_0_test ... ok
+test ec::suite_b::ops::tests::p256_scalar_inv_to_mont_zero_test ... ok
+test ec::suite_b::ops::tests::p256_scalar_mul_test ... ok
+test ec::suite_b::ops::tests::p256_point_sum_test ... ok
+test ec::suite_b::ops::tests::p256_scalar_square_test ... ok
+test ec::suite_b::ops::p256::tests::p256_point_mul_base_vartime_test ... ok
+test ec::suite_b::ops::tests::p256_point_mul_base_test ... ok
+test ec::suite_b::ops::tests::p256_point_mul_test ... ok
+
+test result: ok. 14 passed; 0 failed; 0 ignored; 0 measured; 80 filtered out; finished in 0.02s
+

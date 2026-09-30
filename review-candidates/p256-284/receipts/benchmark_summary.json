@@ -1,0 +1,51 @@
+{
+  "micro": {
+    "file": "microbenchmark.csv",
+    "pairs": 41,
+    "iterations_per_batch": 16384,
+    "baseline_median_ns_per_op": 5817.115173339844,
+    "candidate_median_ns_per_op": 5756.768798828125,
+    "median_paired_candidate_over_baseline": 0.9873425294472669,
+    "median_paired_latency_reduction_pct": 1.265747055273314,
+    "paired_ratio_p10_p90": [
+      0.9453221488738222,
+      1.0358722494692536
+    ],
+    "paired_ratio_bootstrap_median_95pct": [
+      0.9809050020723017,
+      0.9955294847170557
+    ],
+    "candidate_faster_pairs": 30,
+    "ratio_by_order": {
+      "BC": 0.981974754887237,
+      "CB": 0.9951370619729705
+    },
+    "all_observations_retained": true,
+    "interpretation": "candidate faster in this run"
+  },
+  "ecdsa_sign": {
+    "file": "sign_benchmark.csv",
+    "pairs": 31,
+    "iterations_per_batch": 2000,
+    "baseline_median_ns_per_op": 18243.3075,
+    "candidate_median_ns_per_op": 18310.514,
+    "median_paired_candidate_over_baseline": 1.0075854063793706,
+    "median_paired_latency_reduction_pct": -0.7585406379370552,
+    "paired_ratio_p10_p90": [
+      0.952783078608849,
+      1.0869462468661428
+    ],
+    "paired_ratio_bootstrap_median_95pct": [
+      0.9825760210236648,
+      1.0249585413712075
+    ],
+    "candidate_faster_pairs": 15,
+    "ratio_by_order": {
+      "BC": 0.99403092716155,
+      "CB": 1.013179980847993
+    },
+    "all_observations_retained": true,
+    "interpretation": "inconclusive: median ratio interval includes 1"
+  },
+  "method": "20,000 deterministic nonparametric bootstrap resamples of paired C/B ratios; median and percentile interval; no outlier removal; intervals describe these samples only and do not remove shared-host/temporal dependence or code-layout confounding"
+}

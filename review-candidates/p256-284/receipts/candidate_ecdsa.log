@@ -1,0 +1,15 @@
+   Compiling ring v0.17.16000 (<BUILD_ROOT>/ring)
+    Finished `release` profile [optimized] target(s) in 9.04s
+     Running tests/ecdsa_tests.rs (target/release/deps/ecdsa_tests-dc1ad17c96007339)
+
+running 7 tests
+test ecdsa_test_public_key_coverage ... ok
+test signature_ecdsa_sign_asn1_test ... ok
+test ecdsa_from_pkcs8_test ... ok
+test ecdsa_generate_pkcs8_test ... ok
+test signature_ecdsa_verify_fixed_test ... ok
+test signature_ecdsa_sign_fixed_sign_and_verify_test ... ok
+test signature_ecdsa_verify_asn1_test ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.05s
+
