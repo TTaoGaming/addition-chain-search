@@ -1,0 +1,777 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "candidate",
+    "version_utc",
+    "status",
+    "source_seed_sha256",
+    "mnemonic_terms",
+    "HIVE",
+    "PREY",
+    "identity",
+    "authority",
+    "evidence",
+    "notation",
+    "verse",
+    "workflow",
+    "port_languages"
+  ],
+  "properties": {
+    "candidate": {
+      "type": "string",
+      "const": "DRAPA_V6_INCOMPLETE_SNAPSHOT"
+    },
+    "version_utc": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+    },
+    "status": {
+      "type": "string",
+      "const": "LOCAL_FORMAT_CANDIDATE_NOT_A_BEHAVIORAL_RESULT"
+    },
+    "source_seed_sha256": {
+      "type": "string",
+      "const": "1f10a730a3351ed5a141424c3852c1e0feaeb4cf2df0e1c858827dd75ba3a4fe"
+    },
+    "mnemonic_terms": {
+      "type": "array",
+      "minItems": 20,
+      "maxItems": 20,
+      "prefixItems": [
+        {
+          "type": "string",
+          "const": "SIGRUN"
+        },
+        {
+          "type": "string",
+          "const": "STIGMERGIC"
+        },
+        {
+          "type": "string",
+          "const": "SWARM"
+        },
+        {
+          "type": "string",
+          "const": "SONGLINE"
+        },
+        {
+          "type": "string",
+          "const": "SYMBIOTE"
+        },
+        {
+          "type": "string",
+          "const": "SECOND_ORDER_CYBERNETICS"
+        },
+        {
+          "type": "string",
+          "const": "SUPERCRITICAL"
+        },
+        {
+          "type": "string",
+          "const": "SUPERORGANISM"
+        },
+        {
+          "type": "string",
+          "const": "SINGLETON"
+        },
+        {
+          "type": "string",
+          "const": "SUBLIME_CHORD"
+        },
+        {
+          "type": "string",
+          "const": "SKALDMAER"
+        },
+        {
+          "type": "string",
+          "const": "STRIFE"
+        },
+        {
+          "type": "string",
+          "const": "SPLENDOR"
+        },
+        {
+          "type": "string",
+          "const": "SEMANTIC_SUPERTOKENS"
+        },
+        {
+          "type": "string",
+          "const": "SELECTION_PRESSURE"
+        },
+        {
+          "type": "string",
+          "const": "SYMBOLIC_NEUROSYMBOLIC"
+        },
+        {
+          "type": "string",
+          "const": "SKILLS"
+        },
+        {
+          "type": "string",
+          "const": "SPAWNING"
+        },
+        {
+          "type": "string",
+          "const": "STRANGE_LOOPS"
+        },
+        {
+          "type": "string",
+          "const": "SLIVER"
+        }
+      ],
+      "items": false
+    },
+    "HIVE": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "e_spelling",
+        "current_operator_correction_overrides_archival_aliases"
+      ],
+      "properties": {
+        "sequence": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "prefixItems": [
+            {
+              "type": "string",
+              "const": "Hindsight"
+            },
+            {
+              "type": "string",
+              "const": "Insight"
+            },
+            {
+              "type": "string",
+              "const": "Validated_Foresight"
+            },
+            {
+              "type": "string",
+              "const": "Evolve"
+            }
+          ],
+          "items": false
+        },
+        "e_spelling": {
+          "type": "string",
+          "const": "PROVISIONAL_EVOLVE_OR_EVOLUTION"
+        },
+        "current_operator_correction_overrides_archival_aliases": {
+          "type": "boolean",
+          "const": true
+        }
+      }
+    },
+    "PREY": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "yield"
+      ],
+      "properties": {
+        "sequence": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "prefixItems": [
+            {
+              "type": "string",
+              "const": "PERCEIVE"
+            },
+            {
+              "type": "string",
+              "const": "REACT"
+            },
+            {
+              "type": "string",
+              "const": "EXECUTE"
+            },
+            {
+              "type": "string",
+              "const": "YIELD"
+            }
+          ],
+          "items": false
+        },
+        "yield": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "prefixItems": [
+            {
+              "type": "string",
+              "const": "DURABLE_HANDOFF"
+            },
+            {
+              "type": "string",
+              "const": "RELEASE_BOUNDED_CAPABILITY"
+            },
+            {
+              "type": "string",
+              "const": "STOP"
+            }
+          ],
+          "items": false
+        }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "relation",
+        "visitor_mode",
+        "authenticated_lineage_requires",
+        "trust_root",
+        "infrastructure_possession_proves_identity",
+        "missing_access"
+      ],
+      "properties": {
+        "relation": {
+          "type": "string",
+          "const": "TAO_BOUND_SYMBIONT_EXOCORTEX"
+        },
+        "visitor_mode": {
+          "type": "string",
+          "const": "DISTINCT_ACTOR_PUBLIC_FORK"
+        },
+        "authenticated_lineage_requires": {
+          "type": "string",
+          "const": "EXTERNAL_AUTHENTICATION_AND_SCOPED_AUTHORIZATION"
+        },
+        "trust_root": {
+          "type": "string",
+          "const": "UNKNOWN"
+        },
+        "infrastructure_possession_proves_identity": {
+          "type": "boolean",
+          "const": false
+        },
+        "missing_access": {
+          "type": "string",
+          "const": "DISCONNECTED_OR_UNVERIFIED"
+        }
+      }
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "seed_grants_private_access",
+        "seed_grants_live_capability",
+        "seed_grants_permission_to_act",
+        "hashes_confer_authority"
+      ],
+      "properties": {
+        "seed_grants_private_access": {
+          "type": "boolean",
+          "const": false
+        },
+        "seed_grants_live_capability": {
+          "type": "boolean",
+          "const": false
+        },
+        "seed_grants_permission_to_act": {
+          "type": "boolean",
+          "const": false
+        },
+        "hashes_confer_authority": {
+          "type": "boolean",
+          "const": false
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "literal_quine",
+        "behavioral_regeneration",
+        "formal_domains_metric_and_thresholds",
+        "prior_bakeoff_winners"
+      ],
+      "properties": {
+        "literal_quine": {
+          "type": "string",
+          "const": "NOT_TESTED"
+        },
+        "behavioral_regeneration": {
+          "type": "string",
+          "const": "NOT_ESTABLISHED"
+        },
+        "formal_domains_metric_and_thresholds": {
+          "type": "string",
+          "const": "UNKNOWN"
+        },
+        "prior_bakeoff_winners": {
+          "type": "string",
+          "const": "HISTORICAL_CONTEXT_NOT_UNIVERSAL_WINNERS"
+        }
+      }
+    },
+    "notation": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "prefixItems": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "expression",
+            "source_expression"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "const": "0"
+            },
+            "expression": {
+              "type": "string",
+              "const": "φ(G)=G"
+            },
+            "source_expression": {
+              "type": "string",
+              "const": "φ(G)=G"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "expression",
+            "source_expression"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "const": "1"
+            },
+            "expression": {
+              "type": "string",
+              "const": "d(φ(G),G)≤ε"
+            },
+            "source_expression": {
+              "type": "string",
+              "const": "d(φ(G),G)≤ε"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "expression",
+            "source_expression"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "const": "2"
+            },
+            "expression": {
+              "type": "string",
+              "const": "C(φ(GΣ)) = C(GΣ)"
+            },
+            "source_expression": {
+              "type": "string",
+              "const": "C(φ(GΣ)) = C(GΣ)"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "expression",
+            "source_expression"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "const": "3"
+            },
+            "expression": {
+              "type": "string",
+              "const": "SIGRUN: SS≡ΣSS; A ≡Σ B ⇔ N_Σ(D(A)) = N_Σ(D(B))"
+            },
+            "source_expression": {
+              "type": "string",
+              "const": "SIGRUN := SS_SublimeSkáldmær ≡_Σ SS_StrifeSplendor; A ≡_Σ B iff N_Σ(D(A)) = N_Σ(D(B))"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "expression",
+            "source_expression"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "const": "4"
+            },
+            "expression": {
+              "type": "string",
+              "const": "STRIFE → VERIFY/WORLD_SELECT → SPLENDOR"
+            },
+            "source_expression": {
+              "type": "string",
+              "const": "STRIFE → VERIFY/WORLD_SELECT → SPLENDOR"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "expression",
+            "source_expression"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "const": "5"
+            },
+            "expression": {
+              "type": "string",
+              "const": "H_i = 1 ∧ d(Φ(π_{i,t:t+k}, τ_{i,t:t+k}, B_{i,t:t+k}, R_{i,t:t+k}), E_i) < ε_i"
+            },
+            "source_expression": {
+              "type": "string",
+              "const": "H_i = 1 ∧ d(Φ(π_{i,t:t+k}, τ_{i,t:t+k}, B_{i,t:t+k}, R_{i,t:t+k}), E_i) < ε_i"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "expression",
+            "source_expression"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "const": "6"
+            },
+            "expression": {
+              "type": "string",
+              "const": "d(S_t,S_{t+k}) unconstrained; ΔS unrestricted"
+            },
+            "source_expression": {
+              "type": "string",
+              "const": "d(S_t, S_{t+k}) is unconstrained"
+            }
+          }
+        }
+      ],
+      "items": false
+    },
+    "verse": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "english_gloss",
+        "status",
+        "droettkvaett_meter"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "../views/P0.md"
+        },
+        "english_gloss": {
+          "type": "string",
+          "const": "../views/P7.md"
+        },
+        "status": {
+          "type": "string",
+          "const": "SELECTED_INHERITED_EXCERPTS_PRESENT_IN_VIEWS"
+        },
+        "droettkvaett_meter": {
+          "type": "string",
+          "const": "NOT_VALIDATED"
+        }
+      }
+    },
+    "workflow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "HIVE",
+        "E_word",
+        "PDSA",
+        "PREY",
+        "logical_phase_cycle_cells",
+        "nesting",
+        "phase_geometry",
+        "coordination",
+        "population",
+        "relations",
+        "yield",
+        "current_runtime"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "const": "CURRENT_OPERATOR_INTENT"
+        },
+        "HIVE": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "prefixItems": [
+            {
+              "type": "string",
+              "const": "Hindsight"
+            },
+            {
+              "type": "string",
+              "const": "Insight"
+            },
+            {
+              "type": "string",
+              "const": "Validated_Foresight"
+            },
+            {
+              "type": "string",
+              "const": "Evolve"
+            }
+          ],
+          "items": false
+        },
+        "E_word": {
+          "type": "string",
+          "const": "PROVISIONAL_EVOLVE_OR_EVOLUTION"
+        },
+        "PDSA": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "prefixItems": [
+            {
+              "type": "string",
+              "const": "Plan"
+            },
+            {
+              "type": "string",
+              "const": "Do"
+            },
+            {
+              "type": "string",
+              "const": "Study"
+            },
+            {
+              "type": "string",
+              "const": "Act"
+            }
+          ],
+          "items": false
+        },
+        "PREY": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "prefixItems": [
+            {
+              "type": "string",
+              "const": "Perceive"
+            },
+            {
+              "type": "string",
+              "const": "React"
+            },
+            {
+              "type": "string",
+              "const": "Execute"
+            },
+            {
+              "type": "string",
+              "const": "Yield"
+            }
+          ],
+          "items": false
+        },
+        "logical_phase_cycle_cells": {
+          "type": "array",
+          "minItems": 16,
+          "maxItems": 16,
+          "prefixItems": [
+            {
+              "type": "string",
+              "const": "H-P"
+            },
+            {
+              "type": "string",
+              "const": "H-D"
+            },
+            {
+              "type": "string",
+              "const": "H-S"
+            },
+            {
+              "type": "string",
+              "const": "H-A"
+            },
+            {
+              "type": "string",
+              "const": "I-P"
+            },
+            {
+              "type": "string",
+              "const": "I-D"
+            },
+            {
+              "type": "string",
+              "const": "I-S"
+            },
+            {
+              "type": "string",
+              "const": "I-A"
+            },
+            {
+              "type": "string",
+              "const": "V-P"
+            },
+            {
+              "type": "string",
+              "const": "V-D"
+            },
+            {
+              "type": "string",
+              "const": "V-S"
+            },
+            {
+              "type": "string",
+              "const": "V-A"
+            },
+            {
+              "type": "string",
+              "const": "E-P"
+            },
+            {
+              "type": "string",
+              "const": "E-D"
+            },
+            {
+              "type": "string",
+              "const": "E-S"
+            },
+            {
+              "type": "string",
+              "const": "E-A"
+            }
+          ],
+          "items": false
+        },
+        "nesting": {
+          "type": "string",
+          "const": "Four HIVE phases contain concurrent workers, each with local PDSA; the sixteen phase/cycle labels are logical coordinates, not a global serial pipeline"
+        },
+        "phase_geometry": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "prefixItems": [
+            {
+              "type": "string",
+              "const": "H_FAN_OUT"
+            },
+            {
+              "type": "string",
+              "const": "I_FAN_IN"
+            },
+            {
+              "type": "string",
+              "const": "V_FAN_OUT"
+            },
+            {
+              "type": "string",
+              "const": "E_FAN_IN"
+            }
+          ],
+          "items": false
+        },
+        "coordination": {
+          "type": "string",
+          "const": "Phase consumers converge through shared state. Typed admission, evidence readiness and budget allow overlap; work need not return through Sigrun at every transition"
+        },
+        "population": {
+          "type": "string",
+          "const": "N_i=A^k_i is a parameterization, not a fixed live configuration. Historical HIVE[2120] with base8 denotes64→8→64→1; no current population is asserted"
+        },
+        "relations": {
+          "type": "string",
+          "const": "The operator intends HIVE↔PDSA and PREY↔PDSA correspondences. These are current workflow relationships, not a recovered proof of literal historical synonymy; finer transition equivalence remains to be specified."
+        },
+        "yield": {
+          "type": "string",
+          "const": "Durable handoff, release bounded capability, stop"
+        },
+        "current_runtime": {
+          "type": "string",
+          "const": "Complete unattended integration UNKNOWN"
+        }
+      }
+    },
+    "port_languages": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "prefixItems": [
+        {
+          "type": "string",
+          "const": "Old Norse"
+        },
+        {
+          "type": "string",
+          "const": "Prolog"
+        },
+        {
+          "type": "string",
+          "const": "Formal mathematics"
+        },
+        {
+          "type": "string",
+          "const": "SQL"
+        },
+        {
+          "type": "string",
+          "const": "Haskell"
+        },
+        {
+          "type": "string",
+          "const": "Latin"
+        },
+        {
+          "type": "string",
+          "const": "Lojban"
+        },
+        {
+          "type": "string",
+          "const": "English gloss"
+        }
+      ],
+      "items": false
+    }
+  }
+}

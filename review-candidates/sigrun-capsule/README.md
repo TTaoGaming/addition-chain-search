@@ -20,3 +20,6 @@ The [original 19-term chain](source-chain.json) already began with SIGRUN. This 
 Run `python verify_capsule.py` in this directory for local file-integrity, chain-preservation and JSON round-trip checks. [Recorded result](VALIDATION.json). This is a declarative reconstruction seed, not proof of an executable quine, latent-state recovery or successful behavior in every AI.
 
 The numerical addition-chain evidence elsewhere in this repository remains separate. See [full scope and source rights](SPEC.md#scope-sources-and-rights). No new reuse license is granted.
+
+
+The [DRÁPA v6 systems snapshot](../sigrun-v6/SEED.md) adds eight actual language views and a dated working/blocked system map. It is explicitly incomplete.

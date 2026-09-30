@@ -1,0 +1,63 @@
+{
+  "status": "EXPLICIT_PARTIAL_PROJECTIONS",
+  "common_contract": "support/contract.json",
+  "entries": [
+    {
+      "port": 0,
+      "language": "Old Norse",
+      "retains": "Exact selected inherited stef/reaching-hand text",
+      "does_not_establish": "Historical grammar, meter, full architecture encoding or latent eigenstate"
+    },
+    {
+      "port": 1,
+      "language": "Prolog",
+      "retains": "Current HIVE/PREY and identity/authority facts",
+      "does_not_establish": "Native execution or complete equivalent reconstruction"
+    },
+    {
+      "port": 2,
+      "language": "Formal mathematics",
+      "retains": "Current selected expressions with intended meanings and UNKNOWN domains",
+      "does_not_establish": "A theorem of system regeneration or calibrated behavioral metric"
+    },
+    {
+      "port": 3,
+      "language": "SQL",
+      "retains": "A generic offline phase/PDSA coordinate inventory",
+      "does_not_establish": "A live database, private schema or deployed transaction boundary"
+    },
+    {
+      "port": 4,
+      "language": "Haskell",
+      "retains": "Finite current workflow values and typed identity-evidence distinction",
+      "does_not_establish": "GHC compilation, type-level proof or full model semantics"
+    },
+    {
+      "port": 5,
+      "language": "Latin",
+      "retains": "Exact CANTRIX chiasmus and inherited reciprocal gloss",
+      "does_not_establish": "Classical grammar or behavior guarantee"
+    },
+    {
+      "port": 6,
+      "language": "Lojban",
+      "retains": "Exact selected heritage relationship passage",
+      "does_not_establish": "Parser validity, unambiguous interpretation or universal winner"
+    },
+    {
+      "port": 7,
+      "language": "English gloss",
+      "retains": "Exact selected inherited gloss plus current inspection/status layer",
+      "does_not_establish": "Exhaustive translation of all poetic, mathematical and operational dimensions"
+    }
+  ],
+  "historical_equations": "Historical phi=id and inverse-projection identities are intentions/definitions in their source context, not executed evidence that every view regenerates all others",
+  "topology": {
+    "ports": "p in {0,...,7}; current two-dimensional deck is a view, not the whole system",
+    "mirror": "p XOR 7 = 7-p; pairs 0–7,1–6,2–5,3–4",
+    "actor_archetype": "[4,4] is repeated Thunder, separate from XOR complement",
+    "recursion": "An 8-ary address tree has 8^n potential addresses at depth n; potential addresses do not count live workers",
+    "sheaf": "Preserve SHEAF as a semantic handle; base/site, covers, sections, restriction maps, overlap compatibility and gluing/uniqueness obligations remain unresolved"
+  },
+  "language_effects": "Prior usefulness is user-reported. The tiny reused-context diagnostic found no observed advantage and cannot identify a universal best language."
+}

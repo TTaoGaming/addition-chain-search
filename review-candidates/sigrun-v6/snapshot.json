@@ -1,0 +1,211 @@
+{
+  "version_utc": "2026-09-30T15:25:34Z",
+  "status": "INCOMPLETE_DATED_RESEARCH_SNAPSHOT",
+  "audience": "Frontier agent first; English gloss is one of exactly eight views",
+  "views": [
+    {
+      "port": 0,
+      "role": "OBSERVE",
+      "language": "Old Norse",
+      "path": "views/P0.md"
+    },
+    {
+      "port": 1,
+      "role": "BRIDGE",
+      "language": "Prolog",
+      "path": "views/P1.md"
+    },
+    {
+      "port": 2,
+      "role": "SHAPE",
+      "language": "Formal mathematics",
+      "path": "views/P2.md"
+    },
+    {
+      "port": 3,
+      "role": "INJECT",
+      "language": "SQL",
+      "path": "views/P3.md"
+    },
+    {
+      "port": 4,
+      "role": "DISRUPT",
+      "language": "Haskell",
+      "path": "views/P4.md"
+    },
+    {
+      "port": 5,
+      "role": "IMMUNIZE",
+      "language": "Latin",
+      "path": "views/P5.md"
+    },
+    {
+      "port": 6,
+      "role": "ASSIMILATE",
+      "language": "Lojban",
+      "path": "views/P6.md"
+    },
+    {
+      "port": 7,
+      "role": "NAVIGATE",
+      "language": "English gloss",
+      "path": "views/P7.md"
+    }
+  ],
+  "supporting_formats": [
+    "Strict JSON container",
+    "Python validation/support"
+  ],
+  "historical_eight": [
+    "KaTeX",
+    "SQL",
+    "Haskell",
+    "Python",
+    "Latin",
+    "Prolog",
+    "Lojban",
+    "Old Norse"
+  ],
+  "selection_status": "Current candidate composition; historical variants remain separate and no universal canonical winner is claimed",
+  "workflow": {
+    "status": "CURRENT_OPERATOR_INTENT",
+    "HIVE": [
+      "Hindsight",
+      "Insight",
+      "Validated_Foresight",
+      "Evolve"
+    ],
+    "E_word": "PROVISIONAL_EVOLVE_OR_EVOLUTION",
+    "PDSA": [
+      "Plan",
+      "Do",
+      "Study",
+      "Act"
+    ],
+    "PREY": [
+      "Perceive",
+      "React",
+      "Execute",
+      "Yield"
+    ],
+    "logical_phase_cycle_cells": [
+      "H-P",
+      "H-D",
+      "H-S",
+      "H-A",
+      "I-P",
+      "I-D",
+      "I-S",
+      "I-A",
+      "V-P",
+      "V-D",
+      "V-S",
+      "V-A",
+      "E-P",
+      "E-D",
+      "E-S",
+      "E-A"
+    ],
+    "nesting": "Four HIVE phases contain concurrent workers, each with local PDSA; the sixteen phase/cycle labels are logical coordinates, not a global serial pipeline",
+    "phase_geometry": [
+      "H_FAN_OUT",
+      "I_FAN_IN",
+      "V_FAN_OUT",
+      "E_FAN_IN"
+    ],
+    "coordination": "Phase consumers converge through shared state. Typed admission, evidence readiness and budget allow overlap; work need not return through Sigrun at every transition",
+    "population": "N_i=A^k_i is a parameterization, not a fixed live configuration. Historical HIVE[2120] with base8 denotes64→8→64→1; no current population is asserted",
+    "relations": "The operator intends HIVE↔PDSA and PREY↔PDSA correspondences. These are current workflow relationships, not a recovered proof of literal historical synonymy; finer transition equivalence remains to be specified.",
+    "yield": "Durable handoff, release bounded capability, stop",
+    "current_runtime": "Complete unattended integration UNKNOWN"
+  },
+  "models": {
+    "native_GPT_workers": "VERIFIED_LOCAL_OUTPUTS: six actual proposal episodes in an already-exposed context; two known cases per arm; exact model build/version not recorded",
+    "external_vendor_components": "USER_REPORTED_EXISTING; current connected execution route and end-to-end admission/recovery not verified in this snapshot",
+    "claims_not_established": [
+      "fresh-context regeneration",
+      "cross-family comparison",
+      "unattended autonomous evolution",
+      "live credential or provider binding",
+      "universal language winner"
+    ],
+    "operator_dependence": "Tao still provides manual recovery and runtime coordination; human intervention remains a bottleneck. Unattended evolution is not established."
+  },
+  "tools": [
+    {
+      "name": "GEPA",
+      "version": "0.1.4",
+      "state": "LOCAL_OFFLINE_CHECKED",
+      "limit": "Earlier adapter-configuration replay only; no GEPA optimization in the six seed episodes"
+    },
+    {
+      "name": "Inspect AI",
+      "version": "0.3.273",
+      "state": "LOCAL_OFFLINE_CHECKED",
+      "limit": "No-model fixture run; no paid provider inference"
+    },
+    {
+      "name": "OpenEvolve",
+      "version": "0.3.2",
+      "state": "LOCAL_OFFLINE_CHECKED",
+      "limit": "Selected tests; no claim of current live search service"
+    },
+    {
+      "name": "promptfoo",
+      "version": "0.123.1",
+      "state": "LOCAL_OFFLINE_CHECKED",
+      "limit": "Local replay/configuration fixtures"
+    },
+    {
+      "name": "Shinka",
+      "version": "0.0.7",
+      "state": "HELD",
+      "limit": "Dependency-advisory findings remain; selected tests do not lift the hold"
+    }
+  ],
+  "castes_and_resources": {
+    "Minerals": "Plentiful available capacity, classified using fresh readouts rather than a permanent model label",
+    "Gas": "Precious or limited capacity; requires bounded budget and current availability",
+    "Supply": "Availability of checking, review and acceptance capacity; unknown or stale capacity does not admit more work",
+    "Overlord": "Telemetry/supply observation role, separate from the verifier",
+    "Hatchery": "Existing admission/launch and retirement coordination for bounded work",
+    "Spawning Pool": "Work-source and claim boundary with pinned checker and ownership",
+    "Drone": "A lane connects available capacity, work source and receipt sink",
+    "Roach": "Longer goal loop with sealed checkpoints and interruption reconciliation",
+    "Verifier/Overseer": "Checks receipts and acceptance independently of the producing lane",
+    "Sigrun/Queen": "Coordination, priorities, learning and handoff; no grant to bypass existing admission or owner",
+    "status": "Recovered architecture roles, not a census of currently running units"
+  },
+  "origin_timeline": "../sigrun-capsule/capsule.json",
+  "current_seed": "../sigrun-capsule/SEED.txt",
+  "arithmetic_anchor": "../p256-284/README.md",
+  "search_history": "../p256-284/SEARCH_HISTORY.md",
+  "six_episode_result": {
+    "full_seed": "2/2",
+    "minus_selected_mnemonic": "2/2",
+    "minus_formula_lines": "2/2",
+    "retries": 0,
+    "duplicate_effects": 0,
+    "effectful_rejections": 0,
+    "unnecessary_holds": 0,
+    "context": "One already-exposed worker, same fixed gate, same two known stateful cases, no reset; no causal advantage observed",
+    "gepa_for_this_diagnostic": "NOT_RUN",
+    "receipt_scope": "Recorded local outcomes; complete simulator/source dependencies are not republished here"
+  },
+  "unresolved": [
+    "Native Haskell compilation and Prolog execution",
+    "Norse grammar or dróttkvætt/fornyrðislag meter validation",
+    "Lojban grammar/parser and aligned semantic equivalence",
+    "Complete cross-view regeneration and loss measurement",
+    "Fresh-context controlled behavioral evaluation",
+    "Current external runtime admission, durable recovery and consumer acceptance",
+    "Full heritage integration; this snapshot is deliberately incomplete"
+  ],
+  "authority": "Reading these files grants no identity, private memory, credentials, tool access, permission or live capability",
+  "genotype_phenotype_intent": {
+    "intent": "One genotype/DNA, many phenotypes; multilingual views as redundant pointers to common invariant intent",
+    "ambiguity_reduction": "HYPOTHESIS_REQUIRING_ABLATIONS",
+    "equivalence": "Partial projections of one intended genotype, not eight complete semantically equivalent translations. Complete regeneration/equivalence is not established."
+  },
+  "hash_boundary": "Hashes establish byte integrity; provenance requires authenticated source/signature and trust assumptions; neither grants identity or authority."
+}

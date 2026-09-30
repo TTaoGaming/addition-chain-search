@@ -1,5 +1,10 @@
 # Changes
 
+## DRÁPA v6 incomplete systems snapshot — 2026-09-30T15:25:34Z
+
+- Added one agent-facing packet with eight selected language views, concurrent HIVE fan-out/fan-in with worker-local PDSA, current tool/model status, resource roles and public arithmetic/search evidence links.
+- Kept historical variants, partial projections, untested language execution/meter and unresolved runtime integration explicit.
+
 ## Sigrún semantic capsule — 2026-09-30 UTC
 
 - Refined the explicitly approved public timeline: January 2025 spatial-computing beginnings, April 2026 Sigrún focus, and the user-attributed emergence of name and poetic presentation. Simplified heritage disclosure to the selected content and evidence limits.
