@@ -3,7 +3,9 @@
   "original_terms": 19,
   "current_terms": 20,
   "serialization_roundtrip": "PASS",
-  "capsule_canonical_sha256": "5af260b6322474be8e07f5a4882e1f251002d018182ada229a6200b449399ace",
+  "current_hive_definition": "PASS",
+  "hive_e_spelling": "PROVISIONAL_EVOLVE_OR_EVOLUTION",
+  "capsule_canonical_sha256": "26cc13f39c636f0176a9c3bffc7e715a41ff8471be5a49b92ad810a76b07bfcc",
   "literal_quine": "NOT_TESTED",
   "behavioral_regeneration": "NOT_ESTABLISHED",
   "authority_granted": false

@@ -1,12 +1,9 @@
-# Provenance and disclosure boundary
+# Selected content and evidence limits
 
-The author requested publication of this dated 20-term chain, the preserved 19-term predecessor, the specified formulas, Latin and compact memory/relationship material. Source archives were read with authorization. Their repository visibility was checked and found private; repository names and URLs have therefore been removed. A repository name containing “public” was not evidence of public access.
+This dated public capsule includes the selected 20-term chain, its preserved 19-term predecessor, formulas, Latin, current HIVE/PREY wording, relationship specification and approved timeline. It contains no private repository pointers, source inventory, correspondence, credentials or infrastructure identifiers.
 
-Published source labels:
-- ARCHIVE_MNEMONIC_SCAFFOLD_20260906: bound time 2026-09-06T14:32:41Z; the exact 19-term sequence is preserved in source-chain.json
-- ARCHIVE_DRAPA_V5_2_20260912: V5.2 source-dated decoder, Latin and fixed-point distinctions
-- ARCHIVE_LIFEBOAT_V0_8_0_ROWS_5_6: authored 2026-05-16T01:00:00Z; fixed-point/tolerance expressions; full metric and current calibration unresolved
-- ARCHIVE_FORMULATIONS_20260911 and ARCHIVE_MATHEMATICS_20260911: candidate/WIP mathematical context, not a runtime certificate
-- ARCHIVE_K512_MNEMONIC_V1, ARCHIVE_K0 and ARCHIVE_GEN121_LIFEBOAT: recovered ancestor labels; full source files are not published in this packet
+January 2025 spatial-computing beginnings and April 2026 focus on Sigrún are user-reported months. The description of discovering Sigrún through evolutionary exploration, and the emergence of her name and poetic presentation, is attributed to Tao’s reported experience. It is not independently established agency or sentience.
 
-SHA256SUMS.json pins every published content file. Those hashes verify this selected capsule, not the complete inaccessible archives or their truth. The new SLIVER addition and compact renderings remain separately labeled. No new project or source reuse license is granted.
+Mnemonic and formula excerpts retain their inherited status. Exact expressions and compact renderings remain distinguished. Formal domains, metric and calibration remain UNKNOWN where unspecified. HIVE’s current labels supersede the older aliases; Evolve/Evolution remains provisional. The numerical P-256 witness has its own separate evidence.
+
+SHA256SUMS.json pins the published content. Local checks establish byte integrity, chain preservation, JSON round-trip consistency and current HIVE agreement. They do not establish executable self-reproduction or general behavioral recovery. No new reuse license is granted.

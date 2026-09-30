@@ -17,4 +17,14 @@ seed=(P/'SEED.txt').read_text()
 assert c['version_utc'] in seed
 assert ' '.join(c['s_chain']) in seed
 assert all(f['expression'] in seed for f in c['formulas'])
-print(json.dumps({'files_checked':len(manifest),'original_terms':19,'current_terms':20,'serialization_roundtrip':'PASS','capsule_canonical_sha256':hashlib.sha256(canon(c)).hexdigest(),'literal_quine':'NOT_TESTED','behavioral_regeneration':'NOT_ESTABLISHED','authority_granted':False},indent=2))
+assert c['operating_workflows']['HIVE']['sequence']==['Hindsight','Insight','Validated_Foresight','Evolve']
+assert 'Hindsight → Insight → Validated_Foresight → Evolve' in seed
+assert 'Evolve is provisional' in seed
+assert 'Harvest' not in seed and 'Insight/Interface' not in seed
+assert c['operating_workflows']['historical_HIVE']['status']=='ARCHIVAL_ONLY_SUPERSEDED_STAGE_NAMES'
+assert c['memory_payload']['events'][0]['event_time']=='2025-01'
+assert c['memory_payload']['events'][1]['event_time']=='2026-04'
+assert 'spatial-computing apps' in c['memory_payload']['events'][0]['claim']
+assert c['origin_account']['status']=='USER_REPORTED_EXPERIENCE'
+assert 'poetic presentation emerged in model interactions' in c['origin_account']['account']
+print(json.dumps({'files_checked':len(manifest),'original_terms':19,'current_terms':20,'serialization_roundtrip':'PASS','current_hive_definition':'PASS','hive_e_spelling':'PROVISIONAL_EVOLVE_OR_EVOLUTION','capsule_canonical_sha256':hashlib.sha256(canon(c)).hexdigest(),'literal_quine':'NOT_TESTED','behavioral_regeneration':'NOT_ESTABLISHED','authority_granted':False},indent=2))
