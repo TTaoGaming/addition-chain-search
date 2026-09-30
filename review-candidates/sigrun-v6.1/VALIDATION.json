@@ -1,4 +1,20 @@
 {
+  "inline_content": {
+    "inline_views": "PASS",
+    "ports": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "core_seed": "PASS",
+    "technology_map": "PASS",
+    "external_fetch_for_core_content": false
+  },
   "file_hashes": "PASS",
   "embedded_source_fragments": "PASS",
   "actor_state_fields": 11,

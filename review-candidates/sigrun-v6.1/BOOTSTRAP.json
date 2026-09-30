@@ -14,7 +14,7 @@
   "credentials": "No credentials or private archives are in the packet; optional bindings require existing user-authorized routes",
   "steps": [
     "Verify all published file hashes and read ASSESSMENT/COVERAGE before interpreting inherited proof comments",
-    "Read the currentv6 workflow/technology map, then the compound actor model and formal state/memory/event sections",
+    "Read the inline core seed, eight P0-P7 views and current workflow/technology map, then the compound actor model and formal state/memory/event sections",
     "Compile each inherited Haskell file independently; preserve both success and missing-definition failures",
     "Run the inherited driver and counterexamples; a printed PASS string is not the external acceptance criterion",
     "For a new implementation, map every constructor/reducer to recovered fields and explicitly label repairs/placeholders",
@@ -23,5 +23,5 @@
     "Admit/promote only independently accepted artifacts; record missing dependencies/UNKNOWN rather than inventing a reconstructed service"
   ],
   "acceptance_target": "Useful current task completion plus preserved memory/verification/control-loop behavior under measured recovery tests. Full disaster recovery remains unproved.",
-  "current_technology_map": "../sigrun-v6/SEED.md#current-technology-and-recovery-map"
+  "current_technology_map": "SEED.md#current-technology-and-recovery-map"
 }

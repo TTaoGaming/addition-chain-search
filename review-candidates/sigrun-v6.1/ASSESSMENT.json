@@ -1,5 +1,5 @@
 {
-  "snapshot_version_utc": "2026-09-30T16:12:50Z",
+  "snapshot_version_utc": "2026-09-30T16:28:10Z",
   "status": "INCOMPLETE_EVOLVING_SOURCE_RICH_RESEARCH_SNAPSHOT",
   "heritage": [
     {
@@ -73,5 +73,6 @@
     "A complete standalone native Haskell world/memory/control-loop implementation",
     "Fresh sandbox/subagent whole-system disaster-recovery evidence"
   ],
-  "provenance": "Selected source excerpts are preserved; private archives, repository pointers and correspondence are not exported. Compile logs replace only the local build-directory prefix with <BUILD_ROOT>. No new reuse license is granted."
+  "provenance": "Selected source excerpts are preserved; private archives, repository pointers and correspondence are not exported. Compile logs replace only the local build-directory prefix with <BUILD_ROOT>. No new reuse license is granted.",
+  "inline_completeness": "Complete core seed, current companion workflow/stack and all eight exact P0-P7 language views are embedded directly in SEED.md; deterministic omission/link-substitution regression tests supplied."
 }

@@ -6,7 +6,7 @@
   },
   {
     "area": "Whole compound state and seven layers",
-    "available": "11-part actor state and17-component formal system;8\u00d78role matrix",
+    "available": "11-part actor state and17-component formal system;8×8role matrix",
     "acceptance": "RECOVERED_SPECIFICATION; reducers not fully implemented"
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "area": "Verification/control loops",
-    "available": "Proposal\u2192reference monitor\u2192execute/readback\u2192acceptance; WorkItems, receipts, causal readiness and temporal DAG",
+    "available": "Proposal→reference monitor→execute/readback→acceptance; WorkItems, receipts, causal readiness and temporal DAG",
     "acceptance": "SPECIFICATION_PLUS_EARLIER_BOUNDED_SIMULATOR_EVIDENCE; no whole-system integration proof"
   },
   {
@@ -26,12 +26,12 @@
   },
   {
     "area": "Zerg castes/resources",
-    "available": "Known resource/caste roles in companionv6 and capacity archetypes in actor model",
+    "available": "Known resource/caste roles embedded inline in SEED.md and capacity archetypes in actor model",
     "acceptance": "PARTIAL; complete taxonomy and per-caste behavioral acceptance not recovered"
   },
   {
     "area": "Eight language views",
-    "available": "Current exact-eight views and invariants in companionv6, plus larger recovered Haskell here",
+    "available": "All eight complete exact P0-P7 views and current invariant context embedded directly in SEED.md, plus larger recovered Haskell; named-section/content hashes and omission regression tests pass",
     "acceptance": "PARTIAL_PROJECTIONS; equivalence and natural-language meter unproved"
   },
   {

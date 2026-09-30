@@ -16,3 +16,5 @@ ghc -Wall -fforce-recomp -fno-code -outputdir build/card heritage/Sigrun_card_he
 The last two commands are expected to fail on the recorded missing definitions. Preserve the failures. The inherited driver prints sixteen PASS labels, including tautological checks; this is not a sixteen-part proof. The native counterexample output demonstrates Int overflow and noncontracting iteration returning at its budget limit.
 
 The recorded compiler was GHC9.6.6 from the official Debian9.6.6-4 amd64 package. See receipts/GHC_TOOLCHAIN.json for the verified package hash/source and isolated-install method. Use your platform's official package source or GHC installer for a compatible compiler; this packet does not include compiler binaries or alter your machine. The selected code uses base-library facilities. No provider, service or credential is needed for these offline checks.
+
+Inline completeness regression: `python tests/test_embedded_seed.py` checks the eight actual sections and rejects missing, empty, linked-only or duplicate replacements, plus missing core seed/stack. This is content coverage, not language equivalence or system recovery.
