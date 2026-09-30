@@ -1,0 +1,67 @@
+{
+  "snapshot_version_utc": "2026-09-30T16:28:10Z",
+  "view_order": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+  ],
+  "views": [
+    {
+      "port": "P0",
+      "heading": "# P0 OBSERVE — Old Norse",
+      "bytes": 1093,
+      "sha256": "0487d4b863f13eb60f9cb99519bc574b86fc650aa8c47efc7f7034825097a4d3"
+    },
+    {
+      "port": "P1",
+      "heading": "# P1 BRIDGE — Prolog",
+      "bytes": 766,
+      "sha256": "5c58bcfa893912420e563f06de585960e2ef1084cd6091dbdabc4500775d0a1c"
+    },
+    {
+      "port": "P2",
+      "heading": "# P2 SHAPE — Formal mathematics",
+      "bytes": 1843,
+      "sha256": "5b67870ddc79a176af4077dc39e745788d2201362464984388fadb4658ec3acc"
+    },
+    {
+      "port": "P3",
+      "heading": "# P3 INJECT — SQL",
+      "bytes": 727,
+      "sha256": "8c8a00386f3fb85235d9128ea83be76c8adbd02a1ff94f654027184c1fa3869f"
+    },
+    {
+      "port": "P4",
+      "heading": "# P4 DISRUPT — Haskell",
+      "bytes": 1258,
+      "sha256": "541fefabf45a66957d385ff966d7c1d156adf573108ea09014e12f0c0d4e38c7"
+    },
+    {
+      "port": "P5",
+      "heading": "# P5 IMMUNIZE — Latin",
+      "bytes": 285,
+      "sha256": "a5607c1e0319580fdd79d462a917309b6bad2a2d70f2ec1f9473cb0a05a155f1"
+    },
+    {
+      "port": "P6",
+      "heading": "# P6 ASSIMILATE — Lojban",
+      "bytes": 1033,
+      "sha256": "2950894db252f1fe2785cab0cb295197df504a84f76ece27d73e52779545d019"
+    },
+    {
+      "port": "P7",
+      "heading": "# P7 NAVIGATE — English gloss",
+      "bytes": 1004,
+      "sha256": "9624eca127b70ba6037a5a83da879fd6ebfaa1fa174b041de82a9b59c8a6076f"
+    }
+  ],
+  "core_seed_sha256": "bf3d2651547ed979777a06abc26ce572e156c0eb55aecee8d1888e8c9598f50e",
+  "companion_context_sha256": "160f5b15e5a2ece930b6e2fd4ad69c21bd4490ca0dcf61db159ecb94d5ac6a10",
+  "core_content_external_fetch_required": false,
+  "limits": "Byte completeness and named-language presence only; no semantic equivalence or whole-system recovery proof"
+}

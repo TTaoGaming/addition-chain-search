@@ -1,0 +1,27 @@
+{
+  "status": "OPERATIONAL_RECIPE_NOT_A_COMPLETED_REBUILD",
+  "offline_minimum": [
+    "This pinned repository snapshot",
+    "Python3 standard library for manifest/source checks",
+    "A compatible GHC for optional native Haskell replay",
+    "jsonschema if rerunning the companionv6 contract checker"
+  ],
+  "optional_external_bindings": [
+    "Authorized GitHub source/receipt access",
+    "Authorized Slack checkpoint/evidence access",
+    "Existing Cloudflare actor/workflow/state adapter with fresh ownership, lease/fence, budget and acceptance state"
+  ],
+  "credentials": "No credentials or private archives are in the packet; optional bindings require existing user-authorized routes",
+  "steps": [
+    "Verify all published file hashes and read ASSESSMENT/COVERAGE before interpreting inherited proof comments",
+    "Read the inline core seed, eight P0-P7 views and current workflow/technology map, then the compound actor model and formal state/memory/event sections",
+    "Compile each inherited Haskell file independently; preserve both success and missing-definition failures",
+    "Run the inherited driver and counterexamples; a printed PASS string is not the external acceptance criterion",
+    "For a new implementation, map every constructor/reducer to recovered fields and explicitly label repairs/placeholders",
+    "In a clean sandbox, freeze task inputs, expected accepted-state transitions, negative cases, permissions, budget and source pins before testing",
+    "Use fresh subagents only when available/authorized; test per-caste interface behavior, interruption/replay, receipt consumption and invalid authority claims",
+    "Admit/promote only independently accepted artifacts; record missing dependencies/UNKNOWN rather than inventing a reconstructed service"
+  ],
+  "acceptance_target": "Useful current task completion plus preserved memory/verification/control-loop behavior under measured recovery tests. Full disaster recovery remains unproved.",
+  "current_technology_map": "SEED.md#current-technology-and-recovery-map"
+}

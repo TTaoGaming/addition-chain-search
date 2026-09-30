@@ -1,0 +1,62 @@
+{
+  "verdict": "NO_STRICT_IMPROVEMENT_IN_BOUNDED_SEARCH",
+  "best_operations": 284,
+  "best_squarings": 251,
+  "best_multiplications": 33,
+  "seed_sha256": "46ba0fb4a02926e02aad7c51cb9c41225952a5549e4c0012964f2de5ad15d148",
+  "checker_sha256": "0ccb9796fa9ea23cd18125bb30df81f643f22b41f788caf9edc2c5778a47b759",
+  "measured_search_wall_seconds": 66.14270801500061,
+  "measured_search_child_cpu_seconds": 63.56474,
+  "measured_search_python_cpu_seconds": 2.5667946600000002,
+  "evaluated_genomes_total": 420,
+  "unique_canonical_dags_across_rounds": 397,
+  "dp_transitions_total": 12245378206,
+  "genome_cost_histogram": {
+    "284": 92,
+    "285": 214,
+    "286": 100,
+    "287": 14
+  },
+  "rounds": [
+    {
+      "started_utc": "2026-09-30T07:13:43.600302+00:00",
+      "completed_utc": "2026-09-30T07:13:45.674266+00:00",
+      "evaluated_genomes": 17,
+      "distinct_canonical_dags": 17,
+      "dp_transitions": 353389043,
+      "best_operations": 284,
+      "wall_seconds": 2.0741534099997807,
+      "child_cpu_seconds": 1.9298810000000004,
+      "parent_cpu_seconds": 0.142273357
+    },
+    {
+      "started_utc": "2026-09-30T07:17:03.467442+00:00",
+      "completed_utc": "2026-09-30T07:17:33.747159+00:00",
+      "evaluated_genomes": 257,
+      "distinct_canonical_dags": 256,
+      "dp_transitions": 5458430907,
+      "best_operations": 284,
+      "wall_seconds": 30.280208608000976,
+      "child_cpu_seconds": 28.807341,
+      "parent_cpu_seconds": 1.475837636
+    },
+    {
+      "started_utc": "2026-09-30T07:19:13.709664+00:00",
+      "completed_utc": "2026-09-30T07:19:47.497714+00:00",
+      "evaluated_genomes": 146,
+      "distinct_canonical_dags": 146,
+      "dp_transitions": 6433558256,
+      "best_operations": 284,
+      "wall_seconds": 33.78834599699985,
+      "child_cpu_seconds": 32.827518,
+      "parent_cpu_seconds": 0.948683667
+    }
+  ],
+  "artifact_rechecks": {
+    "certificates": 420,
+    "all_exact_checks_and_hashes_passed": true,
+    "wall_seconds": 1.6381190480005898,
+    "cpu_seconds": 1.634891465
+  },
+  "evidence_scope": "Historical run summary; complete search programs and candidate populations are not included in this minimal review directory."
+}

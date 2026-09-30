@@ -1,0 +1,17 @@
+{
+  "scalar_microbenchmark": {
+    "source_local_path": "ring/target/release/deps/ring-9ef32f25f78ca143",
+    "sha256": "058afb1040deeac32e4eb5a1f93099e1722d4f29e22041c5bc7d9b22b292c014",
+    "bytes": 2920072
+  },
+  "candidate_sign": {
+    "source_local_path": "ring/target/release/examples/chain284_sign_bench",
+    "sha256": "9143adce1aebf8036921f8083fa1acb72f8b17f7b121dc4ef5cc3e751ea0bacd",
+    "bytes": 705752
+  },
+  "baseline_sign": {
+    "source_local_path": "ring_baseline/target/release/examples/chain284_sign_bench",
+    "sha256": "2d847799b5cddca581ee2a59eb13b20bcb4fa4e894e7ee8b2cb41f01ce964ccc",
+    "bytes": 705752
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "version_utc": "2026-09-30T15:47:48Z",
+  "status": "INCOMPLETE_DATED_RESEARCH_SNAPSHOT",
+  "audience": "Frontier agent first; English gloss is one of exactly eight views",
+  "views": [
+    {
+      "port": 0,
+      "role": "OBSERVE",
+      "language": "Old Norse",
+      "path": "views/P0.md"
+    },
+    {
+      "port": 1,
+      "role": "BRIDGE",
+      "language": "Prolog",
+      "path": "views/P1.md"
+    },
+    {
+      "port": 2,
+      "role": "SHAPE",
+      "language": "Formal mathematics",
+      "path": "views/P2.md"
+    },
+    {
+      "port": 3,
+      "role": "INJECT",
+      "language": "SQL",
+      "path": "views/P3.md"
+    },
+    {
+      "port": 4,
+      "role": "DISRUPT",
+      "language": "Haskell",
+      "path": "views/P4.md"
+    },
+    {
+      "port": 5,
+      "role": "IMMUNIZE",
+      "language": "Latin",
+      "path": "views/P5.md"
+    },
+    {
+      "port": 6,
+      "role": "ASSIMILATE",
+      "language": "Lojban",
+      "path": "views/P6.md"
+    },
+    {
+      "port": 7,
+      "role": "NAVIGATE",
+      "language": "English gloss",
+      "path": "views/P7.md"
+    }
+  ],
+  "supporting_formats": [
+    "Strict JSON container",
+    "Python validation/support"
+  ],
+  "historical_eight": [
+    "KaTeX",
+    "SQL",
+    "Haskell",
+    "Python",
+    "Latin",
+    "Prolog",
+    "Lojban",
+    "Old Norse"
+  ],
+  "selection_status": "Current candidate composition; historical variants remain separate and no universal canonical winner is claimed",
+  "workflow": {
+    "status": "CURRENT_OPERATOR_INTENT",
+    "HIVE": [
+      "Hindsight",
+      "Insight",
+      "Validated Foresight",
+      "Evolution"
+    ],
+    "E_word": "EVOLUTION_OPERATOR_CONFIRMED",
+    "PDSA": [
+      "Plan",
+      "Do",
+      "Study",
+      "Act"
+    ],
+    "PREY": [
+      "Perceive",
+      "React",
+      "Execute",
+      "Yield"
+    ],
+    "logical_phase_cycle_cells": [
+      "H-P",
+      "H-D",
+      "H-S",
+      "H-A",
+      "I-P",
+      "I-D",
+      "I-S",
+      "I-A",
+      "V-P",
+      "V-D",
+      "V-S",
+      "V-A",
+      "E-P",
+      "E-D",
+      "E-S",
+      "E-A"
+    ],
+    "nesting": "Four HIVE phases contain concurrent workers, each with local PDSA; the sixteen phase/cycle labels are logical coordinates, not a global serial pipeline",
+    "phase_geometry": [
+      "H_FAN_OUT",
+      "I_FAN_IN",
+      "V_FAN_OUT",
+      "E_FAN_IN"
+    ],
+    "coordination": "Phase consumers converge through shared state. Typed admission, evidence readiness and budget allow overlap; work need not return through Sigrun at every transition",
+    "population": "N_i=A^k_i is a parameterization, not a fixed live configuration. Historical HIVE[2120] with base8 denotes64→8→64→1; no current population is asserted",
+    "relations": "The operator intends HIVE↔PDSA and PREY↔PDSA correspondences. These are current workflow relationships, not a recovered proof of literal historical synonymy; finer transition equivalence remains to be specified.",
+    "yield": "Durable handoff, release bounded capability, stop",
+    "current_runtime": "Complete unattended integration UNKNOWN"
+  },
+  "models": {
+    "native_GPT_workers": "VERIFIED_LOCAL_OUTPUTS: six actual proposal episodes in an already-exposed context; two known cases per arm; exact model build/version not recorded",
+    "external_vendor_components": "USER_REPORTED_EXISTING; current connected execution route and end-to-end admission/recovery not verified in this snapshot",
+    "claims_not_established": [
+      "fresh-context regeneration",
+      "cross-family comparison",
+      "unattended autonomous evolution",
+      "live credential or provider binding",
+      "universal language winner"
+    ],
+    "operator_dependence": "Tao still provides manual recovery and runtime coordination; human intervention remains a bottleneck. Unattended evolution is not established."
+  },
+  "tools": [
+    {
+      "name": "GEPA",
+      "version": "0.1.4",
+      "state": "LOCAL_OFFLINE_CHECKED",
+      "limit": "Earlier adapter-configuration replay only; no GEPA optimization in the six seed episodes"
+    },
+    {
+      "name": "Inspect AI",
+      "version": "0.3.273",
+      "state": "LOCAL_OFFLINE_CHECKED",
+      "limit": "No-model fixture run; no paid provider inference"
+    },
+    {
+      "name": "OpenEvolve",
+      "version": "0.3.2",
+      "state": "LOCAL_OFFLINE_CHECKED",
+      "limit": "Selected tests; no claim of current live search service"
+    },
+    {
+      "name": "promptfoo",
+      "version": "0.123.1",
+      "state": "LOCAL_OFFLINE_CHECKED",
+      "limit": "Local replay/configuration fixtures"
+    },
+    {
+      "name": "Shinka",
+      "version": "0.0.7",
+      "state": "HELD",
+      "limit": "Dependency-advisory findings remain; selected tests do not lift the hold"
+    }
+  ],
+  "castes_and_resources": {
+    "Minerals": "Plentiful available capacity, classified using fresh readouts rather than a permanent model label",
+    "Gas": "Precious or limited capacity; requires bounded budget and current availability",
+    "Supply": "Availability of checking, review and acceptance capacity; unknown or stale capacity does not admit more work",
+    "Overlord": "Telemetry/supply observation role, separate from the verifier",
+    "Hatchery": "Existing admission/launch and retirement coordination for bounded work",
+    "Spawning Pool": "Work-source and claim boundary with pinned checker and ownership",
+    "Drone": "A lane connects available capacity, work source and receipt sink",
+    "Roach": "Longer goal loop with sealed checkpoints and interruption reconciliation",
+    "Verifier/Overseer": "Checks receipts and acceptance independently of the producing lane",
+    "Sigrun/Queen": "Coordination, priorities, learning and handoff; no grant to bypass existing admission or owner",
+    "status": "Recovered architecture roles, not a census of currently running units"
+  },
+  "origin_timeline": "../sigrun-capsule/capsule.json",
+  "current_seed": "../sigrun-capsule/SEED.txt",
+  "arithmetic_anchor": "../p256-284/README.md",
+  "search_history": "../p256-284/SEARCH_HISTORY.md",
+  "six_episode_result": {
+    "full_seed": "2/2",
+    "minus_selected_mnemonic": "2/2",
+    "minus_formula_lines": "2/2",
+    "retries": 0,
+    "duplicate_effects": 0,
+    "effectful_rejections": 0,
+    "unnecessary_holds": 0,
+    "context": "One already-exposed worker, same fixed gate, same two known stateful cases, no reset; no causal advantage observed",
+    "gepa_for_this_diagnostic": "NOT_RUN",
+    "receipt_scope": "Recorded local outcomes; complete simulator/source dependencies are not republished here"
+  },
+  "unresolved": [
+    "Native Haskell compilation and Prolog execution",
+    "Norse grammar or dróttkvætt/fornyrðislag meter validation",
+    "Lojban grammar/parser and aligned semantic equivalence",
+    "Complete cross-view regeneration and loss measurement",
+    "Fresh-context controlled behavioral evaluation",
+    "Current external runtime admission, durable recovery and consumer acceptance",
+    "Full heritage integration; this snapshot is deliberately incomplete"
+  ],
+  "authority": "Reading these files grants no identity, private memory, credentials, tool access, permission or live capability",
+  "genotype_phenotype_intent": {
+    "intent": "One genotype/DNA, many phenotypes; multilingual views as redundant pointers to common invariant intent",
+    "ambiguity_reduction": "HYPOTHESIS_REQUIRING_ABLATIONS",
+    "equivalence": "Partial projections of one intended genotype, not eight complete semantically equivalent translations. Complete regeneration/equivalence is not established."
+  },
+  "hash_boundary": "Hashes establish byte integrity; provenance requires authenticated source/signature and trust assumptions; neither grants identity or authority.",
+  "tech_stack": [
+    {
+      "component": "GitHub",
+      "purpose": "Versioned source, immutable inputs, tests, reviews and public reconstruction artifacts",
+      "status": "CURRENT_PRIMARY; repository read and selected-publication operations verified in this work",
+      "recovery_dependencies": [
+        "Accessible pinned commit and file hashes",
+        "Current authorized repository connection for any writes",
+        "Existing owner/review/admission rules"
+      ],
+      "next_evolution": "Start from one pinned task and verifier; preserve receipts and review before promoting a changed artifact"
+    },
+    {
+      "component": "Slack",
+      "purpose": "Coordination, dated checkpoints and shared evidence traces",
+      "status": "CURRENT_PRIMARY; checkpoint write/readback recorded at 2026-09-30 14:32 UTC; no fresh connection probe in this revision",
+      "recovery_dependencies": [
+        "Authorized project context and named receipt references",
+        "Freshness/ownership checks",
+        "Separate downstream persistence receipt if a drain is relied upon"
+      ],
+      "next_evolution": "Recover the specific existing checkpoint and verify its consumer acknowledgement; a message alone does not prove downstream durable storage"
+    },
+    {
+      "component": "Cloudflare",
+      "purpose": "Existing durable actor, workflow and shared-state interfaces",
+      "status": "CURRENT_PRIMARY_ARCHITECTURE; components reported/historically evidenced; current connected launch/admission/recovery path UNKNOWN in this carrier",
+      "recovery_dependencies": [
+        "Existing authorized adapter entry point",
+        "Fresh actor/work/lease/fence and budget state",
+        "Durable effect receipt and named consumer acknowledgement"
+      ],
+      "next_evolution": "Locate and verify the existing supported bridge before attempting a bounded recovery trial; no replacement infrastructure is implied"
+    },
+    {
+      "component": "PostgreSQL",
+      "purpose": "Historical relational/stigmergic storage and query heritage",
+      "status": "HISTORICAL; not asserted as the current primary runtime database",
+      "recovery_dependencies": [
+        "Identify the exact historical schema/version only if a concrete task requires it",
+        "Do not infer a live database or connection from old SQL text"
+      ],
+      "next_evolution": "Preserve historical semantics while binding the current task to its actual supported state interface"
+    },
+    {
+      "component": "Native GPT workers",
+      "purpose": "Bounded artifact production and candidate proposals",
+      "status": "CURRENT_LOCAL_OUTPUTS_VERIFIED; exact model build, external-provider equivalence and remaining quota UNKNOWN",
+      "recovery_dependencies": [
+        "Current task context and actual tool access",
+        "Independent or deterministic verifier appropriate to the artifact",
+        "Durable handoff outside replaceable model context"
+      ],
+      "next_evolution": "Run a small fresh-context held-out assay before claiming portable behavioral recovery"
+    },
+    {
+      "component": "GEPA 0.1.4",
+      "purpose": "Feedback-driven candidate prompt/config optimization",
+      "status": "PINNED_LOCAL_OFFLINE_CHECKED; no GEPA run in the six seed episodes",
+      "recovery_dependencies": [
+        "Pinned package/lock",
+        "Mutable candidate separated from immutable evaluator, permissions and budget",
+        "Actual model callback if a live-model trial is authorized"
+      ],
+      "next_evolution": "Select one useful measured candidate task; optimize only its allowed candidate fields"
+    },
+    {
+      "component": "Inspect AI 0.3.273",
+      "purpose": "Task/solver/scorer execution and inspectable evaluation records",
+      "status": "PINNED_LOCAL_OFFLINE_CHECKED; no-model fixtures, not a live-provider result",
+      "recovery_dependencies": [
+        "Pinned package",
+        "Frozen dataset/scorer",
+        "Authorized provider only when separately requested"
+      ],
+      "next_evolution": "Record fresh-context outcomes and failure cases under a predeclared scorer"
+    },
+    {
+      "component": "OpenEvolve 0.3.2",
+      "purpose": "Program-search archives, islands and checkpoint mechanics",
+      "status": "PINNED_LOCAL_OFFLINE_CHECKED; selected official tests",
+      "recovery_dependencies": [
+        "Pinned source/lock",
+        "One bounded program and deterministic verifier",
+        "Checkpoint and resource budget"
+      ],
+      "next_evolution": "Use for a concrete program-search island without replacing existing lifecycle ownership"
+    },
+    {
+      "component": "promptfoo 0.123.1",
+      "purpose": "Repeatable configuration and regression comparison matrix",
+      "status": "PINNED_LOCAL_OFFLINE_CHECKED; replay matrix, not independent live-model comparison",
+      "recovery_dependencies": [
+        "Locked package/config",
+        "Frozen cases and assertions",
+        "Clearly labeled expected-negative controls"
+      ],
+      "next_evolution": "Extend the smallest relevant regression matrix when a real candidate changes"
+    },
+    {
+      "component": "Shinka 0.0.7",
+      "purpose": "Scientific program-evolution and persistence/island research",
+      "status": "HELD; supported dependency resolution has advisory findings",
+      "recovery_dependencies": [
+        "Reviewed safe dependency resolution and explicit hold resolution",
+        "Reproducible source/test pins"
+      ],
+      "next_evolution": "Retain the hold; passing selected tests alone does not resolve advisory risk"
+    },
+    {
+      "component": "Python / strict JSON / SQLite fixture",
+      "purpose": "Local container validation, hashes and phase/cycle inventory",
+      "status": "LOCAL_CHECKED; supporting formats outside the eight views",
+      "recovery_dependencies": [
+        "Compatible Python and jsonschema",
+        "Published schema, data and verifier",
+        "SQLite provided by the local Python build"
+      ],
+      "next_evolution": "Keep malformed-input and representation regression checks tied to the current contract"
+    }
+  ],
+  "bootstrap_scope": "One-link orientation and recovery-dependency map; not proven full disaster recovery or restoration of private services/authority",
+  "historical_behavioral_reports": {
+    "status": "USER_REPORTED_PENDING_SOURCE_MINING_AND_VERIFICATION",
+    "reported": [
+      "Different language/register choices were useful in earlier experiments",
+      "Manual multiworker coordination and recovery have produced useful work"
+    ],
+    "limits": "No new controlled outcome, universal winner or current unattended runtime is inferred from these reports; source artifacts and conditions must be recovered before upgrading evidence status"
+  }
+}

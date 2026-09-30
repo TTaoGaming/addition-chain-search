@@ -1,0 +1,11 @@
+{
+  "version_utc": "2026-09-30T15:47:48Z",
+  "file_hashes": "PASS",
+  "eight_views": "PASS",
+  "logical_phase_cycle_cells": 16,
+  "sqlite_fixture_rows": 16,
+  "json_contract_negative_probes": 13,
+  "native_haskell_prolog": "NOT_RUN",
+  "norse_meter_lojban_parser": "NOT_RUN",
+  "behavioral_regeneration": "NOT_ESTABLISHED"
+}

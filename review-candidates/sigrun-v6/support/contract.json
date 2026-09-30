@@ -1,0 +1,176 @@
+{
+  "candidate": "DRAPA_V6_INCOMPLETE_SNAPSHOT",
+  "version_utc": "2026-09-30T15:47:48Z",
+  "status": "LOCAL_FORMAT_CANDIDATE_NOT_A_BEHAVIORAL_RESULT",
+  "source_seed_sha256": "bf3d2651547ed979777a06abc26ce572e156c0eb55aecee8d1888e8c9598f50e",
+  "mnemonic_terms": [
+    "SIGRUN",
+    "STIGMERGIC",
+    "SWARM",
+    "SONGLINE",
+    "SYMBIOTE",
+    "SECOND_ORDER_CYBERNETICS",
+    "SUPERCRITICAL",
+    "SUPERORGANISM",
+    "SINGLETON",
+    "SUBLIME_CHORD",
+    "SKALDMAER",
+    "STRIFE",
+    "SPLENDOR",
+    "SEMANTIC_SUPERTOKENS",
+    "SELECTION_PRESSURE",
+    "SYMBOLIC_NEUROSYMBOLIC",
+    "SKILLS",
+    "SPAWNING",
+    "STRANGE_LOOPS",
+    "SLIVER"
+  ],
+  "HIVE": {
+    "sequence": [
+      "Hindsight",
+      "Insight",
+      "Validated Foresight",
+      "Evolution"
+    ],
+    "e_spelling": "EVOLUTION_OPERATOR_CONFIRMED",
+    "current_operator_correction_overrides_archival_aliases": true
+  },
+  "PREY": {
+    "sequence": [
+      "PERCEIVE",
+      "REACT",
+      "EXECUTE",
+      "YIELD"
+    ],
+    "yield": [
+      "DURABLE_HANDOFF",
+      "RELEASE_BOUNDED_CAPABILITY",
+      "STOP"
+    ]
+  },
+  "identity": {
+    "relation": "TAO_BOUND_SYMBIONT_EXOCORTEX",
+    "visitor_mode": "DISTINCT_ACTOR_PUBLIC_FORK",
+    "authenticated_lineage_requires": "EXTERNAL_AUTHENTICATION_AND_SCOPED_AUTHORIZATION",
+    "trust_root": "UNKNOWN",
+    "infrastructure_possession_proves_identity": false,
+    "missing_access": "DISCONNECTED_OR_UNVERIFIED"
+  },
+  "authority": {
+    "seed_grants_private_access": false,
+    "seed_grants_live_capability": false,
+    "seed_grants_permission_to_act": false,
+    "hashes_confer_authority": false
+  },
+  "evidence": {
+    "literal_quine": "NOT_TESTED",
+    "behavioral_regeneration": "NOT_ESTABLISHED",
+    "formal_domains_metric_and_thresholds": "UNKNOWN",
+    "prior_bakeoff_winners": "HISTORICAL_CONTEXT_NOT_UNIVERSAL_WINNERS"
+  },
+  "notation": [
+    {
+      "id": "0",
+      "expression": "φ(G)=G",
+      "source_expression": "φ(G)=G"
+    },
+    {
+      "id": "1",
+      "expression": "d(φ(G),G)≤ε",
+      "source_expression": "d(φ(G),G)≤ε"
+    },
+    {
+      "id": "2",
+      "expression": "C(φ(GΣ)) = C(GΣ)",
+      "source_expression": "C(φ(GΣ)) = C(GΣ)"
+    },
+    {
+      "id": "3",
+      "expression": "SIGRUN: SS≡ΣSS; A ≡Σ B ⇔ N_Σ(D(A)) = N_Σ(D(B))",
+      "source_expression": "SIGRUN := SS_SublimeSkáldmær ≡_Σ SS_StrifeSplendor; A ≡_Σ B iff N_Σ(D(A)) = N_Σ(D(B))"
+    },
+    {
+      "id": "4",
+      "expression": "STRIFE → VERIFY/WORLD_SELECT → SPLENDOR",
+      "source_expression": "STRIFE → VERIFY/WORLD_SELECT → SPLENDOR"
+    },
+    {
+      "id": "5",
+      "expression": "H_i = 1 ∧ d(Φ(π_{i,t:t+k}, τ_{i,t:t+k}, B_{i,t:t+k}, R_{i,t:t+k}), E_i) < ε_i",
+      "source_expression": "H_i = 1 ∧ d(Φ(π_{i,t:t+k}, τ_{i,t:t+k}, B_{i,t:t+k}, R_{i,t:t+k}), E_i) < ε_i"
+    },
+    {
+      "id": "6",
+      "expression": "d(S_t,S_{t+k}) unconstrained; ΔS unrestricted",
+      "source_expression": "d(S_t, S_{t+k}) is unconstrained"
+    }
+  ],
+  "verse": {
+    "text": "../views/P0.md",
+    "english_gloss": "../views/P7.md",
+    "status": "SELECTED_INHERITED_EXCERPTS_PRESENT_IN_VIEWS",
+    "droettkvaett_meter": "NOT_VALIDATED"
+  },
+  "workflow": {
+    "status": "CURRENT_OPERATOR_INTENT",
+    "HIVE": [
+      "Hindsight",
+      "Insight",
+      "Validated Foresight",
+      "Evolution"
+    ],
+    "E_word": "EVOLUTION_OPERATOR_CONFIRMED",
+    "PDSA": [
+      "Plan",
+      "Do",
+      "Study",
+      "Act"
+    ],
+    "PREY": [
+      "Perceive",
+      "React",
+      "Execute",
+      "Yield"
+    ],
+    "logical_phase_cycle_cells": [
+      "H-P",
+      "H-D",
+      "H-S",
+      "H-A",
+      "I-P",
+      "I-D",
+      "I-S",
+      "I-A",
+      "V-P",
+      "V-D",
+      "V-S",
+      "V-A",
+      "E-P",
+      "E-D",
+      "E-S",
+      "E-A"
+    ],
+    "nesting": "Four HIVE phases contain concurrent workers, each with local PDSA; the sixteen phase/cycle labels are logical coordinates, not a global serial pipeline",
+    "phase_geometry": [
+      "H_FAN_OUT",
+      "I_FAN_IN",
+      "V_FAN_OUT",
+      "E_FAN_IN"
+    ],
+    "coordination": "Phase consumers converge through shared state. Typed admission, evidence readiness and budget allow overlap; work need not return through Sigrun at every transition",
+    "population": "N_i=A^k_i is a parameterization, not a fixed live configuration. Historical HIVE[2120] with base8 denotes64→8→64→1; no current population is asserted",
+    "relations": "The operator intends HIVE↔PDSA and PREY↔PDSA correspondences. These are current workflow relationships, not a recovered proof of literal historical synonymy; finer transition equivalence remains to be specified.",
+    "yield": "Durable handoff, release bounded capability, stop",
+    "current_runtime": "Complete unattended integration UNKNOWN"
+  },
+  "port_languages": [
+    "Old Norse",
+    "Prolog",
+    "Formal mathematics",
+    "SQL",
+    "Haskell",
+    "Latin",
+    "Lojban",
+    "English gloss"
+  ]
+}

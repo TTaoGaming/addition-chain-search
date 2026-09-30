@@ -1,0 +1,25 @@
+[1 of 1] Compiling Gleipnir         ( <BUILD_ROOT>/heritage/Gleipnir_heritage.hs, nothing )
+
+<BUILD_ROOT>/heritage/Gleipnir_heritage.hs:194:12: warning: [-Wunused-matches]
+    Defined but not used: ‘da’
+    |
+194 | fixedPoint da de chi a e eps 0 = (a, e)
+    |            ^^
+
+<BUILD_ROOT>/heritage/Gleipnir_heritage.hs:194:15: warning: [-Wunused-matches]
+    Defined but not used: ‘de’
+    |
+194 | fixedPoint da de chi a e eps 0 = (a, e)
+    |               ^^
+
+<BUILD_ROOT>/heritage/Gleipnir_heritage.hs:194:18: warning: [-Wunused-matches]
+    Defined but not used: ‘chi’
+    |
+194 | fixedPoint da de chi a e eps 0 = (a, e)
+    |                  ^^^
+
+<BUILD_ROOT>/heritage/Gleipnir_heritage.hs:194:26: warning: [-Wunused-matches]
+    Defined but not used: ‘eps’
+    |
+194 | fixedPoint da de chi a e eps 0 = (a, e)
+    |                          ^^^

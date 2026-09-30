@@ -1,0 +1,22 @@
+{
+  "ring_commit": "840167e18e4fa837eb48de46500454a616a15a6e",
+  "ring_source_blob": "edd3548309824ea8f685480d660f5d7591184a1d",
+  "certificate_sha256": "46ba0fb4a02926e02aad7c51cb9c41225952a5549e4c0012964f2de5ad15d148",
+  "certificate": {
+    "operations": 284,
+    "squarings": 251,
+    "multiplications": 33,
+    "all_rows_live": true,
+    "earlier_declared_parents": true,
+    "exact_integer_target": true,
+    "index_register_replay": true,
+    "sorted_value_sequence": true,
+    "file_order_descent_rows_1_based": [
+      136
+    ],
+    "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f"
+  },
+  "emitted_calls": 40,
+  "fused_square_rows": 244,
+  "generated_source_sha256": "30635e0b4fc70d4993b0840534308124836bec4a051b70100366bc80f736164c"
+}

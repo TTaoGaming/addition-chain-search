@@ -1,0 +1,49 @@
+[1 of 1] Compiling Grimoire         ( <BUILD_ROOT>/heritage/Grimoire_heritage.hs, nothing )
+
+<BUILD_ROOT>/heritage/Grimoire_heritage.hs:30:26: error: [GHC-76037]
+    Not in scope: type constructor or class ‘IdentityTables’
+   |
+30 |   { gkIdentityTables  :: IdentityTables   -- Part I:   11 core 8×N tables
+   |                          ^^^^^^^^^^^^^^
+
+<BUILD_ROOT>/heritage/Grimoire_heritage.hs:31:26: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Overlays’
+   |
+31 |   , gkOverlays        :: Overlays         -- Part II:  4 domain overlays
+   |                          ^^^^^^^^
+
+<BUILD_ROOT>/heritage/Grimoire_heritage.hs:32:26: error: [GHC-76037]
+    Not in scope: type constructor or class ‘SBETowers’
+   |
+32 |   , gkSBETowers       :: SBETowers        -- Part XI:  multi-language BDD
+   |                          ^^^^^^^^^
+
+<BUILD_ROOT>/heritage/Grimoire_heritage.hs:33:26: error: [GHC-76037]
+    Not in scope: type constructor or class ‘QuineBootstrap’
+   |
+33 |   , gkQuineBootstrap  :: QuineBootstrap   -- Part XII: emergency self-repair
+   |                          ^^^^^^^^^^^^^^
+
+<BUILD_ROOT>/heritage/Grimoire_heritage.hs:37:26: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Nat’
+   |
+37 | data PortAuthority (p :: Nat) where
+   |                          ^^^
+
+<BUILD_ROOT>/heritage/Grimoire_heritage.hs:55:20: error: [GHC-76037]
+    Not in scope: type constructor or class ‘ObsidianPort’
+   |
+55 | type CardSpace = [(ObsidianPort, CardType)]
+   |                    ^^^^^^^^^^^^
+
+<BUILD_ROOT>/heritage/Grimoire_heritage.hs:61:30: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Nat’
+   |
+61 | type family GaloisDual (p :: Nat) :: Nat where
+   |                              ^^^
+
+<BUILD_ROOT>/heritage/Grimoire_heritage.hs:61:38: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Nat’
+   |
+61 | type family GaloisDual (p :: Nat) :: Nat where
+   |                                      ^^^

@@ -1,5 +1,7 @@
 # New scalar-chain candidates for technical review
 
+[P-256 284-operation ring implementation](p256-284/README.md) now has a dedicated review page with native tests, benchmarks and search history. Run `python3 -B review-candidates/p256-284/verify.py` separately from the older checks below.
+
 This section is a **separate, review-only addition** to the 2026-09-29 public
 packet. It is outside the frozen `chains/` results ZIP and its MIT license.
 The exact candidate bytes and a Python standard-library checker are included.

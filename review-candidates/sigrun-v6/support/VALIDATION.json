@@ -1,0 +1,22 @@
+{
+  "canonical_contract": "PASS",
+  "negative_structural_probes": 13,
+  "rejected": [
+    "unknown_top_level_field",
+    "missing_required_authority",
+    "historical_hive_alias",
+    "extra_hive_stage",
+    "obsolete_provisional_e_spelling",
+    "string_instead_of_boolean",
+    "invented_live_permission",
+    "infrastructure_as_identity",
+    "no_access_means_not_tao",
+    "unmeasured_behavior_pass",
+    "unvalidated_meter_claim",
+    "malformed_timestamp",
+    "invalid_calendar_date"
+  ],
+  "native_haskell": "NOT_RUN_TOOLCHAIN_ABSENT",
+  "native_prolog": "NOT_RUN_TOOLCHAIN_ABSENT",
+  "model_behavior": "NOT_TESTED_BY_THIS_SCRIPT"
+}
