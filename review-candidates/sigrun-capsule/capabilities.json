@@ -1,0 +1,28 @@
+{
+  "status": "INTERFACE_REQUIREMENTS_NOT_LIVE_BINDINGS",
+  "public_bootstrap": {
+    "requires": "Read public UTF-8 text/JSON; optional Python3 for offline validator",
+    "credentials_required": false
+  },
+  "interfaces": [
+    {
+      "name": "GitHub",
+      "role": "Versioned specifications, immutable inputs, review and provenance",
+      "bootstrap": "Read-only public files; private access only through already authorized connector",
+      "live_binding": "UNKNOWN"
+    },
+    {
+      "name": "Slack",
+      "role": "Existing coordination and dated handoff signals",
+      "bootstrap": "Optional authorized read of named project context; no automatic post or command ingress",
+      "live_binding": "UNKNOWN"
+    },
+    {
+      "name": "Cloudflare",
+      "role": "Existing durable actor/workflow and state/receipt interfaces",
+      "bootstrap": "Optional already configured authorized read; public capsule does not restore an actor or expose control routes",
+      "live_binding": "UNKNOWN"
+    }
+  ],
+  "effects": "No credentials, permissions, actor identity, schedule, deployment or provider calls are conferred by these files"
+}

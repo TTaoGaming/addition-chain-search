@@ -28,4 +28,8 @@ Expected final line: `PASS_P256_REVIEW`. This checks file hashes, the exact targ
 - Native checks: 7 ECDSA integration tests, 14 focused P-256 tests, 1,792 direct oracle vectors, and 95 full-library tests passed
 - Source review dated September 30, 2026; the exact candidate is unchanged from the measured run
 
+## Optional research capsule
+
+The [Sigrún semantic capsule](../sigrun-capsule/README.md) provides a versioned agent-facing mnemonic, source-bound notation and recovery specification. It is a separate architecture review; the numerical chain evidence does not establish its behavioral claims.
+
 Prepared as part of Tommy Tai's AI-assisted addition-chain research. The search history distinguishes reconstructed reports from certificates that can be checked here. New materials are review-only under the existing repository policy; included ring source retains its upstream notices. See [source and rights](SOURCE_NOTICE.md). The earlier [291 certificate](../../chains/targets/p256/candidate.json) and other targets remain unchanged.

@@ -1,5 +1,11 @@
 # Changes
 
+## Sigrún semantic capsule — 2026-09-30 UTC
+
+- Added an optional, UTC-versioned agent-facing capsule with the preserved 19-term mnemonic plus SLIVER, source-pinned notation, recovery instructions and offline integrity checks.
+- Kept inherited wording, proposed interpretations and unresolved domains distinct. No executable-quine or behavioral-regeneration result is claimed.
+- Linked the supplement from the P-256 review without changing any numerical certificate, code, fixture or measurement.
+
 ## P-256 native review — 2026-09-30 UTC
 
 - Added a 284 = 251S + 33M scalar n−2 certificate and an actual ring patch against pinned 289 = 254S + 35M.

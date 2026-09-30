@@ -1,0 +1,25 @@
+{
+  "source": "https://github.com/TTaoGaming/worldweaver-public/blob/6c6c7b9264fd635c7b65669c6064f3fd2b457e45/releases/20260911T143800Z/mnemonic-scaffolding.json",
+  "bound_utc": "2026-09-06T14:32:41Z",
+  "s_chain": [
+    "SIGRUN",
+    "STIGMERGIC",
+    "SWARM",
+    "SONGLINE",
+    "SYMBIOTE",
+    "SECOND_ORDER_CYBERNETICS",
+    "SUPERCRITICAL",
+    "SUPERORGANISM",
+    "SINGLETON",
+    "SUBLIME_CHORD",
+    "SKALDMAER",
+    "STRIFE",
+    "SPLENDOR",
+    "SEMANTIC_SUPERTOKENS",
+    "SELECTION_PRESSURE",
+    "SYMBOLIC_NEUROSYMBOLIC",
+    "SKILLS",
+    "SPAWNING",
+    "STRANGE_LOOPS"
+  ]
+}
