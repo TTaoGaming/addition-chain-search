@@ -3,7 +3,7 @@
 This is the short verification path for the [project](README.md). Start with one clean checkout:
 
 ```sh
-git clone https://github.com/TTaoGaming/addition-chain-search.git
+git clone --branch review/p256-284-ring-20260930 https://github.com/TTaoGaming/addition-chain-search.git
 cd addition-chain-search
 python -B chains/verify_all.py
 python -B review-candidates/verify.py

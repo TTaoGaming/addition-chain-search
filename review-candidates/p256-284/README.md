@@ -10,9 +10,11 @@ The chain and patch have passed exact replay and native correctness tests. One s
 2. **Inspect the evidence:** [native tests and paired measurements](TECHNICAL_REPORT.md), [raw timings](receipts/benchmark_summary.json), and [public comparisons](PUBLIC_COMPARISON.md)
 3. **Understand the search:** [milestones, explored regions and next questions](SEARCH_HISTORY.md), with two independently replayable alternative 285-operation certificates
 
-From the repository root, Python 3.8+ with no third-party packages:
+To reproduce this review branch, use Python 3.8+ with no third-party packages:
 
 ```sh
+git clone --branch review/p256-284-ring-20260930 https://github.com/TTaoGaming/addition-chain-search.git
+cd addition-chain-search
 python3 -B review-candidates/p256-284/verify.py
 ```
 
