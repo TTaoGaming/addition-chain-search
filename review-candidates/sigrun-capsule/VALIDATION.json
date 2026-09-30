@@ -1,9 +1,9 @@
 {
-  "files_checked": 7,
+  "files_checked": 8,
   "original_terms": 19,
   "current_terms": 20,
   "serialization_roundtrip": "PASS",
-  "capsule_canonical_sha256": "eb5014777016113c0e54431ac7b911fc48cb3bde62c634a4876d0ef00df6e2df",
+  "capsule_canonical_sha256": "5af260b6322474be8e07f5a4882e1f251002d018182ada229a6200b449399ace",
   "literal_quine": "NOT_TESTED",
   "behavioral_regeneration": "NOT_ESTABLISHED",
   "authority_granted": false

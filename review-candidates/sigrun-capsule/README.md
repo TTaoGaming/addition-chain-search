@@ -1,6 +1,6 @@
 # Sigrún regeneration capsule
 
-UTC version **2026-09-30T13:48:18Z** · candidate for inspection and bounded evaluation
+UTC version **2026-09-30T14:04:38Z** · candidate for inspection and bounded evaluation
 
 A persistent, verifier-guided evolutionary system for coordinating AI workers. The system retains evaluated memory, skills and orchestration across replaceable models. The original mnemonic and mathematical registers are preserved rather than reduced to this description.
 

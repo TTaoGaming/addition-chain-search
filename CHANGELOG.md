@@ -2,6 +2,7 @@
 
 ## Sigrún semantic capsule — 2026-09-30 UTC
 
+- Corrected historical-source visibility: the current capsule contains selected authorized content and no private-repository pointers; its formulas and 20-term chain remain intact.
 - Added an optional, UTC-versioned agent-facing capsule with the preserved 19-term mnemonic plus SLIVER, source-pinned notation, recovery instructions and offline integrity checks.
 - Kept inherited wording, proposed interpretations and unresolved domains distinct. No executable-quine or behavioral-regeneration result is claimed.
 - Linked the supplement from the P-256 review without changing any numerical certificate, code, fixture or measurement.
