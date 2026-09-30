@@ -11,3 +11,6 @@ English is one of the eight views. JSON and Python are supporting formats. Selec
 [Machine-readable snapshot](snapshot.json) · [Projection loss ledger](LOSS_LEDGER.json) · [Current approved origin/seed](../sigrun-capsule/README.md) · [Numerical review](../p256-284/README.md)
 
 No new reuse license or access/authority is granted. This is a dated, inspectable research snapshot rather than a completed autonomous runtime.
+
+
+The larger [6.1 source-rich research snapshot](../sigrun-v6.1/SEED.md) adds recovered whole-system/memory models and native Haskell receipts. It remains incomplete.

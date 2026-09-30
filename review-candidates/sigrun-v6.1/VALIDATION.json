@@ -1,0 +1,13 @@
+{
+  "file_hashes": "PASS",
+  "embedded_source_fragments": "PASS",
+  "actor_state_fields": 11,
+  "compound_layers": 7,
+  "role_matrix": "8x8",
+  "native_receipt_exits": [
+    0,
+    1,
+    1
+  ],
+  "whole_system_recovery": "NOT_ESTABLISHED"
+}

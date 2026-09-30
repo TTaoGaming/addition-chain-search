@@ -1,0 +1,47 @@
+[
+  {
+    "area": "Ports and inherited illustrative Haskell",
+    "available": "302-line exact source; actual native compile/run and counterexample receipts",
+    "acceptance": "LOCAL_CODE_ONLY; not a world-system proof"
+  },
+  {
+    "area": "Whole compound state and seven layers",
+    "available": "11-part actor state and17-component formal system;8\u00d78role matrix",
+    "acceptance": "RECOVERED_SPECIFICATION; reducers not fully implemented"
+  },
+  {
+    "area": "World model and memory",
+    "available": "Beliefs/credal sets, CoALA atoms, trust promotion, bitemporal valid/record time and retrieval fitness",
+    "acceptance": "RECOVERED_SPECIFICATION; actual persistence/retrieval behavior needs tests"
+  },
+  {
+    "area": "Verification/control loops",
+    "available": "Proposal\u2192reference monitor\u2192execute/readback\u2192acceptance; WorkItems, receipts, causal readiness and temporal DAG",
+    "acceptance": "SPECIFICATION_PLUS_EARLIER_BOUNDED_SIMULATOR_EVIDENCE; no whole-system integration proof"
+  },
+  {
+    "area": "Evolution and archives",
+    "available": "Genotype/loadout/phenotype, MOME niches, archive update and external fitness",
+    "acceptance": "FORMAL_MODEL; selected local tool tests linked fromv6, no unattended evolution claim"
+  },
+  {
+    "area": "Zerg castes/resources",
+    "available": "Known resource/caste roles in companionv6 and capacity archetypes in actor model",
+    "acceptance": "PARTIAL; complete taxonomy and per-caste behavioral acceptance not recovered"
+  },
+  {
+    "area": "Eight language views",
+    "available": "Current exact-eight views and invariants in companionv6, plus larger recovered Haskell here",
+    "acceptance": "PARTIAL_PROJECTIONS; equivalence and natural-language meter unproved"
+  },
+  {
+    "area": "Disaster recovery",
+    "available": "Bootstrap/dependency recipe and source-bound regrowth model",
+    "acceptance": "FUTURE_TARGET; no complete clean-room rebuild result"
+  },
+  {
+    "area": "HTML/Mermaid/UML heritage",
+    "available": "No verified recovered artifact in completed pass",
+    "acceptance": "MISSING; no new drawing labeled as recovered heritage"
+  }
+]

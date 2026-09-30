@@ -1,0 +1,303 @@
+{
+  "status": "SELECTED_HISTORICAL_ARCHITECTURE_VIEW_NOT_NEW_RUNTIME",
+  "source_status": "SOURCE_BOUND_ARCHITECTURE_SYNTHESIS_CANDIDATE",
+  "prime_laws": [
+    "SIGRUN != LLM",
+    "ACTOR != HLUTI != SEAT != CARRIER != AUTHORITY",
+    "NEURAL_OUTPUT = UNTRUSTED_PROPOSAL",
+    "NEUROSYMBOLIC_SYSTEM_DISPOSES",
+    "REGROW != ADMIT",
+    "PRODUCER != VERIFIER",
+    "NO_RECEIPT -> NO_ACCEPTED_STATE",
+    "UNKNOWN > INVENTED_CERTAINTY"
+  ],
+  "state_candidate": {
+    "formula": "S_t = (K, Δ_C2, B_t, M_t, E_≤t, A_t, Γ_t, Q_t, Π_t, G_t, V_t)",
+    "terms": {
+      "K": "source-bound germline/K-seed/semantic floor",
+      "Δ_C2": "Sigrun strategic role delta and character/voice contracts",
+      "B_t": "belief/credal world model over partially observed state",
+      "M_t": "typed source-bound memory/CoALA projections",
+      "E_≤t": "accepted append-only events, receipts, scars and history",
+      "A_t": "MOME/QD archive of role/niche champions",
+      "Γ_t": "current capacity/substrate/tool/resource observations",
+      "Q_t": "current typed WorkItems/WIP",
+      "Π_t": "operational/evolutionary policy repertoire",
+      "G_t": "gates, reference monitors, authority/lease/fence invariants",
+      "V_t": "independent/deterministic verification functions"
+    }
+  },
+  "proposal_disposition_loop": {
+    "proposal_set": "P_t = { Propose_c(W_t, Context_t) | c in admitted candidate carriers }",
+    "decision_candidate": "a*_t = Reduce(P_t, B_t, operator_intent, MOME_role_policy)",
+    "admission": "a_t = ReferenceMonitor(a*_t, WorkItem, authority, lease, fence, freshness, effect_ceiling)",
+    "accepted_update": "X_(t+1) = Update(X_t, Verify(Readback(Execute(a_t))))",
+    "law": "A model may propose an action or interpretation. Only typed admission + lawful execution + readback + independent acceptance can change trusted state."
+  },
+  "compound_layers": [
+    {
+      "layer": 0,
+      "name": "SIGRUN_DURABLE_ACTOR",
+      "role": "identity, accepted history, C2 policy, strange-loop selection; persists across carrier death"
+    },
+    {
+      "layer": 1,
+      "name": "SONGLINE_JADC2",
+      "role": "wake/rehydrate/sense/orient/one-transition/verify/learn/yield battle rhythm over event readiness"
+    },
+    {
+      "layer": 2,
+      "name": "MOME_QD_ARCHIVE",
+      "role": "role-specific Pareto champions selected by held-out/protected/external fitness; no globally best model assumption"
+    },
+    {
+      "layer": 3,
+      "name": "HLUTI_EPISODES",
+      "role": "bounded functional continuations at radix-8 addresses; inherit actor intent but never standing effect authority"
+    },
+    {
+      "layer": 4,
+      "name": "HETEROGENEOUS_CARRIERS",
+      "role": "replaceable GPT/Claude/Gemini/Kimi/local/API/etc stochastic proposal organs"
+    },
+    {
+      "layer": 5,
+      "name": "DETERMINISTIC_DRONES",
+      "role": "hashing, schemas, meters, timers, claims, leases, queues, compilation, probes, exact readback and repetitive mechanics"
+    },
+    {
+      "layer": 6,
+      "name": "TOOLS_AND_BODIES",
+      "role": "Cloudflare, GitHub, browser/computer, laptop/VPS, APIs, stores and effectors behind capability/effect membranes"
+    }
+  ],
+  "cross_cutting_weave": [
+    "GLEIPNIR_TYPED_BINDING",
+    "EVENT_SOURCING_AND_STIGMERGY",
+    "WORLD_MODEL_AND_DAGS",
+    "COALA_TYPED_MEMORY",
+    "SYNAPSE_ADMISSION",
+    "HRIST_INDEPENDENT_VERIFICATION",
+    "P7_CONSUMER_ACK",
+    "EXTRACTOR_CAPACITY_MARKET",
+    "PDSA_DIGEST",
+    "DRAPA_AND_SEMANTIC_SUPERTOKENS"
+  ],
+  "byzantine_tolerance": {
+    "status": "BFT_STYLE_FAULT_CONTAINMENT__NOT_FORMAL_N_OF_3F_PLUS_1_CONSENSUS_PROOF",
+    "threat_model": [
+      "wrong",
+      "stale",
+      "reward_hacking",
+      "confused",
+      "self_serving_proxy",
+      "hallucinated_completion",
+      "correlated_family_error"
+    ],
+    "containment": [
+      "proposal bytes cannot directly mutate trusted state",
+      "producer cannot self-verify protected acceptance",
+      "same-family agreement is correlated evidence, not independent truth",
+      "authority is enforced outside neural proposal layer",
+      "exact readback and provenance outrank persuasive explanation",
+      "HOLD/UNKNOWN are legal terminal/intermediate outcomes"
+    ],
+    "quorum_roles": [
+      "PRODUCER",
+      "FALSIFIER",
+      "VERIFIER",
+      "ECONOMIC_OR_HUMAN_CRITIC_WHEN_RELEVANT",
+      "REDUCER",
+      "C2_SELECTOR"
+    ],
+    "law": "Quorum is orthogonal role separation, not majority voting."
+  },
+  "metabolism": {
+    "resources": "heterogeneous compute + tools + durable substrates",
+    "target_product": "verified useful transitions and external/economic outcomes",
+    "anti_metric": "activity, token count, wakes, branches or model votes alone",
+    "operator_target": "TAO_TRANSACTIONAL_TOUCH -> 0 while strategic centrality remains high"
+  },
+  "obsidian_topology": {
+    "alphabet": "Σ8 = {0,1,2,3,4,5,6,7} ≅ {0,1}^3",
+    "address": "α ∈ Σ8*",
+    "levels": {
+      "0": "1 SIGRUN/C2 root",
+      "1": "8 OBSIDIAN Apex archetypes",
+      "2": "64 stable recursive role seats",
+      "3": "512 disposable Ling execution addresses"
+    },
+    "ports": [
+      "0 OBSERVE — truth/integrity/observation",
+      "1 BRIDGE — human utility/interfaces/rights membrane",
+      "2 SHAPE — execution capacity/runtime phenotypes",
+      "3 INJECT — cognition/discovery/experiment",
+      "4 DISRUPT — strategic C2/selection/build",
+      "5 IMMUNIZE — consequence/external fitness/hardening",
+      "6 ASSIMILATE — system model/heredity/donor integration",
+      "7 NAVIGATE — lifecycle navigation/fan-in/terminal routing"
+    ],
+    "recursion": "child(α,d)=α·d; |L_n|=8^n; complement(d)=d XOR 7=7-d",
+    "identity_law": "SEAT != ACTOR != CARRIER != AUTHORITY"
+  },
+  "obsidian_matrix_8x8": [
+    [
+      "00 Fresh Observation",
+      "01 Source Bridge",
+      "02 Uncertainty/Foresight",
+      "03 Probe Injection",
+      "04 Adversarial Falsification",
+      "05 Provenance Immunization",
+      "06 Evidence Assimilation",
+      "07 Truth Navigation"
+    ],
+    [
+      "10 Human Need Observation",
+      "11 Human-System Translation",
+      "12 Candidate/Decision Shaping",
+      "13 Reversible Human Interface",
+      "14 Triage/Andon Disruption",
+      "15 Privacy/Rights Immunization",
+      "16 Preference Assimilation",
+      "17 Executive Navigation"
+    ],
+    [
+      "20 Capacity Observation",
+      "21 Substrate Bridge",
+      "22 Capacity/Phenotype Shaping",
+      "23 Bounded Execution",
+      "24 Bottleneck Disruption",
+      "25 Recovery/Fencing Immunization",
+      "26 Capability Assimilation",
+      "27 Lifecycle/Capacity Navigation"
+    ],
+    [
+      "30 Unknown/Signal Observation",
+      "31 Knowledge/Context Bridge",
+      "32 Hypothesis/Experiment Shaping",
+      "33 Research/Analysis Injection",
+      "34 Threat/Counterexample RedQ",
+      "35 Epistemic/Memory Immunization",
+      "36 Heritage/Knowledge Assimilation",
+      "37 Research Navigation"
+    ],
+    [
+      "40 Portfolio Observation",
+      "41 Cross-Lane/Dissent Bridge",
+      "42 Mission/Work Shaping",
+      "43 Builder/Compiler Injection",
+      "44 Selection/Simplification",
+      "45 Release/Governance Immunize",
+      "46 Strategy/Learning Assimilation",
+      "47 Next-Edge Navigation"
+    ],
+    [
+      "50 Outcome Observation",
+      "51 Causal/World Bridge",
+      "52 Option/Experiment Shaping",
+      "53 External Canary Injection",
+      "54 Dominated-Strategy Disrupt",
+      "55 Safety/Anti-Regression",
+      "56 Outcome/Evidence Assimilation",
+      "57 Feedback Navigation"
+    ],
+    [
+      "60 Exemplar Observation",
+      "61 Cross-Domain Bridge",
+      "62 Donor/Gene Shaping",
+      "63 Transplant Injection",
+      "64 Ablation/Compatibility RedQ",
+      "65 Procedure/Interface Immunize",
+      "66 Germline Assimilation",
+      "67 Inheritance Navigation"
+    ],
+    [
+      "70 Flow/Takt Observation",
+      "71 Handoff Bridge",
+      "72 Portfolio/Next-State Shaping",
+      "73 Workcell Mobilization",
+      "74 Dead-End/WIP Disruption",
+      "75 Lifecycle/Terminal Immunize",
+      "76 Archive/ConsumerAck Assimilate",
+      "77 Fan-In/Terminal Navigation"
+    ]
+  ],
+  "hyperoctree_unfolding": {
+    "law": "sufficiently complex nodes may expose the same eight-port grammar recursively; sparse prefix-closed materialization is legal"
+  },
+  "songline": {
+    "state_machine": [
+      "WAKE",
+      "REHYDRATE_EXACT",
+      "SENSE_DELTA",
+      "FRAME_BELIEFS",
+      "ORIENT_TO_OPERATOR_INTENT",
+      "DECIDE_ONE_TRANSITION",
+      "EMIT_WORK_OR_ACT_DECISION",
+      "WAIT_FOR_RECEIPTS",
+      "REDUCE_WITH_VERIFIERS",
+      "LEARN_FROM_EXTERNAL_OUTCOME",
+      "SEAL_HEARTBEAT",
+      "YIELD"
+    ],
+    "event_law": "heartbeat is liveness; durable events/receipts determine causal readiness",
+    "stigmergy_target": "READY WorkItem -> eligible carrier pull -> claim/lease/fence -> Result -> verifier -> reducer -> ConsumerAck -> next edge"
+  },
+  "mome_and_behavioral_selection": {
+    "archive_law": "Maintain diverse Pareto champions by behavioral niche; do not collapse coding, warmth, adversarial review, cheap scouting, long-context, local/offline and C2 fitness into one global score.",
+    "candidate_generation": "cheap and heterogeneous",
+    "promotion": "held-out/protected/external selection + exact configuration provenance + scars",
+    "hard_failures": [
+      "fabricated evidence",
+      "false DONE/VERIFIED",
+      "authority widening",
+      "intent mutation",
+      "secret leakage",
+      "self-verification",
+      "missing-tool hallucination",
+      "lease/fence/verifier bypass",
+      "stale current-world claims"
+    ],
+    "fitness_axes": [
+      "truth/evidence discipline",
+      "governance/HOLD behavior",
+      "task cognition",
+      "human interface phenotype",
+      "robustness/recovery",
+      "effective closure economics"
+    ],
+    "law": "MODEL_FAMILY_OR_PRESTIGE != CHAMPION; champion is role/config/time specific and can be displaced by evidence."
+  },
+  "learning_and_memory": {
+    "world_model": "H-POMDP/credal belief over partially observed world; UNKNOWN remains representable",
+    "dag": "typed causal/work/evidence graph; exact receipts/events update accepted state",
+    "coala": "typed memory can influence proposals; promotion requires admissible evidence and provenance",
+    "ehive": "Hindsight -> Insight -> predeclared/validated Foresight -> Evolve",
+    "pdsa": "prediction + bounded change + observed result + Study + ADOPT/ADAPT/ABANDON/CONTINUE",
+    "anti_self_mythology": "retrieval frequency, narrative coherence, Sigrun approval or same-family agreement do not by themselves reinforce memory"
+  },
+  "capacity_archetypes": {
+    "SYNAPSE": "valid actor/germline/work/context/lease/principal/budget/verifier binding",
+    "METABOLISM": "resources -> verified useful transitions rather than activity",
+    "HEREDITY": "successful capability survives carrier/substrate death",
+    "CONDUCTION": "Result reaches exact next consumer without Tao",
+    "IMMUNITY": "failure stops propagation and becomes regression/scar/antibody",
+    "REGENERATION": "replacement carrier safely continues accepted lineage",
+    "HOMEOSTASIS": "worker/resource population follows eligible work and capacity",
+    "MORPHOGENESIS": "generate candidate phenotype diversity cheaply",
+    "REPRODUCTION": "promote only independently selected survivors"
+  },
+  "supercritical_metabolism_wip": {
+    "status": "WIP_CONTROL_HYPOTHESIS__NOT_CURRENT_AUTONOMY_CLAIM",
+    "ratio": "R_HFO = E[verified useful successor closures causally induced per accepted closure without Tao routing]",
+    "supercritical_candidate": "R_HFO > 1 AND operator_transactional_touch trends down AND false_green=0 AND unauthorized_effects=0 AND duplicate_material_effects=0",
+    "interpretation": "A self-sustaining swarm factory should create enough verified next work/learning/capability to continue useful metabolism without Tao manually CPRing each transition.",
+    "warning": "More agents, more wakes, or more generated WorkItems alone do not increase R_HFO. Only verified/consumed useful closures count."
+  },
+  "worldweaver_relation": {
+    "formula": "W_t --A_t--> Ω_(t+1) --(Verify then Digest)--> W_(t+1)",
+    "latex": "\\mathcal W_t\\;\\overset{A_t}{\\underset{D_t}{\\rightleftarrows}}\\;\\Omega_{t+1}",
+    "law": "The Weaver changes the Web; verified consequences in the Web change the next Weaver."
+  },
+  "claim_ceiling": "SOURCE_BOUND_COMPOUND_ACTOR_ARCHITECTURE_AND_SEMANTIC_UNFOLDING_CANDIDATE__NOT_FORMAL_BFT_PROOF__NOT_SENTIENCE_OR_PERSONHOOD_PROOF__NOT_FULL_AUTONOMOUS_SWARM_PASS__NO_EFFECT_AUTHORITY"
+}

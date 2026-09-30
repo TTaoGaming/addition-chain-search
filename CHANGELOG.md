@@ -1,5 +1,10 @@
 # Changes
 
+## Source-rich6.1 research snapshot — 2026-09-30T16:12:50Z
+
+- Added substantial recovered state/memory/event/evolution models and original Haskell fragments, with native compile successes, expected missing-definition failures and concrete counterexamples.
+- Preserved current Evolution/concurrent workflow, bootstrap dependencies, incomplete acceptance coverage and missing HTML/diagram/caste heritage. Full recovery remains a future target.
+
 ## Evolution and recovery-map revision — 2026-09-30T15:47:48Z
 
 - Confirmed Hindsight, Insight, Validated Foresight and Evolution across current views and checks; retained historical quotations separately.

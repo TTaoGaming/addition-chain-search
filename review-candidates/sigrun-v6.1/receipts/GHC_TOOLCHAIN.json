@@ -1,0 +1,14 @@
+{
+  "source": "https://deb.debian.org/debian/pool/main/g/ghc/ghc_9.6.6-4_amd64.deb",
+  "package": "ghc_9.6.6-4_amd64.deb",
+  "bytes": 76136844,
+  "sha256": "1465e84916a376f71d6752ed9f182b97eff235c78e51f95da3d5905c0b2b44a0",
+  "elapsed_seconds": 19.486882731998776,
+  "method": "Verified official Debian package; extracted under workspace; no package scripts/sudo/system changes",
+  "relocation": "Copied package db with library paths relocated under workspace; workspace-only -L symlinks to existing libffi.so.8 and libnuma.so.1",
+  "native_ghc": "9.6.6",
+  "smoke_compile_exit": 0,
+  "smoke_expected": 55,
+  "system_paths_changed": false,
+  "scope": "Workspace-isolated native compiler used for these receipts; no system configuration change"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "file": "Gleipnir_heritage.hs",
+    "compile_exit": 0,
+    "output_lines": 25
+  },
+  {
+    "file": "Grimoire_heritage.hs",
+    "compile_exit": 1,
+    "output_lines": 49
+  },
+  {
+    "file": "Sigrun_card_heritage.hs",
+    "compile_exit": 1,
+    "output_lines": 67
+  }
+]

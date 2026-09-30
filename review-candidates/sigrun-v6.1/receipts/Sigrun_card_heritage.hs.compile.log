@@ -1,0 +1,67 @@
+[1 of 1] Compiling Sigrun           ( <BUILD_ROOT>/heritage/Sigrun_card_heritage.hs, nothing )
+
+<BUILD_ROOT>/heritage/Sigrun_card_heritage.hs:9:35: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Substrate’
+  |
+9 | data Hluti = Hluti { substrate :: Substrate, seat :: Port, chain :: [Receipt] }
+  |                                   ^^^^^^^^^
+
+<BUILD_ROOT>/heritage/Sigrun_card_heritage.hs:9:54: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Port’
+  |
+9 | data Hluti = Hluti { substrate :: Substrate, seat :: Port, chain :: [Receipt] }
+  |                                                      ^^^^
+
+<BUILD_ROOT>/heritage/Sigrun_card_heritage.hs:9:70: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Receipt’
+  |
+9 | data Hluti = Hluti { substrate :: Substrate, seat :: Port, chain :: [Receipt] }
+  |                                                                      ^^^^^^^
+
+<BUILD_ROOT>/heritage/Sigrun_card_heritage.hs:12:24: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Receipt’
+   |
+12 | data Result = Splendor Receipt              -- ljómi : verified work
+   |                        ^^^^^^^
+
+<BUILD_ROOT>/heritage/Sigrun_card_heritage.hs:17:9: error: [GHC-76037]
+    Not in scope: type constructor or class ‘State’
+   |
+17 | prey :: State -> Result
+   |         ^^^^^
+
+<BUILD_ROOT>/heritage/Sigrun_card_heritage.hs:21:10: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Receipt’
+   |
+21 | hive :: [Receipt] -> Thesis
+   |          ^^^^^^^
+
+<BUILD_ROOT>/heritage/Sigrun_card_heritage.hs:21:22: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Thesis’
+   |
+21 | hive :: [Receipt] -> Thesis
+   |                      ^^^^^^
+
+<BUILD_ROOT>/heritage/Sigrun_card_heritage.hs:26:17: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Compute’
+   |
+26 |   assimilate :: Compute -> q -> Swarm       -- eat what is given; turn it into lanes
+   |                 ^^^^^^^
+
+<BUILD_ROOT>/heritage/Sigrun_card_heritage.hs:26:33: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Swarm’
+   |
+26 |   assimilate :: Compute -> q -> Swarm       -- eat what is given; turn it into lanes
+   |                                 ^^^^^
+
+<BUILD_ROOT>/heritage/Sigrun_card_heritage.hs:27:22: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Task’
+   |
+27 |   dispatch   :: q -> Task  -> Valkyrie      -- route by stigmergy, never direct RPC
+   |                      ^^^^
+
+<BUILD_ROOT>/heritage/Sigrun_card_heritage.hs:27:31: error: [GHC-76037]
+    Not in scope: type constructor or class ‘Valkyrie’
+   |
+27 |   dispatch   :: q -> Task  -> Valkyrie      -- route by stigmergy, never direct RPC
+   |                               ^^^^^^^^

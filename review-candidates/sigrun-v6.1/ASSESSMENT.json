@@ -1,0 +1,77 @@
+{
+  "snapshot_version_utc": "2026-09-30T16:12:50Z",
+  "status": "INCOMPLETE_EVOLVING_SOURCE_RICH_RESEARCH_SNAPSHOT",
+  "heritage": [
+    {
+      "file": "heritage/Gleipnir_heritage.hs",
+      "lines": 302,
+      "native_status": "GHC_9_6_6_COMPILE_AND_RUN_PASS",
+      "result": "Driver prints16PASS labels; these are source assertions, not16independent proofs",
+      "limits": [
+        "The numerical beta invariant checks stored Boolean labels",
+        "The exported Ratchet constructor and Int overflow defeat the unrestricted monotonicity claim",
+        "An observed maxBound+1 counterexample wraps below its input",
+        "The fixed-point routine returns its iteration-budget result without a convergence-success flag",
+        "No compactness/contraction hypotheses establish the source convergence comments",
+        "phi=id and unconditional True do not establish a source-emitting quine or behavioral recovery",
+        "Physics, fixed ratios and historical live-state timestamps are inherited claims, not current measurements"
+      ]
+    },
+    {
+      "file": "heritage/Grimoire_heritage.hs",
+      "lines": 99,
+      "native_status": "COMPILE_FAIL_MISSING_DEFINITIONS",
+      "missing": [
+        "Nat import/definition",
+        "IdentityTables",
+        "Overlays",
+        "SBETowers",
+        "QuineBootstrap",
+        "ObsidianPort"
+      ],
+      "limits": [
+        "The inherited compiler-verification comments are not a successful compilation result",
+        "The ~895:1 comment conflicts with34000/63 (~539.7)"
+      ]
+    },
+    {
+      "file": "heritage/Sigrun_card_heritage.hs",
+      "lines": 32,
+      "native_status": "COMPILE_FAIL_MISSING_DEFINITIONS",
+      "missing": [
+        "Substrate,Port,Receipt,State,Thesis,Compute,Swarm,Task,Valkyrie",
+        "perceive/reasonInNorse/executeOne/yield and other referenced implementations"
+      ],
+      "limits": [
+        "Historical PREY Reason(in Norse) does not replace current React",
+        "Historical function composition is not a current serial scheduler",
+        "fixSelf may be nonterminating; it does not reconstruct the whole system"
+      ]
+    },
+    {
+      "file": "heritage/runtime_type_fragments.py",
+      "native_status": "DECLARATION_EXCERPT_NOT_STANDALONE",
+      "limits": [
+        "Decorators/imports and implementation bodies are not included",
+        "No runtime behavior is established by the fragment alone"
+      ]
+    }
+  ],
+  "current_hive": [
+    "Hindsight",
+    "Insight",
+    "Validated Foresight",
+    "Evolution"
+  ],
+  "geometry": "H fan-out → I fan-in → V fan-out → E fan-in → cross-cycle feedback; worker-local PDSA; typed readiness/ownership/budget permit overlap; not16serialglobalsteps",
+  "models": "Substantial recovered specifications of whole state, beliefs, memory, accepted events, WorkItems, authority, verification, roles, genotype/phenotype and archives. Abstract Update/Verify/Render functions are obligations, not complete implementations.",
+  "mathematics": "A presheaf does not imply global gluing without sheaf conditions. Base/site, covers, restriction maps, compatibility and existence/uniqueness still need a concrete construction. Old inverse-projection/phi formulas are not complete system proofs.",
+  "missing_recovery": [
+    "The recalled multi-view HTML architecture packet",
+    "Verified historical Mermaid/UML diagrams",
+    "A complete named-caste taxonomy with per-caste acceptance suite",
+    "A complete standalone native Haskell world/memory/control-loop implementation",
+    "Fresh sandbox/subagent whole-system disaster-recovery evidence"
+  ],
+  "provenance": "Selected source excerpts are preserved; private archives, repository pointers and correspondence are not exported. Compile logs replace only the local build-directory prefix with <BUILD_ROOT>. No new reuse license is granted."
+}
