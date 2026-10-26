@@ -2,7 +2,7 @@
 
 Research support for Tao's handwritten note. The historical workflow used a blackboard and manually coordinated search/review workers. The Apex architecture shown here is proposed and unfinished.
 
-From this directory, Python3 standard library, no network or installation:
+From this directory, Python 3.9+ standard library, no network or installation:
 
 ```sh
 python -B tools/verify_bundle_v2.py
