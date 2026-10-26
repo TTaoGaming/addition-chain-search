@@ -15,7 +15,7 @@ The fixed verifier was separately reviewed after the first version's omitted-inp
 Start here:
 
 - [11 documented tool families and what mattered](report-support/tools-and-ablations/TOOLS_AND_ABLATIONS.md). Evidence levels distinguish current runs, retained historical code/runs and source-described tools.
-- [Write-up guide](report-support/WRITEUP_GUIDE.md), [short outline](report-support/REPORT_OUTLINE.md), and [paraphrased technical review themes](report-support/TECHNICAL_REVIEW_THEMES.md). These are guidance, not an approved email draft.
+- [Morning write-up guide](report-support/MORNING_WRITEUP_GUIDE.md), [expanded guide](report-support/WRITEUP_GUIDE.md), [short outline](report-support/REPORT_OUTLINE.md), and [paraphrased technical review themes](report-support/TECHNICAL_REVIEW_THEMES.md). These are guidance, not an approved email draft.
 - [Figures and captions](report-support/FIGURE_GUIDE.md); PNG/SVG, CSV, DOT and Mermaid sources are included.
 - [Claim/evidence matrix](inventory/CLAIM_EVIDENCE_MATRIX.json) and[coverage/limits](report-support/OPEN_GAPS.md).
 - [Eight-Apex work/notes](https://github.com/TTaoGaming/addition-chain-search/issues/2). Delivery is separate from actual actor uptake. Three Codex support reviewers are not eight Apex or different serving families.
