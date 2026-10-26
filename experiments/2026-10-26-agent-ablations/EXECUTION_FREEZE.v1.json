@@ -1,0 +1,31 @@
+{
+  "schema": "addition-chain-execution-freeze.v1",
+  "frozen_before_first_trajectory_result": true,
+  "protocol_sha256": "3912d9a4b3c9eab980731a57cab30683a2e9f7ee567d4959121f6b10d9493498",
+  "runner_sha256": "699e1d9991a16b65cc23a28d03fdfde1459768174f422181635f58ca44fb3049",
+  "harness_sha256": "d9dceb2fc3c967e83277bbcc20be4115fd62ea30ede62f4b980be6c178fac723",
+  "harness_release_sha256": "e4a9a5d66c89d23438f3fabda85f1203a2336d787bde7d3c3d0a37205bcb6031",
+  "independent_oracle_sha256": "826aff70f4a60f6527c2d2e3f4aa6181d009a60fb26c32f43743b0da03dc046d",
+  "stimuli_manifest_sha256": "2e92b1ec3489ac7f98a023317fd819abfb4e6ea9f19aed5de13f3a431af674d5",
+  "chosen_irrelevant_control": {
+    "path": "stimuli/irrelevant.v2.txt",
+    "sha256": "2e698f8322de23c9524afe40dc034ef28c166e76416fe95d3cc43822267df697",
+    "words": 96,
+    "bytes": 619,
+    "reason": "Before first trajectory, separate review caught a truncated sentence in original frozen draft; original retained and complete three-paragraph v2 selected. Relevant packet96words678bytes. Tokenizer equivalence notclaimed."
+  },
+  "profile": {
+    "cli": "0.164.0-alpha.11.1 desktop-bundled; PATH0.132 failed before experiment",
+    "models": [
+      "gpt-6.1-sol",
+      "gpt-6-luna"
+    ],
+    "effort": "medium",
+    "included_account_route": "ChatGPT",
+    "all_native_tools_disabled": true,
+    "model_RNG_seed_controlled": false
+  },
+  "screening": "First assigned actual trajectory is launched; no result inspected yet. Batch release awaits independent integration check.",
+  "cost": "Zero paid spend ceiling; external vendors not admitted. Included Codex only.",
+  "observed_utc": "2026-10-26 17:41:29 UTC"
+}
