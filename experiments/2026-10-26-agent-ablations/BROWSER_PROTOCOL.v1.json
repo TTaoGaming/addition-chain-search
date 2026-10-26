@@ -1,0 +1,25 @@
+{
+  "schema": "free-browser-replication-protocol.v1",
+  "status": "FROZEN_BEFORE_SUBSTANTIVE_VENDOR_CALLS",
+  "observed_utc": "2026-10-26 18:24:09 UTC",
+  "qualified_route": "Existing OpenRouter Chat in Chrome; openrouter/free selected alone,0active tools, prior exactADAPTER_OK canary and UI$0; record served backend eachcall.",
+  "task": "synthetic-20-v1",
+  "conditions": [
+    "B:tools on/feedback on",
+    "V:tools on/feedback withheld"
+  ],
+  "replicates": 1,
+  "decisions_each": 3,
+  "max_substantive_calls": 6,
+  "prompt": "Primaryv2 template plus identical JSON schema as plaintext. Neutral name/no skill/no memory. Fresh browser conversation eachdecision; carry only own actions and candidate-visible feedback.",
+  "grammar": "Exact JSON or single enclosing JSONMarkdownfence only. No semanticrepair/inventedfields. Format/quota/costfailures retained; no resend/retry.",
+  "environment": "Same frozen harness/v1 and independent finaloracle.",
+  "budget": {
+    "paid_usd": 0,
+    "free_to_paid_fallback": false,
+    "call_wall_s": 120,
+    "browser_stop_utc": "2026-10-26T18:36:00Z",
+    "global_stop_utc": "2026-10-26T19:24:08Z"
+  },
+  "claim_ceiling": "External exploratory replication, not pooled with Codex or causal cross-vendor comparison. Random free router/backend and browser settings/schema enforcement can differ; record them, no fixed-backend attribution unless observed."
+}
