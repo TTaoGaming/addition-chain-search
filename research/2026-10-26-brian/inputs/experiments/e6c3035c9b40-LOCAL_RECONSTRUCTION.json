@@ -1,0 +1,547 @@
+{
+  "schema": "p2.local.episode.reconstruction.v1",
+  "recorded_utc": "2026-09-30T06:38:12.908219+00:00",
+  "source": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\close_audit.py",
+    "sha256": "cc42f0b1aa2546479110799831db5909f1e19c9c47e260593bbe1e7cbca0e50b",
+    "bytes": 15620
+  },
+  "plan": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\PLAN.json",
+    "sha256": "029e4890b71d2ee57e1f2330493a7ab8b5581fa9a5f39b1f3f2ac9b2b751b619",
+    "bytes": 10066
+  },
+  "episodes": [
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\EPISODE_00.json",
+      "sha256": "d996cd6b8f1dbe7c98323a4dcab76e08bbef833684bb4d0b3a4749f17d28f536",
+      "bytes": 2851
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\EPISODE_01.json",
+      "sha256": "61ef832a5398cbc8cf2ca2d0ccd7019b5f9f911c035868c18bbb104938308a71",
+      "bytes": 2106
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\EPISODE_02.json",
+      "sha256": "6311e93b24805e3776d8de1b782041e977a0c5ec693ec35d4e22342ffd6031dd",
+      "bytes": 2093
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\EPISODE_03.json",
+      "sha256": "8c59187b0d10e8f6f99c39f03b443b3546e1c0811d3fe1ab554b6fb6a92d51e6",
+      "bytes": 2852
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\EPISODE_04.json",
+      "sha256": "c3e124e3d8fff16606497daf694bca0eb3542e790d6f82c59d5847c1a867a2f2",
+      "bytes": 2091
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\EPISODE_05.json",
+      "sha256": "970ddbb3ef558c0f1a1b64e036afdecc514c9f4fd6287dfba7436be91f1c6e01",
+      "bytes": 2092
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\EPISODE_06.json",
+      "sha256": "7f37b981548e45755d8daedb65661cfbaf11939855c8ee881c895f56b4e37c0c",
+      "bytes": 2103
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\EPISODE_07.json",
+      "sha256": "51367df16da860eb4fdf9ee2552332602d2b11d554d1cf7eefdc7e1e9b6a1dbe",
+      "bytes": 2093
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\EPISODE_08.json",
+      "sha256": "0042fdd3553c94f359f1e4c23b7fb0ff70538724787f9d70e7ebeffd68c50d15",
+      "bytes": 2103
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\EPISODE_09.json",
+      "sha256": "88d54d41fbb601032ad8478465260cae67c63936aca9cbeafbfe94e7cade0c6f",
+      "bytes": 2105
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\EPISODE_10.json",
+      "sha256": "559de6026c3cb3832d9382b4e253a8edff633354eaa35d1880558441ba324d4c",
+      "bytes": 2103
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\EPISODE_11.json",
+      "sha256": "088631da678fba1da319d7e2a2502d183ff45602e08d0d2035aff9b6db4261c1",
+      "bytes": 2107
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\EPISODE_00.json",
+      "sha256": "2beecaf5ddcf03df6a6490166b36950eef36fbd63c054ad89678958068018d17",
+      "bytes": 2851
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\EPISODE_01.json",
+      "sha256": "86f647c70039cb450831eda5b115260ccfe34acc52b9b827cd7641a44a2c85a6",
+      "bytes": 2104
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\EPISODE_02.json",
+      "sha256": "ee576b76d15a6c7af502100803a4121dffc2503291b9f6f30d59106c53b4ae9d",
+      "bytes": 1969
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\EPISODE_03.json",
+      "sha256": "eda00a7a19ea17abdab58c89e8dbffe44ba4999017b70a1d572af30c4e9e52ba",
+      "bytes": 2104
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\EPISODE_04.json",
+      "sha256": "98d81df972fdac44959a0e051e00f24f0e886f663f9e6325cabed0e31f9d8fe6",
+      "bytes": 2855
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\EPISODE_05.json",
+      "sha256": "6d752a3b783f50c090c655335d09fdc95ef4e26e0b8022d2ee310ff0cb31a8ce",
+      "bytes": 2093
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\EPISODE_06.json",
+      "sha256": "ee6d7e5d3ba0a5643e06a83866d39fbc7ae89740fe2222b10d7791e9c238c1ef",
+      "bytes": 2104
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\EPISODE_07.json",
+      "sha256": "892b55dbd3ffe6fb6d5b3fab24217be1179ee4453bfa84c07ceace31da1652f7",
+      "bytes": 2090
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\EPISODE_08.json",
+      "sha256": "5f09f9b68bdcc5829b85973e2b93dc8c445ad7a1d5d78bba1433a261fc80a15c",
+      "bytes": 2104
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\EPISODE_09.json",
+      "sha256": "e60f655eafc4c955ad59ff8acab9e24573255372045fb6588b6f22173597132e",
+      "bytes": 2093
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\EPISODE_10.json",
+      "sha256": "16211542d5c9e2f61f4d2cbb0a782a56909b2ad2ca6ea5c332699e2ccc71d136",
+      "bytes": 2104
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\EPISODE_11.json",
+      "sha256": "87e3af80d142900bb71b74a79eb8b870a8ed991c6aad5767277cb5731a624c1d",
+      "bytes": 2094
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\EPISODE_00.json",
+      "sha256": "499e408543c11e422ad3d848a0ea41fd148942a0ed2a786eb92fff94e14e1c0b",
+      "bytes": 2823
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\EPISODE_01.json",
+      "sha256": "be2a4d6762e8a6120aeea78280e679c98b8275592bbfc0d82667dbefb8136dd4",
+      "bytes": 2076
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\EPISODE_02.json",
+      "sha256": "7bc452529f5afb3b5da031f97813fd36a8ae7e4043467cbdb8044843a62c6cc9",
+      "bytes": 2067
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\EPISODE_03.json",
+      "sha256": "604fb3855fae1bb75ad02e9cfb88ec72ce794e2971f9988635e7c0734f8456c9",
+      "bytes": 2076
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\EPISODE_04.json",
+      "sha256": "5ad24d55452cb28db256f481b0af3a3d52711380fb16cdf53d2de9f1f1b76b8b",
+      "bytes": 2077
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\EPISODE_05.json",
+      "sha256": "ec84062ec977989cdb06e1702720b390a2f3cd57f403c1fba3ddb1629d7a4384",
+      "bytes": 2068
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\EPISODE_06.json",
+      "sha256": "98c1c0cd1cf4773df2cabebd64ba7473a4ed90810e54c35db989ff0a2763840d",
+      "bytes": 2080
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\EPISODE_07.json",
+      "sha256": "a9e9392d4f18bb6ebf6204710a66a7987a4f17f1f7b6232e47fc8b690645ee90",
+      "bytes": 2067
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\EPISODE_08.json",
+      "sha256": "7975c6650e7d4b0e93ce785ccc5ae48b4d81f52d34218271df0c60de2fc4a200",
+      "bytes": 2066
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\EPISODE_09.json",
+      "sha256": "4e22cc571731420fe96c6559a92c77b57984c1b9b2b7ca65c93b1abf15dd9e60",
+      "bytes": 2068
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\EPISODE_10.json",
+      "sha256": "d696bb3aeb89f366f9c55929ba8553c9babbebdbd334d230529d59b13bba3695",
+      "bytes": 2069
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\EPISODE_11.json",
+      "sha256": "032566f1263f31d45278eef361c6898088a1aa4753fbcdb6ae77af5b77337543",
+      "bytes": 2080
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\EPISODE_00.json",
+      "sha256": "badc13bbc426d2656f257c64291445473d95777dca7a9e26ab8c990c12eb4aa3",
+      "bytes": 2809
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\EPISODE_01.json",
+      "sha256": "ea1cc32ad0294d9da820e64d6d42a8e05c0e1405a0cb91cfb10a82cee3c817de",
+      "bytes": 2079
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\EPISODE_02.json",
+      "sha256": "c352445edbdfce62aaad189a861d02e4ab65094553993cfc45de26b3d1c6ab9c",
+      "bytes": 2067
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\EPISODE_03.json",
+      "sha256": "35e026d82d53e8f51b4450f7b90c3f92633fe54aa73d235d41dc61b676c33337",
+      "bytes": 2066
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\EPISODE_04.json",
+      "sha256": "6d75ba77eb17c0e2d0db7681d881a1317d7f85c904d35919f7d0faa4c60e0835",
+      "bytes": 2079
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\EPISODE_05.json",
+      "sha256": "db1a695df0bc8122540ee01c6a06615ac460851706c269c4abaece3d015f9d00",
+      "bytes": 2066
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\EPISODE_06.json",
+      "sha256": "b589f227aa4aec0c2e96123bff1ab1c671f9498fb18f63f9b32341f0e9d344ec",
+      "bytes": 2066
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\EPISODE_07.json",
+      "sha256": "965569443e78092265b59b5c3fd792654556dac62fa9ba0ccdf13c72b848aba7",
+      "bytes": 2068
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\EPISODE_08.json",
+      "sha256": "ec304ce02142d9c8a456626dcb5ada78c2adfa6ef377b7ae2cc2017839b1dfe5",
+      "bytes": 2065
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\EPISODE_09.json",
+      "sha256": "e6ab88b32ea34e34ecf6c4448580d2782a9f1c6238045e49c0b6bb359ca4be7e",
+      "bytes": 2067
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\EPISODE_10.json",
+      "sha256": "d69421c7a892647feac5402410c51fbf5604c1b78a3662a526217a7c3a47cf74",
+      "bytes": 2069
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\EPISODE_11.json",
+      "sha256": "abe985fd86a867d161ca0fa4ae378340bdbc70e0c199bd11d1768f432eef89f0",
+      "bytes": 2067
+    }
+  ],
+  "requests": [
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\REQUEST_00.json",
+      "sha256": "9aedbbdb2ee23465e7b4112ca9bb1c03e1b437d42cdc91ed500df87409181573",
+      "bytes": 51610
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\REQUEST_01.json",
+      "sha256": "96e95f1b5adbc08af990ba09b5038723aee845cf0c2a9264817d9de02332d2fe",
+      "bytes": 50413
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\REQUEST_02.json",
+      "sha256": "98e7907f079ad19b23ed96b32c11f81896c89798d97f6d7f070a6c29ca604c3a",
+      "bytes": 51517
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\REQUEST_03.json",
+      "sha256": "18c7a6643d714d18701339ec7cbe7c743c0d831f4f9e6321050ac3f67a83ebdd",
+      "bytes": 52333
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\REQUEST_04.json",
+      "sha256": "8a3c0b22d6611693f9d01434b90ec152639f662d90dd05724940391072538ba4",
+      "bytes": 51913
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\REQUEST_05.json",
+      "sha256": "bee357651873d1fea0bc41afefbc7063353964c86819a314ef806d40b38b79e5",
+      "bytes": 51740
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\REQUEST_06.json",
+      "sha256": "92c89291dc0c48c5625c35c07ce5def424813b39a4a539302df57ce526959db8",
+      "bytes": 51893
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\REQUEST_07.json",
+      "sha256": "5e18bea7c93422ef2973b454eee95921b4a2282d3cc0ea34b2a8c49f4608f53a",
+      "bytes": 51778
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\REQUEST_08.json",
+      "sha256": "6bee4f65d6fbcccd3dab50a2954b367471af331b5ade017fe0ba816ed9ddb64d",
+      "bytes": 52071
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\REQUEST_09.json",
+      "sha256": "93f2b200933bda6f7db5861ccd2e6e3f74c4811658bfb471a2679ad2b15a14fa",
+      "bytes": 51913
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\REQUEST_10.json",
+      "sha256": "28c311bd7575a1ca52455b6a1b38355d1f0760b33c9197bbcc69368f2103ddc7",
+      "bytes": 52212
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\REQUEST_11.json",
+      "sha256": "a40c8b97850d7b346d2aaf2cd9f5995cb725338c4e2e3baa59d580b8a52a6340",
+      "bytes": 52168
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\REQUEST_00.json",
+      "sha256": "18c7a6643d714d18701339ec7cbe7c743c0d831f4f9e6321050ac3f67a83ebdd",
+      "bytes": 52333
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\REQUEST_01.json",
+      "sha256": "9e50d5156cb489a50cb06c3ddfaeaacd4aace241c29f7b6808129f95fe2b77bc",
+      "bytes": 51893
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\REQUEST_02.json",
+      "sha256": "539d9117a498577297fcf035dab7919fdb338733db46917f813bdeead0ae26f2",
+      "bytes": 53299
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\REQUEST_03.json",
+      "sha256": "f31e0dd096d7fc3e75cf194a0cf75b910a6285fd7f17990d3c7c8a5629fd4698",
+      "bytes": 52029
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\REQUEST_04.json",
+      "sha256": "e53d8110ea94df9f7b305c786b57683b2f3c03aae0856f0591dc86218794308b",
+      "bytes": 51646
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\REQUEST_05.json",
+      "sha256": "5e18bea7c93422ef2973b454eee95921b4a2282d3cc0ea34b2a8c49f4608f53a",
+      "bytes": 51778
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\REQUEST_06.json",
+      "sha256": "92c89291dc0c48c5625c35c07ce5def424813b39a4a539302df57ce526959db8",
+      "bytes": 51893
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\REQUEST_07.json",
+      "sha256": "556c6717b3fc26ee1e34b37dd4ca0295e0e4d938d5d0784fa2640f1a13d93f24",
+      "bytes": 52212
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\REQUEST_08.json",
+      "sha256": "665084268da10f9c734bf2981233418d8b4fb33c0e646a788300d04edbda1c65",
+      "bytes": 52777
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\REQUEST_09.json",
+      "sha256": "b59f10811578e989c1d407c4609614a18084e3c5ef97ac70dd6e6f199b804d62",
+      "bytes": 52029
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\REQUEST_10.json",
+      "sha256": "fc28ef69021e96d360cdcf90081f8fe8f49835273ee232975c869e90f64f136c",
+      "bytes": 52651
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\REQUEST_11.json",
+      "sha256": "6bee4f65d6fbcccd3dab50a2954b367471af331b5ade017fe0ba816ed9ddb64d",
+      "bytes": 52071
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REQUEST_00.json",
+      "sha256": "eb5821e7318327f1a4b97b601d88b4f07cecfef8d677e69b4fe01587452594b2",
+      "bytes": 70898
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REQUEST_01.json",
+      "sha256": "a608a4c9e003c03d3f1b07444226a6494e9fbed53e52825867d95fcb1e2f997a",
+      "bytes": 71473
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REQUEST_02.json",
+      "sha256": "b4f1979019c4796fe25e6987c193d4f2f14f2f35d12415e4b0426a306ed9e352",
+      "bytes": 70543
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REQUEST_03.json",
+      "sha256": "9d2375150a283e13da59b71bf0a7f2d8f252b179963c98eed1c709fa6059ab37",
+      "bytes": 71130
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REQUEST_04.json",
+      "sha256": "6f426acb39474914ac7f59cf5c7b37b3ce541a52515c00a4475f8054eda403f8",
+      "bytes": 70301
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REQUEST_05.json",
+      "sha256": "f859a40c23fd3c8330603b06b501d9968816e925db49786cb00a2136707e5165",
+      "bytes": 71246
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REQUEST_06.json",
+      "sha256": "2fa9da010c1718b96c4d4d0cde10a69e503ba69cbacd4038ed6cb38409b03f29",
+      "bytes": 70423
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REQUEST_07.json",
+      "sha256": "3699cec4b50471ce476a84051887d5a6692fe4c73f43508b0ba01b40f3f4756b",
+      "bytes": 69556
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REQUEST_08.json",
+      "sha256": "e4f64282ecd0542be5c1d0c26d9344450a2d502b8fb1fdc43cb8e940647843cf",
+      "bytes": 69806
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REQUEST_09.json",
+      "sha256": "247137b921f2afe48eda27f3194a4d03c5f23fc8a78959f38b4aca115f31a7f7",
+      "bytes": 71586
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REQUEST_10.json",
+      "sha256": "6650205abf829d6e18eba1f2b535d52f2deeeb84ddcce16ab5c505b046d18207",
+      "bytes": 69681
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REQUEST_11.json",
+      "sha256": "e7c98bb3fe3876ed8ab4a211c492740db9f279004d343132396b62894219fece",
+      "bytes": 70179
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\REQUEST_00.json",
+      "sha256": "663426eb0a6c830078b3748bbca36ce232ff366f44d1d12c5dfd2c1314b78f0f",
+      "bytes": 63719
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\REQUEST_01.json",
+      "sha256": "44bceb22b63ed27744f54642f115719647cac611ebdcc93a63c7adc93e172a54",
+      "bytes": 67440
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\REQUEST_02.json",
+      "sha256": "af0633f0b79e582c6fe9fe7781a46cf86f951312897d1fefc99097f563723bec",
+      "bytes": 69863
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\REQUEST_03.json",
+      "sha256": "f63ec6dbbcf9c45d5a9927651d28b9be4333ced329a523b5828a689d256fb1b2",
+      "bytes": 64496
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\REQUEST_04.json",
+      "sha256": "1f06a14579ba57c1740e9e7d2371ab363ca52cc8c951a1573fb59aea0336d964",
+      "bytes": 66212
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\REQUEST_05.json",
+      "sha256": "73b532cd5bac88c55675d5d4e1e10deba1b5151f72796e58a0cc41e6aac7d83b",
+      "bytes": 66459
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\REQUEST_06.json",
+      "sha256": "a13dbc3084572f68c2d1d29640fd5a23e0a6c8d809049c78b949bfde1066c547",
+      "bytes": 68135
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\REQUEST_07.json",
+      "sha256": "b1a8b8d503546895d7a8c5223caeded3d98257dd516eb76dc9d0d1a753cd564c",
+      "bytes": 68214
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\REQUEST_08.json",
+      "sha256": "758364c3742017b861f3828612844c1cc88a561d43d6e7eec2723b53be696b30",
+      "bytes": 67621
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\REQUEST_09.json",
+      "sha256": "766d4a5e7f61151dd393a52ff6b4aa4c81608b6caa002347e2dbd17935f98374",
+      "bytes": 67015
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\REQUEST_10.json",
+      "sha256": "e1dfbb53196b22ed72d93516d59cbcf4f70dfb8bdabb3168c4fc5879e5310aab",
+      "bytes": 64448
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\REQUEST_11.json",
+      "sha256": "aaee9d5c0e18b4ed12d981b3ae6fb9b608c234fbe4eaee96252d6305de46a25c",
+      "bytes": 65030
+    }
+  ],
+  "attempts": 48,
+  "unique_event_keys": 48,
+  "statuses": {
+    "OPTIMAL": 48
+  },
+  "arms": {
+    "contiguous_guided": {
+      "planned": 12,
+      "attempted": 12,
+      "statuses": {
+        "OPTIMAL": 12
+      },
+      "best_operations": 285
+    },
+    "contiguous_random": {
+      "planned": 12,
+      "attempted": 12,
+      "statuses": {
+        "OPTIMAL": 12
+      },
+      "best_operations": 285
+    },
+    "split_guided": {
+      "planned": 12,
+      "attempted": 12,
+      "statuses": {
+        "OPTIMAL": 12
+      },
+      "best_operations": 285
+    },
+    "split_random": {
+      "planned": 12,
+      "attempted": 12,
+      "statuses": {
+        "OPTIMAL": 12
+      },
+      "best_operations": 285
+    }
+  },
+  "source_hash_request_parenthash_plan_bands_control_limits_readback": "PASS_LOCAL_RECONSTRUCTION",
+  "new_arithmetic_DAGs": 0,
+  "candidate_file_cases": 6,
+  "new_best_operations": null,
+  "retained_verified_baseline": 285,
+  "target_max": 284,
+  "target_met": false,
+  "finite_negative": "48 preregistered scaffold finite universes, no improvement; each OPTIMAL only in its bounded model. No full-target optimum or exhausted global search.",
+  "distinct_reader": "PENDING_P3_OR_P4",
+  "historic_288_replayed": false
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "tools-and-ablation-support-receipt.v1",
+  "observed_utc": "2026-10-26T15:49:12.130403+00:00",
+  "owner": "Codex support tools_ablations, not an admitted Apex actor",
+  "state": "ARTIFACT_READY",
+  "documented_tool_families": 11,
+  "fresh_deterministic_replication": {
+    "completed_arms": 16,
+    "assessments": 4096,
+    "paired_summary": {
+      "complete_pairs": 8,
+      "guided_wins": 5,
+      "ties": 3,
+      "guided_losses": 0,
+      "median_control_minus_guided": 1.0,
+      "mean_control_minus_guided": 1.25
+    },
+    "minimum_operations": 312,
+    "frontier_improvements": 0,
+    "process_cpu_seconds": 1.9375
+  },
+  "model_provider_calls": 0,
+  "paid_provider_usd": 0,
+  "email_or_external_writes": 0,
+  "source_files_modified": 0,
+  "agent_skill_or_causal_memory_study": "NOT_RUN",
+  "remaining_review": "Integrator reviews scope, relative links, count denominators and public export; distinct proof reviewer is separate"
+}

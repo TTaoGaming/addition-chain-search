@@ -1,0 +1,18 @@
+{
+  "schema": "addition-chain-smoke-invocation.v1",
+  "observed_utc": "2026-10-26T15:26:49.033507+00:00",
+  "state": "COMPLETE_BOUNDED_DEMONSTRATION",
+  "completed_before": [
+    "score_guided"
+  ],
+  "policies_executed_this_invocation": [
+    "hash_control"
+  ],
+  "completed_after": [
+    "score_guided",
+    "hash_control"
+  ],
+  "failures": [],
+  "plan_sha256": "d54931df57cb2adcb2a686b572b812410518cbd59b472e31b1e9802e0e5cb601",
+  "effect_scope": "local finite demonstration; no provider call, lease transfer, scheduler, production history integration or consumer acceptance"
+}

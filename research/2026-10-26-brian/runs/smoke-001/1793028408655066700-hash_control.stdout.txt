@@ -1,0 +1,1 @@
+{"policy": "hash_control", "best": {"operations": 316, "squarings": 255, "multiplications": 61}, "assessments": 256, "validation": "PASS_EXACT_ARITHMETIC"}

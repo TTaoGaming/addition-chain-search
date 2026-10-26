@@ -1,0 +1,33 @@
+{
+  "schema": "hfo.p256_scalar_transfer_plan.v1",
+  "target": "P-256 scalar group order n-2",
+  "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+  "incumbent": {
+    "operations": 291,
+    "squarings": 254,
+    "multiplications": 37,
+    "source_path": "C:/Dev/work/p256_scalar_probe_20260928/candidate.json",
+    "sha256": "0e4cc02d2437e59f282a10f4a4bc5fa45c7297b71dbdd13466928ef0baeb322f"
+  },
+  "donor": {
+    "method": "Curve25519 monotone precompute plus exact window-DP heuristic transferred to P-256 scalar target",
+    "source_path": "C:/Dev/work/crypto_target_selection_20260928/curve25519_scalar_transfer/search.py",
+    "sha256": "2a04c1c13a777dfa65d0273b1e6ae1b137fd8eb7f286d6b9337a8e17331e9b52"
+  },
+  "new_region": {
+    "grammar": "Unfixed whole exponent; monotone precompute exponents up to 127 from sums of existing values; exact leading/nonleading bit-window DP of width at most 8; compare score-guided beam with seeded hash beam at matched assessment cap",
+    "max_precompute_exponent": 127,
+    "max_window_bits": 8,
+    "max_precompute_operations": 14,
+    "beam_width": 512,
+    "assessment_cap_each": 24000,
+    "seed": 20260929,
+    "policies": ["score_guided", "hash_control"]
+  },
+  "bounds": {
+    "provider_calls": 0,
+    "paid_usd": 0,
+    "stop_utc": "2026-09-29T00:22:00Z"
+  },
+  "claim_ceiling": "Matched local heuristic comparison only; no causal memory learning, global optimality, native speed, or independent human acceptance"
+}

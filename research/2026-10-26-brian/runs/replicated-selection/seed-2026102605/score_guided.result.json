@@ -1,0 +1,93 @@
+{
+  "schema": "hfo.p256_scalar_transfer_run.v1",
+  "policy": "score_guided",
+  "start_utc": "2026-10-26T15:43:59.698866Z",
+  "end_utc": "2026-10-26T15:43:59.810006Z",
+  "wall_ns": 110213000,
+  "process_cpu_ns": 109375000,
+  "measurement_boundary": "search including trace write/close; excludes result assembly and verifier",
+  "pid": 20880,
+  "plan_sha256": "55bcf5a1e31e6bf357a61aed5b75e95f924ee97d3217c7128db7effaf1138630",
+  "generator_sha256": "4357f20b2555ce6344f44af140da879c0a6e25b29b560f9566f54a2d3b71cb67",
+  "verifier_sha256": "86735ef7e3ec185c63b45447c0cf7e9db0c7f0e9c8575cd6b6787ea292e2e8ae",
+  "pre_run_pin_sha256": "1a555210b759d12bdb1e352b051b87ed8b6ada33f629145a81a6d38042849c53",
+  "trace_sha256": "a3aa35c703b9758e4ff31bb9391a34eab57b0ffa77eea42d518849ad3966e0cd",
+  "certificate_sha256": "e73aa7eeb58ea6ca269fc0a58804f30dac2f2844eff228ca5fcc5de889414728",
+  "counters": {
+    "assessments": 256,
+    "below_291": 0,
+    "equal_291": 0,
+    "above_291": 256,
+    "raw_children": 293,
+    "unique_children": 226,
+    "unscored_due_cap": 12,
+    "scored_not_selected": 157,
+    "dp_transitions": 222693
+  },
+  "by_depth": [
+    {
+      "depth": 0,
+      "beam_scored": 1,
+      "best_so_far": 423,
+      "raw_children": 1,
+      "unique_children": 1,
+      "children_scored": 1,
+      "children_selected": 1
+    },
+    {
+      "depth": 1,
+      "beam_scored": 1,
+      "best_so_far": 350,
+      "raw_children": 2,
+      "unique_children": 2,
+      "children_scored": 2,
+      "children_selected": 2
+    },
+    {
+      "depth": 2,
+      "beam_scored": 2,
+      "best_so_far": 346,
+      "raw_children": 7,
+      "unique_children": 6,
+      "children_scored": 6,
+      "children_selected": 6
+    },
+    {
+      "depth": 3,
+      "beam_scored": 6,
+      "best_so_far": 322,
+      "raw_children": 30,
+      "unique_children": 25,
+      "children_scored": 25,
+      "children_selected": 16
+    },
+    {
+      "depth": 4,
+      "beam_scored": 16,
+      "best_so_far": 315,
+      "raw_children": 111,
+      "unique_children": 87,
+      "children_scored": 87,
+      "children_selected": 16
+    },
+    {
+      "depth": 5,
+      "beam_scored": 16,
+      "best_so_far": 312,
+      "raw_children": 142,
+      "unique_children": 105,
+      "children_scored": 93,
+      "children_selected": 16
+    }
+  ],
+  "best": {
+    "operations": 312,
+    "squarings": 254,
+    "multiplications": 58
+  },
+  "provider_calls": 0,
+  "paid_usd": 0,
+  "model_tokens": null,
+  "tao_review_minutes": null,
+  "claim_ceiling": "A deterministic selection-package comparison on one historically exposed target at a tiny budget. Policy-specific hash tie salts differ too. Not an agent-skill, collaboration, autonomous-memory, serving-family, held-out-target or generalization test."
+}

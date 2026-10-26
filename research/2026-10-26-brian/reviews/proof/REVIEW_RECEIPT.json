@@ -1,0 +1,174 @@
+{
+  "schema": "independent-proof-review-receipt.v1",
+  "observed_utc": "2026-10-26T15:47:53.054058+00:00",
+  "verdict": "PASS_SCOPED_ARITHMETIC_WITH_REPRODUCIBILITY_FINDINGS",
+  "reviewer": "independent Codex support agent /root/proof_review; not an admitted Apex actor",
+  "independence_ceiling": "distinct agent/sample and pre-inspection arithmetic implementation; same configured model family; existing report metadata and expected key counts seen; no cross-provider/human/held-out independence",
+  "write_scope": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof",
+  "scope": {
+    "independent_arithmetic_originals": 92,
+    "original_byte_pins_checked": 121,
+    "arithmetic_skipped": 29,
+    "positive_fixtures": 3,
+    "fixture_negatives_rejected": 14,
+    "pinned_semantic_negatives_rejected": 15,
+    "pinned_byte_tampers_rejected": 3
+  },
+  "commands": [
+    {
+      "command": "python --version",
+      "exit_code": 0,
+      "result": "Python 3.12.10"
+    },
+    {
+      "command": "python \"C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\run_independent.py\"",
+      "attempt": 1,
+      "exit_code": 1,
+      "result": "comparison assertion p521-dd10f8448bac; primary dead indices [5,8] versus independent [4,7]; 1-based/0-based normalization corrected in runner only"
+    },
+    {
+      "command": "python \"C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\run_independent.py\"",
+      "attempt": 2,
+      "exit_code": 0,
+      "result": "92 arithmetic originals PASS; 121 byte hashes checked; 29 skipped; 14 fixture negatives rejected"
+    },
+    {
+      "command": "python \"C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\probe_verifier.py\"",
+      "exit_code": 0,
+      "result": "default manifest count 119 vs 121; mixed HOLD run exits 0; two optional malformed metadata probes accepted"
+    },
+    {
+      "command": [
+        "C:\\Users\\tommy\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\tools\\verify_bundle.py",
+        "--manifest",
+        "reviews/proof/probe-mixed-coverage-manifest.json",
+        "--output",
+        "reviews/proof/probe-mixed-coverage-replay.json"
+      ],
+      "exit_code": 0,
+      "result": {
+        "HOLD_ENCODING_NOT_IMPLEMENTED": 1,
+        "PASS_EXACT_ARITHMETIC": 1
+      }
+    },
+    {
+      "command": "python \"C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\key_tamper.py\"",
+      "exit_code": 0,
+      "result": "15 pinned semantic mutants rejected; 3 original-byte newline mutations fail pins"
+    },
+    {
+      "command": "python \"C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\finalize_review.py\"",
+      "exit_code": 0,
+      "result": "review assembled; current judged verifier/manifest/replay/core hashes match captured inputs"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\inventory\\BUNDLE_INPUTS.v3.json",
+      "sha256": "9e617a2e67ba8a83c860e7ffb72fe24918fb03e325f42a40460799c5be612050"
+    },
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\inventory\\BUNDLE_INPUTS.v2.json",
+      "sha256": "e0fb34205c462988a43f95b753133edb935af5c9b1bdd30b24b3d28a0bf9b8b3"
+    },
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\verification\\replay-20261026T153224-425600300.json",
+      "sha256": "95a55c99991eb6ed066d56286f2823190539ce9611ddfd500f5eadd2c7395cf3"
+    },
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\tools\\verify_bundle.py",
+      "sha256": "86735ef7e3ec185c63b45447c0cf7e9db0c7f0e9c8575cd6b6787ea292e2e8ae"
+    }
+  ],
+  "code": [
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\finalize_review.py",
+      "sha256": "b5590943a7ced5efa43708bb1ac409ef4395a71ff3b63b76bfeea56c9b9a68b8"
+    },
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\independent_core.py",
+      "sha256": "c5fa8a0fc340c13445cae75a37e6f46af8c617eb29da518f821c22271c6cc419"
+    },
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\key_tamper.py",
+      "sha256": "a11daaa5a3b25085db77c5521a381e489e089c5df9eb9bc02a3f1af1300fa7eb"
+    },
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\probe_verifier.py",
+      "sha256": "58046f94d3b1b5d7a1a2abc7c56f9aa56aea068e163e358392366ad3c3cba4f3"
+    },
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\run_independent.py",
+      "sha256": "7c91954dd830f22b761f438d9d2921e6f82c852d072d68a54fe96ea286a9cfce"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\CORE_FREEZE.json",
+      "sha256": "c618f8b33f0d4c173df542e110ae82a3f4f4aaf35e8289ccdb6d55f905b0762c"
+    },
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\independent-replay.json",
+      "sha256": "d373bcb09e5c56f18065b71611f1d5f444eb18fefa7fd4f8c19d5357b1f7fcb1"
+    },
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\key-tamper.json",
+      "sha256": "3d377bea095a33b0a7b9516fa32e141b7a71c9d159d3a32e57825b00cdda58fb"
+    },
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\probe-mixed-coverage-manifest.json",
+      "sha256": "0442a8958f28325275919e127da6e22a9e129089ee219fb1840fc4654bd0ff62"
+    },
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\probe-mixed-coverage-replay.json",
+      "sha256": "4d30041ecabe4544e998b3acc0411399883a6ca8428ce34d20b46b3584cd1673"
+    },
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\REVIEW.md",
+      "sha256": "57c989c412723214bef7e41c03b805051e6d9f8cd7ac2361d48b86d50f6266a2"
+    },
+    {
+      "path": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\verifier-probes.json",
+      "sha256": "81049383e388e7aa57b547967df96696cb995a48818365ac63c201cbfa7d19a8"
+    }
+  ],
+  "actionable_findings": [
+    {
+      "id": "PROOF-REPRO-1",
+      "priority": "P2",
+      "file": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\tools\\verify_bundle.py",
+      "line": 251,
+      "title": "Default replay omits the current two additional originals",
+      "evidence": {
+        "source_default": "inventory/BUNDLE_INPUTS.v2.json",
+        "default_witness_count": 119,
+        "specified_v3_witness_count": 121,
+        "omitted_ids": [
+          "p521-ad9da1620b44",
+          "p521-b1e966bebfa4"
+        ]
+      },
+      "impact": "The default command replays 119 originals instead of the requested v3 set of 121.",
+      "recommendation": "Require an explicit manifest, or update the default and document the manifest SHA-256."
+    },
+    {
+      "id": "PROOF-REPRO-2",
+      "priority": "P2",
+      "file": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\tools\\verify_bundle.py",
+      "line": 289,
+      "related_line": 259,
+      "title": "An incomplete mixed-coverage run can exit successfully",
+      "evidence": {
+        "exit_code": 0,
+        "summary": {
+          "HOLD_ENCODING_NOT_IMPLEMENTED": 1,
+          "PASS_EXACT_ARITHMETIC": 1
+        }
+      },
+      "impact": "Exit code 0 alone is insufficient evidence that every listed original was checked. Current v3 contains no unsupported entries.",
+      "recommendation": "Return nonzero for HOLD/unsupported entries, or provide a separate explicit complete-coverage gate."
+    }
+  ],
+  "restrictions": "no external writes; no secret/private held-out material; no source/judged-file edits; no Gen137 runtime; no paid/API/model calls or installs"
+}

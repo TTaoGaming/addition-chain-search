@@ -1,0 +1,62 @@
+{
+  "seed": 2026102606,
+  "policy": "hash_control",
+  "order_position": 1,
+  "state": "COMPLETE_VERIFIED",
+  "best": {
+    "operations": 312,
+    "S": 254,
+    "M": 58
+  },
+  "arithmetic_graph_sha256": "38345ecde501c139589a40a404f376c2191fbe574acc19c1034b56f9ee405019",
+  "assessments": 256,
+  "unique_precompute_states": 215,
+  "repeated_precompute_assessments": 41,
+  "first_final_best_ordinal": 192,
+  "DP_transitions": 207165,
+  "process_cpu_ns_search_including_trace": 109375000,
+  "wall_ns_search_including_trace": 105851500,
+  "certificate_sha256": "505771ba150f4a9483bebe568f5dd367dc3230d07c81fa7f7ca19d6b5813e567",
+  "trace_sha256": "bf60cdaa50693f725ba52f632ca7ece1d27d35bfc091ab7fa36a12a340a18ec2",
+  "result_sha256": "9016fa7231d32c3147eb4f216255272a74d856fdc186f3c08ef53345794978aa",
+  "separate_exact_replay": {
+    "state": "PASS_EXACT_ARITHMETIC",
+    "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+    "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+    "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+    "charged": {
+      "operations": 312,
+      "S": 254,
+      "M": 58
+    },
+    "live": {
+      "operations": 312,
+      "S": 254,
+      "M": 58
+    },
+    "dead": {
+      "operations": 0,
+      "indices": []
+    },
+    "strictly_increasing_schedule": true,
+    "arithmetic_graph_sha256": "38345ecde501c139589a40a404f376c2191fbe574acc19c1034b56f9ee405019",
+    "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+    "checked_count_fields": [
+      "operation_count",
+      "squarings",
+      "multiplications"
+    ],
+    "modular_bases": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      17,
+      257
+    ],
+    "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+  },
+  "artifact_directory": "runs/replicated-selection/seed-2026102606",
+  "beats_current284": false
+}

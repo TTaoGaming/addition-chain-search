@@ -1,0 +1,42 @@
+{
+  "schema": "hfo.p521_transfer_replay.v1",
+  "observed_utc": "2026-09-29T00:04:02.667000Z",
+  "verifier_source_sha256": "9b8f0cb7c2cc7315007f8c6ef127e4b854a3ecb2212c38aa03f00c4524045566",
+  "replay_source_sha256": "e01b7ca1e8940ffcd8f7278e96d58c6ea0c40e72ff62b8d6dba0ac18f5daf9d4",
+  "assay_result_sha256": "764b3dccf1ab1dafd162fe9f3a3771c75c7f87fe6263143323c2ab2e1e028d71",
+  "results": [
+    {
+      "arm": "memory_guided",
+      "certificate_sha256": "b1e966bebfa4359ebab73a912ddf07efac829811ccbeae3b6d9746458c490698",
+      "squarings": 519,
+      "multiplications": 68,
+      "total": 587,
+      "dead_rows": 0,
+      "modular_bases": [
+        2,
+        3,
+        5,
+        42,
+        "n-1"
+      ],
+      "negative_mutations_rejected": 3
+    },
+    {
+      "arm": "memory_ablated_control",
+      "certificate_sha256": "ad9da1620b4436228f397d4ad857c8baecd16afa640436b1605289af10e30ade",
+      "squarings": 519,
+      "multiplications": 67,
+      "total": 586,
+      "dead_rows": 0,
+      "modular_bases": [
+        2,
+        3,
+        5,
+        42,
+        "n-1"
+      ],
+      "negative_mutations_rejected": 3
+    }
+  ],
+  "evidence_ceiling": "Separate code-path exact arithmetic replay by same agent; no distinct-agent audit or native speed"
+}

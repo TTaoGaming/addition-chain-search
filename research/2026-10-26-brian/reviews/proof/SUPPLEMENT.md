@@ -1,0 +1,17 @@
+# Manifest tamper and graph-signature supplement
+
+The first `REVIEW.md` and `REVIEW_RECEIPT.json` remain unchanged. This supplement is a post-source-inspection support check, not an independent held-out result.
+
+The verifier rejects a changed original-witness SHA-256 and a changed target decimal with exit code 1. It accepts contradictory manifest target-hex and domain fields with exit code 0, because `main()` uses the decimal target/modulus and does not validate those descriptive fields. The exact arithmetic remains correct for the decimal target in those probes. Bind the intended manifest hash outside the run, validate decimal/hex/offset consistency and the target domain, and enforce expected coverage. A runtime-recorded manifest hash alone is an observation of the supplied bytes, not prior admission of those bytes. The actual specified v3 fields are consistent in the independent 92-triple replay.
+
+I independently expanded the parent indices in **25 indexed certificates** after inspecting the primary source. **3 contain repeated exponent values**. A separate multiplicity check of all 121 primary-decoded originals found **3 files with repeated values**. Per-file results are in `SUPPLEMENT_RECEIPT.json`.
+
+The sorted exponent-triples fingerprint is generally an **exponent-equation multiset signature**, not a full resource-DAG identity. A reproduced synthetic collision has two charged computations of exponent 2. Both graphs have the equations `2=1+1` twice, `3=2+1`, and `5=3+2`, hence the same signature. In graph A, both later consumers use the same exponent-2 node and one computation is dead; in graph B, they use different exponent-2 nodes and all four operations are live. The graphs have different numbers of live nodes, so they cannot be resource-isomorphic even though their signatures match. This is a synthetic scope counterexample, not a collision claimed between particular original witnesses.
+
+Where every non-base exponent value is unique, the values identify nodes: equality of these multisets then fixes the arithmetic dependency graph up to row scheduling and parent order. Any stronger claim about all current groups should explicitly retain that unique-value premise for every member. Current grouping produced **56 signatures**. Describing them as canonical exponent-equation signatures is safe without implying resource isomorphism for arbitrary future certificates.
+
+Actual commands, exit codes, mutated-manifest hashes, output hashes, duplicate checks, and the synthetic collision are preserved in `SUPPLEMENT_RECEIPT.json`. All writes remained in `reviews/proof/`; judged code and originals were not modified.
+
+Additional indexed-node check: `check_indexed_nodes.py` independently replayed the remaining 3 node-parent certificates after source inspection. None repeats an exponent value. Combined with the 25 step-index certificates above, this covers 28 indexed certificates; the only remaining non-triple original is the named Curve448 program. Details and hashes are in `INDEXED_NODES_RECEIPT.json`.
+
+Clarification to the first review's restrictions sentence: the judged bundle verifier was intentionally opened read-only after the independent core was frozen, as described elsewhere in that review. It was never modified. No email bodies, credentials, protected held-out/evaluation bundles, Gen137 runtime, or external services were opened or changed. The first review bytes are preserved.

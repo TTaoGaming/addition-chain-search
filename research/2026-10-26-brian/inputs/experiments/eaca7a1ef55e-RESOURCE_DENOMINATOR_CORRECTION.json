@@ -1,0 +1,101 @@
+{
+  "schema": "p2.resource.denominator.correction.v1",
+  "recorded_utc": "2026-09-30T06:38:12.895802+00:00",
+  "source_resource_fingerprint": "21f4b33cbabfa37b90abdd302458000849d824d561f888ab56c8eb9b18c366ea",
+  "canonicalization": "Keep declared output and sort each commutative parent pair; file hash remains separately authoritative",
+  "candidate_file_cases": 6,
+  "distinct_raw_hashes": 4,
+  "distinct_canonical_arithmetic_DAGs_including_source": 1,
+  "new_canonical_arithmetic_DAGs": 0,
+  "all_six_are_source_equivalent": true,
+  "supersedes": "Only any interpretation of per-arm new_candidate_files or ordered-parent fingerprints as arithmetic novelty; raw files, local replay PASS and execution results preserved",
+  "STRIFE": "Ordered-parent cache missed commutative-equivalent forms, causing six maker replays of four serializations of one source DAG. No discovery or distinct verification credit.",
+  "next_owner": "P2 future scoped experiment only",
+  "smallest_guardrail": "Canonical positive-addition resource fingerprint before solver output evaluation; retain raw genotype fingerprint separately",
+  "cases": [
+    {
+      "file": {
+        "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\candidate_00_285.json",
+        "sha256": "79ef7fbbaed9129cc02f7c0a1aa832fd1805f861180dca148ae4a59d60c5e7f7",
+        "bytes": 44806
+      },
+      "resource_fingerprint": "21f4b33cbabfa37b90abdd302458000849d824d561f888ab56c8eb9b18c366ea",
+      "source_equivalent": true,
+      "count": {
+        "S": 252,
+        "M": 33,
+        "operations": 285
+      }
+    },
+    {
+      "file": {
+        "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\candidate_03_285.json",
+        "sha256": "74156763547c6a69528cae86908153b18ddcdad7d7ce4068e59b140a32b0b7b2",
+        "bytes": 44806
+      },
+      "resource_fingerprint": "21f4b33cbabfa37b90abdd302458000849d824d561f888ab56c8eb9b18c366ea",
+      "source_equivalent": true,
+      "count": {
+        "S": 252,
+        "M": 33,
+        "operations": 285
+      }
+    },
+    {
+      "file": {
+        "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\candidate_00_285.json",
+        "sha256": "74156763547c6a69528cae86908153b18ddcdad7d7ce4068e59b140a32b0b7b2",
+        "bytes": 44806
+      },
+      "resource_fingerprint": "21f4b33cbabfa37b90abdd302458000849d824d561f888ab56c8eb9b18c366ea",
+      "source_equivalent": true,
+      "count": {
+        "S": 252,
+        "M": 33,
+        "operations": 285
+      }
+    },
+    {
+      "file": {
+        "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\candidate_04_285.json",
+        "sha256": "79ef7fbbaed9129cc02f7c0a1aa832fd1805f861180dca148ae4a59d60c5e7f7",
+        "bytes": 44806
+      },
+      "resource_fingerprint": "21f4b33cbabfa37b90abdd302458000849d824d561f888ab56c8eb9b18c366ea",
+      "source_equivalent": true,
+      "count": {
+        "S": 252,
+        "M": 33,
+        "operations": 285
+      }
+    },
+    {
+      "file": {
+        "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\candidate_00_285.json",
+        "sha256": "114c5c4730c21ccef62f01b6338a6657ca9f561a9fb3976c0558005cc9e7830d",
+        "bytes": 44801
+      },
+      "resource_fingerprint": "21f4b33cbabfa37b90abdd302458000849d824d561f888ab56c8eb9b18c366ea",
+      "source_equivalent": true,
+      "count": {
+        "S": 252,
+        "M": 33,
+        "operations": 285
+      }
+    },
+    {
+      "file": {
+        "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\candidate_00_285.json",
+        "sha256": "e5d9aac6daa332be91e3ca4d2ad36fa44c815220e2b2fb705141bb07587e087f",
+        "bytes": 44801
+      },
+      "resource_fingerprint": "21f4b33cbabfa37b90abdd302458000849d824d561f888ab56c8eb9b18c366ea",
+      "source_equivalent": true,
+      "count": {
+        "S": 252,
+        "M": 33,
+        "operations": 285
+      }
+    }
+  ]
+}

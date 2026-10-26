@@ -1,0 +1,93 @@
+{
+  "schema": "hfo.p256_scalar_transfer_run.v1",
+  "policy": "score_guided",
+  "start_utc": "2026-10-26T15:24:56.958421Z",
+  "end_utc": "2026-10-26T15:24:57.113760Z",
+  "wall_ns": 152011800,
+  "process_cpu_ns": 156250000,
+  "measurement_boundary": "search including trace write/close; excludes result assembly and verifier",
+  "pid": 45948,
+  "plan_sha256": "d54931df57cb2adcb2a686b572b812410518cbd59b472e31b1e9802e0e5cb601",
+  "generator_sha256": "4357f20b2555ce6344f44af140da879c0a6e25b29b560f9566f54a2d3b71cb67",
+  "verifier_sha256": "86735ef7e3ec185c63b45447c0cf7e9db0c7f0e9c8575cd6b6787ea292e2e8ae",
+  "pre_run_pin_sha256": "807d229fe521cdb199383125a58a1ae0fd41ead1c4d2a4a2d6850746b43ccb85",
+  "trace_sha256": "346bfcbefd974e2e0ebccd17f493c44df3ce03de8c7fe0878ede571f51707827",
+  "certificate_sha256": "7ba65d4ed276b316629f8d1e09f8726d9e70e4bacb7d8d9612ba38ed394d784b",
+  "counters": {
+    "assessments": 256,
+    "below_291": 0,
+    "equal_291": 0,
+    "above_291": 256,
+    "raw_children": 296,
+    "unique_children": 228,
+    "unscored_due_cap": 14,
+    "scored_not_selected": 157,
+    "dp_transitions": 221571
+  },
+  "by_depth": [
+    {
+      "depth": 0,
+      "beam_scored": 1,
+      "best_so_far": 423,
+      "raw_children": 1,
+      "unique_children": 1,
+      "children_scored": 1,
+      "children_selected": 1
+    },
+    {
+      "depth": 1,
+      "beam_scored": 1,
+      "best_so_far": 350,
+      "raw_children": 2,
+      "unique_children": 2,
+      "children_scored": 2,
+      "children_selected": 2
+    },
+    {
+      "depth": 2,
+      "beam_scored": 2,
+      "best_so_far": 346,
+      "raw_children": 7,
+      "unique_children": 6,
+      "children_scored": 6,
+      "children_selected": 6
+    },
+    {
+      "depth": 3,
+      "beam_scored": 6,
+      "best_so_far": 322,
+      "raw_children": 30,
+      "unique_children": 25,
+      "children_scored": 25,
+      "children_selected": 16
+    },
+    {
+      "depth": 4,
+      "beam_scored": 16,
+      "best_so_far": 315,
+      "raw_children": 111,
+      "unique_children": 87,
+      "children_scored": 87,
+      "children_selected": 16
+    },
+    {
+      "depth": 5,
+      "beam_scored": 16,
+      "best_so_far": 312,
+      "raw_children": 145,
+      "unique_children": 107,
+      "children_scored": 93,
+      "children_selected": 16
+    }
+  ],
+  "best": {
+    "operations": 312,
+    "squarings": 254,
+    "multiplications": 58
+  },
+  "provider_calls": 0,
+  "paid_usd": 0,
+  "model_tokens": null,
+  "tao_review_minutes": null,
+  "claim_ceiling": "Finite full-target engine/verification/restart demonstration. Not a causal ablation, new frontier, qualified unattended factory or comparison with the 284 incumbent."
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "addition-chain-smoke-invocation.v1",
+  "observed_utc": "2026-10-26T15:24:57.176003+00:00",
+  "state": "STOPPED_AT_DURABLE_CHECKPOINT",
+  "completed_before": [],
+  "policies_executed_this_invocation": [
+    "score_guided"
+  ],
+  "completed_after": [
+    "score_guided"
+  ],
+  "failures": [],
+  "plan_sha256": "d54931df57cb2adcb2a686b572b812410518cbd59b472e31b1e9802e0e5cb601",
+  "effect_scope": "local finite demonstration; no provider call, lease transfer, scheduler, production history integration or consumer acceptance"
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "hfo.p521_scalar_memory_transfer_assay.v1",
+  "frozen_utc": "2026-09-29T00:02:02Z",
+  "target": "NIST P-521 scalar group order n minus 2, not field p minus 2",
+  "incumbent_certificate": "C:/Dev/work/p521_scalar_evolution_20260928/candidate.json",
+  "incumbent_sha256": "c05538403e66df9e9ffbf6627ee2fa0e53d9e4a3cfccbe939527bd67fda879c6",
+  "incumbent_operations": {"squarings": 519, "multiplications": 63, "total": 582, "weighted_0_8": 478.2},
+  "generator_source": "C:/Dev/work/p521_scalar_evolution_20260928/search.py",
+  "generator_sha256": "8df2a47e27e1a170656e905aecc6db6e68ad6019daad2f63f75ce206df73c06d",
+  "region": {
+    "prefixes_inclusive": [248, 255],
+    "forbidden_odd_helpers": "all subsets of size 0 through 3 from 3,5,...,31",
+    "suffix_parser": "same exact width-5 dynamic program and +2/+4 helper grammar as generator source",
+    "case_count": 4608,
+    "disjointness": "prior bounded helper region used prefixes 256 through 262"
+  },
+  "arms": {
+    "attempts_each": 1024,
+    "memory_guided": "sort by 256-prefix ascending, contains helper 11 descending, then skip-set size ascending, then lexical skip tuple",
+    "memory_ablated_control": "sort by SHA-256 of UTF-8 seed:prefix:comma-separated-skips",
+    "control_seed": "20260929-p521-control-v1",
+    "invalid_attempts_count_against_budget": true,
+    "same_evaluator_and_case_universe": true
+  },
+  "primary_endpoint": "lowest 0.8*squarings + multiplications among valid exact DAGs in each 1024-attempt arm; incumbent comparison separate",
+  "secondary_endpoint": "lowest total operations; valid DAGs, invalid grammar cases, best-finding ordinal, process CPU ns and wall ns per arm",
+  "limits": {"wall_seconds": 600, "provider_calls": 0, "paid_usd": 0},
+  "interpretation_limit": "One case-ordering assay, with historical P-521 result informing memory arm. Not autonomous learning, native speed, published best, constant-time behavior, or global optimality."
+}

@@ -1,0 +1,12 @@
+# Open evidence and qualification gaps
+
+- Coverage is explicit but partial:79 metadata roots, one capped metadata root (`brian_packet_technical_c_20260929`), bounded locator follow-ups and selected official chat reads. Raw archives and private history databases were not opened. Unread chat cursors remain unconsumed.
+- The six original P-384 annealing trajectories and the claimed210 sibling certificates were not recovered here. Selected terminal certificates and later reported tally are separate evidence.
+- Early432/429/426 canonical witnesses and same-count424 variants remain reported-only where exact bytes are absent. A later426 certificate is a separate381S+45M construction, not proof of the earlier380S+46M witness identity.
+- Historical event clocks differ across sources. Source-post, reported run, filesystem capture, commit and current validation clocks must remain separate. A date-only upper bound is not a discovery timestamp.
+- The historical P-256 adapter certificate pin4a954e38a13c56571878939912aa21d7ac0876c1d84825a99a4f5b8687d1728a was not located in this bounded collection. The original284 candidate46ba0fb4... is present and replayed.
+- Six exact target contracts are independently replayed. A historical report refers to eight targets; that statement does not supply two additional admitted target contracts or permission to reconstruct a restricted judge.
+- Existing memory, persona/language, cooperation and allocation plans do not establish a clean causal agent-skill or generalization result. The P-521 manually designed ordering control is a narrow negative example. Fresh held-out targets, shuffled/irrelevant memory, equal resources and independent judging remain required for broader claims.
+- The finite engine smoke proves only its bounded source/target/search/certificate/checkpoint path. Mid-policy forced-kill recovery, useful concurrency, live leases, scheduler operation, acceptance and unattended qualification remain untested or unadmitted. Gen137 intake remains REFUSE; its runtime was not resumed.
+- Eight actual Apex roles have been dispatched through the incumbent Slack route. Their receipt status is distinct from the three local Codex support lanes and from publication readiness.
+- Raw emails remain private. The user's own research is shareable under the current instruction; historical blanket-private labels do not suppress that authorization. Specific checker/access/credential restrictions still apply.

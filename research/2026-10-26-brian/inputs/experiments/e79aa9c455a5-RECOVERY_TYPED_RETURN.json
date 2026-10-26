@@ -1,0 +1,100 @@
+{
+  "schema": "p2.p256.episodes.wave004.return.v1",
+  "work_id": "HIVE-P256-EPISODES-HIVE-PREY-PDSA-20260930-004",
+  "port": 2,
+  "role": "SHAPE",
+  "start_observed_utc": "2026-09-30T06:19:51+00:00",
+  "terminal_observed_utc": "2026-09-30T06:38:12.940788+00:00",
+  "disposition": "BOUNDED_NEGATIVE_TWO_PREREGISTERED_SCAFFOLD_PAIRS",
+  "goal_max": 284,
+  "goal_met": false,
+  "retained_baseline": {
+    "operations": 285,
+    "S": 252,
+    "M": 33,
+    "source": {
+      "path": "C:\\Dev\\work\\gen144_p256_pdsa_0c74c96e_20260930\\evo_r1_survivor_285_238703.json",
+      "sha256": "cf2f652a6fe1b240cfbeb0ffdf718feeaec2a7ae07875445357035c83ca0eeac",
+      "bytes": 44687
+    },
+    "P4_VERIFY": {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat4\\obsidian_v1\\p256_episodes_wave_004\\VERIFY_285.json",
+      "sha256": "25816e0545f7d39ab503f31db46fbcc3c0fba31540bf0e714fc191564d49f31b",
+      "bytes": 8250
+    },
+    "HIVE_seed_ACK": {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\hive_v1\\CONSUMER_ACK_P256_285_286_ARITHMETIC_20260930.json",
+      "sha256": "ed0a89bd39414b3cc3f4ea26b39e3943dc1fa7f4ee51bfe90801dc8281eb6394",
+      "bytes": 3754
+    }
+  },
+  "attempts": 48,
+  "technique_control_pairs": 2,
+  "status_counts": {
+    "OPTIMAL": 48
+  },
+  "novel_canonical_DAGs": 0,
+  "candidate_serialization_file_cases": 6,
+  "distinct_raw_candidate_hashes": 4,
+  "local_replays": 6,
+  "distinct_new_packet_replay": "PENDING_P4",
+  "source_288_control_replays": 0,
+  "resource_correction": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\RESOURCE_DENOMINATOR_CORRECTION.json",
+    "sha256": "eaca7a1ef55e4652d665b96f7661a52b56112fe01546238d4f17af8c3c991b68",
+    "bytes": 4349
+  },
+  "local_reconstruction": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\LOCAL_RECONSTRUCTION.json",
+    "sha256": "e6c3035c9b402dbec759fafc5f2e9c699faf5cd1904ec3a22564f0ad0f66b459",
+    "bytes": 27766
+  },
+  "source_code": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\campaign.py",
+    "sha256": "6faf5668da1f6b816c7465e396566a4aa3330b6bd883b066eaa08531e81a1d68",
+    "bytes": 13992
+  },
+  "supervisor": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\supervise.py",
+    "sha256": "ee67ecdb7bf72307bd42352e4e35eadc0d681ce4593938526b220dd6e5e91ca7",
+    "bytes": 3143
+  },
+  "whole_worker_exit_CPU_seconds": 5.484375,
+  "supervisor_snapshot_CPU_seconds": 0.125,
+  "setup_snapshot_CPU_seconds": 0.34375,
+  "finalizer_snapshot_CPU_seconds": 0.234375,
+  "whole_campaign_CPU": "Worker exit counters measured; tools/setup/finalizer postwrite/shutdown and model CPU UNKNOWN, full90 common reserve +200 pair reserves retained",
+  "retained_unknown_reservations": 290,
+  "new_CPU_cap": 900,
+  "historical_CPU_reservations": "CLOSED_NOT_RECLAIMED",
+  "wall_process_execution_seconds": 5.9742532999953255,
+  "artifact_bytes_before_return": 3398575,
+  "artifact_bytes_cap": 20000000,
+  "actual_model_children": 0,
+  "requested_model": "gpt-6.1-sol high",
+  "backend_tokens_per_seat_cost_touches": "UNKNOWN",
+  "native_execution": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\NATIVE_EXECUTION.json",
+    "sha256": "b2ee544bd667f5ba299421a9102a6ac9a9fcf2261821265a291c3695d2b414d6",
+    "bytes": 419
+  },
+  "quota": "Same AccountB65% used35% remaining before execution and audit; shared pool, no seat attribution",
+  "provider_calls": 0,
+  "spend_usd": 0,
+  "reset_redeemed": false,
+  "protected_effects": 0,
+  "public_rights": "HOLD",
+  "Slack": "LOCAL_OUTBOX_ONLY_NO_SEND_OR_RETRY",
+  "Cloudflare": "UNADMITTED_LOCAL_ONLY",
+  "full_HIVE16_cycle": "PENDING_V_ACT_E_GATES; no fabricated sixteen PASS",
+  "next_owner": "HIVE: consume exact negative packet; P3/P4/P5 distinct reconstruction/scope checks remain",
+  "next_action": "Review canonicalization correction and48 finite scopes; do not repeat identical scaffold regions or renew this budget. Future search requires separately frozen noncolliding region under remaining authority.",
+  "seed_gate_current": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\SEED_GATE_SUPERSESSION.json",
+    "sha256": "e306eae7ddc654e7b8129944c26cf85d893f229fa036b4fa41e9c5e31525e621",
+    "bytes": 1041
+  },
+  "consumer_ack_this_packet": "PENDING",
+  "independently_reconstructible": "PENDING_DISTINCT_READER",
+  "phase_stop": "SAFE_CHECKPOINT_NO_BACKGROUND_PROCESS"
+}

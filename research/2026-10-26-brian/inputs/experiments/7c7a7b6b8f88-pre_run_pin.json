@@ -1,0 +1,10 @@
+{
+  "schema": "hfo.search_pre_run_pin.v1",
+  "utc": "2026-09-29T00:02:45.489959Z",
+  "plan_sha256": "6716a15dab1e0c80499d251c0a5287bed062d539d01a8753f07eeb513ebae975",
+  "generator_sha256": "fedb7d1b46401c2f0918abc6a09bdeeaaf633c9161b804090502cfd2e00137a0",
+  "verifier_sha256": "3d404b3b52e0cbdedda32fff87a320a7e71f5af3f8343b9eb918ada3be5a4dc8",
+  "incumbent_sha256": "0e4cc02d2437e59f282a10f4a4bc5fa45c7297b71dbdd13466928ef0baeb322f",
+  "donor_sha256": "2a04c1c13a777dfa65d0273b1e6ae1b137fd8eb7f286d6b9337a8e17331e9b52",
+  "timing": "written before either policy search"
+}

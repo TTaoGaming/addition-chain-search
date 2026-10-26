@@ -1,0 +1,31 @@
+{
+  "pair": "contiguous",
+  "arm": "random",
+  "start_observed_utc": "2026-09-30T06:32:40.689556+00:00",
+  "terminal_observed_utc": "2026-09-30T06:32:41.943525+00:00",
+  "statuses": {
+    "OPTIMAL": 12
+  },
+  "attempted": 12,
+  "planned": 12,
+  "best_operations": 285,
+  "new_candidate_files": [
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\candidate_00_285.json",
+      "sha256": "74156763547c6a69528cae86908153b18ddcdad7d7ce4068e59b140a32b0b7b2",
+      "bytes": 44806
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\candidate_04_285.json",
+      "sha256": "79ef7fbbaed9129cc02f7c0a1aa832fd1805f861180dca148ae4a59d60c5e7f7",
+      "bytes": 44806
+    }
+  ],
+  "process_cpu_counter_seconds": 1.34375,
+  "wall_seconds": 1.253190799994627,
+  "local_checker": "MAKER_INVOCATION_NOT_DISTINCT_P4",
+  "seed_gate": "P4_VERIFIED_HIVE_ACK_PENDING",
+  "historical288_replays": 0,
+  "timeouts": "UNKNOWN_NOT_INFEASIBLE",
+  "scope": "Finite scaffold bands only; tail and dictionary fixed; no global optimum claim"
+}

@@ -1,0 +1,8 @@
+{
+  "observed_utc": "2026-10-26T15:43:58.381577+00:00",
+  "preregistration_sha256": "f1090cf91ade5238117215b3e895888b24f9c35606b914060697e5a72a26aa78",
+  "engine_sha256": "4357f20b2555ce6344f44af140da879c0a6e25b29b560f9566f54a2d3b71cb67",
+  "verifier_sha256": "86735ef7e3ec185c63b45447c0cf7e9db0c7f0e9c8575cd6b6787ea292e2e8ae",
+  "runner_sha256": "a7151063177d9f9dba3974596fd0ba4e6e1ad20e8f6f14ce7a22f081d97542a4",
+  "written_before_any_arm": true
+}

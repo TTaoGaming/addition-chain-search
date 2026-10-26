@@ -1,0 +1,62 @@
+{
+  "seed": 2026102602,
+  "policy": "score_guided",
+  "order_position": 2,
+  "state": "COMPLETE_VERIFIED",
+  "best": {
+    "operations": 312,
+    "S": 254,
+    "M": 58
+  },
+  "arithmetic_graph_sha256": "c2ddc165c56296a4a59d38382c1ebcfcba8dc317acbc4d6a4a4867bd21d350e0",
+  "assessments": 256,
+  "unique_precompute_states": 215,
+  "repeated_precompute_assessments": 41,
+  "first_final_best_ordinal": 164,
+  "DP_transitions": 220125,
+  "process_cpu_ns_search_including_trace": 93750000,
+  "wall_ns_search_including_trace": 98362300,
+  "certificate_sha256": "a4abe7f8181a06d988d362dfb0bc14f5668f6483f375a3d8ac07a6bcd215a827",
+  "trace_sha256": "6b1bb7745f551906bdc371f9eb8968e3d6486fbb22ed5dc85ce07e3809e35014",
+  "result_sha256": "1c36ae59bfa86a8b2257a50b2490621d514ca3639ea9499a006788228a8a3754",
+  "separate_exact_replay": {
+    "state": "PASS_EXACT_ARITHMETIC",
+    "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+    "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+    "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+    "charged": {
+      "operations": 312,
+      "S": 254,
+      "M": 58
+    },
+    "live": {
+      "operations": 312,
+      "S": 254,
+      "M": 58
+    },
+    "dead": {
+      "operations": 0,
+      "indices": []
+    },
+    "strictly_increasing_schedule": true,
+    "arithmetic_graph_sha256": "c2ddc165c56296a4a59d38382c1ebcfcba8dc317acbc4d6a4a4867bd21d350e0",
+    "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+    "checked_count_fields": [
+      "operation_count",
+      "squarings",
+      "multiplications"
+    ],
+    "modular_bases": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      17,
+      257
+    ],
+    "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+  },
+  "artifact_directory": "runs/replicated-selection/seed-2026102602",
+  "beats_current284": false
+}

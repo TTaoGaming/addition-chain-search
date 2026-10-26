@@ -1,0 +1,65 @@
+{
+  "schema": "addition-chain-finite-engine-smoke.v1",
+  "target": "P-256 scalar group order n-2",
+  "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+  "incumbent": {
+    "operations": 291,
+    "squarings": 254,
+    "multiplications": 37,
+    "source_path": "C:/Dev/work/p256_scalar_probe_20260928/candidate.json",
+    "sha256": "0e4cc02d2437e59f282a10f4a4bc5fa45c7297b71dbdd13466928ef0baeb322f"
+  },
+  "donor": {
+    "method": "Curve25519 monotone precompute plus window DP transferred to P-256",
+    "source_path": "C:/Dev/work/crypto_target_selection_20260928/curve25519_scalar_transfer/search.py",
+    "sha256": "2a04c1c13a777dfa65d0273b1e6ae1b137fd8eb7f286d6b9337a8e17331e9b52"
+  },
+  "bug": {
+    "original_source_sha256": "fedb7d1b46401c2f0918abc6a09bdeeaaf633c9161b804090502cfd2e00137a0",
+    "description": "Original inner window-DP compares (total,S,M), preferring fewer S at an equal total, while frozen 0.8S+M requires fewer M (equivalently more S). The saved best candidate and score-guided beam already compare (total,M,...); they are not the bug.",
+    "correction": "Use rank (total,M,S) only for inner DP and first-window tie-break; retain score data tuple (total,S,M) and original beam ranking.",
+    "scope": "one bounded new-region run; prior plans, source, traces and claims unchanged"
+  },
+  "new_region": {
+    "grammar": "Unfixed whole exponent; monotone precompute exponents up to 127 from sums of existing values; exact leading/nonleading bit-window DP of width at most 8; compare corrected inner DP with original guided and hash beam policies at matched assessment cap",
+    "max_precompute_exponent": 127,
+    "max_window_bits": 8,
+    "max_precompute_operations": 14,
+    "beam_width": 16,
+    "assessment_cap_each": 256,
+    "seed": 20261026,
+    "policies": [
+      "score_guided",
+      "hash_control"
+    ]
+  },
+  "bounds": {
+    "provider_calls": 0,
+    "paid_usd": 0,
+    "seconds_per_policy_max": 10,
+    "artifact_bytes_max": 500000,
+    "stop_between_policies_demonstrated": true
+  },
+  "claim_ceiling": "Finite full-target engine/verification/restart demonstration. Not a causal ablation, new frontier, qualified unattended factory or comparison with the 284 incumbent.",
+  "frozen_utc": "2026-10-26T15:24:56.492420+00:00",
+  "authority": "new 2026-10-26 local research request; not revival of old source budget",
+  "original_plan_sha256": "809050f0e54bc5a4ff879914d55b177c829bccaf021a491124104ae481af9a64",
+  "hypothesis": "A pinned incumbent deterministic generator can produce budgeted certificates which a separate exact-integer implementation validates, and completed work can be recovered without repeating an effect.",
+  "outcomes_required": [
+    "256 assessment calls per arm or precise failure",
+    "original raw telemetry retained",
+    "certificate exact target and charge replay",
+    "stop after first policy",
+    "restart second policy only",
+    "duplicate invocation validates prior result without rerun"
+  ],
+  "source_generator": {
+    "bundle_path": "inputs/engine/search.py",
+    "sha256": "4357f20b2555ce6344f44af140da879c0a6e25b29b560f9566f54a2d3b71cb67"
+  },
+  "independent_verifier": {
+    "bundle_path": "tools/verify_bundle.py",
+    "sha256": "86735ef7e3ec185c63b45447c0cf7e9db0c7f0e9c8575cd6b6787ea292e2e8ae",
+    "independence": "separate implementation; same collecting carrier; no distinct reviewer"
+  }
+}

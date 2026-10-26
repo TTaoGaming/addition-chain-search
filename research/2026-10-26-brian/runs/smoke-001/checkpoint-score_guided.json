@@ -1,0 +1,51 @@
+{
+  "state": "POLICY_COMPLETE_VERIFIED",
+  "observed_utc": "2026-10-26T15:24:57.139810+00:00",
+  "policy": "score_guided",
+  "plan_sha256": "d54931df57cb2adcb2a686b572b812410518cbd59b472e31b1e9802e0e5cb601",
+  "artifact_sha256": {
+    "score_guided.result.json": "949bb659c42de5097fa9bdd2e02ffaf4b732f7ed38f08629a36061fe37d8cf10",
+    "score_guided.certificate.json": "7ba65d4ed276b316629f8d1e09f8726d9e70e4bacb7d8d9612ba38ed394d784b",
+    "score_guided.assessments.jsonl.gz": "346bfcbefd974e2e0ebccd17f493c44df3ce03de8c7fe0878ede571f51707827"
+  },
+  "separate_verifier_result": {
+    "state": "PASS_EXACT_ARITHMETIC",
+    "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+    "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+    "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+    "charged": {
+      "operations": 312,
+      "S": 254,
+      "M": 58
+    },
+    "live": {
+      "operations": 312,
+      "S": 254,
+      "M": 58
+    },
+    "dead": {
+      "operations": 0,
+      "indices": []
+    },
+    "strictly_increasing_schedule": true,
+    "arithmetic_graph_sha256": "c2ddc165c56296a4a59d38382c1ebcfcba8dc317acbc4d6a4a4867bd21d350e0",
+    "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+    "checked_count_fields": [
+      "operation_count",
+      "squarings",
+      "multiplications"
+    ],
+    "modular_bases": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      17,
+      257
+    ],
+    "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+  },
+  "generator_is_pinned_original": true,
+  "claim_ceiling": "Finite full-target engine/verification/restart demonstration. Not a causal ablation, new frontier, qualified unattended factory or comparison with the 284 incumbent."
+}
