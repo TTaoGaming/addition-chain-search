@@ -1,0 +1,70 @@
+{
+  "schema": "hfo.p521_scalar_memory_transfer_result.v1",
+  "observed_utc": "2026-09-29T00:03:30.494692Z",
+  "plan_sha256": "42690fe9e6ae102b1e406f548272568a96d1245132d7d0e0db34d2820de72c54",
+  "assay_sha256": "9b009872533d07ebcae2c6d58fc7d2a81e2aa0b089bfae3f718685e9978c49c7",
+  "pre_run_pin_sha256": "2bda2b5ed350b7bf0fb3f9a3670f032ec279518b8f05f08da474853744e81bc1",
+  "target_hex": "1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa51868783bf2f966b7fcc0148f709a5d03bb5c9b8899c47aebb6fb71e91386407",
+  "arms": [
+    {
+      "arm": "memory_guided",
+      "start_utc": "2026-09-29T00:03:28.946326Z",
+      "end_utc": "2026-09-29T00:03:29.741001Z",
+      "wall_ns": 792030700,
+      "process_cpu_ns": 765625000,
+      "attempts": 1024,
+      "valid_dags": 744,
+      "unsupported_grammar": 280,
+      "full_budget_completed": true,
+      "best": {
+        "squarings": 519,
+        "multiplications": 68,
+        "total": 587,
+        "weighted_fifths": 2416,
+        "weighted_0_8": 483.2,
+        "first_found_ordinal": 577,
+        "case": {
+          "prefix": 254,
+          "skips": [
+            11
+          ]
+        },
+        "certificate_sha256": "b1e966bebfa4359ebab73a912ddf07efac829811ccbeae3b6d9746458c490698"
+      },
+      "trace_sha256": "87da5051d9e57afba17cac15d41eaec11544ec49fda0f502269ef4dadcf3c306",
+      "measurement_boundary": "arm order evaluation through compressed trace close; excludes plan pin and final summary write"
+    },
+    {
+      "arm": "memory_ablated_control",
+      "start_utc": "2026-09-29T00:03:29.741001Z",
+      "end_utc": "2026-09-29T00:03:30.494692Z",
+      "wall_ns": 764054400,
+      "process_cpu_ns": 734375000,
+      "attempts": 1024,
+      "valid_dags": 701,
+      "unsupported_grammar": 323,
+      "full_budget_completed": true,
+      "best": {
+        "squarings": 519,
+        "multiplications": 67,
+        "total": 586,
+        "weighted_fifths": 2411,
+        "weighted_0_8": 482.2,
+        "first_found_ordinal": 191,
+        "case": {
+          "prefix": 252,
+          "skips": [
+            3,
+            11
+          ]
+        },
+        "certificate_sha256": "ad9da1620b4436228f397d4ad857c8baecd16afa640436b1605289af10e30ade"
+      },
+      "trace_sha256": "2f96e0437e2cddb04b5fa8ee88f72a0c8821dbd79b1484740fce87b4c13cf31d",
+      "measurement_boundary": "arm order evaluation through compressed trace close; excludes plan pin and final summary write"
+    }
+  ],
+  "provider_calls": 0,
+  "paid_usd": 0,
+  "caveat": "Historical P-521 local winner informed the memory ordering; no autonomous learning claim."
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "bounded-addition-chain-action-contract.v1",
+  "base_exponent": 1,
+  "candidate_rows_max": 256,
+  "candidate_bytes_max": 65536,
+  "decision_rounds_max": 3,
+  "evaluations_per_search_action_max": 64,
+  "submit_chain": {"type":"submit_chain","steps":[[0,0],[1,0]],"output_index":2},
+  "construct_binary": {"type":"construct","method":"binary","knobs":{}},
+  "construct_window": {"type":"construct","method":"window","knobs":{"width":4,"variant":"sliding"}},
+  "construct_dictionary": {"type":"construct","method":"dictionary","knobs":{"digits":[1,3,5,7,15],"max_window_bits":4}},
+  "search_window": {"type":"search","method":"window","knobs":{"widths":[1,2,3,4,5,6],"variants":["fixed","sliding"]},"max_evaluations":64},
+  "search_dictionary": {"type":"search","method":"dictionary","knobs":{"base_digits":[1,3,5],"candidate_digits":[7,9,11,15,31],"max_added_digits":2,"max_window_bits":5},"max_evaluations":64},
+  "notes": [
+    "Examples illustrate grammar, not a valid submitted solution for either admitted task.",
+    "All indices are exact nonnegative JSON integers; booleans are refused.",
+    "Optional task_id is accepted on every action and must equal the environment's admitted task_id.",
+    "output_index defaults to the final created node and may name any non-base computed node.",
+    "Repeated exponent values and dead rows are accepted; every serialized row is charged and liveness is reported separately.",
+    "Tools-off refuses construct/search and still permits submit_chain. Each attempted action consumes one decision round.",
+    "Feedback-on exposes exact validity/cost and best candidate. Feedback-off returns only opaque acknowledgment, round and receipt ID.",
+    "Trusted final export chooses the lowest charged-cost valid candidate across the trajectory, with M then canonical-schedule hash as ties. This aggregation is identical across treatments.",
+    "Only data are accepted. No generated code is evaluated or executed."
+  ],
+  "planned_interface": {
+    "init": "python -B harness/v1/ac_environment.py init --output RUN_DIR --task-id synthetic-20-v1 --tools on --feedback on",
+    "action": "python -B harness/v1/ac_environment.py act --output RUN_DIR --action-file ACTION_JSON_FILE",
+    "trusted_export": "python -B harness/v1/ac_environment.py export --output RUN_DIR"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "p2.search.attempt.v1",
+  "id": "contiguous:guided:4",
+  "work_id": "HIVE-P256-EPISODES-HIVE-PREY-PDSA-20260930-004",
+  "cycle_id": "P2-W004",
+  "HIVE_phase": "V",
+  "PDSA_step": "Do",
+  "PREY_event": "Execute",
+  "technique": "contiguous",
+  "arm": "guided",
+  "request": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\REQUEST_04.json",
+    "sha256": "8a3c0b22d6611693f9d01434b90ec152639f662d90dd05724940391072538ba4",
+    "bytes": 51913
+  },
+  "event_utc": "2026-09-30T06:32:40.041548+00:00",
+  "observed_utc": "2026-09-30T06:32:40.041548+00:00",
+  "known_from": "2026-09-30T06:32:40.041548+00:00",
+  "valid_from": "2026-09-30T06:32:40.041548+00:00",
+  "valid_to": "UNKNOWN",
+  "known_to": "UNKNOWN",
+  "time_basis": "local wall observation of invocation; not producer discovery",
+  "source": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\campaign.py",
+    "sha256": "6faf5668da1f6b816c7465e396566a4aa3330b6bd883b066eaa08531e81a1d68",
+    "bytes": 13992
+  },
+  "solver": {
+    "status": "OPTIMAL",
+    "derivation_arcs": 821,
+    "universe_values": 241,
+    "bound": 28.0,
+    "solver_wall_seconds": 0.0169418,
+    "branches": 408,
+    "scope": "THIS_FINITE_MODEL_ONLY",
+    "objective": 28.0
+  },
+  "evaluation": "CACHE_REUSE",
+  "cache_source": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\candidate_00_285.json",
+  "operations": 285,
+  "terminal_observed_utc": "2026-09-30T06:32:40.077766+00:00",
+  "recorded_utc": "2026-09-30T06:32:40.077766+00:00",
+  "attempt_cpu_seconds": 0.046875,
+  "attempt_wall_seconds": 0.03577159999986179,
+  "process_cpu_counter_seconds": 1.125,
+  "parenthash": "a7445c2138ea1035beca99603760fba181f19bad9fb73494b78aeb84c04b9eb1",
+  "idempotency_key": "P2-W004:contiguous:guided:4",
+  "supersedes": null,
+  "verifier": "PENDING_P4_NEW_DAGS",
+  "consumer": "PENDING_HIVE"
+}

@@ -1,0 +1,156 @@
+{
+  "schema": "proof-review-closure.v1",
+  "observed_utc": "2026-10-26T15:51:50.3174812Z",
+  "write_scope": "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof",
+  "stage_notes": [
+    "First REVIEW.md and REVIEW_RECEIPT.json preserved",
+    "Pre-inspection independent core checked 92 triple originals",
+    "Post-inspection separate parent-index expansion checked 25 step and 3 node encodings",
+    "All121 original formats decoded for duplicate-value census; only named Curve448 not separately replayed",
+    "Supplement includes correction of overbroad restrictions sentence: judged verifier was read only after core freeze"
+  ],
+  "substantive_commands": [
+    {
+      "command": "python C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\supplement_review.py",
+      "exit_code": 0,
+      "result": "3 indexed originals repeat exponent126;56equation signatures; bad SHA/decimal exit1; conflicting manifest hex/domain exit0"
+    },
+    {
+      "command": "python C:\\Dev\\work\\brian-addition-chain-factory-20261026\\reviews\\proof\\check_indexed_nodes.py",
+      "exit_code": 0,
+      "result": "3 node originals PASS; none repeats exponent values"
+    }
+  ],
+  "files": [
+    {
+      "name": "check_indexed_nodes.py",
+      "bytes": 3148,
+      "sha256": "27830d069d8fa663c248ce20c88fd78ee6a0db89bd1194ac64f8f711ca18475c"
+    },
+    {
+      "name": "CORE_FREEZE.json",
+      "bytes": 496,
+      "sha256": "c618f8b33f0d4c173df542e110ae82a3f4f4aaf35e8289ccdb6d55f905b0762c"
+    },
+    {
+      "name": "finalize_review.py",
+      "bytes": 13093,
+      "sha256": "b5590943a7ced5efa43708bb1ac409ef4395a71ff3b63b76bfeea56c9b9a68b8"
+    },
+    {
+      "name": "independent_core.py",
+      "bytes": 2706,
+      "sha256": "c5fa8a0fc340c13445cae75a37e6f46af8c617eb29da518f821c22271c6cc419"
+    },
+    {
+      "name": "independent-replay.json",
+      "bytes": 97823,
+      "sha256": "d373bcb09e5c56f18065b71611f1d5f444eb18fefa7fd4f8c19d5357b1f7fcb1"
+    },
+    {
+      "name": "INDEXED_NODES_RECEIPT.json",
+      "bytes": 1296,
+      "sha256": "c61c3df31d280e8ca520a28ffed3d0784d58ae2c413e7fc5a918601672c591d6"
+    },
+    {
+      "name": "key_tamper.py",
+      "bytes": 3086,
+      "sha256": "a11daaa5a3b25085db77c5521a381e489e089c5df9eb9bc02a3f1af1300fa7eb"
+    },
+    {
+      "name": "key-tamper.json",
+      "bytes": 6310,
+      "sha256": "3d377bea095a33b0a7b9516fa32e141b7a71c9d159d3a32e57825b00cdda58fb"
+    },
+    {
+      "name": "probe_verifier.py",
+      "bytes": 4604,
+      "sha256": "58046f94d3b1b5d7a1a2abc7c56f9aa56aea068e163e358392366ad3c3cba4f3"
+    },
+    {
+      "name": "probe-mixed-coverage-manifest.json",
+      "bytes": 11933,
+      "sha256": "0442a8958f28325275919e127da6e22a9e129089ee219fb1840fc4654bd0ff62"
+    },
+    {
+      "name": "probe-mixed-coverage-replay.json",
+      "bytes": 4315,
+      "sha256": "4d30041ecabe4544e998b3acc0411399883a6ca8428ce34d20b46b3584cd1673"
+    },
+    {
+      "name": "REVIEW_RECEIPT.json",
+      "bytes": 8049,
+      "sha256": "2e09a549266d67147da347f8c585fd1bf746a127c5eadf65362e7f653144e1e9"
+    },
+    {
+      "name": "REVIEW.md",
+      "bytes": 7024,
+      "sha256": "57c989c412723214bef7e41c03b805051e6d9f8cd7ac2361d48b86d50f6266a2"
+    },
+    {
+      "name": "run_independent.py",
+      "bytes": 7619,
+      "sha256": "7c91954dd830f22b761f438d9d2921e6f82c852d072d68a54fe96ea286a9cfce"
+    },
+    {
+      "name": "SUPPLEMENT_RECEIPT.json",
+      "bytes": 7637,
+      "sha256": "fce6327faa59cfb27475b6df2125f01ebc4eaac8aeeee85a58d77b9b7cb66b23"
+    },
+    {
+      "name": "supplement_review.py",
+      "bytes": 10365,
+      "sha256": "f24bce9a3fe8f24089272dd3acba72e6b9cf689d9f90666ed5453c5f78fc746a"
+    },
+    {
+      "name": "supplement-wrong_manifest_domain-manifest.json",
+      "bytes": 11655,
+      "sha256": "12d55cb1c89376060c67151e43b96018e7a072cd37a2ae8b7c665549332ed574"
+    },
+    {
+      "name": "supplement-wrong_manifest_domain-replay.json",
+      "bytes": 4166,
+      "sha256": "0bebd99ca99fb0d9f94f111a77709f62a25484c5201590aef5714a5abdadb450"
+    },
+    {
+      "name": "supplement-wrong_manifest_target_hex-manifest.json",
+      "bytes": 11570,
+      "sha256": "589945ddddf65b9f1eb80fdb6da49dc3ab299884edebcb69a58fb2733bc9e4c6"
+    },
+    {
+      "name": "supplement-wrong_manifest_target_hex-replay.json",
+      "bytes": 4166,
+      "sha256": "41c42b6f9e2d9c87be6ecfc2f275c67b7ed60303b28232d39242354062ed3593"
+    },
+    {
+      "name": "supplement-wrong_target_decimal-manifest.json",
+      "bytes": 11665,
+      "sha256": "656866ca688d9131def18d624be19554b3b7edb31abc4711f14470a6f4013fcc"
+    },
+    {
+      "name": "supplement-wrong_target_decimal-replay.json",
+      "bytes": 774,
+      "sha256": "69bcd893400dd8f5a9c7dcdda0c1274750da0cc6cb56d001024f969cf90032be"
+    },
+    {
+      "name": "supplement-wrong_witness_sha256-manifest.json",
+      "bytes": 11665,
+      "sha256": "8337dd4e6ac6850a446821e9b91df3c95824093c3de521e3f6cc97d294bd02d5"
+    },
+    {
+      "name": "supplement-wrong_witness_sha256-replay.json",
+      "bytes": 765,
+      "sha256": "3662844a68c0da87bbad135172335b52b1eda399afe99289dc8678c8d8e394d2"
+    },
+    {
+      "name": "SUPPLEMENT.md",
+      "bytes": 3456,
+      "sha256": "251a911cebe6aff664807efee086fe937b39e77824dffe074e655ad7ef20dabb"
+    },
+    {
+      "name": "verifier-probes.json",
+      "bytes": 2694,
+      "sha256": "81049383e388e7aa57b547967df96696cb995a48818365ac63c201cbfa7d19a8"
+    }
+  ]
+}

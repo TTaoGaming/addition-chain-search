@@ -1,0 +1,843 @@
+{
+  "schema": "addition-chain-public-experiment-sources.v1",
+  "sources": [
+    {
+      "source_path": "search.py",
+      "group": "p256_memory_transfer_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/fedb7d1b4640-search.py",
+      "sha256": "fedb7d1b46401c2f0918abc6a09bdeeaaf633c9161b804090502cfd2e00137a0",
+      "bytes": 9925,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "frozen_plan.json",
+      "group": "p256_memory_transfer_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/6716a15dab1e-frozen_plan.json",
+      "sha256": "6716a15dab1e0c80499d251c0a5287bed062d539d01a8753f07eeb513ebae975",
+      "bytes": 1499,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "pre_run_pin.json",
+      "group": "p256_memory_transfer_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/7c7a7b6b8f88-pre_run_pin.json",
+      "sha256": "7c7a7b6b8f8888f8640c6f49cf88af48e0231222973c2b88c8fd23cfdcacf1ae",
+      "bytes": 585,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "score_guided.assessments.jsonl.gz",
+      "group": "p256_memory_transfer_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/3f2fbca4f3ff-score_guided.assessments.jsonl.gz",
+      "sha256": "3f2fbca4f3ff40a6d74ed590ae0a6a02ccf96384bdbe8dfd754eca3f8d34943c",
+      "bytes": 544242,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "hash_control.assessments.jsonl.gz",
+      "group": "p256_memory_transfer_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/b2710eb3914c-hash_control.assessments.jsonl.gz",
+      "sha256": "b2710eb3914c19905f718142e0c968adf824d0a59fb1f3e5cfba27f23b449680",
+      "bytes": 647478,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "score_guided.result.json",
+      "group": "p256_memory_transfer_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/fdc1a9f0af31-score_guided.result.json",
+      "sha256": "fdc1a9f0af313edf00f330b49c52c3388c6019593316de0e240b4ca2e4efdfa2",
+      "bytes": 3613,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "hash_control.result.json",
+      "group": "p256_memory_transfer_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/49d66caeaa73-hash_control.result.json",
+      "sha256": "49d66caeaa7344bc9a31da6105db51c7723ad01e6644c148058f06348cb3f723",
+      "bytes": 3613,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "search.py",
+      "group": "p256_policy_correction_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/4357f20b2555-search.py",
+      "sha256": "4357f20b2555ce6344f44af140da879c0a6e25b29b560f9566f54a2d3b71cb67",
+      "bytes": 10045,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "frozen_plan.json",
+      "group": "p256_policy_correction_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/809050f0e54b-frozen_plan.json",
+      "sha256": "809050f0e54bc5a4ff879914d55b177c829bccaf021a491124104ae481af9a64",
+      "bytes": 2125,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "pre_run_pin.json",
+      "group": "p256_policy_correction_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/a547d37036ea-pre_run_pin.json",
+      "sha256": "a547d37036eadfe888406af8443289c100d10fd9eea012014331c3f806d050fd",
+      "bytes": 585,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "score_guided.assessments.jsonl.gz",
+      "group": "p256_policy_correction_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/e2d52089bcb8-score_guided.assessments.jsonl.gz",
+      "sha256": "e2d52089bcb8be3e7118d326941ad72362ff1b50815b93deca897bf1c32f27fc",
+      "bytes": 544242,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "hash_control.assessments.jsonl.gz",
+      "group": "p256_policy_correction_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/718177182d7b-hash_control.assessments.jsonl.gz",
+      "sha256": "718177182d7b80e193dec2dd16289cfc6d4d7a5eb9297ce44e2ae2d9191043a7",
+      "bytes": 647478,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "score_guided.result.json",
+      "group": "p256_policy_correction_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/b2b8ed04289b-score_guided.result.json",
+      "sha256": "b2b8ed04289b5a13e8aeca63d52b61600adea90471c9f008f1a2ab39b812326f",
+      "bytes": 3630,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "hash_control.result.json",
+      "group": "p256_policy_correction_20260929",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/5967a403f327-hash_control.result.json",
+      "sha256": "5967a403f327d5703a5d8f1452de51e63743d30c4169e312fe36d0026dde9f1d",
+      "bytes": 3628,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "evolution_trace.jsonl",
+      "group": "compact-openevolve-run_001",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/b34a072fb803-evolution_trace.jsonl",
+      "sha256": "b34a072fb8035f085d9eba958fc79fdc353ff2912116279ef0ffd2ae5fd8ec1e",
+      "bytes": 2572,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "evolution_trace.jsonl",
+      "group": "compact-openevolve-run_002",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/bcac67e397b6-evolution_trace.jsonl",
+      "sha256": "bcac67e397b647bc35d9daa3165ad5a00605bc48e1574861a1ab2d73ea426b76",
+      "bytes": 20395,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "evolution_trace.jsonl",
+      "group": "compact-openevolve-run_003",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/a8b79094567d-evolution_trace.jsonl",
+      "sha256": "a8b79094567dbb64af36a9746ea088117aa9ea1e5b57d2a11f4aeaefc192a5d8",
+      "bytes": 17407,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "f135a2b8-49b3-4978-843f-ef5d132c5e5d.json",
+      "group": "compact-openevolve-missing-trace-row",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/89df8642c6fc-f135a2b8-49b3-4978-843f-ef5d132c5e5d.json",
+      "sha256": "89df8642c6fc203035516e5b0af097864d2fd5accf31460d39eb71c649c73161",
+      "bytes": 2229,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_00.json",
+      "group": "p256-episodes-contiguous_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/d996cd6b8f1d-EPISODE_00.json",
+      "sha256": "d996cd6b8f1dbe7c98323a4dcab76e08bbef833684bb4d0b3a4749f17d28f536",
+      "bytes": 2851,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_01.json",
+      "group": "p256-episodes-contiguous_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/61ef832a5398-EPISODE_01.json",
+      "sha256": "61ef832a5398cbc8cf2ca2d0ccd7019b5f9f911c035868c18bbb104938308a71",
+      "bytes": 2106,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_02.json",
+      "group": "p256-episodes-contiguous_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/6311e93b2480-EPISODE_02.json",
+      "sha256": "6311e93b24805e3776d8de1b782041e977a0c5ec693ec35d4e22342ffd6031dd",
+      "bytes": 2093,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_03.json",
+      "group": "p256-episodes-contiguous_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/8c59187b0d10-EPISODE_03.json",
+      "sha256": "8c59187b0d10e8f6f99c39f03b443b3546e1c0811d3fe1ab554b6fb6a92d51e6",
+      "bytes": 2852,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_04.json",
+      "group": "p256-episodes-contiguous_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/c3e124e3d8ff-EPISODE_04.json",
+      "sha256": "c3e124e3d8fff16606497daf694bca0eb3542e790d6f82c59d5847c1a867a2f2",
+      "bytes": 2091,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_05.json",
+      "group": "p256-episodes-contiguous_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/970ddbb3ef55-EPISODE_05.json",
+      "sha256": "970ddbb3ef558c0f1a1b64e036afdecc514c9f4fd6287dfba7436be91f1c6e01",
+      "bytes": 2092,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_06.json",
+      "group": "p256-episodes-contiguous_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/7f37b981548e-EPISODE_06.json",
+      "sha256": "7f37b981548e45755d8daedb65661cfbaf11939855c8ee881c895f56b4e37c0c",
+      "bytes": 2103,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_07.json",
+      "group": "p256-episodes-contiguous_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/51367df16da8-EPISODE_07.json",
+      "sha256": "51367df16da860eb4fdf9ee2552332602d2b11d554d1cf7eefdc7e1e9b6a1dbe",
+      "bytes": 2093,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_08.json",
+      "group": "p256-episodes-contiguous_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/0042fdd3553c-EPISODE_08.json",
+      "sha256": "0042fdd3553c94f359f1e4c23b7fb0ff70538724787f9d70e7ebeffd68c50d15",
+      "bytes": 2103,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_09.json",
+      "group": "p256-episodes-contiguous_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/88d54d41fbb6-EPISODE_09.json",
+      "sha256": "88d54d41fbb601032ad8478465260cae67c63936aca9cbeafbfe94e7cade0c6f",
+      "bytes": 2105,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_10.json",
+      "group": "p256-episodes-contiguous_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/559de6026c3c-EPISODE_10.json",
+      "sha256": "559de6026c3cb3832d9382b4e253a8edff633354eaa35d1880558441ba324d4c",
+      "bytes": 2103,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_11.json",
+      "group": "p256-episodes-contiguous_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/088631da678f-EPISODE_11.json",
+      "sha256": "088631da678fba1da319d7e2a2502d183ff45602e08d0d2035aff9b6db4261c1",
+      "bytes": 2107,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "RESULT.json",
+      "group": "p256-episodes-contiguous_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/22b1ceef7c12-RESULT.json",
+      "sha256": "22b1ceef7c12d498109ab644a91f16ddb9614c3c6c4d2e38b74ea79c7eb05097",
+      "bytes": 1223,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_00.json",
+      "group": "p256-episodes-contiguous_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/2beecaf5ddcf-EPISODE_00.json",
+      "sha256": "2beecaf5ddcf03df6a6490166b36950eef36fbd63c054ad89678958068018d17",
+      "bytes": 2851,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_01.json",
+      "group": "p256-episodes-contiguous_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/86f647c70039-EPISODE_01.json",
+      "sha256": "86f647c70039cb450831eda5b115260ccfe34acc52b9b827cd7641a44a2c85a6",
+      "bytes": 2104,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_02.json",
+      "group": "p256-episodes-contiguous_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/ee576b76d15a-EPISODE_02.json",
+      "sha256": "ee576b76d15a6c7af502100803a4121dffc2503291b9f6f30d59106c53b4ae9d",
+      "bytes": 1969,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_03.json",
+      "group": "p256-episodes-contiguous_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/eda00a7a19ea-EPISODE_03.json",
+      "sha256": "eda00a7a19ea17abdab58c89e8dbffe44ba4999017b70a1d572af30c4e9e52ba",
+      "bytes": 2104,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_04.json",
+      "group": "p256-episodes-contiguous_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/98d81df972fd-EPISODE_04.json",
+      "sha256": "98d81df972fdac44959a0e051e00f24f0e886f663f9e6325cabed0e31f9d8fe6",
+      "bytes": 2855,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_05.json",
+      "group": "p256-episodes-contiguous_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/6d752a3b783f-EPISODE_05.json",
+      "sha256": "6d752a3b783f50c090c655335d09fdc95ef4e26e0b8022d2ee310ff0cb31a8ce",
+      "bytes": 2093,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_06.json",
+      "group": "p256-episodes-contiguous_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/ee6d7e5d3ba0-EPISODE_06.json",
+      "sha256": "ee6d7e5d3ba0a5643e06a83866d39fbc7ae89740fe2222b10d7791e9c238c1ef",
+      "bytes": 2104,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_07.json",
+      "group": "p256-episodes-contiguous_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/892b55dbd3ff-EPISODE_07.json",
+      "sha256": "892b55dbd3ffe6fb6d5b3fab24217be1179ee4453bfa84c07ceace31da1652f7",
+      "bytes": 2090,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_08.json",
+      "group": "p256-episodes-contiguous_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/5f09f9b68bdc-EPISODE_08.json",
+      "sha256": "5f09f9b68bdcc5829b85973e2b93dc8c445ad7a1d5d78bba1433a261fc80a15c",
+      "bytes": 2104,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_09.json",
+      "group": "p256-episodes-contiguous_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/e60f655eafc4-EPISODE_09.json",
+      "sha256": "e60f655eafc4c955ad59ff8acab9e24573255372045fb6588b6f22173597132e",
+      "bytes": 2093,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_10.json",
+      "group": "p256-episodes-contiguous_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/16211542d5c9-EPISODE_10.json",
+      "sha256": "16211542d5c9e2f61f4d2cbb0a782a56909b2ad2ca6ea5c332699e2ccc71d136",
+      "bytes": 2104,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_11.json",
+      "group": "p256-episodes-contiguous_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/87e3af80d142-EPISODE_11.json",
+      "sha256": "87e3af80d142900bb71b74a79eb8b870a8ed991c6aad5767277cb5731a624c1d",
+      "bytes": 2094,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "RESULT.json",
+      "group": "p256-episodes-contiguous_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/948fc62dd2eb-RESULT.json",
+      "sha256": "948fc62dd2eb9a3c947a2e35bb2fada4b2aa3b5c6fe7b40ee3a178e45c362c5d",
+      "bytes": 1222,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_00.json",
+      "group": "p256-episodes-split_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/499e408543c1-EPISODE_00.json",
+      "sha256": "499e408543c11e422ad3d848a0ea41fd148942a0ed2a786eb92fff94e14e1c0b",
+      "bytes": 2823,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_01.json",
+      "group": "p256-episodes-split_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/be2a4d6762e8-EPISODE_01.json",
+      "sha256": "be2a4d6762e8a6120aeea78280e679c98b8275592bbfc0d82667dbefb8136dd4",
+      "bytes": 2076,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_02.json",
+      "group": "p256-episodes-split_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/7bc452529f5a-EPISODE_02.json",
+      "sha256": "7bc452529f5afb3b5da031f97813fd36a8ae7e4043467cbdb8044843a62c6cc9",
+      "bytes": 2067,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_03.json",
+      "group": "p256-episodes-split_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/604fb3855fae-EPISODE_03.json",
+      "sha256": "604fb3855fae1bb75ad02e9cfb88ec72ce794e2971f9988635e7c0734f8456c9",
+      "bytes": 2076,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_04.json",
+      "group": "p256-episodes-split_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/5ad24d55452c-EPISODE_04.json",
+      "sha256": "5ad24d55452cb28db256f481b0af3a3d52711380fb16cdf53d2de9f1f1b76b8b",
+      "bytes": 2077,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_05.json",
+      "group": "p256-episodes-split_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/ec84062ec977-EPISODE_05.json",
+      "sha256": "ec84062ec977989cdb06e1702720b390a2f3cd57f403c1fba3ddb1629d7a4384",
+      "bytes": 2068,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_06.json",
+      "group": "p256-episodes-split_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/98c1c0cd1cf4-EPISODE_06.json",
+      "sha256": "98c1c0cd1cf4773df2cabebd64ba7473a4ed90810e54c35db989ff0a2763840d",
+      "bytes": 2080,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_07.json",
+      "group": "p256-episodes-split_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/a9e9392d4f18-EPISODE_07.json",
+      "sha256": "a9e9392d4f18bb6ebf6204710a66a7987a4f17f1f7b6232e47fc8b690645ee90",
+      "bytes": 2067,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_08.json",
+      "group": "p256-episodes-split_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/7975c6650e7d-EPISODE_08.json",
+      "sha256": "7975c6650e7d4b0e93ce785ccc5ae48b4d81f52d34218271df0c60de2fc4a200",
+      "bytes": 2066,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_09.json",
+      "group": "p256-episodes-split_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/4e22cc571731-EPISODE_09.json",
+      "sha256": "4e22cc571731420fe96c6559a92c77b57984c1b9b2b7ca65c93b1abf15dd9e60",
+      "bytes": 2068,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_10.json",
+      "group": "p256-episodes-split_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/d696bb3aeb89-EPISODE_10.json",
+      "sha256": "d696bb3aeb89f366f9c55929ba8553c9babbebdbd334d230529d59b13bba3695",
+      "bytes": 2069,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_11.json",
+      "group": "p256-episodes-split_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/032566f1263f-EPISODE_11.json",
+      "sha256": "032566f1263f31d45278eef361c6898088a1aa4753fbcdb6ae77af5b77337543",
+      "bytes": 2080,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "RESULT.json",
+      "group": "p256-episodes-split_guided",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/a586fbb66b73-RESULT.json",
+      "sha256": "a586fbb66b7307b568ca51f708bfe60982ca4acdbecd501f213c0787ce343fef",
+      "bytes": 935,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_00.json",
+      "group": "p256-episodes-split_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/badc13bbc426-EPISODE_00.json",
+      "sha256": "badc13bbc426d2656f257c64291445473d95777dca7a9e26ab8c990c12eb4aa3",
+      "bytes": 2809,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_01.json",
+      "group": "p256-episodes-split_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/ea1cc32ad029-EPISODE_01.json",
+      "sha256": "ea1cc32ad0294d9da820e64d6d42a8e05c0e1405a0cb91cfb10a82cee3c817de",
+      "bytes": 2079,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_02.json",
+      "group": "p256-episodes-split_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/c352445edbdf-EPISODE_02.json",
+      "sha256": "c352445edbdfce62aaad189a861d02e4ab65094553993cfc45de26b3d1c6ab9c",
+      "bytes": 2067,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_03.json",
+      "group": "p256-episodes-split_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/35e026d82d53-EPISODE_03.json",
+      "sha256": "35e026d82d53e8f51b4450f7b90c3f92633fe54aa73d235d41dc61b676c33337",
+      "bytes": 2066,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_04.json",
+      "group": "p256-episodes-split_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/6d75ba77eb17-EPISODE_04.json",
+      "sha256": "6d75ba77eb17c0e2d0db7681d881a1317d7f85c904d35919f7d0faa4c60e0835",
+      "bytes": 2079,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_05.json",
+      "group": "p256-episodes-split_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/db1a695df0bc-EPISODE_05.json",
+      "sha256": "db1a695df0bc8122540ee01c6a06615ac460851706c269c4abaece3d015f9d00",
+      "bytes": 2066,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_06.json",
+      "group": "p256-episodes-split_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/b589f227aa4a-EPISODE_06.json",
+      "sha256": "b589f227aa4aec0c2e96123bff1ab1c671f9498fb18f63f9b32341f0e9d344ec",
+      "bytes": 2066,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_07.json",
+      "group": "p256-episodes-split_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/965569443e78-EPISODE_07.json",
+      "sha256": "965569443e78092265b59b5c3fd792654556dac62fa9ba0ccdf13c72b848aba7",
+      "bytes": 2068,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_08.json",
+      "group": "p256-episodes-split_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/ec304ce02142-EPISODE_08.json",
+      "sha256": "ec304ce02142d9c8a456626dcb5ada78c2adfa6ef377b7ae2cc2017839b1dfe5",
+      "bytes": 2065,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_09.json",
+      "group": "p256-episodes-split_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/e6ab88b32ea3-EPISODE_09.json",
+      "sha256": "e6ab88b32ea34e34ecf6c4448580d2782a9f1c6238045e49c0b6bb359ca4be7e",
+      "bytes": 2067,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_10.json",
+      "group": "p256-episodes-split_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/d69421c7a892-EPISODE_10.json",
+      "sha256": "d69421c7a892647feac5402410c51fbf5604c1b78a3662a526217a7c3a47cf74",
+      "bytes": 2069,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EPISODE_11.json",
+      "group": "p256-episodes-split_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/abe985fd86a8-EPISODE_11.json",
+      "sha256": "abe985fd86a867d161ca0fa4ae378340bdbc70e0c199bd11d1768f432eef89f0",
+      "bytes": 2067,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "RESULT.json",
+      "group": "p256-episodes-split_random",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/2c5afe309d62-RESULT.json",
+      "sha256": "2c5afe309d62e3b13f0622a9f299aab5134a29145f3792be0218b70089487275",
+      "bytes": 933,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "PLAN.json",
+      "group": "p256-episodes",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/029e4890b71d-PLAN.json",
+      "sha256": "029e4890b71d2ee57e1f2330493a7ab8b5581fa9a5f39b1f3f2ac9b2b751b619",
+      "bytes": 10066,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "RECOVERY_TYPED_RETURN.json",
+      "group": "p256-episodes",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/e79aa9c455a5-RECOVERY_TYPED_RETURN.json",
+      "sha256": "e79aa9c455a5accf0397eccdf05ebe6987680d3f320569b1fbe3cad74e6b177e",
+      "bytes": 4811,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "RESOURCE_DENOMINATOR_CORRECTION.json",
+      "group": "p256-episodes",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/eaca7a1ef55e-RESOURCE_DENOMINATOR_CORRECTION.json",
+      "sha256": "eaca7a1ef55e4652d665b96f7661a52b56112fe01546238d4f17af8c3c991b68",
+      "bytes": 4349,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "EXECUTION_RECEIPT.json",
+      "group": "p256-episodes",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/48de02ef0061-EXECUTION_RECEIPT.json",
+      "sha256": "48de02ef0061b005f4d1541c1b3f4b2892affde5f08b848f6615e70423e0493b",
+      "bytes": 2766,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "LOCAL_RECONSTRUCTION.json",
+      "group": "p256-episodes",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/e6c3035c9b40-LOCAL_RECONSTRUCTION.json",
+      "sha256": "e6c3035c9b402dbec759fafc5f2e9c699faf5cd1904ec3a22564f0ad0f66b459",
+      "bytes": 27766,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "manifest.json",
+      "group": "historical-report-support",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/04eae19c6d7d-manifest.json",
+      "sha256": "04eae19c6d7df3773fd6206746bc6f781534e065dedfe0d6f33a08024ce64657",
+      "bytes": 3889,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "VARIANTS_AND_NEGATIVES.md",
+      "group": "historical-report-support",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/aa5aa487f0ed-VARIANTS_AND_NEGATIVES.md",
+      "sha256": "aa5aa487f0ed2ee7bce0c5f0cabbd7cc1138759c5195829172f5280cdf7f2c28",
+      "bytes": 5099,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "PRIVATE_SEARCH_EPISODE_SOURCES_20260929T1912Z.md",
+      "group": "historical-report-support",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/cee2def73e06-PRIVATE_SEARCH_EPISODE_SOURCES_20260929T1912Z.md",
+      "sha256": "cee2def73e06b87769d1274324f35628c0efbd66949ebd297bc2b0e50286b959",
+      "bytes": 16572,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "p256_search_history.md",
+      "group": "historical-report-support",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/55504668bda6-p256_search_history.md",
+      "sha256": "55504668bda67319e5f54332183a5b9b5863558306687570dda837cc91732038",
+      "bytes": 5079,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "p256_technical.md",
+      "group": "historical-report-support",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/a637886311a5-p256_technical.md",
+      "sha256": "a637886311a56313a70911124bfc99150518ec09440aeb7462ff2c7cc2c08654",
+      "bytes": 7185,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "p256_benchmark_summary.json",
+      "group": "historical-report-support",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/7ec7e8d8589a-p256_benchmark_summary.json",
+      "sha256": "7ec7e8d8589a49565f01ceb88c6cbbeba848e2a3709ac2dccccc72438e24f5e6",
+      "bytes": 1760,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "p256_microbenchmark.csv",
+      "group": "historical-report-support",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/cbf8cb926882-p256_microbenchmark.csv",
+      "sha256": "cbf8cb92688265e9e3e8ec26c18b1451477499689931ab13b219c95f58b33dff",
+      "bytes": 1894,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "p256_sign_benchmark.csv",
+      "group": "historical-report-support",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/1c000d2dfb79-p256_sign_benchmark.csv",
+      "sha256": "1c000d2dfb792c6d8d65de47a98d2c45a6815e09dba355b66d0bd7a358836797",
+      "bytes": 1470,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "frozen_plan.json",
+      "group": "p521-memory-case-order",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/42690fe9e6ae-frozen_plan.json",
+      "sha256": "42690fe9e6ae102b1e406f548272568a96d1245132d7d0e0db34d2820de72c54",
+      "bytes": 1955,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "pre_run_pin.json",
+      "group": "p521-memory-case-order",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/2bda2b5ed350-pre_run_pin.json",
+      "sha256": "2bda2b5ed350b7bf0fb3f9a3670f032ec279518b8f05f08da474853744e81bc1",
+      "bytes": 514,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "result.json",
+      "group": "p521-memory-case-order",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/764b3dccf1ab-result.json",
+      "sha256": "764b3dccf1ab1dafd162fe9f3a3771c75c7f87fe6263143323c2ab2e1e028d71",
+      "bytes": 2666,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "replay_result.json",
+      "group": "p521-memory-case-order",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/b4015cbed91f-replay_result.json",
+      "sha256": "b4015cbed91f85e43443bda1e9a5d1adc756c6965950258a76a8185b208d13c2",
+      "bytes": 1303,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "assay.py",
+      "group": "p521-memory-case-order",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/9b009872533d-assay.py",
+      "sha256": "9b009872533d07ebcae2c6d58fc7d2a81e2aa0b089bfae3f718685e9978c49c7",
+      "bytes": 6654,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "memory_guided_attempts.jsonl.gz",
+      "group": "p521-memory-case-order",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/87da5051d9e5-memory_guided_attempts.jsonl.gz",
+      "sha256": "87da5051d9e57afba17cac15d41eaec11544ec49fda0f502269ef4dadcf3c306",
+      "bytes": 9890,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "memory_ablated_control_attempts.jsonl.gz",
+      "group": "p521-memory-case-order",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/2f96e0437e2c-memory_ablated_control_attempts.jsonl.gz",
+      "sha256": "2f96e0437e2cddb04b5fa8ee88f72a0c8821dbd79b1484740fce87b4c13cf31d",
+      "bytes": 11614,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "PRIVATE_RECEIPT_20260929T0007Z.md",
+      "group": "p521-memory-case-order",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/experiments/5e143b724152-PRIVATE_RECEIPT_20260929T0007Z.md",
+      "sha256": "5e143b724152cc786ec8c692e7989e95988a007a1a7bacd798b6208904b39632",
+      "bytes": 4665,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "memory_guided_best.json",
+      "group": "p521-memory-case-order",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/witnesses/b1e966bebfa4-memory_guided_best.json",
+      "sha256": "b1e966bebfa4359ebab73a912ddf07efac829811ccbeae3b6d9746458c490698",
+      "bytes": 137861,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    },
+    {
+      "source_path": "memory_ablated_control_best.json",
+      "group": "p521-memory-case-order",
+      "state": "PINNED_OWN_TECHNICAL_WORK",
+      "bundle_path": "inputs/witnesses/ad9da1620b44-memory_ablated_control_best.json",
+      "sha256": "ad9da1620b4436228f397d4ad857c8baecd16afa640436b1605289af10e30ade",
+      "bytes": 137864,
+      "release_class": "SHAREABLE_OWN_RESEARCH_UNDER_2026_10_26_INSTRUCTION"
+    }
+  ],
+  "scope": "Own technical work only; filenames retained for exact source selection. No email bodies, correspondent quotes or credentials."
+}

@@ -1,0 +1,489 @@
+{
+  "schema": "p2.preregistered.scaffold.campaign.v1",
+  "work_id": "HIVE-P256-EPISODES-HIVE-PREY-PDSA-20260930-004",
+  "attempt_id": "P2-W004-20260930T062723Z",
+  "recorded_utc": "2026-09-30T06:32:14.308798+00:00",
+  "immutable_start_utc": "2026-09-30T06:27:23+00:00",
+  "immutable_deadline_utc": "2026-09-30T07:19:51+00:00",
+  "phase_H_start": "2026-09-30T06:19:51+00:00",
+  "phase_seconds_max": 3600,
+  "cycle_seconds_max": 14400,
+  "campaign_sha256": "6faf5668da1f6b816c7465e396566a4aa3330b6bd883b066eaa08531e81a1d68",
+  "supervisor_sha256": "ee67ecdb7bf72307bd42352e4e35eadc0d681ce4593938526b220dd6e5e91ca7",
+  "pairs": {
+    "contiguous": {
+      "guided": [
+        [
+          [
+            20,
+            40
+          ]
+        ],
+        [
+          [
+            18,
+            38
+          ]
+        ],
+        [
+          [
+            19,
+            39
+          ]
+        ],
+        [
+          [
+            37,
+            57
+          ]
+        ],
+        [
+          [
+            20,
+            48
+          ]
+        ],
+        [
+          [
+            15,
+            43
+          ]
+        ],
+        [
+          [
+            19,
+            47
+          ]
+        ],
+        [
+          [
+            17,
+            45
+          ]
+        ],
+        [
+          [
+            16,
+            52
+          ]
+        ],
+        [
+          [
+            12,
+            48
+          ]
+        ],
+        [
+          [
+            19,
+            55
+          ]
+        ],
+        [
+          [
+            17,
+            53
+          ]
+        ]
+      ],
+      "random": [
+        [
+          [
+            37,
+            57
+          ]
+        ],
+        [
+          [
+            27,
+            47
+          ]
+        ],
+        [
+          [
+            41,
+            61
+          ]
+        ],
+        [
+          [
+            30,
+            50
+          ]
+        ],
+        [
+          [
+            14,
+            42
+          ]
+        ],
+        [
+          [
+            17,
+            45
+          ]
+        ],
+        [
+          [
+            19,
+            47
+          ]
+        ],
+        [
+          [
+            27,
+            55
+          ]
+        ],
+        [
+          [
+            30,
+            66
+          ]
+        ],
+        [
+          [
+            14,
+            50
+          ]
+        ],
+        [
+          [
+            28,
+            64
+          ]
+        ],
+        [
+          [
+            16,
+            52
+          ]
+        ]
+      ]
+    },
+    "split": {
+      "guided": [
+        [
+          [
+            77,
+            89
+          ],
+          [
+            124,
+            136
+          ]
+        ],
+        [
+          [
+            72,
+            84
+          ],
+          [
+            124,
+            136
+          ]
+        ],
+        [
+          [
+            80,
+            92
+          ],
+          [
+            124,
+            136
+          ]
+        ],
+        [
+          [
+            75,
+            87
+          ],
+          [
+            124,
+            136
+          ]
+        ],
+        [
+          [
+            82,
+            94
+          ],
+          [
+            124,
+            136
+          ]
+        ],
+        [
+          [
+            74,
+            86
+          ],
+          [
+            124,
+            136
+          ]
+        ],
+        [
+          [
+            81,
+            93
+          ],
+          [
+            124,
+            136
+          ]
+        ],
+        [
+          [
+            88,
+            100
+          ],
+          [
+            124,
+            136
+          ]
+        ],
+        [
+          [
+            86,
+            98
+          ],
+          [
+            124,
+            136
+          ]
+        ],
+        [
+          [
+            71,
+            83
+          ],
+          [
+            124,
+            136
+          ]
+        ],
+        [
+          [
+            87,
+            99
+          ],
+          [
+            124,
+            136
+          ]
+        ],
+        [
+          [
+            83,
+            95
+          ],
+          [
+            124,
+            136
+          ]
+        ]
+      ],
+      "random": [
+        [
+          [
+            87,
+            99
+          ],
+          [
+            104,
+            116
+          ]
+        ],
+        [
+          [
+            79,
+            91
+          ],
+          [
+            113,
+            125
+          ]
+        ],
+        [
+          [
+            84,
+            96
+          ],
+          [
+            123,
+            135
+          ]
+        ],
+        [
+          [
+            88,
+            100
+          ],
+          [
+            107,
+            119
+          ]
+        ],
+        [
+          [
+            83,
+            95
+          ],
+          [
+            111,
+            123
+          ]
+        ],
+        [
+          [
+            87,
+            99
+          ],
+          [
+            113,
+            125
+          ]
+        ],
+        [
+          [
+            81,
+            93
+          ],
+          [
+            116,
+            128
+          ]
+        ],
+        [
+          [
+            88,
+            100
+          ],
+          [
+            119,
+            131
+          ]
+        ],
+        [
+          [
+            79,
+            91
+          ],
+          [
+            114,
+            126
+          ]
+        ],
+        [
+          [
+            84,
+            96
+          ],
+          [
+            114,
+            126
+          ]
+        ],
+        [
+          [
+            87,
+            99
+          ],
+          [
+            106,
+            118
+          ]
+        ],
+        [
+          [
+            87,
+            99
+          ],
+          [
+            108,
+            120
+          ]
+        ]
+      ]
+    }
+  },
+  "hypotheses": {
+    "contiguous": "High multiplication/cross-boundary demand windows improve more often than matched uniform windows in scaffold rows12..70.",
+    "split": "Two separated scaffold bands can jointly reuse resources across a fixed gap; guided boundary selection versus uniform matched bands."
+  },
+  "collision_map": {
+    "local_contiguous": "rows12..70: charged scaffold only; immutable low dictionary rows0..11",
+    "local_split": "two12-row bands in rows71..136; fixed intervening arcs",
+    "excluded": [
+      "fixed nine-demand dictionaries",
+      "full carry DP",
+      "factor-root annealing",
+      "E=dQ+r",
+      "literal joint tail MILP",
+      "subset-bank scoring",
+      "all tail rows136..284",
+      "closed historical288 campaigns"
+    ]
+  },
+  "changed_ancestry": "Both bands descend from changed285 productive255 dictionary; fixed dictionary and entire tail, new provisional seed bytes. Does not claim scaffold row values themselves changed.",
+  "control_matching": "12 attempts eacharm; same widths, helpercap192, solverlimit5/workers1/seed404; policy ranking only. Separate method pair geometry.",
+  "CPU": {
+    "aggregate_cap": 900,
+    "pair_cap_each": 400,
+    "pair_active_each": 300,
+    "pair_unknown_reserve_each": 90,
+    "pair_wrap_each": 10,
+    "common_unknown_reserve": 90,
+    "common_wrap": 10,
+    "whole_process_exit_counter": "Windows GetProcessTimes in supervisor including startup, imports, build, replay and shutdown",
+    "unknown_policy": "Full reservations retained; no reclaim or historical refill"
+  },
+  "sources": [
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\hive_v1\\P256_EPISODES_WAVE_004_WORKITEM.json",
+      "sha256": "e99e622c9700e89ffd54c8e235805f7dadce4c74b1a050b4cd852967b4ecd454",
+      "bytes": 21413
+    },
+    {
+      "path": "C:\\Dev\\work\\gen144_p256_pdsa_0c74c96e_20260930\\evo_r1_survivor_285_238703.json",
+      "sha256": "cf2f652a6fe1b240cfbeb0ffdf718feeaec2a7ae07875445357035c83ca0eeac",
+      "bytes": 44687
+    },
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat4\\obsidian_v1\\p256_episodes_wave_004\\VERIFY_285.json",
+      "sha256": "25816e0545f7d39ab503f31db46fbcc3c0fba31540bf0e714fc191564d49f31b",
+      "bytes": 8250
+    },
+    {
+      "path": "C:\\Dev\\work\\brian_packet_private_20260929\\checker_profile\\chain_adapter_robust.py",
+      "sha256": "63254c5699d1f62609bc9d447ac4e36031ca7ce5d91ff2076485de0b56ad9712",
+      "bytes": 8289
+    },
+    {
+      "path": "C:\\Dev\\work\\chain_adapter_20260928\\p256_spec.json",
+      "sha256": "e01987f9ac6b64ee651df3033b3ae4c52ed043a62120f4571352f729b670ddf7",
+      "bytes": 861
+    }
+  ],
+  "seed_gate": "P4_EXACT_VERIFY_PRESENT_HIVE_ACK_PENDING_PROVISIONAL_RESEARCH_ONLY",
+  "control288": {
+    "path": "C:\\Dev\\work\\p256_window_wave_20260929\\candidate_288.dag.json",
+    "sha256": "b0c3dd69fc9d789cd6bd7f3d5707c51b72f20cb60e1ae45484086a21eb4f8fda"
+  },
+  "child_count": 0,
+  "provider_calls": 0,
+  "public_effects": 0,
+  "native_start": {
+    "account_id": "79774afa-0902-4ef1-bda5-e4d1f4f8697b",
+    "used_percent": 64,
+    "remaining_percent": 36,
+    "ordinary_allowed": true,
+    "event_utc": "UNKNOWN",
+    "source": "native get_usage_limits response immediately before setup; shared pool, not seatcost"
+  },
+  "falsifier": "Exact <=284 DAG with maker arithmetic pass, distinct P4 VERIFY and HIVE ConsumerAck; finite negative scopes not unrestricted infeasibility.",
+  "telemetry_ceiling": "Written/readback local immutable episodes; distinct reconstructibility and consumer use PENDING; installed/configured service telemetry UNKNOWN",
+  "rights": "PRIVATE_HOLD",
+  "PDSA_interval_reasoning": "UNKNOWN; local execution clocks only"
+}

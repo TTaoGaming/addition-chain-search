@@ -1,0 +1,102 @@
+{
+  "schema": "p521-memory-case-order-current-audit.v1",
+  "observed_utc": "2026-10-26T15:33:07.597388+00:00",
+  "universe_cases": 4608,
+  "arms": [
+    {
+      "arm": "memory_guided",
+      "attempts": 1024,
+      "unique_cases": 1024,
+      "valid_reported_dags": 744,
+      "unsupported_grammar": 280,
+      "best_total": 587,
+      "best_S": 519,
+      "best_M": 68,
+      "first_best_ordinal": 577,
+      "trajectory": [
+        {
+          "attempt": 1,
+          "weighted_fifths": 2421,
+          "operations": 588
+        },
+        {
+          "attempt": 577,
+          "weighted_fifths": 2416,
+          "operations": 587
+        }
+      ],
+      "source_trace": {
+        "source_path": "C:\\Dev\\work\\p521_transfer_20260929T0002Z\\memory_guided_attempts.jsonl.gz",
+        "group": "p521-memory-case-order",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/87da5051d9e5-memory_guided_attempts.jsonl.gz",
+        "sha256": "87da5051d9e57afba17cac15d41eaec11544ec49fda0f502269ef4dadcf3c306",
+        "bytes": 9890,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "order_check": "not re-derived; raw source plan and observed order retained",
+      "process_cpu_ns_source": 765625000,
+      "wall_ns_source": 792030700
+    },
+    {
+      "arm": "memory_ablated_control",
+      "attempts": 1024,
+      "unique_cases": 1024,
+      "valid_reported_dags": 701,
+      "unsupported_grammar": 323,
+      "best_total": 586,
+      "best_S": 519,
+      "best_M": 67,
+      "first_best_ordinal": 191,
+      "trajectory": [
+        {
+          "attempt": 1,
+          "weighted_fifths": 2434,
+          "operations": 591
+        },
+        {
+          "attempt": 4,
+          "weighted_fifths": 2426,
+          "operations": 589
+        },
+        {
+          "attempt": 25,
+          "weighted_fifths": 2421,
+          "operations": 588
+        },
+        {
+          "attempt": 107,
+          "weighted_fifths": 2416,
+          "operations": 587
+        },
+        {
+          "attempt": 191,
+          "weighted_fifths": 2411,
+          "operations": 586
+        }
+      ],
+      "source_trace": {
+        "source_path": "C:\\Dev\\work\\p521_transfer_20260929T0002Z\\memory_ablated_control_attempts.jsonl.gz",
+        "group": "p521-memory-case-order",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/2f96e0437e2c-memory_ablated_control_attempts.jsonl.gz",
+        "sha256": "2f96e0437e2cddb04b5fa8ee88f72a0c8821dbd79b1484740fce87b4c13cf31d",
+        "bytes": 11614,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "order_check": "exact SHA order independently reproduced",
+      "process_cpu_ns_source": 734375000,
+      "wall_ns_source": 764054400
+    }
+  ],
+  "shared_cases_between_arms": 224,
+  "finding": "Control best 586 beats memory-guided best 587 in one fixed ordering comparison. Both exceed the pinned 582 incumbent and current retained 581 witnesses.",
+  "independent_certificate_replay": "both original best files included in BUNDLE_INPUTS.v3.json and exact-integer replay",
+  "inference_ceiling": "one manually designed history-based order, one region/control seed, different sampled cases/invalid rates; no autonomous memory learning, generalization, serving-family or swarm cooperation effect",
+  "not_run": [
+    "persona/language/enforcement factorial design",
+    "collaboration on/off",
+    "adaptive allocation on/off",
+    "blinded held-out multi-target replicated memory study"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "independent-core-preinspection.v1",
+  "observed_utc": "2026-10-26T15:41:55.9797454Z",
+  "primary_verifier_read": false,
+  "core_sha256": "c5fa8a0fc340c13445cae75a37e6f46af8c617eb29da518f821c22271c6cc419",
+  "source_definition": "Parent assignment: base 1; positive exact integer triples [v,a,b], earlier parents, v=a+b; pinned target; every row charged",
+  "independence": "distinct agent and authored code path; same configured model family; not an admitted Apex actor"
+}

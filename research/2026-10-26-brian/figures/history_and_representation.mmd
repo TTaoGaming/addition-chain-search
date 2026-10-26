@@ -1,0 +1,25 @@
+%% Reconstructed episode order, not a mutation-parent graph.
+%% Exact byte identity and event-time claims are separate.
+flowchart LR
+  p432["432: dictionary/prefix + exact tail DP<br/>Sep10; reported; bytes not recovered"]
+  p429["429 =381S+48M<br/>corrected dictionary probe; reported"]
+  p426["426 =380S+46M<br/>joint dictionary-DAG MILP; reported"]
+  p425["425 =380S+45M<br/>SHA 14da9fd3bfa7<br/>current exact replay"]
+  p424["424 =380S+44M<br/>SHA 88c3ff1cb882<br/>current exact replay"]
+  p423["423 =381S+42M<br/>SHA 179c160b79f4<br/>current exact replay"]
+  p422["422 =382S+40M<br/>SHA 5228f6c12fda<br/>current exact replay"]
+  p421["421 =380S+41M<br/>SHA 844866b0703e<br/>current exact replay"]
+  p432 -.-> p429
+  p429 -.-> p426
+  p426 -.-> p425
+  p425 -.-> p424
+  p424 -.-> p423
+  p423 -.-> p422
+  p422 -.-> p421
+  legend["Dotted edges: reported episode sequence<br/>not proven mutation parents"]
+  p421b["421-B =381S+40M<br/>SHA0a8c5bb288ae; exact replay<br/>discovery clock UNKNOWN"]
+  target["Same exact P-384 scalar n-2 exponent<br/>No optimality or native-speed claim"]
+  p421 -->|"exact exponent equality"| target
+  p421b -->|"exact exponent equality"| target
+  gap["Missing raw proposal/seed trajectories<br/>Dates are source/run/capture claims as labelled in CSV"]
+  gap -.-> p421

@@ -1,0 +1,6 @@
+Archive note A describes a small inventory table. Each record has a relative path, a descriptive label, and a capture date. These fields help a reader locate material and understand its provenance.
+
+Archive note B describes plain text storage. UTF-8 files may contain headings, paragraphs, and lists. A filename extension helps readers choose a viewer. These conventions organize documents without asserting a mathematical result.
+
+Archive note C describes figure navigation. A caption can link to its source table, and an index can list files. Titles and dates provide orientation when a reader opens a report later.
+

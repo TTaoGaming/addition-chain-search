@@ -1,0 +1,59 @@
+{
+  "schema": "hfo.brian.p384_intermediate_bundle.v1",
+  "created_utc": "2026-09-28T19:28:00Z",
+  "classification": "PRIVATE_REVIEW_CANDIDATE_NOT_SENT_OR_PUBLISHED",
+  "target": "P-384 scalar-group order n-2",
+  "fitness": "0.8 * squarings + other_multiplications; all paid precomputation counted",
+  "current_replay": "python -B verify_independent.py",
+  "current_replay_ceiling": "same-carrier separate certificate-only arithmetic checker, not external acceptance or code timing",
+  "milestones": [
+    {
+      "first_observed_utc": "2026-09-21T21:13:57Z",
+      "operations": 425, "squarings": 380, "other_multiplications": 45, "weighted": 349.0,
+      "certificate": "certificates/p384_425.txt",
+      "sha256": "14da9fd3bfa7e3e615c78c5d6cf73dc0262ea3ff65eb29553be502de37f0df05",
+      "source": "https://github.com/TTaoGaming/portfolio/commit/7a5acb774eeee63ebb74d932dad704d6259bad9f",
+      "provenance": "exact public certificate copied from pinned commit; existing 3-language and negative-control results are historical internal reports"
+    },
+    {
+      "first_observed_utc": "2026-09-23T01:31:00Z",
+      "operations": 424, "squarings": 380, "other_multiplications": 44, "weighted": 348.0,
+      "certificate": "certificates/p384_424.txt",
+      "sha256": "88c3ff1cb882db81e8cee4d48a62c1ac41b7f57a1f52dfa5473242b1fc54b1be",
+      "source": "https://github.com/TTaoGaming/hfo-gen-143/issues/169#issuecomment-5787410277",
+      "provenance": "reconstructed from issue #169 recipe and pinned 425 ancestor; exact hash match; prior Python/Node/C++ PASS reported in issue"
+    },
+    {
+      "first_observed_utc": "2026-09-23T13:25:16Z",
+      "operations": 423, "squarings": 381, "other_multiplications": 42, "weighted": 346.8,
+      "certificate": "certificates/p384_423.txt",
+      "sha256": "179c160b79f4c953b1d4822e6ce922213db26993c604c6c79544efdb4acdf6f2",
+      "source": "https://github.com/TTaoGaming/hfo-gen-143/issues/169#issuecomment-5795669973",
+      "provenance": "reconstructed from issue #169 prefix/helper/tail recipe; exact hash match; prior Python/Node/C++ PASS reported in issue"
+    },
+    {
+      "first_observed_utc": "2026-09-23T13:38:14Z",
+      "operations": 422, "squarings": 382, "other_multiplications": 40, "weighted": 345.6,
+      "certificate": "certificates/p384_422.txt",
+      "sha256": "5228f6c12fda873ebb2eecdb34a858a193e92c718efedf81b2c9de4fd72d3d70",
+      "source": "https://github.com/TTaoGaming/portfolio/pull/3",
+      "private_source": "https://github.com/TTaoGaming/hfo-gen-143/issues/169#issuecomment-5795874748",
+      "provenance": "copied exact public certificate from local portfolio checkout; private issue binds search transition; Brian previously reviewed 422 ring patch, but not this bundle"
+    },
+    {
+      "first_observed_utc": "2026-09-24T12:50:43Z",
+      "operations": 421, "squarings": 380, "other_multiplications": 41, "weighted": 345.0,
+      "certificate": "certificates/p384_421.txt",
+      "sha256": "844866b0703ef55ca41fc616a7226fe6d8aca3022ead18cdaec1e0911422e02e",
+      "source": "https://github.com/TTaoGaming/portfolio/pull/5",
+      "source_head": "bff547cfaa0ce78a2bb8b5fc9eaf083aee68c8bc",
+      "provenance": "copied exact public certificate from local PR5 review tree; hosted check 36321642949 reported PASS; no runtime speed or Brian acceptance"
+    }
+  ],
+  "limitations": [
+    "Five selected milestone certificates, not every historical search candidate or complete run log.",
+    "The 424 and 423 certificate bytes are current reconstructions with exact pinned hash matches; they were not fetched from an archived original certificate file.",
+    "Same-length frontier variants and bounded negative search regions are in VARIANTS_AND_NEGATIVES.md, not silently folded into the five milestones.",
+    "No novelty, global optimality, constant-time safety, production speed, or adoption claim."
+  ]
+}

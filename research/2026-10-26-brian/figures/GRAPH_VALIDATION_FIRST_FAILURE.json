@@ -1,0 +1,8 @@
+{
+  "recorded_utc": "2026-10-26T15:56:54.880759+00:00",
+  "scope": "post-render validation helper",
+  "first_error": "AttributeError: NoneType object has no attribute group",
+  "cause": "The initial ad-hoc endpoint parser assumed every Mermaid edge line ended with a bare node ID; the architecture file declares its email destination inline.",
+  "graph_source_changed_to_hide_failure": false,
+  "fix": "Accept inline node declarations in the validation helper. All five Mermaid sources then have zero dangling endpoint references. No Mermaid runtime rendering is claimed."
+}

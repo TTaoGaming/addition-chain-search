@@ -1,0 +1,51 @@
+{
+  "state": "POLICY_COMPLETE_VERIFIED",
+  "observed_utc": "2026-10-26T15:26:48.997740+00:00",
+  "policy": "hash_control",
+  "plan_sha256": "d54931df57cb2adcb2a686b572b812410518cbd59b472e31b1e9802e0e5cb601",
+  "artifact_sha256": {
+    "hash_control.result.json": "daf28629c8b6b2558fcd24a140a95821a259872b33b3f0362810a206ab3340a9",
+    "hash_control.certificate.json": "2ec24df42fe728ff870c18b4627c32aa518c36a5060752f3a3f9c342a44b5b8f",
+    "hash_control.assessments.jsonl.gz": "d896664d9ae99bb92e6150cf81129ece51cfdefc5eaf4098f5932c8be7447104"
+  },
+  "separate_verifier_result": {
+    "state": "PASS_EXACT_ARITHMETIC",
+    "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+    "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+    "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+    "charged": {
+      "operations": 316,
+      "S": 255,
+      "M": 61
+    },
+    "live": {
+      "operations": 316,
+      "S": 255,
+      "M": 61
+    },
+    "dead": {
+      "operations": 0,
+      "indices": []
+    },
+    "strictly_increasing_schedule": true,
+    "arithmetic_graph_sha256": "2f0a66a6f6ae22467cdf8e13906438056faea7e7fdc34a213e2d87e7fc2eb435",
+    "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+    "checked_count_fields": [
+      "operation_count",
+      "squarings",
+      "multiplications"
+    ],
+    "modular_bases": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      17,
+      257
+    ],
+    "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+  },
+  "generator_is_pinned_original": true,
+  "claim_ceiling": "Finite full-target engine/verification/restart demonstration. Not a causal ablation, new frontier, qualified unattended factory or comparison with the 284 incumbent."
+}

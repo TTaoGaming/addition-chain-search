@@ -1,0 +1,109 @@
+{
+  "schema": "addition-chain-behavior-final-summary.v1",
+  "window": {
+    "start": "2026-10-26T17:24:08Z",
+    "live_call_deadline": "2026-10-26T19:24:08Z"
+  },
+  "tasks": {
+    "count": 2,
+    "targets": [
+      750339,
+      7162463
+    ],
+    "binary_costs": [
+      28,
+      35
+    ],
+    "scope": "Synthetic unit-cost integer addition chains; exposed tasks, not crypto frontier/optimality/held-out transfer."
+  },
+  "primary": {
+    "planned_trajectories": 40,
+    "complete": 39,
+    "timeout": 1,
+    "attempted_calls": 119,
+    "returned_calls": 118,
+    "candidate_evaluations": 3098,
+    "audit": "oracle/PRIMARY_AUDIT.v1.json",
+    "timeout_detail": "T/20bit/rep2 retained valid24 incumbent, timed out on decision2; timeout usage unknown"
+  },
+  "cohort": {
+    "paired_starts": 4,
+    "branches": 8,
+    "calls": 24,
+    "candidate_evaluations_actual": 908,
+    "materialized_records": 1080,
+    "branch_accounted_evaluations": 994,
+    "shared_minus_private_cost": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "audit": "oracle/COHORT_AUDIT.v1.json"
+  },
+  "episode_memory": {
+    "trajectories": 12,
+    "complete": 12,
+    "calls": 36,
+    "candidate_evaluations": 939,
+    "same_minus_other_cost": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "same_minus_cold_cost": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "strict_current_source_improvements": 3,
+    "strict_full_primary_improvements": 0,
+    "matching_evaluations": 73,
+    "matching_direct_submissions": 6,
+    "audit": "oracle/MEMORY_AUDIT.v1.json"
+  },
+  "combined": {
+    "study_calls": 179,
+    "returned": 178,
+    "actual_candidate_evaluations": 4945,
+    "all_recorded_candidates_valid": true,
+    "native_tool_events": 0,
+    "max_CLI_overlap": 2,
+    "reported_returned_call_input_tokens": 2927953,
+    "reported_returned_call_output_tokens": 103194,
+    "timeout_tokens": "UNKNOWN; not zero",
+    "principal_task_units": 2
+  },
+  "preflight_excluded": {
+    "CLI_adapter_invocations": 5,
+    "CLI_adapter_successes": 3,
+    "CLI_adapter_unsupported_model_failures": 2,
+    "v1_integration_calls": 3,
+    "v1_integration_evaluations": 11,
+    "free_browser_canaries": 1
+  },
+  "free_browser": {
+    "substantive_requests": 2,
+    "accepted_actions": 0,
+    "selected_route": "openrouter/free alone; tools0",
+    "served_ui": "Flint(free)/recursive",
+    "controlled_math_comparison": "NOT_AVAILABLE",
+    "B": "Initial0-byte capture; late723-byteJSON recovered, not applied/pooled; completion/bound timingUNKNOWN",
+    "V": "No finalbody; Stop requested131.504s aftersend, strict120s capFAILEDby11.504s",
+    "paid_fallback": false
+  },
+  "findings": [
+    "Offered tool availability changed allocation; tools-off direct construction reached29 versus tool-enabled31 on both23bit repeats, with one20bit timeout. This is about this bounded interface, not tools generally.",
+    "Operative skill and reordered training memory tied all4 cost pairs while action/duplicate details differed.",
+    "Name-only framing had two1-operation improvements on the23bit task; two-task pilot and baseline variation do not establish a durable persona advantage.",
+    "Sol baseline lowercost thanLuna in3/4pairs, but realized evaluation/modelwork differed; requested routes are not independent vendors.",
+    "Shared peer observations changed actions and duplication with mixed allocation effects, no cost advantage across4pairs.",
+    "Same-target episode snapshots reused prior schedules without improving the full-study frontier; schedule matches, direct submissions and mathematical novelty are separate.",
+    "Withheld combined validity/cost/incumbent feedback was1operation worse in1pair and tied3; all recorded candidates valid, so no measured validity benefit in this sample."
+  ],
+  "privacy_effects": "Own mathematical work authorized for GitHub/Slack; raw private emails/credentials excluded. No email/contact, paid fallback, cap increase, protected runtime repair, deployment or merge.",
+  "acceptance": "Independent source/runtime/data audits pass; public archive/replay/export receipts are separate artifacts."
+}
+

@@ -1,0 +1,66 @@
+{
+  "processes": [
+    {
+      "pair": "contiguous",
+      "arm": "guided",
+      "exit_code": 0,
+      "whole_exit_CPU_seconds": 1.484375,
+      "whole_wall_seconds": 1.6158716999925673,
+      "start_observed_utc": "2026-09-30T06:32:38.908840+00:00",
+      "terminal_observed_utc": "2026-09-30T06:32:40.524897+00:00",
+      "stop_reason": null,
+      "CPU_source": "Windows GetProcessTimes after process exit; includes startup/import/build/check/replay/shutdown",
+      "stdout_sha256": "4b69207917fdec2f50ca709e409bd510c9af2611115c5121b112c90b99a14f3b"
+    },
+    {
+      "pair": "contiguous",
+      "arm": "random",
+      "exit_code": 0,
+      "whole_exit_CPU_seconds": 1.40625,
+      "whole_wall_seconds": 1.5063309000106528,
+      "start_observed_utc": "2026-09-30T06:32:40.534508+00:00",
+      "terminal_observed_utc": "2026-09-30T06:32:42.040887+00:00",
+      "stop_reason": null,
+      "CPU_source": "Windows GetProcessTimes after process exit; includes startup/import/build/check/replay/shutdown",
+      "stdout_sha256": "e15b70071c8abea60f6aa827b5fa7324988be7c3be180dcacd5d0dedcdd57cbf"
+    },
+    {
+      "pair": "split",
+      "arm": "guided",
+      "exit_code": 0,
+      "whole_exit_CPU_seconds": 1.40625,
+      "whole_wall_seconds": 1.506670100003248,
+      "start_observed_utc": "2026-09-30T06:32:42.051414+00:00",
+      "terminal_observed_utc": "2026-09-30T06:32:43.558203+00:00",
+      "stop_reason": null,
+      "CPU_source": "Windows GetProcessTimes after process exit; includes startup/import/build/check/replay/shutdown",
+      "stdout_sha256": "23fefbffeebdd8926ad93f1fabbb87cf1c61f522fb74a08574a21b7864c188db"
+    },
+    {
+      "pair": "split",
+      "arm": "random",
+      "exit_code": 0,
+      "whole_exit_CPU_seconds": 1.1875,
+      "whole_wall_seconds": 1.304348999983631,
+      "start_observed_utc": "2026-09-30T06:32:43.567355+00:00",
+      "terminal_observed_utc": "2026-09-30T06:32:44.872703+00:00",
+      "stop_reason": null,
+      "CPU_source": "Windows GetProcessTimes after process exit; includes startup/import/build/check/replay/shutdown",
+      "stdout_sha256": "352373f6bcaa3bff639ee5fb62a806e1ede14ea58ae88ccc27f30633c023c517"
+    }
+  ],
+  "pair_CPU": {
+    "contiguous": 2.890625,
+    "split": 2.59375
+  },
+  "workers_total_CPU_seconds": 5.484375,
+  "supervisor_CPU_counter_seconds": 0.125,
+  "start_observed_utc": "2026-09-30T06:32:38.899396+00:00",
+  "terminal_observed_utc": "2026-09-30T06:32:44.873208+00:00",
+  "wall_seconds": 5.9742532999953255,
+  "reservations_retained": 290,
+  "aggregate_CPU_ceiling": 900,
+  "supervisor_postwrite_shutdown_CPU": "UNKNOWN_CHARGED_COMMON_RESERVE",
+  "distinct_verification": "PENDING",
+  "seed_HIVE_ACK": "PENDING"
+}

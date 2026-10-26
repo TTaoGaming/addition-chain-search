@@ -1,0 +1,1103 @@
+{
+  "schema": "addition-chain-replicated-selection-result.v1",
+  "observed_utc": "2026-10-26T15:44:00.950034+00:00",
+  "preregistration_sha256": "f1090cf91ade5238117215b3e895888b24f9c35606b914060697e5a72a26aa78",
+  "engine_sha256": "4357f20b2555ce6344f44af140da879c0a6e25b29b560f9566f54a2d3b71cb67",
+  "verifier_sha256": "86735ef7e3ec185c63b45447c0cf7e9db0c7f0e9c8575cd6b6787ea292e2e8ae",
+  "status": "COMPLETE_BOUND",
+  "completed_arms": 16,
+  "configured_arms": 16,
+  "completed_assessments": 4096,
+  "failures": [],
+  "stop": null,
+  "records": [
+    {
+      "seed": 2026102601,
+      "policy": "score_guided",
+      "order_position": 1,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 312,
+        "S": 254,
+        "M": 58
+      },
+      "arithmetic_graph_sha256": "c2ddc165c56296a4a59d38382c1ebcfcba8dc317acbc4d6a4a4867bd21d350e0",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 194,
+      "DP_transitions": 221645,
+      "process_cpu_ns_search_including_trace": 109375000,
+      "wall_ns_search_including_trace": 99035300,
+      "certificate_sha256": "edf28d19e9e20326118180252eea062d3a2751e9eb9b015fed03ee0940e2eb14",
+      "trace_sha256": "7219ae07d69abfc0f868da3f1649446fe10da3d39ae9a330648eb3a22ab369e3",
+      "result_sha256": "e7347bcc45c9853ee3c8d291a0cc1c6c8314f783e5707ce13452248729158b1d",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "live": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "c2ddc165c56296a4a59d38382c1ebcfcba8dc317acbc4d6a4a4867bd21d350e0",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102601",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102601,
+      "policy": "hash_control",
+      "order_position": 2,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 315,
+        "S": 254,
+        "M": 61
+      },
+      "arithmetic_graph_sha256": "6b90b6ff44cb1b350e514a4f4eddaaec29f866cfb25a93c02a68e3d049873425",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 63,
+      "DP_transitions": 193541,
+      "process_cpu_ns_search_including_trace": 109375000,
+      "wall_ns_search_including_trace": 107856800,
+      "certificate_sha256": "6488b7a024bee4223f99e380f5aa351ec98ed7220e8b9eccc3924b1bad5f2410",
+      "trace_sha256": "51641a123bae94c442633e96f2dfaea117c2b2d2691c9c46b6b3fb5b4751f260",
+      "result_sha256": "4fa54dcf31166f825547ac22709d74aa6b809c93bb9e76e27c19a7e27adbefb2",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 315,
+          "S": 254,
+          "M": 61
+        },
+        "live": {
+          "operations": 315,
+          "S": 254,
+          "M": 61
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "6b90b6ff44cb1b350e514a4f4eddaaec29f866cfb25a93c02a68e3d049873425",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102601",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102602,
+      "policy": "hash_control",
+      "order_position": 1,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 312,
+        "S": 254,
+        "M": 58
+      },
+      "arithmetic_graph_sha256": "38345ecde501c139589a40a404f376c2191fbe574acc19c1034b56f9ee405019",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 212,
+      "DP_transitions": 200011,
+      "process_cpu_ns_search_including_trace": 125000000,
+      "wall_ns_search_including_trace": 118512900,
+      "certificate_sha256": "30c3bced6de0d6609fa7cec6807d2ec23f480ff5cefe4e60bd7812193c6b57de",
+      "trace_sha256": "f444a0e6ed4e823923736c571eccacbdba61c910c78af1ce6ed61aeb6686c208",
+      "result_sha256": "57b74e266f96be3fd97b00afcfbf8d6e5b7214efc19a9fa5249abc44200937e8",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "live": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "38345ecde501c139589a40a404f376c2191fbe574acc19c1034b56f9ee405019",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102602",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102602,
+      "policy": "score_guided",
+      "order_position": 2,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 312,
+        "S": 254,
+        "M": 58
+      },
+      "arithmetic_graph_sha256": "c2ddc165c56296a4a59d38382c1ebcfcba8dc317acbc4d6a4a4867bd21d350e0",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 164,
+      "DP_transitions": 220125,
+      "process_cpu_ns_search_including_trace": 93750000,
+      "wall_ns_search_including_trace": 98362300,
+      "certificate_sha256": "a4abe7f8181a06d988d362dfb0bc14f5668f6483f375a3d8ac07a6bcd215a827",
+      "trace_sha256": "6b1bb7745f551906bdc371f9eb8968e3d6486fbb22ed5dc85ce07e3809e35014",
+      "result_sha256": "1c36ae59bfa86a8b2257a50b2490621d514ca3639ea9499a006788228a8a3754",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "live": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "c2ddc165c56296a4a59d38382c1ebcfcba8dc317acbc4d6a4a4867bd21d350e0",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102602",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102603,
+      "policy": "score_guided",
+      "order_position": 1,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 312,
+        "S": 254,
+        "M": 58
+      },
+      "arithmetic_graph_sha256": "38345ecde501c139589a40a404f376c2191fbe574acc19c1034b56f9ee405019",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 175,
+      "DP_transitions": 221882,
+      "process_cpu_ns_search_including_trace": 109375000,
+      "wall_ns_search_including_trace": 100912600,
+      "certificate_sha256": "f27602fd16e551b142539ffd52f602cee3f1b0e01265e8ddb7fb64836baecb63",
+      "trace_sha256": "35bd88d3fc36c3109aeb820255eba7cef8a0d220938a0e9de3173e7ba8d79e8b",
+      "result_sha256": "d53e3b0af33e8db4ce8eff22b6d877126e10b3b4544c0a69e407c74829b0a334",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "live": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "38345ecde501c139589a40a404f376c2191fbe574acc19c1034b56f9ee405019",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102603",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102603,
+      "policy": "hash_control",
+      "order_position": 2,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 313,
+        "S": 254,
+        "M": 59
+      },
+      "arithmetic_graph_sha256": "f8f21a86836a6eabd0595bf634fa3bfed27c12a326d701c0e59f46a0babed9f5",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 180,
+      "DP_transitions": 208430,
+      "process_cpu_ns_search_including_trace": 109375000,
+      "wall_ns_search_including_trace": 108144300,
+      "certificate_sha256": "993d35a4aaae6b316939bd553f4cfc65a4115de6f7b85eb4f087bd14dc6ab7a3",
+      "trace_sha256": "c086bb86301da6beffea5f38843727e432bfdce930dcc582863cd00755fd4049",
+      "result_sha256": "ab6aa0d711b49dea08fd0c04885458489106a2c66d7d61440df5028e30d6d0ba",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 313,
+          "S": 254,
+          "M": 59
+        },
+        "live": {
+          "operations": 313,
+          "S": 254,
+          "M": 59
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "f8f21a86836a6eabd0595bf634fa3bfed27c12a326d701c0e59f46a0babed9f5",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102603",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102604,
+      "policy": "hash_control",
+      "order_position": 1,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 314,
+        "S": 254,
+        "M": 60
+      },
+      "arithmetic_graph_sha256": "68132a080c9b1e7a2276b31da7b323611f9b1c2ffe8f912fc77b7101f6f6a982",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 234,
+      "DP_transitions": 194934,
+      "process_cpu_ns_search_including_trace": 109375000,
+      "wall_ns_search_including_trace": 109042800,
+      "certificate_sha256": "2c7e175c6dfdd49944565459baf181bfe139478e0b2c8904a0100a5abd28ee37",
+      "trace_sha256": "994a49f8d86fda6cf1b31b60faf934709de561e9820259328bed8202c85d0877",
+      "result_sha256": "4da6c0301175f33192b6bec295b1989fa04b35f92b577b440be222ec6eae1df4",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 314,
+          "S": 254,
+          "M": 60
+        },
+        "live": {
+          "operations": 314,
+          "S": 254,
+          "M": 60
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "68132a080c9b1e7a2276b31da7b323611f9b1c2ffe8f912fc77b7101f6f6a982",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102604",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102604,
+      "policy": "score_guided",
+      "order_position": 2,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 312,
+        "S": 254,
+        "M": 58
+      },
+      "arithmetic_graph_sha256": "c2ddc165c56296a4a59d38382c1ebcfcba8dc317acbc4d6a4a4867bd21d350e0",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 170,
+      "DP_transitions": 221905,
+      "process_cpu_ns_search_including_trace": 109375000,
+      "wall_ns_search_including_trace": 111369800,
+      "certificate_sha256": "ec63a3c64184105838ed626e23989d8c0c122acfe2e907074adf611a3f7c274e",
+      "trace_sha256": "b26c4f4339cfdcbdfc958993280b825fb5ad2728f5f303498083974dd2020a56",
+      "result_sha256": "b6edf6f0db0134acf28d62ac242652ef04c6fa8e0b4cf3228a55f019259cb33e",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "live": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "c2ddc165c56296a4a59d38382c1ebcfcba8dc317acbc4d6a4a4867bd21d350e0",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102604",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102605,
+      "policy": "score_guided",
+      "order_position": 1,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 312,
+        "S": 254,
+        "M": 58
+      },
+      "arithmetic_graph_sha256": "38345ecde501c139589a40a404f376c2191fbe574acc19c1034b56f9ee405019",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 180,
+      "DP_transitions": 222693,
+      "process_cpu_ns_search_including_trace": 109375000,
+      "wall_ns_search_including_trace": 110213000,
+      "certificate_sha256": "e73aa7eeb58ea6ca269fc0a58804f30dac2f2844eff228ca5fcc5de889414728",
+      "trace_sha256": "a3aa35c703b9758e4ff31bb9391a34eab57b0ffa77eea42d518849ad3966e0cd",
+      "result_sha256": "f66a127e4291081d7d55d39044307e3c4ec2aada0d3b8805fff90583a6a9d1db",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "live": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "38345ecde501c139589a40a404f376c2191fbe574acc19c1034b56f9ee405019",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102605",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102605,
+      "policy": "hash_control",
+      "order_position": 2,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 315,
+        "S": 254,
+        "M": 61
+      },
+      "arithmetic_graph_sha256": "6b90b6ff44cb1b350e514a4f4eddaaec29f866cfb25a93c02a68e3d049873425",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 104,
+      "DP_transitions": 205069,
+      "process_cpu_ns_search_including_trace": 109375000,
+      "wall_ns_search_including_trace": 103613500,
+      "certificate_sha256": "92322fe84cc94fe780943e944a64090fc1ba50abb7747da11e709539fe409124",
+      "trace_sha256": "985de8b055d30ce5fbae42a6b781e314d68aaf431878778e655ffd2fbcda7f7b",
+      "result_sha256": "7761c4e30d3c667e5ecfcdcd681084cbd91c3c28a7651bbb2d74c722514ee5e6",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 315,
+          "S": 254,
+          "M": 61
+        },
+        "live": {
+          "operations": 315,
+          "S": 254,
+          "M": 61
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "6b90b6ff44cb1b350e514a4f4eddaaec29f866cfb25a93c02a68e3d049873425",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102605",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102606,
+      "policy": "hash_control",
+      "order_position": 1,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 312,
+        "S": 254,
+        "M": 58
+      },
+      "arithmetic_graph_sha256": "38345ecde501c139589a40a404f376c2191fbe574acc19c1034b56f9ee405019",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 192,
+      "DP_transitions": 207165,
+      "process_cpu_ns_search_including_trace": 109375000,
+      "wall_ns_search_including_trace": 105851500,
+      "certificate_sha256": "505771ba150f4a9483bebe568f5dd367dc3230d07c81fa7f7ca19d6b5813e567",
+      "trace_sha256": "bf60cdaa50693f725ba52f632ca7ece1d27d35bfc091ab7fa36a12a340a18ec2",
+      "result_sha256": "9016fa7231d32c3147eb4f216255272a74d856fdc186f3c08ef53345794978aa",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "live": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "38345ecde501c139589a40a404f376c2191fbe574acc19c1034b56f9ee405019",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102606",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102606,
+      "policy": "score_guided",
+      "order_position": 2,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 312,
+        "S": 254,
+        "M": 58
+      },
+      "arithmetic_graph_sha256": "c2ddc165c56296a4a59d38382c1ebcfcba8dc317acbc4d6a4a4867bd21d350e0",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 166,
+      "DP_transitions": 221618,
+      "process_cpu_ns_search_including_trace": 109375000,
+      "wall_ns_search_including_trace": 112016800,
+      "certificate_sha256": "9ec55c0e9791557a2f0245be2929c0d6a450aa6f7de4afa3b0cc2054ba1ab211",
+      "trace_sha256": "d0222ab40309510d04b46b71af632e6811045b24f25d8cfdfed13c665c82476f",
+      "result_sha256": "765b2949bc3dbf3d2ac35e832e4ea9c0aee1583688112d48c73868dcf8cda74a",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "live": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "c2ddc165c56296a4a59d38382c1ebcfcba8dc317acbc4d6a4a4867bd21d350e0",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102606",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102607,
+      "policy": "score_guided",
+      "order_position": 1,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 312,
+        "S": 254,
+        "M": 58
+      },
+      "arithmetic_graph_sha256": "c2ddc165c56296a4a59d38382c1ebcfcba8dc317acbc4d6a4a4867bd21d350e0",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 171,
+      "DP_transitions": 222291,
+      "process_cpu_ns_search_including_trace": 125000000,
+      "wall_ns_search_including_trace": 113524900,
+      "certificate_sha256": "48052983f083ef7b84adb6946115a8b2cd35e29cbee044a0e43e9e5af6891ff9",
+      "trace_sha256": "d1d9f0f0eb2dbc8f45010f153ea1dbe6e819fcefff85e2f051ec9aabe9586338",
+      "result_sha256": "7eb0005c5ac4b178abc89b85abf293632f7224355f173bc4328a37d94732e5b8",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "live": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "c2ddc165c56296a4a59d38382c1ebcfcba8dc317acbc4d6a4a4867bd21d350e0",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102607",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102607,
+      "policy": "hash_control",
+      "order_position": 2,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 312,
+        "S": 253,
+        "M": 59
+      },
+      "arithmetic_graph_sha256": "7cfd3e4bf2fa994244ffce4a267f543d2de4559098c7ab83d6cf55b9ebcf1afc",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 243,
+      "DP_transitions": 198169,
+      "process_cpu_ns_search_including_trace": 93750000,
+      "wall_ns_search_including_trace": 94791600,
+      "certificate_sha256": "9cd9ed6468009610bbd21f1434c5db23b465d91ee976104b78424b43d07f5743",
+      "trace_sha256": "c17b53c8bdfc14a86133ee8e110372787af83dae28261bcc024f7f58aa58fd61",
+      "result_sha256": "dc9856b5afb54517c1289568f06e345ddd5bc74e219c4f125ed00e7c8570e159",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 312,
+          "S": 253,
+          "M": 59
+        },
+        "live": {
+          "operations": 312,
+          "S": 253,
+          "M": 59
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "7cfd3e4bf2fa994244ffce4a267f543d2de4559098c7ab83d6cf55b9ebcf1afc",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102607",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102608,
+      "policy": "hash_control",
+      "order_position": 1,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 313,
+        "S": 254,
+        "M": 59
+      },
+      "arithmetic_graph_sha256": "bec303dec4504984ffc0395598af6daffb6728d08992d804642d62078946a0cf",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 232,
+      "DP_transitions": 202718,
+      "process_cpu_ns_search_including_trace": 125000000,
+      "wall_ns_search_including_trace": 126626700,
+      "certificate_sha256": "0bf3b564763eff0447bf1ad8f0e0805058bbb62cec3e22aa3f020008bb45ae1d",
+      "trace_sha256": "54efb0c74f706c6d5e63406c892061d14a24fbe27377714e892c0568a05355d9",
+      "result_sha256": "e5aac0175440c99f84c58a0d21dd618ce57f614070683ccac5390a2f183e69ff",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 313,
+          "S": 254,
+          "M": 59
+        },
+        "live": {
+          "operations": 313,
+          "S": 254,
+          "M": 59
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "bec303dec4504984ffc0395598af6daffb6728d08992d804642d62078946a0cf",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102608",
+      "beats_current284": false
+    },
+    {
+      "seed": 2026102608,
+      "policy": "score_guided",
+      "order_position": 2,
+      "state": "COMPLETE_VERIFIED",
+      "best": {
+        "operations": 312,
+        "S": 254,
+        "M": 58
+      },
+      "arithmetic_graph_sha256": "38345ecde501c139589a40a404f376c2191fbe574acc19c1034b56f9ee405019",
+      "assessments": 256,
+      "unique_precompute_states": 215,
+      "repeated_precompute_assessments": 41,
+      "first_final_best_ordinal": 176,
+      "DP_transitions": 222997,
+      "process_cpu_ns_search_including_trace": 109375000,
+      "wall_ns_search_including_trace": 114965300,
+      "certificate_sha256": "8c3cdfcc568ac852c577f467f75f444beb77a6fca77da168e76ba980cfc31fbe",
+      "trace_sha256": "c30d54b2b2578583224cb270dfa695b58ce13c1d1dc1652141c957c0eb699da3",
+      "result_sha256": "281bb50c2fda140bc08d89dd1225ee318fb5405f4177e454b20a51f56d69dfcf",
+      "separate_exact_replay": {
+        "state": "PASS_EXACT_ARITHMETIC",
+        "target_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044367",
+        "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+        "modulus_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+        "charged": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "live": {
+          "operations": 312,
+          "S": 254,
+          "M": 58
+        },
+        "dead": {
+          "operations": 0,
+          "indices": []
+        },
+        "strictly_increasing_schedule": true,
+        "arithmetic_graph_sha256": "38345ecde501c139589a40a404f376c2191fbe574acc19c1034b56f9ee405019",
+        "graph_hash_scope": "sorted exponent triples with unordered parents; row multiplicity retained",
+        "checked_count_fields": [
+          "operation_count",
+          "squarings",
+          "multiplications"
+        ],
+        "modular_bases": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          17,
+          257
+        ],
+        "ceiling": "exact positive-integer exponent identity and counts; samples are not timing, optimality, security or acceptance"
+      },
+      "artifact_directory": "runs/replicated-selection/seed-2026102608",
+      "beats_current284": false
+    }
+  ],
+  "pairs": [
+    {
+      "seed": 2026102601,
+      "guided_operations": 312,
+      "hash_operations": 315,
+      "control_minus_guided": 3,
+      "guided_unique_precompute_states": 215,
+      "hash_unique_precompute_states": 215,
+      "guided_cpu_ns": 109375000,
+      "hash_cpu_ns": 109375000
+    },
+    {
+      "seed": 2026102602,
+      "guided_operations": 312,
+      "hash_operations": 312,
+      "control_minus_guided": 0,
+      "guided_unique_precompute_states": 215,
+      "hash_unique_precompute_states": 215,
+      "guided_cpu_ns": 93750000,
+      "hash_cpu_ns": 125000000
+    },
+    {
+      "seed": 2026102603,
+      "guided_operations": 312,
+      "hash_operations": 313,
+      "control_minus_guided": 1,
+      "guided_unique_precompute_states": 215,
+      "hash_unique_precompute_states": 215,
+      "guided_cpu_ns": 109375000,
+      "hash_cpu_ns": 109375000
+    },
+    {
+      "seed": 2026102604,
+      "guided_operations": 312,
+      "hash_operations": 314,
+      "control_minus_guided": 2,
+      "guided_unique_precompute_states": 215,
+      "hash_unique_precompute_states": 215,
+      "guided_cpu_ns": 109375000,
+      "hash_cpu_ns": 109375000
+    },
+    {
+      "seed": 2026102605,
+      "guided_operations": 312,
+      "hash_operations": 315,
+      "control_minus_guided": 3,
+      "guided_unique_precompute_states": 215,
+      "hash_unique_precompute_states": 215,
+      "guided_cpu_ns": 109375000,
+      "hash_cpu_ns": 109375000
+    },
+    {
+      "seed": 2026102606,
+      "guided_operations": 312,
+      "hash_operations": 312,
+      "control_minus_guided": 0,
+      "guided_unique_precompute_states": 215,
+      "hash_unique_precompute_states": 215,
+      "guided_cpu_ns": 109375000,
+      "hash_cpu_ns": 109375000
+    },
+    {
+      "seed": 2026102607,
+      "guided_operations": 312,
+      "hash_operations": 312,
+      "control_minus_guided": 0,
+      "guided_unique_precompute_states": 215,
+      "hash_unique_precompute_states": 215,
+      "guided_cpu_ns": 125000000,
+      "hash_cpu_ns": 93750000
+    },
+    {
+      "seed": 2026102608,
+      "guided_operations": 312,
+      "hash_operations": 313,
+      "control_minus_guided": 1,
+      "guided_unique_precompute_states": 215,
+      "hash_unique_precompute_states": 215,
+      "guided_cpu_ns": 109375000,
+      "hash_cpu_ns": 125000000
+    }
+  ],
+  "paired_summary": {
+    "complete_pairs": 8,
+    "guided_wins": 5,
+    "ties": 3,
+    "guided_losses": 0,
+    "median_control_minus_guided": 1.0,
+    "mean_control_minus_guided": 1.25
+  },
+  "total_process_cpu_seconds_including_verification_and_audit": 1.9375,
+  "total_wall_seconds_including_verification_and_audit": 2.5396126999985427,
+  "minimum_emitted_operations": 312,
+  "frontier_improvements": 0,
+  "inference_ceiling": "A deterministic selection-package comparison on one historically exposed target at a tiny budget. Policy-specific hash tie salts differ too. Not an agent-skill, collaboration, autonomous-memory, serving-family, held-out-target or generalization test.",
+  "raw_trace_row_unit": "Assessment calls, including beam states assessed again; not unique full DAG proposals."
+}

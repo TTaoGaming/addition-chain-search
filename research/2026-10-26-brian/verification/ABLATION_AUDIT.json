@@ -1,0 +1,1334 @@
+{
+  "schema": "addition-chain-historical-ablation-audit.v1",
+  "observed_utc": "2026-10-26T15:22:57.946434+00:00",
+  "p256_matched_assessment_runs": [
+    {
+      "group": "p256_memory_transfer_20260929",
+      "policy": "score_guided",
+      "plan_source": {
+        "source_path": "C:\\Dev\\work\\p256_memory_transfer_20260929\\frozen_plan.json",
+        "group": "p256_memory_transfer_20260929",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/6716a15dab1e-frozen_plan.json",
+        "sha256": "6716a15dab1e0c80499d251c0a5287bed062d539d01a8753f07eeb513ebae975",
+        "bytes": 1499,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "trace_source": {
+        "source_path": "C:\\Dev\\work\\p256_memory_transfer_20260929\\score_guided.assessments.jsonl.gz",
+        "group": "p256_memory_transfer_20260929",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/3f2fbca4f3ff-score_guided.assessments.jsonl.gz",
+        "sha256": "3f2fbca4f3ff40a6d74ed590ae0a6a02ccf96384bdbe8dfd754eca3f8d34943c",
+        "bytes": 544242,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "assessments": 24000,
+      "unique_precompute_states": 21783,
+      "unique_precompute_value_sets": 21783,
+      "repeated_precompute_assessments": 2217,
+      "exact_forward_DP_spot_checks": 97,
+      "all_precompute_reference_and_sum_checks": "PASS",
+      "reported_score_bins_recomputed": {
+        "above_291": 24000
+      },
+      "selection_checks": [
+        {
+          "depth": 1,
+          "observed_beam_rows": 1,
+          "consistent": true
+        },
+        {
+          "depth": 2,
+          "observed_beam_rows": 2,
+          "consistent": true
+        },
+        {
+          "depth": 3,
+          "observed_beam_rows": 6,
+          "consistent": true
+        },
+        {
+          "depth": 4,
+          "observed_beam_rows": 25,
+          "consistent": true
+        },
+        {
+          "depth": 5,
+          "observed_beam_rows": 135,
+          "consistent": true
+        },
+        {
+          "depth": 6,
+          "observed_beam_rows": 512,
+          "consistent": true
+        },
+        {
+          "depth": 7,
+          "observed_beam_rows": 512,
+          "consistent": true
+        },
+        {
+          "depth": 8,
+          "observed_beam_rows": 512,
+          "consistent": true
+        },
+        {
+          "depth": 9,
+          "observed_beam_rows": 512,
+          "consistent": true
+        }
+      ],
+      "best_operations": 301,
+      "best_S": 253,
+      "best_M": 48,
+      "wall_ns_reported": 11179620400,
+      "process_cpu_ns_reported": 10500000000,
+      "dp_transitions_reported": 23773102,
+      "trajectory": [
+        {
+          "assessment": 1,
+          "operations": 423,
+          "S": 255,
+          "M": 168,
+          "depth": 0
+        },
+        {
+          "assessment": 4,
+          "operations": 350,
+          "S": 255,
+          "M": 95,
+          "depth": 2
+        },
+        {
+          "assessment": 10,
+          "operations": 346,
+          "S": 255,
+          "M": 91,
+          "depth": 3
+        },
+        {
+          "assessment": 22,
+          "operations": 328,
+          "S": 255,
+          "M": 73,
+          "depth": 4
+        },
+        {
+          "assessment": 29,
+          "operations": 322,
+          "S": 254,
+          "M": 68,
+          "depth": 4
+        },
+        {
+          "assessment": 110,
+          "operations": 315,
+          "S": 254,
+          "M": 61,
+          "depth": 5
+        },
+        {
+          "assessment": 426,
+          "operations": 313,
+          "S": 254,
+          "M": 59,
+          "depth": 6
+        },
+        {
+          "assessment": 457,
+          "operations": 312,
+          "S": 254,
+          "M": 58,
+          "depth": 6
+        },
+        {
+          "assessment": 2195,
+          "operations": 311,
+          "S": 254,
+          "M": 57,
+          "depth": 7
+        },
+        {
+          "assessment": 2531,
+          "operations": 309,
+          "S": 254,
+          "M": 55,
+          "depth": 7
+        },
+        {
+          "assessment": 3104,
+          "operations": 308,
+          "S": 253,
+          "M": 55,
+          "depth": 7
+        },
+        {
+          "assessment": 3782,
+          "operations": 305,
+          "S": 252,
+          "M": 53,
+          "depth": 7
+        },
+        {
+          "assessment": 12261,
+          "operations": 302,
+          "S": 253,
+          "M": 49,
+          "depth": 9
+        },
+        {
+          "assessment": 20054,
+          "operations": 301,
+          "S": 253,
+          "M": 48,
+          "depth": 10
+        }
+      ],
+      "stop_class": "ASSESSMENT_CAP",
+      "full_DAG_invalid_proposals": "UNKNOWN; only final certificates and precompute states audited",
+      "claim_ceiling": "one seed; matched assessment count, unequal realized compute; deterministic heuristic selection, no collaboration/memory causal experiment"
+    },
+    {
+      "group": "p256_memory_transfer_20260929",
+      "policy": "hash_control",
+      "plan_source": {
+        "source_path": "C:\\Dev\\work\\p256_memory_transfer_20260929\\frozen_plan.json",
+        "group": "p256_memory_transfer_20260929",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/6716a15dab1e-frozen_plan.json",
+        "sha256": "6716a15dab1e0c80499d251c0a5287bed062d539d01a8753f07eeb513ebae975",
+        "bytes": 1499,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "trace_source": {
+        "source_path": "C:\\Dev\\work\\p256_memory_transfer_20260929\\hash_control.assessments.jsonl.gz",
+        "group": "p256_memory_transfer_20260929",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/b2710eb3914c-hash_control.assessments.jsonl.gz",
+        "sha256": "b2710eb3914c19905f718142e0c968adf824d0a59fb1f3e5cfba27f23b449680",
+        "bytes": 647478,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "assessments": 24000,
+      "unique_precompute_states": 21783,
+      "unique_precompute_value_sets": 21783,
+      "repeated_precompute_assessments": 2217,
+      "exact_forward_DP_spot_checks": 97,
+      "all_precompute_reference_and_sum_checks": "PASS",
+      "reported_score_bins_recomputed": {
+        "above_291": 24000
+      },
+      "selection_checks": [
+        {
+          "depth": 1,
+          "observed_beam_rows": 1,
+          "consistent": true
+        },
+        {
+          "depth": 2,
+          "observed_beam_rows": 2,
+          "consistent": true
+        },
+        {
+          "depth": 3,
+          "observed_beam_rows": 6,
+          "consistent": true
+        },
+        {
+          "depth": 4,
+          "observed_beam_rows": 25,
+          "consistent": true
+        },
+        {
+          "depth": 5,
+          "observed_beam_rows": 135,
+          "consistent": true
+        },
+        {
+          "depth": 6,
+          "observed_beam_rows": 512,
+          "consistent": true
+        },
+        {
+          "depth": 7,
+          "observed_beam_rows": 512,
+          "consistent": true
+        },
+        {
+          "depth": 8,
+          "observed_beam_rows": 512,
+          "consistent": true
+        },
+        {
+          "depth": 9,
+          "observed_beam_rows": 512,
+          "consistent": true
+        }
+      ],
+      "best_operations": 305,
+      "best_S": 253,
+      "best_M": 52,
+      "wall_ns_reported": 23767387600,
+      "process_cpu_ns_reported": 15125000000,
+      "dp_transitions_reported": 19512591,
+      "trajectory": [
+        {
+          "assessment": 1,
+          "operations": 423,
+          "S": 255,
+          "M": 168,
+          "depth": 0
+        },
+        {
+          "assessment": 4,
+          "operations": 350,
+          "S": 255,
+          "M": 95,
+          "depth": 2
+        },
+        {
+          "assessment": 10,
+          "operations": 346,
+          "S": 255,
+          "M": 91,
+          "depth": 3
+        },
+        {
+          "assessment": 22,
+          "operations": 328,
+          "S": 255,
+          "M": 73,
+          "depth": 4
+        },
+        {
+          "assessment": 29,
+          "operations": 322,
+          "S": 254,
+          "M": 68,
+          "depth": 4
+        },
+        {
+          "assessment": 110,
+          "operations": 315,
+          "S": 254,
+          "M": 61,
+          "depth": 5
+        },
+        {
+          "assessment": 426,
+          "operations": 313,
+          "S": 254,
+          "M": 59,
+          "depth": 6
+        },
+        {
+          "assessment": 457,
+          "operations": 312,
+          "S": 254,
+          "M": 58,
+          "depth": 6
+        },
+        {
+          "assessment": 2187,
+          "operations": 311,
+          "S": 254,
+          "M": 57,
+          "depth": 7
+        },
+        {
+          "assessment": 2539,
+          "operations": 309,
+          "S": 254,
+          "M": 55,
+          "depth": 7
+        },
+        {
+          "assessment": 4648,
+          "operations": 308,
+          "S": 253,
+          "M": 55,
+          "depth": 7
+        },
+        {
+          "assessment": 7036,
+          "operations": 306,
+          "S": 252,
+          "M": 54,
+          "depth": 8
+        },
+        {
+          "assessment": 13092,
+          "operations": 305,
+          "S": 253,
+          "M": 52,
+          "depth": 9
+        }
+      ],
+      "stop_class": "ASSESSMENT_CAP",
+      "full_DAG_invalid_proposals": "UNKNOWN; only final certificates and precompute states audited",
+      "claim_ceiling": "one seed; matched assessment count, unequal realized compute; deterministic heuristic selection, no collaboration/memory causal experiment"
+    },
+    {
+      "group": "p256_policy_correction_20260929",
+      "policy": "score_guided",
+      "plan_source": {
+        "source_path": "C:\\Dev\\work\\p256_policy_correction_20260929\\frozen_plan.json",
+        "group": "p256_policy_correction_20260929",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/809050f0e54b-frozen_plan.json",
+        "sha256": "809050f0e54bc5a4ff879914d55b177c829bccaf021a491124104ae481af9a64",
+        "bytes": 2125,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "trace_source": {
+        "source_path": "C:\\Dev\\work\\p256_policy_correction_20260929\\score_guided.assessments.jsonl.gz",
+        "group": "p256_policy_correction_20260929",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/e2d52089bcb8-score_guided.assessments.jsonl.gz",
+        "sha256": "e2d52089bcb8be3e7118d326941ad72362ff1b50815b93deca897bf1c32f27fc",
+        "bytes": 544242,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "assessments": 24000,
+      "unique_precompute_states": 21783,
+      "unique_precompute_value_sets": 21783,
+      "repeated_precompute_assessments": 2217,
+      "exact_forward_DP_spot_checks": 97,
+      "all_precompute_reference_and_sum_checks": "PASS",
+      "reported_score_bins_recomputed": {
+        "above_291": 24000
+      },
+      "selection_checks": [
+        {
+          "depth": 1,
+          "observed_beam_rows": 1,
+          "consistent": true
+        },
+        {
+          "depth": 2,
+          "observed_beam_rows": 2,
+          "consistent": true
+        },
+        {
+          "depth": 3,
+          "observed_beam_rows": 6,
+          "consistent": true
+        },
+        {
+          "depth": 4,
+          "observed_beam_rows": 25,
+          "consistent": true
+        },
+        {
+          "depth": 5,
+          "observed_beam_rows": 135,
+          "consistent": true
+        },
+        {
+          "depth": 6,
+          "observed_beam_rows": 512,
+          "consistent": true
+        },
+        {
+          "depth": 7,
+          "observed_beam_rows": 512,
+          "consistent": true
+        },
+        {
+          "depth": 8,
+          "observed_beam_rows": 512,
+          "consistent": true
+        },
+        {
+          "depth": 9,
+          "observed_beam_rows": 512,
+          "consistent": true
+        }
+      ],
+      "best_operations": 301,
+      "best_S": 253,
+      "best_M": 48,
+      "wall_ns_reported": 10489502500,
+      "process_cpu_ns_reported": 10250000000,
+      "dp_transitions_reported": 23773102,
+      "trajectory": [
+        {
+          "assessment": 1,
+          "operations": 423,
+          "S": 255,
+          "M": 168,
+          "depth": 0
+        },
+        {
+          "assessment": 4,
+          "operations": 350,
+          "S": 255,
+          "M": 95,
+          "depth": 2
+        },
+        {
+          "assessment": 10,
+          "operations": 346,
+          "S": 255,
+          "M": 91,
+          "depth": 3
+        },
+        {
+          "assessment": 22,
+          "operations": 328,
+          "S": 255,
+          "M": 73,
+          "depth": 4
+        },
+        {
+          "assessment": 29,
+          "operations": 322,
+          "S": 254,
+          "M": 68,
+          "depth": 4
+        },
+        {
+          "assessment": 110,
+          "operations": 315,
+          "S": 254,
+          "M": 61,
+          "depth": 5
+        },
+        {
+          "assessment": 426,
+          "operations": 313,
+          "S": 254,
+          "M": 59,
+          "depth": 6
+        },
+        {
+          "assessment": 457,
+          "operations": 312,
+          "S": 254,
+          "M": 58,
+          "depth": 6
+        },
+        {
+          "assessment": 2195,
+          "operations": 311,
+          "S": 254,
+          "M": 57,
+          "depth": 7
+        },
+        {
+          "assessment": 2531,
+          "operations": 309,
+          "S": 254,
+          "M": 55,
+          "depth": 7
+        },
+        {
+          "assessment": 3104,
+          "operations": 308,
+          "S": 253,
+          "M": 55,
+          "depth": 7
+        },
+        {
+          "assessment": 3782,
+          "operations": 305,
+          "S": 252,
+          "M": 53,
+          "depth": 7
+        },
+        {
+          "assessment": 12261,
+          "operations": 302,
+          "S": 253,
+          "M": 49,
+          "depth": 9
+        },
+        {
+          "assessment": 20054,
+          "operations": 301,
+          "S": 253,
+          "M": 48,
+          "depth": 10
+        }
+      ],
+      "stop_class": "ASSESSMENT_CAP",
+      "full_DAG_invalid_proposals": "UNKNOWN; only final certificates and precompute states audited",
+      "claim_ceiling": "one seed; matched assessment count, unequal realized compute; deterministic heuristic selection, no collaboration/memory causal experiment"
+    },
+    {
+      "group": "p256_policy_correction_20260929",
+      "policy": "hash_control",
+      "plan_source": {
+        "source_path": "C:\\Dev\\work\\p256_policy_correction_20260929\\frozen_plan.json",
+        "group": "p256_policy_correction_20260929",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/809050f0e54b-frozen_plan.json",
+        "sha256": "809050f0e54bc5a4ff879914d55b177c829bccaf021a491124104ae481af9a64",
+        "bytes": 2125,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "trace_source": {
+        "source_path": "C:\\Dev\\work\\p256_policy_correction_20260929\\hash_control.assessments.jsonl.gz",
+        "group": "p256_policy_correction_20260929",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/718177182d7b-hash_control.assessments.jsonl.gz",
+        "sha256": "718177182d7b80e193dec2dd16289cfc6d4d7a5eb9297ce44e2ae2d9191043a7",
+        "bytes": 647478,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "assessments": 24000,
+      "unique_precompute_states": 21783,
+      "unique_precompute_value_sets": 21783,
+      "repeated_precompute_assessments": 2217,
+      "exact_forward_DP_spot_checks": 97,
+      "all_precompute_reference_and_sum_checks": "PASS",
+      "reported_score_bins_recomputed": {
+        "above_291": 24000
+      },
+      "selection_checks": [
+        {
+          "depth": 1,
+          "observed_beam_rows": 1,
+          "consistent": true
+        },
+        {
+          "depth": 2,
+          "observed_beam_rows": 2,
+          "consistent": true
+        },
+        {
+          "depth": 3,
+          "observed_beam_rows": 6,
+          "consistent": true
+        },
+        {
+          "depth": 4,
+          "observed_beam_rows": 25,
+          "consistent": true
+        },
+        {
+          "depth": 5,
+          "observed_beam_rows": 135,
+          "consistent": true
+        },
+        {
+          "depth": 6,
+          "observed_beam_rows": 512,
+          "consistent": true
+        },
+        {
+          "depth": 7,
+          "observed_beam_rows": 512,
+          "consistent": true
+        },
+        {
+          "depth": 8,
+          "observed_beam_rows": 512,
+          "consistent": true
+        },
+        {
+          "depth": 9,
+          "observed_beam_rows": 512,
+          "consistent": true
+        }
+      ],
+      "best_operations": 305,
+      "best_S": 253,
+      "best_M": 52,
+      "wall_ns_reported": 9716426400,
+      "process_cpu_ns_reported": 9406250000,
+      "dp_transitions_reported": 19512591,
+      "trajectory": [
+        {
+          "assessment": 1,
+          "operations": 423,
+          "S": 255,
+          "M": 168,
+          "depth": 0
+        },
+        {
+          "assessment": 4,
+          "operations": 350,
+          "S": 255,
+          "M": 95,
+          "depth": 2
+        },
+        {
+          "assessment": 10,
+          "operations": 346,
+          "S": 255,
+          "M": 91,
+          "depth": 3
+        },
+        {
+          "assessment": 22,
+          "operations": 328,
+          "S": 255,
+          "M": 73,
+          "depth": 4
+        },
+        {
+          "assessment": 29,
+          "operations": 322,
+          "S": 254,
+          "M": 68,
+          "depth": 4
+        },
+        {
+          "assessment": 110,
+          "operations": 315,
+          "S": 254,
+          "M": 61,
+          "depth": 5
+        },
+        {
+          "assessment": 426,
+          "operations": 313,
+          "S": 254,
+          "M": 59,
+          "depth": 6
+        },
+        {
+          "assessment": 457,
+          "operations": 312,
+          "S": 254,
+          "M": 58,
+          "depth": 6
+        },
+        {
+          "assessment": 2187,
+          "operations": 311,
+          "S": 254,
+          "M": 57,
+          "depth": 7
+        },
+        {
+          "assessment": 2539,
+          "operations": 309,
+          "S": 254,
+          "M": 55,
+          "depth": 7
+        },
+        {
+          "assessment": 4648,
+          "operations": 308,
+          "S": 253,
+          "M": 55,
+          "depth": 7
+        },
+        {
+          "assessment": 7036,
+          "operations": 306,
+          "S": 252,
+          "M": 54,
+          "depth": 8
+        },
+        {
+          "assessment": 13092,
+          "operations": 305,
+          "S": 253,
+          "M": 52,
+          "depth": 9
+        }
+      ],
+      "stop_class": "ASSESSMENT_CAP",
+      "full_DAG_invalid_proposals": "UNKNOWN; only final certificates and precompute states audited",
+      "claim_ceiling": "one seed; matched assessment count, unequal realized compute; deterministic heuristic selection, no collaboration/memory causal experiment"
+    }
+  ],
+  "correction_comparison": [
+    {
+      "policy": "score_guided",
+      "paired_ordinals": 24000,
+      "changed_state_ordinals": 0,
+      "changed_score_ordinals": 0,
+      "interpretation": "no observed search-state or score effect in this region; not a general no-effect proof"
+    },
+    {
+      "policy": "hash_control",
+      "paired_ordinals": 24000,
+      "changed_state_ordinals": 0,
+      "changed_score_ordinals": 0,
+      "interpretation": "no observed search-state or score effect in this region; not a general no-effect proof"
+    }
+  ],
+  "compact_openevolve": [
+    {
+      "run": "run_001",
+      "trace_source": {
+        "source_path": "C:\\Dev\\work\\p384_microdict_evo_20260929\\run_001\\evolution_trace.jsonl",
+        "group": "compact-openevolve-run_001",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/b34a072fb803-evolution_trace.jsonl",
+        "sha256": "b34a072fb8035f085d9eba958fc79fdc353ff2912116279ef0ffd2ae5fd8ec1e",
+        "bytes": 2572,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "trace_rows": 1,
+      "expected_iterations_from_receipt": 1,
+      "missing_iteration_rows": [],
+      "unique_child_genomes_in_trace": 1,
+      "parent_identical_rows": 0,
+      "strict_improvement_rows_reported": 0,
+      "items": [
+        {
+          "iteration": 1,
+          "timestamp_raw": 1790659361.5979037,
+          "timestamp_utc": "2026-09-29T05:22:41.597904+00:00",
+          "child_id": "cf035cc2-2b06-4fc9-9d08-5073ca015592",
+          "parent_id": "a945d80b-9608-49fe-a31f-cfc66857ed39",
+          "child_metrics_reported": {
+            "combined_score": 861251.0,
+            "valid": 1.0,
+            "operations": 426.0,
+            "squarings": 381.0,
+            "multiplications": 45.0,
+            "weight5": 1749.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": false,
+          "canonical_genome_sha256": "a549b8a67c61751462d07d319709aa2abb2943ad44482e4c7f7f1cef68ff9dfe"
+        }
+      ],
+      "ceiling": "raw engine trace and reported metrics; genome counts are not independently replayed arithmetic DAG counts"
+    },
+    {
+      "run": "run_002",
+      "trace_source": {
+        "source_path": "C:\\Dev\\work\\p384_microdict_evo_20260929\\run_002\\evolution_trace.jsonl",
+        "group": "compact-openevolve-run_002",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/bcac67e397b6-evolution_trace.jsonl",
+        "sha256": "bcac67e397b647bc35d9daa3165ad5a00605bc48e1574861a1ab2d73ea426b76",
+        "bytes": 20395,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "trace_rows": 8,
+      "expected_iterations_from_receipt": 8,
+      "missing_iteration_rows": [],
+      "unique_child_genomes_in_trace": 1,
+      "parent_identical_rows": 5,
+      "strict_improvement_rows_reported": 0,
+      "items": [
+        {
+          "iteration": 1,
+          "timestamp_raw": 1790659512.5700188,
+          "timestamp_utc": "2026-09-29T05:25:12.570019+00:00",
+          "child_id": "7cbf5faf-001a-4b8b-af22-35be2e3f20cb",
+          "parent_id": "0c842152-9746-4eb9-98b3-7a107bfb8ea6",
+          "child_metrics_reported": {
+            "combined_score": 861251.0,
+            "valid": 1.0,
+            "operations": 426.0,
+            "squarings": 381.0,
+            "multiplications": 45.0,
+            "weight5": 1749.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": false,
+          "canonical_genome_sha256": "a549b8a67c61751462d07d319709aa2abb2943ad44482e4c7f7f1cef68ff9dfe"
+        },
+        {
+          "iteration": 2,
+          "timestamp_raw": 1790659513.6921606,
+          "timestamp_utc": "2026-09-29T05:25:13.692161+00:00",
+          "child_id": "766d3a41-44a8-4df4-a480-5008cae80e62",
+          "parent_id": "0c842152-9746-4eb9-98b3-7a107bfb8ea6",
+          "child_metrics_reported": {
+            "combined_score": 861251.0,
+            "valid": 1.0,
+            "operations": 426.0,
+            "squarings": 381.0,
+            "multiplications": 45.0,
+            "weight5": 1749.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": false,
+          "canonical_genome_sha256": "a549b8a67c61751462d07d319709aa2abb2943ad44482e4c7f7f1cef68ff9dfe"
+        },
+        {
+          "iteration": 3,
+          "timestamp_raw": 1790659515.4261725,
+          "timestamp_utc": "2026-09-29T05:25:15.426172+00:00",
+          "child_id": "bd2b9a74-268a-45b0-a474-ec681b6d684b",
+          "parent_id": "7cbf5faf-001a-4b8b-af22-35be2e3f20cb",
+          "child_metrics_reported": {
+            "combined_score": 861251.0,
+            "valid": 1.0,
+            "operations": 426.0,
+            "squarings": 381.0,
+            "multiplications": 45.0,
+            "weight5": 1749.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": true,
+          "canonical_genome_sha256": "a549b8a67c61751462d07d319709aa2abb2943ad44482e4c7f7f1cef68ff9dfe"
+        },
+        {
+          "iteration": 4,
+          "timestamp_raw": 1790659516.7249887,
+          "timestamp_utc": "2026-09-29T05:25:16.724989+00:00",
+          "child_id": "04b5fa57-c8cd-402a-8020-57989d25739f",
+          "parent_id": "0c842152-9746-4eb9-98b3-7a107bfb8ea6",
+          "child_metrics_reported": {
+            "combined_score": 861251.0,
+            "valid": 1.0,
+            "operations": 426.0,
+            "squarings": 381.0,
+            "multiplications": 45.0,
+            "weight5": 1749.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": false,
+          "canonical_genome_sha256": "a549b8a67c61751462d07d319709aa2abb2943ad44482e4c7f7f1cef68ff9dfe"
+        },
+        {
+          "iteration": 5,
+          "timestamp_raw": 1790659518.0558274,
+          "timestamp_utc": "2026-09-29T05:25:18.055827+00:00",
+          "child_id": "10b8e126-9dd2-433d-a4b2-6e2b8087d3bb",
+          "parent_id": "766d3a41-44a8-4df4-a480-5008cae80e62",
+          "child_metrics_reported": {
+            "combined_score": 861251.0,
+            "valid": 1.0,
+            "operations": 426.0,
+            "squarings": 381.0,
+            "multiplications": 45.0,
+            "weight5": 1749.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": true,
+          "canonical_genome_sha256": "a549b8a67c61751462d07d319709aa2abb2943ad44482e4c7f7f1cef68ff9dfe"
+        },
+        {
+          "iteration": 6,
+          "timestamp_raw": 1790659519.2229915,
+          "timestamp_utc": "2026-09-29T05:25:19.222991+00:00",
+          "child_id": "e4c156d5-aedc-4dc0-bcf4-875d3b179341",
+          "parent_id": "7cbf5faf-001a-4b8b-af22-35be2e3f20cb",
+          "child_metrics_reported": {
+            "combined_score": 861251.0,
+            "valid": 1.0,
+            "operations": 426.0,
+            "squarings": 381.0,
+            "multiplications": 45.0,
+            "weight5": 1749.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": true,
+          "canonical_genome_sha256": "a549b8a67c61751462d07d319709aa2abb2943ad44482e4c7f7f1cef68ff9dfe"
+        },
+        {
+          "iteration": 7,
+          "timestamp_raw": 1790659520.3404214,
+          "timestamp_utc": "2026-09-29T05:25:20.340421+00:00",
+          "child_id": "bd6c27b5-c0cb-4a67-8380-35eb801be800",
+          "parent_id": "bd2b9a74-268a-45b0-a474-ec681b6d684b",
+          "child_metrics_reported": {
+            "combined_score": 861251.0,
+            "valid": 1.0,
+            "operations": 426.0,
+            "squarings": 381.0,
+            "multiplications": 45.0,
+            "weight5": 1749.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": true,
+          "canonical_genome_sha256": "a549b8a67c61751462d07d319709aa2abb2943ad44482e4c7f7f1cef68ff9dfe"
+        },
+        {
+          "iteration": 8,
+          "timestamp_raw": 1790659521.4588597,
+          "timestamp_utc": "2026-09-29T05:25:21.458860+00:00",
+          "child_id": "e21e0842-bcc7-40cf-a69f-335371666e1f",
+          "parent_id": "bd2b9a74-268a-45b0-a474-ec681b6d684b",
+          "child_metrics_reported": {
+            "combined_score": 861251.0,
+            "valid": 1.0,
+            "operations": 426.0,
+            "squarings": 381.0,
+            "multiplications": 45.0,
+            "weight5": 1749.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": true,
+          "canonical_genome_sha256": "a549b8a67c61751462d07d319709aa2abb2943ad44482e4c7f7f1cef68ff9dfe"
+        }
+      ],
+      "ceiling": "raw engine trace and reported metrics; genome counts are not independently replayed arithmetic DAG counts"
+    },
+    {
+      "run": "run_003",
+      "trace_source": {
+        "source_path": "C:\\Dev\\work\\p384_microdict_evo_20260929\\run_003\\evolution_trace.jsonl",
+        "group": "compact-openevolve-run_003",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/a8b79094567d-evolution_trace.jsonl",
+        "sha256": "a8b79094567dbb64af36a9746ea088117aa9ea1e5b57d2a11f4aeaefc192a5d8",
+        "bytes": 17407,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "trace_rows": 7,
+      "expected_iterations_from_receipt": 8,
+      "missing_iteration_rows": [
+        6
+      ],
+      "unique_child_genomes_in_trace": 7,
+      "parent_identical_rows": 0,
+      "strict_improvement_rows_reported": 0,
+      "items": [
+        {
+          "iteration": 1,
+          "timestamp_raw": 1790659970.237116,
+          "timestamp_utc": "2026-09-29T05:32:50.237116+00:00",
+          "child_id": "dad1ae36-e476-45d6-abef-f98d670c59f9",
+          "parent_id": "0f09836e-d7da-4f73-b29c-163757cbe3c0",
+          "child_metrics_reported": {
+            "combined_score": 871256.0,
+            "valid": 1.0,
+            "operations": 425.0,
+            "squarings": 381.0,
+            "multiplications": 44.0,
+            "weight5": 1744.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": false,
+          "canonical_genome_sha256": "58ba4341db0ea52b7d2f132b8aac8c0b2ef6db345b721db733c9a2492cbe4119"
+        },
+        {
+          "iteration": 2,
+          "timestamp_raw": 1790659972.1545463,
+          "timestamp_utc": "2026-09-29T05:32:52.154546+00:00",
+          "child_id": "df98c04c-9383-4bec-ab9a-19e9981cd36d",
+          "parent_id": "0f09836e-d7da-4f73-b29c-163757cbe3c0",
+          "child_metrics_reported": {
+            "combined_score": 851246.0,
+            "valid": 1.0,
+            "operations": 427.0,
+            "squarings": 381.0,
+            "multiplications": 46.0,
+            "weight5": 1754.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": false,
+          "canonical_genome_sha256": "15688772a7e48865ea93be6d3ea7756200f3b8b0b2740396b005bf987aa94dc6"
+        },
+        {
+          "iteration": 3,
+          "timestamp_raw": 1790659973.7714899,
+          "timestamp_utc": "2026-09-29T05:32:53.771490+00:00",
+          "child_id": "56fd80ac-2b5b-49d5-ae1c-9c8f0f9a98b6",
+          "parent_id": "0f09836e-d7da-4f73-b29c-163757cbe3c0",
+          "child_metrics_reported": {
+            "combined_score": 851246.0,
+            "valid": 1.0,
+            "operations": 427.0,
+            "squarings": 381.0,
+            "multiplications": 46.0,
+            "weight5": 1754.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": false,
+          "canonical_genome_sha256": "90eb8e12c3303496fd2c046672ef1f10272c9e4c484cb122a9409d71e519c667"
+        },
+        {
+          "iteration": 4,
+          "timestamp_raw": 1790659976.7716367,
+          "timestamp_utc": "2026-09-29T05:32:56.771637+00:00",
+          "child_id": "0896cbde-8418-439d-9354-cebd293b578c",
+          "parent_id": "dad1ae36-e476-45d6-abef-f98d670c59f9",
+          "child_metrics_reported": {
+            "combined_score": 861251.0,
+            "valid": 1.0,
+            "operations": 426.0,
+            "squarings": 381.0,
+            "multiplications": 45.0,
+            "weight5": 1749.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": false,
+          "canonical_genome_sha256": "6f6be0f626af5306385a0eaa2424e97e3529b825e8a542a115a60a05e837f95e"
+        },
+        {
+          "iteration": 5,
+          "timestamp_raw": 1790659979.7905147,
+          "timestamp_utc": "2026-09-29T05:32:59.790515+00:00",
+          "child_id": "f7db511c-b9f6-4c37-aa0b-6e7a6fc1456d",
+          "parent_id": "56fd80ac-2b5b-49d5-ae1c-9c8f0f9a98b6",
+          "child_metrics_reported": {
+            "combined_score": 861252.0,
+            "valid": 1.0,
+            "operations": 426.0,
+            "squarings": 382.0,
+            "multiplications": 44.0,
+            "weight5": 1748.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": false,
+          "canonical_genome_sha256": "c2d561c70ea550c9729020c8603a6e2879c3c7fa77257d6b469136d50397646c"
+        },
+        {
+          "iteration": 7,
+          "timestamp_raw": 1790659985.7044988,
+          "timestamp_utc": "2026-09-29T05:33:05.704499+00:00",
+          "child_id": "dd32f61a-6d92-4502-8227-a33f84656e4c",
+          "parent_id": "0896cbde-8418-439d-9354-cebd293b578c",
+          "child_metrics_reported": {
+            "combined_score": 861251.0,
+            "valid": 1.0,
+            "operations": 426.0,
+            "squarings": 381.0,
+            "multiplications": 45.0,
+            "weight5": 1749.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": false,
+          "canonical_genome_sha256": "3f14988e3e5d2c87d9f006afdd716a6cc916d15832c31d395a443da649f8bfeb"
+        },
+        {
+          "iteration": 8,
+          "timestamp_raw": 1790659988.1759381,
+          "timestamp_utc": "2026-09-29T05:33:08.175938+00:00",
+          "child_id": "c0e6090a-4ef9-41ea-927e-56475f28998e",
+          "parent_id": "0896cbde-8418-439d-9354-cebd293b578c",
+          "child_metrics_reported": {
+            "combined_score": 861250.0,
+            "valid": 1.0,
+            "operations": 426.0,
+            "squarings": 380.0,
+            "multiplications": 46.0,
+            "weight5": 1750.0,
+            "strict_improvement": 0.0
+          },
+          "parent_identical": false,
+          "canonical_genome_sha256": "b7b28f28c363feb2314204c03733be0775f629c18a8e4011d9357555344536bf"
+        }
+      ],
+      "ceiling": "raw engine trace and reported metrics; genome counts are not independently replayed arithmetic DAG counts"
+    }
+  ],
+  "missing_trace_checkpoint": {
+    "id": "f135a2b8-49b3-4978-843f-ef5d132c5e5d",
+    "iteration_found": 6,
+    "metrics_reported": {
+      "combined_score": 861251.0,
+      "valid": 1.0,
+      "operations": 426.0,
+      "squarings": 381.0,
+      "multiplications": 45.0,
+      "weight5": 1749.0,
+      "strict_improvement": 0.0
+    },
+    "source": {
+      "source_path": "C:\\Dev\\work\\p384_microdict_evo_20260929\\run_003\\checkpoints\\checkpoint_8\\programs\\f135a2b8-49b3-4978-843f-ef5d132c5e5d.json",
+      "group": "compact-openevolve-missing-trace-row",
+      "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+      "bundle_path": "inputs/experiments/89df8642c6fc-f135a2b8-49b3-4978-843f-ef5d132c5e5d.json",
+      "sha256": "89df8642c6fc203035516e5b0af097864d2fd5accf31460d39eb71c649c73161",
+      "bytes": 2229,
+      "release_class": "PRIVATE_LOCAL_ONLY"
+    }
+  },
+  "p256_scaffold_episodes": [
+    {
+      "arm": "contiguous_guided",
+      "outcomes": 12,
+      "solver_status_counts": {
+        "OPTIMAL": 12
+      },
+      "minimum_emitted_candidate": 285,
+      "candidate_cases": 2,
+      "solver_scope": "THIS_FINITE_MODEL_ONLY",
+      "source_result": {
+        "source_path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\RESULT.json",
+        "group": "p256-episodes-contiguous_guided",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/22b1ceef7c12-RESULT.json",
+        "sha256": "22b1ceef7c12d498109ab644a91f16ddb9614c3c6c4d2e38b74ea79c7eb05097",
+        "bytes": 1223,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "result": {
+        "pair": "contiguous",
+        "arm": "guided",
+        "start_observed_utc": "2026-09-30T06:32:39.030934+00:00",
+        "terminal_observed_utc": "2026-09-30T06:32:40.394474+00:00",
+        "statuses": {
+          "OPTIMAL": 12
+        },
+        "attempted": 12,
+        "planned": 12,
+        "best_operations": 285,
+        "new_candidate_files": [
+          {
+            "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\candidate_00_285.json",
+            "sha256": "79ef7fbbaed9129cc02f7c0a1aa832fd1805f861180dca148ae4a59d60c5e7f7",
+            "bytes": 44806
+          },
+          {
+            "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_guided\\candidate_03_285.json",
+            "sha256": "74156763547c6a69528cae86908153b18ddcdad7d7ce4068e59b140a32b0b7b2",
+            "bytes": 44806
+          }
+        ],
+        "process_cpu_counter_seconds": 1.421875,
+        "wall_seconds": 1.363584999984596,
+        "local_checker": "MAKER_INVOCATION_NOT_DISTINCT_P4",
+        "seed_gate": "P4_VERIFIED_HIVE_ACK_PENDING",
+        "historical288_replays": 0,
+        "timeouts": "UNKNOWN_NOT_INFEASIBLE",
+        "scope": "Finite scaffold bands only; tail and dictionary fixed; no global optimum claim"
+      }
+    },
+    {
+      "arm": "contiguous_random",
+      "outcomes": 12,
+      "solver_status_counts": {
+        "OPTIMAL": 12
+      },
+      "minimum_emitted_candidate": 285,
+      "candidate_cases": 2,
+      "solver_scope": "THIS_FINITE_MODEL_ONLY",
+      "source_result": {
+        "source_path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\RESULT.json",
+        "group": "p256-episodes-contiguous_random",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/948fc62dd2eb-RESULT.json",
+        "sha256": "948fc62dd2eb9a3c947a2e35bb2fada4b2aa3b5c6fe7b40ee3a178e45c362c5d",
+        "bytes": 1222,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "result": {
+        "pair": "contiguous",
+        "arm": "random",
+        "start_observed_utc": "2026-09-30T06:32:40.689556+00:00",
+        "terminal_observed_utc": "2026-09-30T06:32:41.943525+00:00",
+        "statuses": {
+          "OPTIMAL": 12
+        },
+        "attempted": 12,
+        "planned": 12,
+        "best_operations": 285,
+        "new_candidate_files": [
+          {
+            "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\candidate_00_285.json",
+            "sha256": "74156763547c6a69528cae86908153b18ddcdad7d7ce4068e59b140a32b0b7b2",
+            "bytes": 44806
+          },
+          {
+            "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\contiguous_random\\candidate_04_285.json",
+            "sha256": "79ef7fbbaed9129cc02f7c0a1aa832fd1805f861180dca148ae4a59d60c5e7f7",
+            "bytes": 44806
+          }
+        ],
+        "process_cpu_counter_seconds": 1.34375,
+        "wall_seconds": 1.253190799994627,
+        "local_checker": "MAKER_INVOCATION_NOT_DISTINCT_P4",
+        "seed_gate": "P4_VERIFIED_HIVE_ACK_PENDING",
+        "historical288_replays": 0,
+        "timeouts": "UNKNOWN_NOT_INFEASIBLE",
+        "scope": "Finite scaffold bands only; tail and dictionary fixed; no global optimum claim"
+      }
+    },
+    {
+      "arm": "split_guided",
+      "outcomes": 12,
+      "solver_status_counts": {
+        "OPTIMAL": 12
+      },
+      "minimum_emitted_candidate": 285,
+      "candidate_cases": 1,
+      "solver_scope": "THIS_FINITE_MODEL_ONLY",
+      "source_result": {
+        "source_path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\RESULT.json",
+        "group": "p256-episodes-split_guided",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/a586fbb66b73-RESULT.json",
+        "sha256": "a586fbb66b7307b568ca51f708bfe60982ca4acdbecd501f213c0787ce343fef",
+        "bytes": 935,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "result": {
+        "pair": "split",
+        "arm": "guided",
+        "start_observed_utc": "2026-09-30T06:32:42.145133+00:00",
+        "terminal_observed_utc": "2026-09-30T06:32:43.446711+00:00",
+        "statuses": {
+          "OPTIMAL": 12
+        },
+        "attempted": 12,
+        "planned": 12,
+        "best_operations": 285,
+        "new_candidate_files": [
+          {
+            "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\candidate_00_285.json",
+            "sha256": "114c5c4730c21ccef62f01b6338a6657ca9f561a9fb3976c0558005cc9e7830d",
+            "bytes": 44801
+          }
+        ],
+        "process_cpu_counter_seconds": 1.34375,
+        "wall_seconds": 1.3014947999909054,
+        "local_checker": "MAKER_INVOCATION_NOT_DISTINCT_P4",
+        "seed_gate": "P4_VERIFIED_HIVE_ACK_PENDING",
+        "historical288_replays": 0,
+        "timeouts": "UNKNOWN_NOT_INFEASIBLE",
+        "scope": "Finite scaffold bands only; tail and dictionary fixed; no global optimum claim"
+      }
+    },
+    {
+      "arm": "split_random",
+      "outcomes": 12,
+      "solver_status_counts": {
+        "OPTIMAL": 12
+      },
+      "minimum_emitted_candidate": 285,
+      "candidate_cases": 1,
+      "solver_scope": "THIS_FINITE_MODEL_ONLY",
+      "source_result": {
+        "source_path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\RESULT.json",
+        "group": "p256-episodes-split_random",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/2c5afe309d62-RESULT.json",
+        "sha256": "2c5afe309d62e3b13f0622a9f299aab5134a29145f3792be0218b70089487275",
+        "bytes": 933,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "result": {
+        "pair": "split",
+        "arm": "random",
+        "start_observed_utc": "2026-09-30T06:32:43.666593+00:00",
+        "terminal_observed_utc": "2026-09-30T06:32:44.746445+00:00",
+        "statuses": {
+          "OPTIMAL": 12
+        },
+        "attempted": 12,
+        "planned": 12,
+        "best_operations": 285,
+        "new_candidate_files": [
+          {
+            "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_random\\candidate_00_285.json",
+            "sha256": "e5d9aac6daa332be91e3ca4d2ad36fa44c815220e2b2fb705141bb07587e087f",
+            "bytes": 44801
+          }
+        ],
+        "process_cpu_counter_seconds": 1.125,
+        "wall_seconds": 1.0801433000015095,
+        "local_checker": "MAKER_INVOCATION_NOT_DISTINCT_P4",
+        "seed_gate": "P4_VERIFIED_HIVE_ACK_PENDING",
+        "historical288_replays": 0,
+        "timeouts": "UNKNOWN_NOT_INFEASIBLE",
+        "scope": "Finite scaffold bands only; tail and dictionary fixed; no global optimum claim"
+      }
+    }
+  ],
+  "independent_duplicate_audit": {
+    "candidate_file_cases": 6,
+    "distinct_raw_hashes": 4,
+    "distinct_arithmetic_graphs": 1,
+    "all_equal_to_existing_285_source": true,
+    "new_graphs": 0
+  },
+  "proposed_causal_swarm_ablation": "NOT_RUN: collaboration, adaptive allocation, memory on/off, irrelevant memory, held-out targets and paired multi-seed budgets are not present in these runs",
+  "historical_resource_observations": "source-reported times are retained; this audit does not turn them into current timing measurements or equal CPU budgets"
+}

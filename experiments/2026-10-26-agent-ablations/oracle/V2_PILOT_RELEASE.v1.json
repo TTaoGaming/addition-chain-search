@@ -1,0 +1,67 @@
+{
+  "schema": "v2-pilot-boundary-release.v1",
+  "observed_utc": "2026-10-26T17:47:17.282985+00:00",
+  "verdict": "RELEASE_ONE_V2_PILOT_ONLY_PENDING_ACTUAL_RUN_REVIEW",
+  "source_pins": [
+    {
+      "path": "control/run_codex_v3.py",
+      "sha256": "1c1d46687e3aaefe75614612f4c1dca9a893a59bffcdd97dd0ba244a8f419e66"
+    },
+    {
+      "path": "control/run_codex_v2.py",
+      "sha256": "5da6f5f8eb6838f5222762174516f18c4a65580e2a0b4a4dcad9a75851771c20"
+    },
+    {
+      "path": "control/run_codex.py",
+      "sha256": "699e1d9991a16b65cc23a28d03fdfde1459768174f422181635f58ca44fb3049"
+    },
+    {
+      "path": "control/CODEX_PROFILE.json",
+      "sha256": "784ade926202437dc0e48a18a2c779d4c397a4622a61dfcbd4eb02dd9c57a4b7"
+    },
+    {
+      "path": "control/INTERFACE_AMENDMENT.v2.json",
+      "sha256": "3c7967c8c3a160fa1ef6f05aecceb1ba4746d99b1476735a059fdf967ba8d49f"
+    },
+    {
+      "path": "stimuli/PROMPT_TEMPLATE.v2.txt",
+      "sha256": "5c6a269254c8a2560b83eb5f209766346bf9387d6f03120321749801dd798ecc"
+    },
+    {
+      "path": "stimuli/action.v2.schema.json",
+      "sha256": "f9bb19389ae914df9eb68c9b122358ddd7f6d0c344db083ae5453e16559b3383"
+    },
+    {
+      "path": "harness/v1/RELEASE.json",
+      "sha256": "e4a9a5d66c89d23438f3fabda85f1203a2336d787bde7d3c3d0a37205bcb6031"
+    },
+    {
+      "path": "harness/v1/ac_environment.py",
+      "sha256": "d9dceb2fc3c967e83277bbcc20be4115fd62ea30ede62f4b980be6c178fac723"
+    },
+    {
+      "path": "runs/v2/integration-smoke/environment/STATE-000.json",
+      "sha256": "6c145a6511ceab81e755d583ece355303e81635f43410c0776ca552d90318e5e"
+    }
+  ],
+  "first_v1_audit_sha256": "2ae10f9209dd6f2a3f88667b3221920a385a3c1f2fde71748d5b9aa2b18442a2",
+  "resolved": [
+    "v1 max_added3 advertised versus2 implemented: selected v2 prompt/schema bound2",
+    "unlaunched runner v2 runs-v2 path outside allowed subtree: runner v3 routes to runs/v2"
+  ],
+  "guards": [
+    "v1 experimental trajectory excluded from v2 analysis",
+    "no binary fallback as model success",
+    "current oracle/harness unchanged",
+    "candidate tools disabled; observed first v1 native tool events0",
+    "feedback-off demo only ACK receipt/round fields",
+    "all nonempty memory rendered provided; no assignment IDs in candidate-visible prompt/history"
+  ],
+  "scope_notes": [
+    "schema ranges permit empty/duplicate arrays; prompt and harness implement semantic nonempty/uniqueness refusal, so schema alone is not an action-validity proof",
+    "prompt raw artifact newline convention may differ from transported UTF-8 hash; first v1 normalized text matches request hash",
+    "shared filesystem isolation is prompt/tool-disabled convention, not ACL",
+    "no arbitrary-code execution, new model call, provider call or judged edit by reviewer"
+  ],
+  "next_gate": "Independently replay actual v2 pilot and inspect its real prompts/actions/feedback before concurrent batch."
+}

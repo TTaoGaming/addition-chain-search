@@ -1,0 +1,17 @@
+# Versioned verifier fix review
+
+**PASS for the exact frozen 121-certificate corpus and requested failure checks.**
+
+Reviewed `tools/verify_bundle_v2.py` SHA-256 `591c7eca81439d78a88f5c03dab5f9d783b6abdba4235ef2d02ad39a1a1a5a6f` against `inventory/BUNDLE_INPUTS.final.json` SHA-256 `e9c628d6f3c96174f72d16b0a4164bc0f17f0c8e408cdbfe36b1fd0233018221` and its matching sidecar. A fresh default run returns all 121 results, coverage COMPLETE, 119 arithmetic passes and two passes with dead rows. Counts, ancestry, signatures, duplicate-exponent reports and index schedules match the supplied current replay. The 92 earlier independently replayed triple witnesses retain the same charges and live counts.
+
+The original default-omission and mixed PASS/HOLD exit findings are resolved. With freshly recomputed sidecars, the verifier rejects ordinary omission, a self-consistent reduced 120-file scope, unsupported encoding, empty inventory, empty target registry, unknown target, wrong domain, target hex, target decimal, offset, and original witness SHA. Missing or incorrect sidecars also fail. The CLI now independently binds the count 121 and hash of the entire sorted original-certificate hash set, so an edited manifest plus edited adjacent sidecar cannot substitute or remove an original byte identity.
+
+Gzip transport of original certificate bytes succeeds, retaining the decompressed original SHA-256 and length and matching its charge counts. Corrupt compressed payload, truncated gzip, oversized decompression and same-length corrupt plain bytes fail. Repinning corrupt raw bytes cannot satisfy the frozen corpus hash set. A separate direct call to the arithmetic verify() API rejects those corrupt bytes with `exact parent sum mismatch`. Gzip truncation returns a nonzero process status via uncaught EOFError rather than a structured replay receipt; this is diagnostic polish, not false acceptance.
+
+Witness display IDs are not independently frozen: relabeling an existing known-hash certificate and updating its coverage list and sidecar is accepted. This preserves all 121 admitted raw identities and is a labeling caveat, not missing arithmetic coverage. Keep byte hashes as the original-certificate identity. The adjacent manifest checksum is an integrity check; it does not by itself authenticate a publisher. The exact externally recorded verifier and manifest hashes above bind this review.
+
+The three certificates repeating exponent 126 are explicitly reported. The output correctly scopes grouping as exponent-equation multiset signatures and disclaims resource-DAG isomorphism when values repeat. The additional index-schedule hash binds literal parent indices and should retain that literal-schedule scope.
+
+The initial fix review was interrupted because the integrator strengthened the corpus binding during that run. It is preserved in `fix_review.py`, `fix-review-work/`, and `FIX_REVIEW_INTERRUPTED.json`. This completed review uses a separate versioned runner and output directory and verifies that the judged source stayed unchanged throughout. All prior review artifacts, issue probes, frozen arithmetic core, original verifier and judged fix were preserved byte-for-byte. All new writes stayed under `reviews/proof/`.
+
+Actual commands, input/output hashes, reasons and exit codes are in `FIX_REVIEW_RECEIPT.json`. This is a post-inspection support review by a separate agent on the same configured model family; it does not admit Apex identity, held-out evaluation or factory runtime.

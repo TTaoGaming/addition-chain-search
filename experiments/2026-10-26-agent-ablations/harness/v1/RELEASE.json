@@ -1,0 +1,58 @@
+{
+  "schema": "bounded-addition-chain-harness-release.v1",
+  "release": "v1",
+  "frozen_utc": "2026-10-26T17:40:02.845895+00:00",
+  "state": "FROZEN_READY_FOR_FIRST_TRAJECTORY",
+  "files": [
+    {
+      "path": "ac_environment.py",
+      "sha256": "d9dceb2fc3c967e83277bbcc20be4115fd62ea30ede62f4b980be6c178fac723",
+      "bytes": 22647
+    },
+    {
+      "path": "ACTION_CONTRACT.json",
+      "sha256": "d3b0acb25ef071c0caf051800a8213949a9e0b6a367f623004f52e1ac5ac87b1",
+      "bytes": 2325
+    },
+    {
+      "path": "RAW_EVENT_SCHEMA.json",
+      "sha256": "d2fe4615faa6d6783bfaa7b713093d72b48ceb56acde001e53072762832bb461",
+      "bytes": 2236
+    },
+    {
+      "path": "PUBLIC_TASKS.json",
+      "sha256": "09256c711cdb4ea7773bcc0a62921318f026128a11b49357d5b4858dade8cd94",
+      "bytes": 6162
+    },
+    {
+      "path": "test_environment.py",
+      "sha256": "6f05996a543a445a8159348f9e9ceff5dad1932c518b16cbcef16ddc135609de",
+      "bytes": 6781
+    },
+    {
+      "path": "README.md",
+      "sha256": "db28cfad40a630e3270f917f5e6eb5bdd440fdc0dba6be5080d96950c8ccee32",
+      "bytes": 4373
+    }
+  ],
+  "local_test_controls": 48,
+  "test_receipt": "C:\\Dev\\work\\brian-agent-ablations-20261026\\harness\\v1\\test-artifacts\\1793036267411976300\\TEST_RESULT.json",
+  "demo": {
+    "directory": "C:\\Dev\\work\\brian-agent-ablations-20261026\\harness\\v1\\demo-1793036402747862200",
+    "three_rounds": true,
+    "actual_evaluations": 8,
+    "feedback_off_shapes_only_ACK": true,
+    "candidate_JSONL_round_trip": "PASS8_records",
+    "trusted_final_export_available": true
+  },
+  "privacy_boundary": "No hidden oracle file read. Candidate CLI profile must exclude native/filesystem tools; trusted exports and raw logs remain root-only evidence.",
+  "limits": {
+    "rounds": 3,
+    "evaluations_per_search_action": 64,
+    "rows": 256,
+    "action_bytes": 65536,
+    "trajectory_bytes": 2000000
+  },
+  "source_owner": "tools_ablations support; not Apex identity",
+  "remaining_gate": "Independent source/normalization review and root first-trajectory integration review"
+}

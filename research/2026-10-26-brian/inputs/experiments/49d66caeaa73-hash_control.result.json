@@ -1,0 +1,129 @@
+{
+  "schema": "hfo.p256_scalar_transfer_run.v1",
+  "policy": "hash_control",
+  "start_utc": "2026-09-29T00:02:56.687272Z",
+  "end_utc": "2026-09-29T00:03:20.443211Z",
+  "wall_ns": 23767387600,
+  "process_cpu_ns": 15125000000,
+  "measurement_boundary": "search including trace write/close; excludes result assembly and verifier",
+  "pid": 4836,
+  "plan_sha256": "6716a15dab1e0c80499d251c0a5287bed062d539d01a8753f07eeb513ebae975",
+  "generator_sha256": "fedb7d1b46401c2f0918abc6a09bdeeaaf633c9161b804090502cfd2e00137a0",
+  "verifier_sha256": "3d404b3b52e0cbdedda32fff87a320a7e71f5af3f8343b9eb918ada3be5a4dc8",
+  "pre_run_pin_sha256": "7c7a7b6b8f8888f8640c6f49cf88af48e0231222973c2b88c8fd23cfdcacf1ae",
+  "trace_sha256": "b2710eb3914c19905f718142e0c968adf824d0a59fb1f3e5cfba27f23b449680",
+  "certificate_sha256": "be39275814a89d0d8498ea529a8f3d83e29eb2aeac94c63e681aa7382352d3c0",
+  "counters": {
+    "assessments": 24000,
+    "below_291": 0,
+    "equal_291": 0,
+    "above_291": 24000,
+    "raw_children": 27921,
+    "unique_children": 22600,
+    "unscored_due_cap": 818,
+    "scored_not_selected": 19053,
+    "dp_transitions": 19512591
+  },
+  "by_depth": [
+    {
+      "depth": 0,
+      "beam_scored": 1,
+      "best_so_far": 423,
+      "raw_children": 1,
+      "unique_children": 1,
+      "children_scored": 1,
+      "children_selected": 1
+    },
+    {
+      "depth": 1,
+      "beam_scored": 1,
+      "best_so_far": 350,
+      "raw_children": 2,
+      "unique_children": 2,
+      "children_scored": 2,
+      "children_selected": 2
+    },
+    {
+      "depth": 2,
+      "beam_scored": 2,
+      "best_so_far": 346,
+      "raw_children": 7,
+      "unique_children": 6,
+      "children_scored": 6,
+      "children_selected": 6
+    },
+    {
+      "depth": 3,
+      "beam_scored": 6,
+      "best_so_far": 322,
+      "raw_children": 30,
+      "unique_children": 25,
+      "children_scored": 25,
+      "children_selected": 25
+    },
+    {
+      "depth": 4,
+      "beam_scored": 25,
+      "best_so_far": 315,
+      "raw_children": 167,
+      "unique_children": 135,
+      "children_scored": 135,
+      "children_selected": 135
+    },
+    {
+      "depth": 5,
+      "beam_scored": 135,
+      "best_so_far": 312,
+      "raw_children": 1136,
+      "unique_children": 913,
+      "children_scored": 913,
+      "children_selected": 512
+    },
+    {
+      "depth": 6,
+      "beam_scored": 512,
+      "best_so_far": 308,
+      "raw_children": 5210,
+      "unique_children": 4214,
+      "children_scored": 4214,
+      "children_selected": 512
+    },
+    {
+      "depth": 7,
+      "beam_scored": 512,
+      "best_so_far": 306,
+      "raw_children": 6104,
+      "unique_children": 4941,
+      "children_scored": 4941,
+      "children_selected": 512
+    },
+    {
+      "depth": 8,
+      "beam_scored": 512,
+      "best_so_far": 305,
+      "raw_children": 7167,
+      "unique_children": 5807,
+      "children_scored": 5807,
+      "children_selected": 512
+    },
+    {
+      "depth": 9,
+      "beam_scored": 512,
+      "best_so_far": 305,
+      "raw_children": 8097,
+      "unique_children": 6556,
+      "children_scored": 5738,
+      "children_selected": 512
+    }
+  ],
+  "best": {
+    "operations": 305,
+    "squarings": 253,
+    "multiplications": 52
+  },
+  "provider_calls": 0,
+  "paid_usd": 0,
+  "model_tokens": null,
+  "tao_review_minutes": null,
+  "claim_ceiling": "Matched local heuristic comparison only; no causal memory learning, global optimality, native speed, or independent human acceptance"
+}

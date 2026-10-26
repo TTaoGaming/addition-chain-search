@@ -1,0 +1,46 @@
+{
+  "schema": "retained-p256-benchmark-recalculation.v1",
+  "observed_utc": "2026-10-26T15:52:12.647627+00:00",
+  "results": [
+    {
+      "kind": "micro",
+      "pairs": 41,
+      "median_paired_candidate_over_baseline_recomputed": 0.9873425294472669,
+      "candidate_faster_pairs_recomputed": 30,
+      "source_csv": {
+        "source_path": "C:\\Dev\\work\\sigrun_orchestrator_20261013\\brian\\sources\\p256_microbenchmark.csv",
+        "group": "historical-report-support",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/cbf8cb926882-p256_microbenchmark.csv",
+        "sha256": "cbf8cb92688265e9e3e8ec26c18b1451477499689931ab13b219c95f58b33dff",
+        "bytes": 1894,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "source_interval_not_rerun": [
+        0.9809050020723017,
+        0.9955294847170557
+      ],
+      "scope": "arithmetic recomputation of retained native benchmark CSV, not a new native run; shared-host/time/order/code-layout confounding remains"
+    },
+    {
+      "kind": "ecdsa_sign",
+      "pairs": 31,
+      "median_paired_candidate_over_baseline_recomputed": 1.0075854063793706,
+      "candidate_faster_pairs_recomputed": 15,
+      "source_csv": {
+        "source_path": "C:\\Dev\\work\\sigrun_orchestrator_20261013\\brian\\sources\\p256_sign_benchmark.csv",
+        "group": "historical-report-support",
+        "state": "PINNED_ORIGINAL_LOCAL_BYTES",
+        "bundle_path": "inputs/experiments/1c000d2dfb79-p256_sign_benchmark.csv",
+        "sha256": "1c000d2dfb792c6d8d65de47a98d2c45a6815e09dba355b66d0bd7a358836797",
+        "bytes": 1470,
+        "release_class": "PRIVATE_LOCAL_ONLY"
+      },
+      "source_interval_not_rerun": [
+        0.9825760210236648,
+        1.0249585413712075
+      ],
+      "scope": "arithmetic recomputation of retained native benchmark CSV, not a new native run; shared-host/time/order/code-layout confounding remains"
+    }
+  ]
+}

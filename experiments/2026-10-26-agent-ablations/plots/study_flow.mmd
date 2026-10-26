@@ -1,0 +1,11 @@
+%% Frozen primary-v2 protocol. Feedback visibility is the treatment; the final oracle stays constant.
+flowchart LR
+    P["Fresh proposal context<br/>own prior actions only"] --> J["One JSON action"]
+    J --> E["Same frozen environment<br/>exact charged additions"]
+    E --> B["B: candidate-visible feedback"]
+    E --> V["V: masked acknowledgment<br/>feedback withheld"]
+    B --> P
+    V --> P
+    E --> W["Retain exact candidate schedule"]
+    W --> O["Independent final oracle<br/>identical in every cell"]
+    O --> R["Valid cost + identity + failures<br/>separate from visible feedback"]

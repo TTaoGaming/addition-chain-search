@@ -1,0 +1,10 @@
+{
+  "schema": "hfo.p521_transfer_pre_run_pin.v1",
+  "observed_utc": "2026-09-29T00:03:28.940364Z",
+  "plan_sha256": "42690fe9e6ae102b1e406f548272568a96d1245132d7d0e0db34d2820de72c54",
+  "assay_sha256": "9b009872533d07ebcae2c6d58fc7d2a81e2aa0b089bfae3f718685e9978c49c7",
+  "generator_sha256": "8df2a47e27e1a170656e905aecc6db6e68ad6019daad2f63f75ce206df73c06d",
+  "incumbent_sha256": "c05538403e66df9e9ffbf6627ee2fa0e53d9e4a3cfccbe939527bd67fda879c6",
+  "pid": 32688,
+  "written_before_first_case": true
+}

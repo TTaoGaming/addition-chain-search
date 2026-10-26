@@ -1,0 +1,762 @@
+[
+  {
+    "id": "synthetic-20-v1__r2__B__luna",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "B",
+      "name": "baseline",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "id": "synthetic-20-v1__r1__B__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "B",
+      "name": "baseline",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r1__S__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "S",
+      "name": "skill_only",
+      "label": "neutral",
+      "skill": true,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r1__I__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "I",
+      "name": "irrelevant_memory",
+      "label": "neutral",
+      "skill": false,
+      "memory": "irrelevant",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r2__T__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "T",
+      "name": "search_tools_absent",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": false,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r1__T__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "T",
+      "name": "search_tools_absent",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": false,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r2__T__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "T",
+      "name": "search_tools_absent",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": false,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r2__B__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "B",
+      "name": "baseline",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r2__B__luna",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "B",
+      "name": "baseline",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "id": "synthetic-20-v1__r1__B__luna",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "B",
+      "name": "baseline",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "id": "synthetic-23-v1__r1__A__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "A",
+      "name": "combined_exploratory",
+      "label": "Apex Nidhoggr",
+      "skill": true,
+      "memory": "relevant",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r2__O__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "O",
+      "name": "same_memory_reordered",
+      "label": "neutral",
+      "skill": false,
+      "memory": "reordered",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r2__N__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "N",
+      "name": "name_only",
+      "label": "Apex Nidhoggr",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r2__S__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "S",
+      "name": "skill_only",
+      "label": "neutral",
+      "skill": true,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r2__S__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "S",
+      "name": "skill_only",
+      "label": "neutral",
+      "skill": true,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r1__B__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "B",
+      "name": "baseline",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r1__B__luna",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "B",
+      "name": "baseline",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "id": "synthetic-20-v1__r1__M__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "M",
+      "name": "relevant_memory",
+      "label": "neutral",
+      "skill": false,
+      "memory": "relevant",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r1__V__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "V",
+      "name": "verifier_feedback_withheld",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": false
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r2__N__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "N",
+      "name": "name_only",
+      "label": "Apex Nidhoggr",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r1__I__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "I",
+      "name": "irrelevant_memory",
+      "label": "neutral",
+      "skill": false,
+      "memory": "irrelevant",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r2__I__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "I",
+      "name": "irrelevant_memory",
+      "label": "neutral",
+      "skill": false,
+      "memory": "irrelevant",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r1__O__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "O",
+      "name": "same_memory_reordered",
+      "label": "neutral",
+      "skill": false,
+      "memory": "reordered",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r2__M__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "M",
+      "name": "relevant_memory",
+      "label": "neutral",
+      "skill": false,
+      "memory": "relevant",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r1__S__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "S",
+      "name": "skill_only",
+      "label": "neutral",
+      "skill": true,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r1__N__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "N",
+      "name": "name_only",
+      "label": "Apex Nidhoggr",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r1__V__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "V",
+      "name": "verifier_feedback_withheld",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": false
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r2__A__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "A",
+      "name": "combined_exploratory",
+      "label": "Apex Nidhoggr",
+      "skill": true,
+      "memory": "relevant",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r2__I__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "I",
+      "name": "irrelevant_memory",
+      "label": "neutral",
+      "skill": false,
+      "memory": "irrelevant",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r2__V__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "V",
+      "name": "verifier_feedback_withheld",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": false
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r1__A__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "A",
+      "name": "combined_exploratory",
+      "label": "Apex Nidhoggr",
+      "skill": true,
+      "memory": "relevant",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r1__M__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "M",
+      "name": "relevant_memory",
+      "label": "neutral",
+      "skill": false,
+      "memory": "relevant",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r2__M__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "M",
+      "name": "relevant_memory",
+      "label": "neutral",
+      "skill": false,
+      "memory": "relevant",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r2__O__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "O",
+      "name": "same_memory_reordered",
+      "label": "neutral",
+      "skill": false,
+      "memory": "reordered",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r2__V__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "V",
+      "name": "verifier_feedback_withheld",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": false
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r1__T__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "T",
+      "name": "search_tools_absent",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": false,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r2__B__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "B",
+      "name": "baseline",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r1__O__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "O",
+      "name": "same_memory_reordered",
+      "label": "neutral",
+      "skill": false,
+      "memory": "reordered",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r1__N__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "N",
+      "name": "name_only",
+      "label": "Apex Nidhoggr",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r2__A__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "A",
+      "name": "combined_exploratory",
+      "label": "Apex Nidhoggr",
+      "skill": true,
+      "memory": "relevant",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  }
+]

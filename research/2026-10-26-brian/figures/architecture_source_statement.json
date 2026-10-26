@@ -1,0 +1,11 @@
+{
+  "historical_source": "direct operator message in current local chat, 2026-10-26",
+  "historical_statement": "Blackboard architecture with manual coordination of many swarm workers",
+  "proposal_source": "inputs/architecture/GENOME-v1.md",
+  "proposal_source_sha256": "c2375b9105b35375ba81e157114919e5a2d717895cd86d8b369f86bda778a2bc",
+  "proposal_captured_git_blob_sha1": "727f01aa0718014d4c05bc54dcce2330d1765829",
+  "proposal_source_repository": "TTaoGaming/sigrun-cloud",
+  "proposal_source_ref": "claude/h43-apex-genome-20261023",
+  "proposal_statement": "APEX GENOME v1 is explicitly PROPOSED, source dated2026-10-23; current installation not established by this figure",
+  "diagram_scope": "operator-described reconstruction plus cited proposal loop; no new architecture implementation or admission"
+}

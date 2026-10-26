@@ -1,0 +1,63 @@
+{
+  "schema": "addition-chain-replicated-selection-preregistration.v1",
+  "frozen_utc": "2026-10-26T15:43:58.381577+00:00",
+  "question": "In this tiny full-target region, how does the existing score-guided selection package compare with seeded SHA selection under matched assessment caps?",
+  "hypothesis": "Score-guided selection may reduce best charged operations at the same 256-assessment cap. The paired difference control-minus-guided is reported regardless of sign.",
+  "target_id": "P-256 scalar order n-2",
+  "modulus_decimal": "115792089210356248762697446949407573529996955224135760342422259061068512044369",
+  "target_hex": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc63254f",
+  "current_retained_best_operations": 284,
+  "engine_sha256": "4357f20b2555ce6344f44af140da879c0a6e25b29b560f9566f54a2d3b71cb67",
+  "verifier_sha256": "86735ef7e3ec185c63b45447c0cf7e9db0c7f0e9c8575cd6b6787ea292e2e8ae",
+  "seeds": [
+    2026102601,
+    2026102602,
+    2026102603,
+    2026102604,
+    2026102605,
+    2026102606,
+    2026102607,
+    2026102608
+  ],
+  "policies": [
+    "score_guided",
+    "hash_control"
+  ],
+  "arm_order": "guided first for even zero-based seed position, hash first for odd; no adaptive reassignment",
+  "grammar": {
+    "max_precompute_exponent": 127,
+    "max_window_bits": 8,
+    "max_precompute_operations": 14,
+    "beam_width": 16
+  },
+  "budgets": {
+    "assessments_each_arm": 256,
+    "total_configured_assessments": 4096,
+    "process_CPU_seconds_total_max": 30,
+    "wall_seconds_total_max": 60,
+    "provider_calls": 0,
+    "paid_usd": 0,
+    "model_tokens": 0,
+    "new_output_bytes_max": 1000000
+  },
+  "primary_endpoint": "Paired control-minus-guided best charged-operation difference across the eight fixed seeds; report raw pairs and median, with ties retained.",
+  "secondary_endpoints": [
+    "best S/M separately",
+    "valid emitted final certificates",
+    "assessment ordinal of final best",
+    "unique and repeated precompute states",
+    "DP transitions",
+    "source-meter CPU/wall including telemetry",
+    "observed selected beam difference"
+  ],
+  "stop_rules": [
+    "Any input/verifier drift -> stop without rerun",
+    "Any failed exact certificate -> retain failure and stop",
+    "At CPU/wall/output bound -> retain completed/censored arms, no extrapolation",
+    "No frontier claim without exact certificate strictly below284",
+    "No post-result seed or grammar changes"
+  ],
+  "effect_scope": "New local isolated run files only; no source writes, scheduler, provider, network, reviewer wake, or consumer acceptance",
+  "inference_ceiling": "A deterministic selection-package comparison on one historically exposed target at a tiny budget. Policy-specific hash tie salts differ too. Not an agent-skill, collaboration, autonomous-memory, serving-family, held-out-target or generalization test.",
+  "failure_policy": "Never overwrite a previous run or silently retry a partial arm. New invocation on populated output is refused."
+}

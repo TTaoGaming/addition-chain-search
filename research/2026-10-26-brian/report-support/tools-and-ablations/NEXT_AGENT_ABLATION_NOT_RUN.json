@@ -1,0 +1,60 @@
+{
+  "schema": "addition-chain-agent-component-pilot-proposal.v1",
+  "status": "NOT_RUN",
+  "question": "Do a frozen skill packet, retrieved prior work, or tool feedback alter valid useful work under the same task and resource budget?",
+  "already_tested": "Deterministic selection package on one exposed P-256 target; one historical manually designed P-521 history-order comparison. These are not this agent experiment.",
+  "phase1_factors": {
+    "skill_packet": [
+      "frozen operative skill packet",
+      "neutral instructions preserving task/tool interface"
+    ],
+    "memory": [
+      "relevant prior-region/tool episodes",
+      "same-size shuffled associations",
+      "irrelevant but nonmisleading prior episodes"
+    ]
+  },
+  "phase1_cells": 6,
+  "tool_feedback": "Keep exactly the same allowed feedback in every phase1 cell. The final hidden evaluator is identical and is never exposed.",
+  "phase2_separate_factor": "Only after phase1, preregister tool-feedback supplied/withheld with final evaluation unchanged; do not confound this with persona changes.",
+  "small_pilot": "Two independent tasks \u00d7 six phase1 cells \u00d7 two paired rollout seeds =24 bounded trajectories; descriptive pilot, not a powered confirmation.",
+  "task_split": {
+    "existing_six_curve_targets": "Exposed validation corpus, not fresh held-out targets",
+    "needed_confirmation_tasks": "Independent owner freezes genuinely unseen target/region outcomes and retains the outcome key outside candidate and prompt-designer access"
+  },
+  "freeze_before_execution": [
+    "canonical task and target integer/domain",
+    "skill bytes and exact behavior mandates",
+    "memory bytes and retrieval/case IDs",
+    "model/version/route and actual serving-family evidence",
+    "tool profile and feedback",
+    "paired seeds/randomized cell order",
+    "equal evaluation/wall/CPU/token ceilings",
+    "stop/censor rules",
+    "independent blinded rubric and canonical DAG equality rule"
+  ],
+  "primary_outputs": [
+    "exact valid best charged cost",
+    "success within budget",
+    "evaluations-to-improvement",
+    "unique new arithmetic DAGs",
+    "duplicate-region overlap avoided"
+  ],
+  "secondary_outputs": [
+    "invalid/refused proposals",
+    "allocation and selection changes",
+    "verifier/tool overhead",
+    "realized model tokens/provider cost/operator interventions",
+    "failed or censored runs"
+  ],
+  "analysis": "Report raw task-level paired outcomes. Tasks, not many seeds on one target, are the principal independent units. Keep memory influence on planning separate from improvement in yield.",
+  "remaining_admissions": [
+    "fresh held-out task owner and sealed outcome boundary",
+    "same qualified model/tool route across cells",
+    "finite shared included-usage/token reservation",
+    "frozen skill/control renderings and evaluator",
+    "execution owner and distinct reviewer"
+  ],
+  "current_resource_authority": "No new model/provider work was launched by this support lane. Numeric model-token budgets remain unassigned rather than guessed.",
+  "claim_ceiling": "A pilot may identify component-specific behavior in the tested setting. It will not qualify unattended Apex, broad memory learning or global optimality."
+}

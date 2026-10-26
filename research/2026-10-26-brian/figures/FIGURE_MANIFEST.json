@@ -1,0 +1,170 @@
+{
+  "schema": "addition-chain-figure-set.v1",
+  "created_utc": "2026-10-26T15:54:37.025224+00:00",
+  "renderer_sha256": "5909872272330d8f7af2ac1a27003d201cbdb94f91383f8100759b763d31568b",
+  "input_sha256": {
+    "inventory/BUNDLE_INPUTS.v3.json": "9e617a2e67ba8a83c860e7ffb72fe24918fb03e325f42a40460799c5be612050",
+    "verification/replay-20261026T153224-425600300.json": "95a55c99991eb6ed066d56286f2823190539ce9611ddfd500f5eadd2c7395cf3",
+    "verification/ABLATION_AUDIT.json": "c4a4b683f71ce0156fba1671b7872d8a8f25d8d826315f77f73147fdb023d409",
+    "verification/P521_MEMORY_AUDIT.json": "608039ab323dd2cbaa49aa57e04e2a0e00b9b97c38b083e1bf92475f8b1f1a69",
+    "inventory/EXPERIMENT_SOURCES.v2.json": "fa1463dc1739774129fd790a87f3e4d1ab648108a7aedc597ebe321a69db3147",
+    "inputs/architecture/GENOME-v1.md": "c2375b9105b35375ba81e157114919e5a2d717895cd86d8b369f86bda778a2bc",
+    "runs/replicated-selection/PAIRED_RESULTS.csv": "b4c077b36e7ab6b6034b6a446d290f3cefa0fbda8018a1e62e87a43a72061e42",
+    "runs/replicated-selection/RESULT.json": "c7b96d3981575c494279eceb82a8c1f46a9ece879090b6a0d89fd584b36ed4c5"
+  },
+  "helper_current_replay_structure": {
+    "original_sha256": "46ba0fb4a02926e02aad7c51cb9c41225952a5549e4c0012964f2de5ad15d148",
+    "helper_row": 136,
+    "helper_ancestor_operations": 17,
+    "S": 8,
+    "M": 9,
+    "previous_row135_exponent": "340282366841710300967557013911933812735",
+    "full_DAG_operations": 284
+  },
+  "files": [
+    {
+      "path": "figures/architecture_source_statement.json",
+      "bytes": 812,
+      "sha256": "9fa69ea9e564c5dd794e1beac1bc8ade2e757bf673a998ea3ad70b07983a4ca5"
+    },
+    {
+      "path": "figures/blackboard_to_apex_proposal.mmd",
+      "bytes": 2158,
+      "sha256": "5179768b3abde424418b2a71ccd12f7095350290cd6951ad3d09e815334a1491"
+    },
+    {
+      "path": "figures/blackboard_to_apex_proposal.png",
+      "bytes": 118484,
+      "sha256": "136af85e6722d6b332a219ba17b9db3ae25f766c37935cb9770b5cdb04b04482"
+    },
+    {
+      "path": "figures/blackboard_to_apex_proposal.svg",
+      "bytes": 12335,
+      "sha256": "3daad47a8879d0d2c27dd161af19c42f7e64b2c114a1d3ea5484e93e2de8827d"
+    },
+    {
+      "path": "figures/budgeted_policy_controls.csv",
+      "bytes": 3000,
+      "sha256": "3beea523fb5894153d92f573547cb05f7db6678030759e20d668842953f60cfe"
+    },
+    {
+      "path": "figures/budgeted_policy_controls.png",
+      "bytes": 125310,
+      "sha256": "55a033ec6f7e861eb9c3207909e296f70201e133aa86e967cdfc2a5132b35fe9"
+    },
+    {
+      "path": "figures/budgeted_policy_controls.svg",
+      "bytes": 40558,
+      "sha256": "dd6eb11666dc5b8763bbe6f3cde246c69f440068d8ed89c074158cd09742d300"
+    },
+    {
+      "path": "figures/history_and_representation.mmd",
+      "bytes": 1297,
+      "sha256": "1071011ffcfd8876f500a58a26498bd4c9b864e11d0b9ddfa2233226fa315dc8"
+    },
+    {
+      "path": "figures/morning_selection_replication.csv",
+      "bytes": 547,
+      "sha256": "b4c077b36e7ab6b6034b6a446d290f3cefa0fbda8018a1e62e87a43a72061e42"
+    },
+    {
+      "path": "figures/morning_selection_replication.png",
+      "bytes": 115730,
+      "sha256": "f10149b15806c3f1934b83e49fd3adf736280d2bf2fcd51f187c1120cfc5c13a"
+    },
+    {
+      "path": "figures/morning_selection_replication.svg",
+      "bytes": 32207,
+      "sha256": "e5245e9fa0900aef7e705c44c916a4fc7be8718c6af379ce7bf0928e6b2d54b9"
+    },
+    {
+      "path": "figures/p256_284_full_dag.csv",
+      "bytes": 39164,
+      "sha256": "0d2909c36239dc46b73486bc52475d47192b3b412cbb7e9fa057625f260794dc"
+    },
+    {
+      "path": "figures/p256_284_full_dag.dot",
+      "bytes": 26863,
+      "sha256": "d5894cbad20a0edd5d241d7443b97fee03bfdc0a89a6f47d7c658d9c288872b3"
+    },
+    {
+      "path": "figures/p256_284_full_dag.mmd",
+      "bytes": 15470,
+      "sha256": "319ddb492f6fc6829cddfffcb1c64a2626d82a8fcc0e759678c140ea8cb4e065"
+    },
+    {
+      "path": "figures/p256_284_helper8415.mmd",
+      "bytes": 843,
+      "sha256": "6c041c6d6994726c177f7dbea9c19a438571bd03b2b3cd77387ac5bea1249056"
+    },
+    {
+      "path": "figures/p256_284_paid_helper.png",
+      "bytes": 96096,
+      "sha256": "3005d324915443f6839f766a5b813306dbd57bdbce06a65a68b0b686bea90063"
+    },
+    {
+      "path": "figures/p256_284_paid_helper.svg",
+      "bytes": 6871,
+      "sha256": "51a52c41fcd6c2e5800a53ad128f461281a5146ced46357d1a9de438c3e38a4b"
+    },
+    {
+      "path": "figures/p384_reported_history.csv",
+      "bytes": 2066,
+      "sha256": "3af8cfebfdbb7165162343343061f7bd9f3894f9c23af4582c3d30b81a4b979b"
+    },
+    {
+      "path": "figures/p384_representation_history.png",
+      "bytes": 119942,
+      "sha256": "1cb10e1db26c722ea23272f749e10348ba98063c6205bfca8debbf22b5da61a7"
+    },
+    {
+      "path": "figures/p384_representation_history.svg",
+      "bytes": 19844,
+      "sha256": "e8b0ed1caac7748e9111d178b58a253693528967fe94ef80d542fd44594b887f"
+    },
+    {
+      "path": "figures/retained_minimum_counts.csv",
+      "bytes": 2617,
+      "sha256": "30e3fd47e0bdb0375190a35bcf4c3d83edb8c418f36ae76b332b66e53c95be0f"
+    },
+    {
+      "path": "figures/retained_witness_counts.png",
+      "bytes": 102964,
+      "sha256": "fa57ad6cbeee564fea903367bee437e1dc1737269ac33c1db08ef87e60c5aa67"
+    },
+    {
+      "path": "figures/retained_witness_counts.svg",
+      "bytes": 17385,
+      "sha256": "a4cea6cefb5e249d2679a093ac5bd8c55579c04a946406e28a196539971468aa"
+    },
+    {
+      "path": "figures/serialization_vs_arithmetic_identity.csv",
+      "bytes": 1127,
+      "sha256": "9d5e09ff98d691c4c9425cecc16ff417e59792be8ee66e44767fb38bd663936f"
+    },
+    {
+      "path": "figures/serialization_vs_arithmetic_identity.mmd",
+      "bytes": 1216,
+      "sha256": "8d519dab774a484ed118c457eb3bc982f574d2cdeb3ca7406bc1d6608aa27914"
+    },
+    {
+      "path": "figures/GRAPH_VALIDATION_FIRST_FAILURE.json",
+      "bytes": 583,
+      "sha256": "e6fbb0659f6090ebb072b27d58b55d4a4672fcf5648ec6aa8b6bce8b6b970578"
+    }
+  ],
+  "scope": "historical traces + current arithmetic + explicitly unfinished proposal; no model/provider/search execution",
+  "visual_QA": {
+    "state": "PASS_PNG_VISUAL_INSPECTION",
+    "observed_utc": "2026-10-26T15:56:54.880759+00:00",
+    "PNG_sha256": {
+      "blackboard_to_apex_proposal.png": "136af85e6722d6b332a219ba17b9db3ae25f766c37935cb9770b5cdb04b04482",
+      "budgeted_policy_controls.png": "55a033ec6f7e861eb9c3207909e296f70201e133aa86e967cdfc2a5132b35fe9",
+      "morning_selection_replication.png": "f10149b15806c3f1934b83e49fd3adf736280d2bf2fcd51f187c1120cfc5c13a",
+      "p256_284_paid_helper.png": "3005d324915443f6839f766a5b813306dbd57bdbce06a65a68b0b686bea90063",
+      "p384_representation_history.png": "1cb10e1db26c722ea23272f749e10348ba98063c6205bfca8debbf22b5da61a7",
+      "retained_witness_counts.png": "fa57ad6cbeee564fea903367bee437e1dc1737269ac33c1db08ef87e60c5aa67"
+    },
+    "checks": "All6 PNGs viewed after final render; no clipped text, overlapping labels or obscured data. SVGs exported from same figures; no separate editor roundtrip. Mermaid sources structurally checked; no Mermaid renderer run."
+  }
+}

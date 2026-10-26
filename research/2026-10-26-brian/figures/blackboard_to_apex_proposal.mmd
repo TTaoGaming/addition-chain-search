@@ -1,0 +1,31 @@
+%% Historical source: operator description in the 2026-10-26 chat.
+%% Proposal source: inputs/architecture/GENOME-v1.md, 2026-10-23, explicitly PROPOSED.
+%% Captured Git blob727f01aa0718014d4c05bc54dcce2330d1765829.
+%% Historical reconstruction and proposed unfinished architecture are deliberately separate.
+flowchart TB
+  subgraph observed["Operator-described historical workflow — reconstruction, not a measured runtime census"]
+    tao["Tao: manual direction and coordination"] --> board["Blackboard: tasks, hints, source pointers"]
+    board --> workers["Many manually coordinated search/review workers"]
+    workers --> reports["Candidate artifacts + reports"]
+    reports --> board
+    tao --> workers
+    reports --> exact["Exact arithmetic replay / selected checks"]
+    exact --> manual["Tao gathers evidence and writes email"]
+  end
+  subgraph proposed["APEX GENOME v1 — explicitly PROPOSED, 2026-10-23; current installation not verified here"]
+    genotype["Versioned genotype: identity, laws, role, factories, lane envelope"] -.-> pack["Code builds wake pack: genotype + goals + queue + memory + last5 episodes + scoreboard"]
+    persistent["Persistent room conversation; new conversation requires rehydration pack"] -.-> pack
+    pack -.-> plan["Apex plans wave and predicts outcomes"]
+    plan -.-> work["Code dispatches and gathers receipts + independent checks"]
+    work -.-> episode["Code writes episode and ground-truth scoreboard"]
+    episode -.-> reflect["Apex reflects in at most5 lines; proposes lessons"]
+    reflect -.-> gate["Code promotes lesson after2 checked outcomes agree; retires after2 disagree"]
+    gate -.-> memory["Apex-owned memory changes the next wake"]
+    memory -.-> pack
+    reflect -.-> skill["Skill proposal → A1 champion/challenger check → loaded champion version"]
+    skill -.-> pack
+    episode -.-> guide["Proof bundle + graphs + write-up guide"]
+  end
+  manual --> email["Tao handwrites and sends email; email body stays private"]
+  guide -.-> email
+  hold["Not established by these figures: useful autonomous concurrency, causal agent-skill gains, qualified unattended operation"] -.-> proposed

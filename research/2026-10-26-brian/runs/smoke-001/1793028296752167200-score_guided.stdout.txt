@@ -1,0 +1,1 @@
+{"policy": "score_guided", "best": {"operations": 312, "squarings": 254, "multiplications": 58}, "assessments": 256, "validation": "PASS_EXACT_ARITHMETIC"}

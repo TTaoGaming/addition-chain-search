@@ -1,0 +1,82 @@
+{
+  "schema": "p2.search.attempt.v1",
+  "id": "split:guided:0",
+  "work_id": "HIVE-P256-EPISODES-HIVE-PREY-PDSA-20260930-004",
+  "cycle_id": "P2-W004",
+  "HIVE_phase": "V",
+  "PDSA_step": "Do",
+  "PREY_event": "Execute",
+  "technique": "split",
+  "arm": "guided",
+  "request": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REQUEST_00.json",
+    "sha256": "eb5821e7318327f1a4b97b601d88b4f07cecfef8d677e69b4fe01587452594b2",
+    "bytes": 70898
+  },
+  "event_utc": "2026-09-30T06:32:42.167238+00:00",
+  "observed_utc": "2026-09-30T06:32:42.167238+00:00",
+  "known_from": "2026-09-30T06:32:42.167238+00:00",
+  "valid_from": "2026-09-30T06:32:42.167238+00:00",
+  "valid_to": "UNKNOWN",
+  "known_to": "UNKNOWN",
+  "time_basis": "local wall observation of invocation; not producer discovery",
+  "source": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\campaign.py",
+    "sha256": "6faf5668da1f6b816c7465e396566a4aa3330b6bd883b066eaa08531e81a1d68",
+    "bytes": 13992
+  },
+  "solver": {
+    "status": "OPTIMAL",
+    "derivation_arcs": 474,
+    "universe_values": 329,
+    "bound": 59.0,
+    "solver_wall_seconds": 0.026243700000000002,
+    "branches": 824,
+    "scope": "THIS_FINITE_MODEL_ONLY",
+    "objective": 59.0
+  },
+  "evaluation": "PASS_MAKER_PINNED_CHECKER_TEN_BASES",
+  "count": {
+    "S": 252,
+    "M": 33,
+    "operations": 285
+  },
+  "candidate": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\candidate_00_285.json",
+    "sha256": "114c5c4730c21ccef62f01b6338a6657ca9f561a9fb3976c0558005cc9e7830d",
+    "bytes": 44801
+  },
+  "replay": {
+    "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\REPLAY_00.json",
+    "sha256": "4b1416678d1ef13e5d275179c406c432837db4dac281c9d1982eed88f898000d",
+    "bytes": 1230
+  },
+  "mutation_controls": [
+    {
+      "name": "target",
+      "rejected": true
+    },
+    {
+      "name": "count",
+      "rejected": true
+    },
+    {
+      "name": "parent",
+      "rejected": true
+    },
+    {
+      "name": "dead",
+      "rejected": true
+    }
+  ],
+  "terminal_observed_utc": "2026-09-30T06:32:42.778249+00:00",
+  "recorded_utc": "2026-09-30T06:32:42.778249+00:00",
+  "attempt_cpu_seconds": 0.609375,
+  "attempt_wall_seconds": 0.6112664999964181,
+  "process_cpu_counter_seconds": 0.703125,
+  "parenthash": "6909d69a5ddc1dc8f86b9b6a2719381e99c89224ebcb20f66d6d66dd7576648f",
+  "idempotency_key": "P2-W004:split:guided:0",
+  "supersedes": null,
+  "verifier": "PENDING_P4_NEW_DAGS",
+  "consumer": "PENDING_HIVE"
+}

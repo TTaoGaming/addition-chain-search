@@ -1,0 +1,50 @@
+[
+  {
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "arms": [
+      "private",
+      "shared"
+    ]
+  },
+  {
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "arms": [
+      "shared",
+      "private"
+    ]
+  },
+  {
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "arms": [
+      "private",
+      "shared"
+    ]
+  },
+  {
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "arms": [
+      "shared",
+      "private"
+    ]
+  }
+]

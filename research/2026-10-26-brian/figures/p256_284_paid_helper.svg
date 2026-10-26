@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="813.6pt" height="324pt" viewBox="0 0 813.6 324" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-26T09:54:36.552161</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 324 
+L 813.6 324 
+L 813.6 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 43.154084 170.8128 
+L 223.484825 170.8128 
+Q 228.37752 170.8128 228.37752 166.2012 
+L 228.37752 108.2268 
+Q 228.37752 103.6152 223.484825 103.6152 
+L 43.154084 103.6152 
+Q 38.261389 103.6152 38.261389 108.2268 
+L 38.261389 166.2012 
+Q 38.261389 170.8128 43.154084 170.8128 
+z
+" clip-path="url(#pfd57edb94e)" style="fill: #edf3f8; stroke: #9caab6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 319.241847 170.8128 
+L 489.088244 170.8128 
+Q 493.980938 170.8128 493.980938 166.2012 
+L 493.980938 108.2268 
+Q 493.980938 103.6152 489.088244 103.6152 
+L 319.241847 103.6152 
+Q 314.349153 103.6152 314.349153 108.2268 
+L 314.349153 166.2012 
+Q 314.349153 170.8128 319.241847 170.8128 
+z
+" clip-path="url(#pfd57edb94e)" style="fill: #edf3f8; stroke: #9caab6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 595.329611 216.9288 
+L 768.670789 216.9288 
+Q 773.563484 216.9288 773.563484 212.3172 
+L 773.563484 141.1668 
+Q 773.563484 136.5552 768.670789 136.5552 
+L 595.329611 136.5552 
+Q 590.436916 136.5552 590.436916 141.1668 
+L 590.436916 212.3172 
+Q 590.436916 216.9288 595.329611 216.9288 
+z
+" clip-path="url(#pfd57edb94e)" style="fill: #fce6d6; stroke: #9caab6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 230.378701 136.5552 
+Q 271.014469 136.5552 310.084989 136.5552 
+" clip-path="url(#pfd57edb94e)" style="fill: none; stroke: #6c7580; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 305.284989 134.1552 
+L 310.084989 136.5552 
+L 305.284989 138.9552 
+z
+" clip-path="url(#pfd57edb94e)" style="fill: #6c7580; stroke: #6c7580; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 495.207759 143.027616 
+Q 541.159813 155.989608 585.605404 168.526663 
+" clip-path="url(#pfd57edb94e)" style="fill: none; stroke: #6c7580; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 581.637235 164.913682 
+L 585.605404 168.526663 
+L 580.334118 169.53341 
+z
+" clip-path="url(#pfd57edb94e)" style="fill: #6c7580; stroke: #6c7580; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 228.104642 155.824207 
+Q 401.332572 233.633218 586.236152 197.845656 
+" clip-path="url(#pfd57edb94e)" style="fill: none; stroke: #6c7580; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 581.067558 196.401483 
+L 586.236152 197.845656 
+L 581.979658 201.114028 
+z
+" clip-path="url(#pfd57edb94e)" style="fill: #6c7580; stroke: #6c7580; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #172b3a" transform="translate(98.249142 134.374469)">Base x¹ → x²⁵⁵</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #172b3a" transform="translate(82.192111 145.572281)">Rows 1–11: 3S + 8M</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #172b3a" transform="translate(393.18692 134.374469)">x⁸¹⁶⁰</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #172b3a" transform="translate(374.348639 145.572281)">Rows 12–16</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #172b3a" transform="translate(636.334575 173.902469)">x⁸⁴¹⁵ = x²⁵⁵ × x⁸¹⁶⁰</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #172b3a" transform="translate(649.700981 185.100281)">Row 136: 1M</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #6c7580" x="271.013858" y="126.777881" transform="rotate(-0 271.013858 126.777881)">5 S</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #6c7580" x="412.902" y="196.506" transform="rotate(-0 412.902 196.506)">reuse row 11</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #235789" x="45.949909" y="219.564" transform="rotate(-0 45.949909 219.564)">Exact helper ancestry: 17 charged operations = 8S + 9M</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #6c7580" transform="translate(45.949909 247.696369)">Row 135 is 340282366841710300967557013911933812735; row 136 drops to 8415.</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #6c7580" transform="translate(45.949909 257.7744)">Both operands were available earlier. This is a legal topological DAG, not a strictly increasing chain.</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172b3a" x="44.748" y="25.1175" transform="rotate(-0 44.748 25.1175)">A paid helper can reuse an already charged scaffold</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172b3a" x="44.748" y="43.74" transform="rotate(-0 44.748 43.74)">P-256 scalar n−2: selected ancestor closure from the original 284-row DAG</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6c7580" x="44.748" y="316.28175" transform="rotate(-0 44.748 316.28175)">Contracted view: unrelated rows are omitted here. Full original row order, exponents and edges are in p256_284_full_dag.csv/.dot/.mmd.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pfd57edb94e">
+   <rect x="28.476" y="68.04" width="768.852" height="197.64"/>
+  </clipPath>
+ </defs>
+</svg>

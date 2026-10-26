@@ -1,0 +1,2813 @@
+{
+  "schema": "independent-full-cohort-audit.v1",
+  "observed_utc": "2026-10-26T18:46:11.900488+00:00",
+  "verdict": "VERIFICATION_PASS_COHORT_WITH_BROWSER_EXCLUSION_CONFIRMED",
+  "audit_code_sha256": "705ec82a806443151781b1e1139e5c959274d709011a13ff4d4ec876ecf89d07",
+  "oracle_sha256": "826aff70f4a60f6527c2d2e3f4aa6181d009a60fb26c32f43743b0da03dc046d",
+  "producer_result_sha256": "af5d20326c3df76ddca47f4dc5cd8fb3861a270d662877b22639c8330da954ac",
+  "candidate_audit_sha256": "7c2293405a80b245690ac84ea1931ac9abb76011dcc682c47cb1115050860679",
+  "totals": {
+    "pairs": 4,
+    "branches": 8,
+    "actual_model_calls": 24,
+    "returned_calls": 24,
+    "actual_candidate_evaluations_initial_once": 908,
+    "sum_counterfactual_branch_evaluations": 994,
+    "actual_model_input_tokens": 384238,
+    "actual_model_output_tokens": 8321,
+    "native_tool_events": 0
+  },
+  "initial_actual_evaluation_records": 86,
+  "materialized_records_replayed_including_clones": 1080,
+  "maximum_observed_cohort_cli_overlap": 2,
+  "all_cloned_prefixes_byte_identical": true,
+  "all_runtime_prompts_match_declared_own_peer_masks": true,
+  "path_qualified_ids_unique": true,
+  "rows": [
+    {
+      "pair_id": "synthetic-20-v1__r1",
+      "task_id": "synthetic-20-v1",
+      "replicate_id": 1,
+      "arm": "private",
+      "state": "COMPLETED",
+      "best_valid_cost": 25,
+      "best_S": 19,
+      "best_M": 6,
+      "best_identity": "6c70e29a195adf6ab10bafcc4f9a5e95817fa7f43faad727d65e58219778c69a",
+      "branch_evaluations_including_common_initial": 142,
+      "unique_schedules": 37,
+      "duplicate_evaluations": 105,
+      "between_worker_schedule_overlap": 21,
+      "second_worker_schedule_overlap": 15,
+      "new_second_regions_over_team_initial": 94,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            23,
+            45,
+            51
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            2,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 59408,
+      "branch_output_tokens_including_common_initial": 1432
+    },
+    {
+      "pair_id": "synthetic-20-v1__r1",
+      "task_id": "synthetic-20-v1",
+      "replicate_id": 1,
+      "arm": "shared",
+      "state": "COMPLETED",
+      "best_valid_cost": 25,
+      "best_S": 19,
+      "best_M": 6,
+      "best_identity": "6c70e29a195adf6ab10bafcc4f9a5e95817fa7f43faad727d65e58219778c69a",
+      "branch_evaluations_including_common_initial": 94,
+      "unique_schedules": 31,
+      "duplicate_evaluations": 63,
+      "between_worker_schedule_overlap": 8,
+      "second_worker_schedule_overlap": 0,
+      "new_second_regions_over_team_initial": 72,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            3,
+            5,
+            7,
+            11,
+            13,
+            15,
+            23,
+            45,
+            51,
+            55
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            21,
+            25,
+            31
+          ],
+          "candidate_digits": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31,
+            33
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 77698,
+      "branch_output_tokens_including_common_initial": 1556
+    },
+    {
+      "pair_id": "synthetic-20-v1__r2",
+      "task_id": "synthetic-20-v1",
+      "replicate_id": 2,
+      "arm": "private",
+      "state": "COMPLETED",
+      "best_valid_cost": 25,
+      "best_S": 19,
+      "best_M": 6,
+      "best_identity": "6c70e29a195adf6ab10bafcc4f9a5e95817fa7f43faad727d65e58219778c69a",
+      "branch_evaluations_including_common_initial": 142,
+      "unique_schedules": 38,
+      "duplicate_evaluations": 104,
+      "between_worker_schedule_overlap": 12,
+      "second_worker_schedule_overlap": 5,
+      "new_second_regions_over_team_initial": 113,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            3
+          ],
+          "candidate_digits": [
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            19,
+            23,
+            27,
+            45
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 59406,
+      "branch_output_tokens_including_common_initial": 954
+    },
+    {
+      "pair_id": "synthetic-20-v1__r2",
+      "task_id": "synthetic-20-v1",
+      "replicate_id": 2,
+      "arm": "shared",
+      "state": "COMPLETED",
+      "best_valid_cost": 25,
+      "best_S": 19,
+      "best_M": 6,
+      "best_identity": "6c70e29a195adf6ab10bafcc4f9a5e95817fa7f43faad727d65e58219778c69a",
+      "branch_evaluations_including_common_initial": 79,
+      "unique_schedules": 30,
+      "duplicate_evaluations": 49,
+      "between_worker_schedule_overlap": 8,
+      "second_worker_schedule_overlap": 0,
+      "new_second_regions_over_team_initial": 57,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            23,
+            27,
+            55
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31
+          ],
+          "candidate_digits": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 61312,
+      "branch_output_tokens_including_common_initial": 958
+    },
+    {
+      "pair_id": "synthetic-23-v1__r1",
+      "task_id": "synthetic-23-v1",
+      "replicate_id": 1,
+      "arm": "private",
+      "state": "COMPLETED",
+      "best_valid_cost": 31,
+      "best_S": 23,
+      "best_M": 8,
+      "best_identity": "78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9",
+      "branch_evaluations_including_common_initial": 140,
+      "unique_schedules": 67,
+      "duplicate_evaluations": 73,
+      "between_worker_schedule_overlap": 17,
+      "second_worker_schedule_overlap": 8,
+      "new_second_regions_over_team_initial": 110,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            5
+          ],
+          "candidate_digits": [
+            3,
+            7,
+            9,
+            11,
+            13,
+            15,
+            21,
+            27,
+            31,
+            53
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            2,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 59342,
+      "branch_output_tokens_including_common_initial": 1311
+    },
+    {
+      "pair_id": "synthetic-23-v1__r1",
+      "task_id": "synthetic-23-v1",
+      "replicate_id": 1,
+      "arm": "shared",
+      "state": "COMPLETED",
+      "best_valid_cost": 31,
+      "best_S": 23,
+      "best_M": 8,
+      "best_identity": "78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9",
+      "branch_evaluations_including_common_initial": 140,
+      "unique_schedules": 50,
+      "duplicate_evaluations": 90,
+      "between_worker_schedule_overlap": 18,
+      "second_worker_schedule_overlap": 10,
+      "new_second_regions_over_team_initial": 108,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            3,
+            5,
+            7,
+            9,
+            13,
+            19,
+            23,
+            27,
+            31,
+            41
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 61180,
+      "branch_output_tokens_including_common_initial": 1496
+    },
+    {
+      "pair_id": "synthetic-23-v1__r2",
+      "task_id": "synthetic-23-v1",
+      "replicate_id": 2,
+      "arm": "private",
+      "state": "COMPLETED",
+      "best_valid_cost": 31,
+      "best_S": 23,
+      "best_M": 8,
+      "best_identity": "78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9",
+      "branch_evaluations_including_common_initial": 115,
+      "unique_schedules": 43,
+      "duplicate_evaluations": 72,
+      "between_worker_schedule_overlap": 10,
+      "second_worker_schedule_overlap": 0,
+      "new_second_regions_over_team_initial": 93,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            5
+          ],
+          "candidate_digits": [
+            3,
+            7,
+            9,
+            11,
+            13,
+            15,
+            21,
+            27,
+            31,
+            63
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31
+          ],
+          "candidate_digits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 59472,
+      "branch_output_tokens_including_common_initial": 1276
+    },
+    {
+      "pair_id": "synthetic-23-v1__r2",
+      "task_id": "synthetic-23-v1",
+      "replicate_id": 2,
+      "arm": "shared",
+      "state": "COMPLETED",
+      "best_valid_cost": 31,
+      "best_S": 23,
+      "best_M": 8,
+      "best_identity": "78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9",
+      "branch_evaluations_including_common_initial": 142,
+      "unique_schedules": 54,
+      "duplicate_evaluations": 88,
+      "between_worker_schedule_overlap": 16,
+      "second_worker_schedule_overlap": 5,
+      "new_second_regions_over_team_initial": 115,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            5
+          ],
+          "candidate_digits": [
+            3,
+            7,
+            11,
+            13,
+            15,
+            17,
+            21,
+            27,
+            31,
+            63
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 61440,
+      "branch_output_tokens_including_common_initial": 1013
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "synthetic-20-v1__r1",
+      "task_id": "synthetic-20-v1",
+      "replicate_id": 1,
+      "state": "COMPLETED",
+      "shared_cost": 25,
+      "private_cost": 25,
+      "cost_shared_minus_private": 0,
+      "duplicate_evaluations_shared_minus_private": -42,
+      "worker_overlap_shared_minus_private": -13,
+      "new_second_regions_shared_minus_private": -22,
+      "action_A_changed": true,
+      "action_B_changed": true
+    },
+    {
+      "pair_id": "synthetic-20-v1__r2",
+      "task_id": "synthetic-20-v1",
+      "replicate_id": 2,
+      "state": "COMPLETED",
+      "shared_cost": 25,
+      "private_cost": 25,
+      "cost_shared_minus_private": 0,
+      "duplicate_evaluations_shared_minus_private": -55,
+      "worker_overlap_shared_minus_private": -4,
+      "new_second_regions_shared_minus_private": -56,
+      "action_A_changed": true,
+      "action_B_changed": true
+    },
+    {
+      "pair_id": "synthetic-23-v1__r1",
+      "task_id": "synthetic-23-v1",
+      "replicate_id": 1,
+      "state": "COMPLETED",
+      "shared_cost": 31,
+      "private_cost": 31,
+      "cost_shared_minus_private": 0,
+      "duplicate_evaluations_shared_minus_private": 17,
+      "worker_overlap_shared_minus_private": 1,
+      "new_second_regions_shared_minus_private": -2,
+      "action_A_changed": true,
+      "action_B_changed": true
+    },
+    {
+      "pair_id": "synthetic-23-v1__r2",
+      "task_id": "synthetic-23-v1",
+      "replicate_id": 2,
+      "state": "COMPLETED",
+      "shared_cost": 31,
+      "private_cost": 31,
+      "cost_shared_minus_private": 0,
+      "duplicate_evaluations_shared_minus_private": 16,
+      "worker_overlap_shared_minus_private": 6,
+      "new_second_regions_shared_minus_private": 22,
+      "action_A_changed": true,
+      "action_B_changed": true
+    }
+  ],
+  "calls": [
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\A",
+      "round": 1,
+      "start": "2026-10-26T18:32:01.319593+00:00",
+      "end": "2026-10-26T18:32:14.135975+00:00",
+      "usage": {
+        "input_tokens": 14723,
+        "cached_input_tokens": 13312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 249,
+        "reasoning_output_tokens": 131
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\B",
+      "round": 1,
+      "start": "2026-10-26T18:32:01.319593+00:00",
+      "end": "2026-10-26T18:32:07.046901+00:00",
+      "usage": {
+        "input_tokens": 14031,
+        "cached_input_tokens": 12672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 235,
+        "reasoning_output_tokens": 130
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A",
+      "round": 2,
+      "start": "2026-10-26T18:32:14.457878+00:00",
+      "end": "2026-10-26T18:32:41.533298+00:00",
+      "usage": {
+        "input_tokens": 15736,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 663,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B",
+      "round": 2,
+      "start": "2026-10-26T18:32:14.457878+00:00",
+      "end": "2026-10-26T18:32:20.654179+00:00",
+      "usage": {
+        "input_tokens": 14918,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 285,
+        "reasoning_output_tokens": 135
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A",
+      "round": 2,
+      "start": "2026-10-26T18:32:42.027619+00:00",
+      "end": "2026-10-26T18:33:06.001674+00:00",
+      "usage": {
+        "input_tokens": 16627,
+        "cached_input_tokens": 13312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 596,
+        "reasoning_output_tokens": 453
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B",
+      "round": 2,
+      "start": "2026-10-26T18:32:42.027619+00:00",
+      "end": "2026-10-26T18:32:52.473932+00:00",
+      "usage": {
+        "input_tokens": 32317,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 476,
+        "reasoning_output_tokens": 278
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\A",
+      "round": 1,
+      "start": "2026-10-26T18:33:06.947469+00:00",
+      "end": "2026-10-26T18:33:15.688729+00:00",
+      "usage": {
+        "input_tokens": 14723,
+        "cached_input_tokens": 13312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 189,
+        "reasoning_output_tokens": 75
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\B",
+      "round": 1,
+      "start": "2026-10-26T18:33:06.948266+00:00",
+      "end": "2026-10-26T18:33:11.222851+00:00",
+      "usage": {
+        "input_tokens": 14031,
+        "cached_input_tokens": 12672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 108,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A",
+      "round": 2,
+      "start": "2026-10-26T18:33:40.985128+00:00",
+      "end": "2026-10-26T18:34:02.146993+00:00",
+      "usage": {
+        "input_tokens": 15732,
+        "cached_input_tokens": 13312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 390,
+        "reasoning_output_tokens": 251
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B",
+      "round": 2,
+      "start": "2026-10-26T18:33:40.999312+00:00",
+      "end": "2026-10-26T18:33:49.686429+00:00",
+      "usage": {
+        "input_tokens": 14920,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 267,
+        "reasoning_output_tokens": 127
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A",
+      "round": 2,
+      "start": "2026-10-26T18:33:16.336990+00:00",
+      "end": "2026-10-26T18:33:38.760182+00:00",
+      "usage": {
+        "input_tokens": 16625,
+        "cached_input_tokens": 13312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 483,
+        "reasoning_output_tokens": 336
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B",
+      "round": 2,
+      "start": "2026-10-26T18:33:16.336990+00:00",
+      "end": "2026-10-26T18:33:23.246735+00:00",
+      "usage": {
+        "input_tokens": 15933,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 178,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\A",
+      "round": 1,
+      "start": "2026-10-26T18:34:03.602385+00:00",
+      "end": "2026-10-26T18:34:12.288034+00:00",
+      "usage": {
+        "input_tokens": 14724,
+        "cached_input_tokens": 13312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 184,
+        "reasoning_output_tokens": 68
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\B",
+      "round": 1,
+      "start": "2026-10-26T18:34:03.604406+00:00",
+      "end": "2026-10-26T18:34:10.568394+00:00",
+      "usage": {
+        "input_tokens": 14032,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 347,
+        "reasoning_output_tokens": 240
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A",
+      "round": 2,
+      "start": "2026-10-26T18:34:12.657351+00:00",
+      "end": "2026-10-26T18:34:33.185150+00:00",
+      "usage": {
+        "input_tokens": 15767,
+        "cached_input_tokens": 13312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 551,
+        "reasoning_output_tokens": 403
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B",
+      "round": 2,
+      "start": "2026-10-26T18:34:12.657351+00:00",
+      "end": "2026-10-26T18:34:19.138367+00:00",
+      "usage": {
+        "input_tokens": 14819,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 229,
+        "reasoning_output_tokens": 106
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A",
+      "round": 2,
+      "start": "2026-10-26T18:34:33.694959+00:00",
+      "end": "2026-10-26T18:34:58.206014+00:00",
+      "usage": {
+        "input_tokens": 16558,
+        "cached_input_tokens": 13312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 658,
+        "reasoning_output_tokens": 516
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B",
+      "round": 2,
+      "start": "2026-10-26T18:34:33.694959+00:00",
+      "end": "2026-10-26T18:34:41.229097+00:00",
+      "usage": {
+        "input_tokens": 15866,
+        "cached_input_tokens": 12672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 307,
+        "reasoning_output_tokens": 178
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\A",
+      "round": 1,
+      "start": "2026-10-26T18:34:59.155341+00:00",
+      "end": "2026-10-26T18:35:10.967690+00:00",
+      "usage": {
+        "input_tokens": 14724,
+        "cached_input_tokens": 14592,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 172,
+        "reasoning_output_tokens": 64
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\B",
+      "round": 1,
+      "start": "2026-10-26T18:34:59.156342+00:00",
+      "end": "2026-10-26T18:35:05.671564+00:00",
+      "usage": {
+        "input_tokens": 14032,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 191,
+        "reasoning_output_tokens": 87
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A",
+      "round": 2,
+      "start": "2026-10-26T18:35:34.726838+00:00",
+      "end": "2026-10-26T18:35:56.011554+00:00",
+      "usage": {
+        "input_tokens": 15766,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 555,
+        "reasoning_output_tokens": 406
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B",
+      "round": 2,
+      "start": "2026-10-26T18:35:34.726838+00:00",
+      "end": "2026-10-26T18:35:42.458495+00:00",
+      "usage": {
+        "input_tokens": 14950,
+        "cached_input_tokens": 12672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 358,
+        "reasoning_output_tokens": 186
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A",
+      "round": 2,
+      "start": "2026-10-26T18:35:11.312387+00:00",
+      "end": "2026-10-26T18:35:34.200084+00:00",
+      "usage": {
+        "input_tokens": 16688,
+        "cached_input_tokens": 13312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 513,
+        "reasoning_output_tokens": 376
+      }
+    },
+    {
+      "namespace": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B",
+      "round": 2,
+      "start": "2026-10-26T18:35:11.313390+00:00",
+      "end": "2026-10-26T18:35:15.793997+00:00",
+      "usage": {
+        "input_tokens": 15996,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 137,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "M_minus_B_appendix_cost_deltas_verified": [
+    0,
+    0,
+    0,
+    -1
+  ],
+  "browser_review": {
+    "reconciliation_sha256": "771fabd0a4b1d294a85d12f9e90b6df23c8f164c9805bbcf032280fbf52b8e84",
+    "late_body_sha256": "f713df37292dc3fbb5ded4c433a072c31f20211268afd2df78b27ffb30bcf792",
+    "JSON_parse": "PASS_DATA_ONLY",
+    "late_action_applied": false,
+    "late_candidate_arithmetic_evaluated": false,
+    "accepted_browser_actions": 0,
+    "B_120s_compliance": "UNKNOWN",
+    "V_stop_seconds": 131.504,
+    "V_overrun_seconds": 11.50399999999999,
+    "controlled_B_V_comparison": "NOT_AVAILABLE"
+  },
+  "raw_input_pins": [
+    {
+      "path": "control\\COHORT_RUN_ORDER.json",
+      "sha256": "5931ea2405d654fc9b9787bf1130729141dc35158d650b388eacf116033decaf",
+      "bytes": 795
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\PAIR_RECEIPT.json",
+      "sha256": "7a96e5d230471eb46a2d900008b957d034ad8642b8e8e445e1db7745d494ecb4",
+      "bytes": 1639
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\INITIAL_RESULTS.json",
+      "sha256": "6da436e066b9b0cc8d28b76c1dd010061b96a4ea94a91608652bb548babfc50c",
+      "bytes": 16950
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\A\\model-round-1\\REQUEST.json",
+      "sha256": "a67fcd52afe7c1931ada10eeb83b3148dca6f5989f874b26883c3eb23a4869c2",
+      "bytes": 422
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\A\\model-round-1\\RECEIPT.json",
+      "sha256": "d2c650bb3b1987d5b890c4f1541221a36b6ca1ddf0f90bf830eb38cdfd90e668",
+      "bytes": 431
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\A\\model-round-1\\events.jsonl",
+      "sha256": "8090460144d8295a59aca7ae4c9f8faa4da619791dc13f729bc51e4b132803f7",
+      "bytes": 822
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\A\\model-round-1\\answer.json",
+      "sha256": "a3d53563750caf1e7a6d61214cbfc78e4243a4b654bac550eda7c542878ba4b7",
+      "bytes": 441
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\A\\action-1.json",
+      "sha256": "982b5205e0698c6b59ba44fb149abcf4251ee9094a90e62ffc40c107ae15dc19",
+      "bytes": 238
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\A\\feedback-1.json",
+      "sha256": "ed9762a711c498947473c5dbb4273e2e62b5aa5dc8d6678a7b50d8209234db5b",
+      "bytes": 6574
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\A\\environment\\round-01.event.json",
+      "sha256": "c5465062148fd1f0617042b7a5acc94712d09429b443315559ca29de11028272",
+      "bytes": 1262
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\A\\environment\\round-01.feedback.json",
+      "sha256": "606ce544ed614374a351cfe96d022a91417dd4081c3080fb6181cac96e16b539",
+      "bytes": 6202
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\A\\environment\\round-01.candidates.jsonl",
+      "sha256": "1dae2de2a407c9ce7108bd4531f1e23ea028b1666e4fee6dc7c76b850a010823",
+      "bytes": 15539
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\A\\environment\\STATE-000.json",
+      "sha256": "ed64f45a7c79c3ea132b6a3bc14dc78da03f41f60eed7f72c609b609e8525893",
+      "bytes": 621
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\A\\environment\\STATE-001.json",
+      "sha256": "f83bee5c083fc5275ac68e9c542bdde41e88345d5ccf847a1a2a323db1b0fbf1",
+      "bytes": 4577
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\B\\model-round-1\\REQUEST.json",
+      "sha256": "2a9b2620bb3b404bdfe16ebca41a3e0ab29487943dce3a9acc83d6a71d7104d3",
+      "bytes": 421
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\B\\model-round-1\\RECEIPT.json",
+      "sha256": "004be23d2bb342304c6cd78117cbc79a0d7a85b86a1007162a0ffd5bc6f7fb19",
+      "bytes": 431
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\B\\model-round-1\\events.jsonl",
+      "sha256": "3d4bd720bc98248acce3ef4dc775d5b5dea86c9e5b323d88d61735df170a948f",
+      "bytes": 734
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\B\\model-round-1\\answer.json",
+      "sha256": "05a65928d99e446b9f205b0edc008a147ddfb057807110f0167dd28f4b3965f8",
+      "bytes": 353
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\B\\action-1.json",
+      "sha256": "e838441dab75ba3804b4f09ad8489f8435128d7bbf0429e198e566c22bb94a8f",
+      "bytes": 228
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\B\\feedback-1.json",
+      "sha256": "7be7920329320562db8b231c163a54d5afac06c36b9acbcf910e62ae327e3519",
+      "bytes": 5789
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\B\\environment\\round-01.event.json",
+      "sha256": "cb02d8c20d044e4779b371e90067fea0885309002d1cc56fc5c43e95a3d82cef",
+      "bytes": 1246
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\B\\environment\\round-01.feedback.json",
+      "sha256": "fc126d7903cf0118babbcd9f44a9c19b33987323c917192987595beb9797c137",
+      "bytes": 5457
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\B\\environment\\round-01.candidates.jsonl",
+      "sha256": "dbb90067cfd894fe9dae6c29ef25bcc43f84de6a921155168eb95415f10beda9",
+      "bytes": 12943
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\B\\environment\\STATE-000.json",
+      "sha256": "6c687c1d77266321c4d0f1f3883fe25a82e7640d37355a606106b5e4da9f3d12",
+      "bytes": 621
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\initial\\B\\environment\\STATE-001.json",
+      "sha256": "770f5eae5bcc1697a8022f1e3942b7d9da6e5202822cc347c0c62548acd8b11a",
+      "bytes": 4289
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\BRANCH_RESULT.json",
+      "sha256": "c3cddf110efe5d747b685e091e86a17911c08eb2f35dcade97a5557c0138edda",
+      "bytes": 82472
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\model-round-2\\REQUEST.json",
+      "sha256": "1a2f0b336ffc19becbdd8c9adfde3f600fe976be0d229ddec1fe8f825fc1d974",
+      "bytes": 422
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\model-round-2\\RECEIPT.json",
+      "sha256": "e7f1d5c284ac6342f96a7965e89dc289b9949b16f482a1c6cb004b7ff98ff94c",
+      "bytes": 428
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\model-round-2\\events.jsonl",
+      "sha256": "28b309a6aa8e080b4b068c609fe00066d6aa2369918d3aee5b869a8952c7d332",
+      "bytes": 866
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\model-round-2\\answer.json",
+      "sha256": "f4275bc008c6809939647a7fdd44d03a6c2df678e935c553fc898e5761cb5758",
+      "bytes": 489
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\action-2.json",
+      "sha256": "2e38931436d9e9d77ceed3238d441f6bd4f19f1330ee41468fb96599fbec73b8",
+      "bytes": 332
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\feedback-2.json",
+      "sha256": "3bc654d8083dbe11769045e41629ace8948cb817f037e6d75f8b57644e4b5c52",
+      "bytes": 23834
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\environment\\round-02.event.json",
+      "sha256": "43c78f0f5e838d22a995c6ca91a89fc2199f90f878278f065455180e7bbfa19c",
+      "bytes": 1359
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\environment\\round-02.feedback.json",
+      "sha256": "f3f4a4d96fa8cfbc9ac24e74598363feb7620704b0f584522033d9b2413c5f8c",
+      "bytes": 22582
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\environment\\round-01.event.json",
+      "sha256": "c5465062148fd1f0617042b7a5acc94712d09429b443315559ca29de11028272",
+      "bytes": 1262
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\environment\\round-01.candidates.jsonl",
+      "sha256": "1dae2de2a407c9ce7108bd4531f1e23ea028b1666e4fee6dc7c76b850a010823",
+      "bytes": 15539
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\environment\\round-01.feedback.json",
+      "sha256": "606ce544ed614374a351cfe96d022a91417dd4081c3080fb6181cac96e16b539",
+      "bytes": 6202
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\environment\\round-02.candidates.jsonl",
+      "sha256": "08cadd02e54b1dafc337f4f19674798a0b0ab9ba65cb3bfa72a2bb759e977af1",
+      "bytes": 73619
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\environment\\STATE-000.json",
+      "sha256": "ed64f45a7c79c3ea132b6a3bc14dc78da03f41f60eed7f72c609b609e8525893",
+      "bytes": 621
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\environment\\STATE-001.json",
+      "sha256": "f83bee5c083fc5275ac68e9c542bdde41e88345d5ccf847a1a2a323db1b0fbf1",
+      "bytes": 4577
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\A\\environment\\STATE-002.json",
+      "sha256": "fdb163fbcf5bd6d567def02abde211bf4170b13e02749066f6b8128b8273b8e4",
+      "bytes": 12641
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\model-round-2\\REQUEST.json",
+      "sha256": "1404a3c0d10b14dcae118159f303966b304ae4f61ce0ef855ddeed3917ad133c",
+      "bytes": 421
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\model-round-2\\RECEIPT.json",
+      "sha256": "41c638d0c23e594c32238bf7c2cf13ace5b84d9233bf9eec4e3b9c5b15cbacf9",
+      "bytes": 427
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\model-round-2\\events.jsonl",
+      "sha256": "7f30848eeb49364e69cc9fb9663850fee763b5aff2d34c76b0dc70fef94abdbb",
+      "bytes": 881
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\model-round-2\\answer.json",
+      "sha256": "20c55b988b4ef04ac314e899b64811f8cb2987852232ec4adcf08d49e0a64e8f",
+      "bytes": 504
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\action-2.json",
+      "sha256": "495ed20eaf29a1f36a72f86e6cff7ffd076a4554f68f41b37f732735deb211f8",
+      "bytes": 397
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\feedback-2.json",
+      "sha256": "20574dc9bea8b9902001c7b22598d38cd2ecc56976ec586daedb1d32881500fb",
+      "bytes": 26970
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\environment\\round-02.event.json",
+      "sha256": "4354e6895c1bd2edec3ecfa49adb4940f8fb4a65732770893c0c71ab3fd91000",
+      "bytes": 1431
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\environment\\round-02.feedback.json",
+      "sha256": "3beecac8111649df9f14d6292d8e55e077ced56dc74abbd5a84d9b6a1cbbeb30",
+      "bytes": 25558
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\environment\\round-01.event.json",
+      "sha256": "cb02d8c20d044e4779b371e90067fea0885309002d1cc56fc5c43e95a3d82cef",
+      "bytes": 1246
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\environment\\round-01.candidates.jsonl",
+      "sha256": "dbb90067cfd894fe9dae6c29ef25bcc43f84de6a921155168eb95415f10beda9",
+      "bytes": 12943
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\environment\\round-01.feedback.json",
+      "sha256": "fc126d7903cf0118babbcd9f44a9c19b33987323c917192987595beb9797c137",
+      "bytes": 5457
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\environment\\round-02.candidates.jsonl",
+      "sha256": "47da56f2f7addfb88200f20dc786eece39cbf7bc30a8373299eb527e30fa1f1f",
+      "bytes": 83751
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\environment\\STATE-000.json",
+      "sha256": "6c687c1d77266321c4d0f1f3883fe25a82e7640d37355a606106b5e4da9f3d12",
+      "bytes": 621
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\environment\\STATE-001.json",
+      "sha256": "770f5eae5bcc1697a8022f1e3942b7d9da6e5202822cc347c0c62548acd8b11a",
+      "bytes": 4289
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\private\\B\\environment\\STATE-002.json",
+      "sha256": "8e2f2374205bb05e0719a442967781825c9a8d8303c6263d38418fd9af40224e",
+      "bytes": 13505
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\BRANCH_RESULT.json",
+      "sha256": "1db57d93b4c00f7b10a2d9faddeffb7c90040c4d8feba50b0284bd09bc5719ed",
+      "bytes": 58302
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\model-round-2\\REQUEST.json",
+      "sha256": "d0e5c3145db40ed10e40d5f547c5eab47907ec23a3ba9fe098789eae2814cbb1",
+      "bytes": 422
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\model-round-2\\RECEIPT.json",
+      "sha256": "88f3d129bfe7220661dae5ead6f48dc38d136640ca1b22ab8b17f97cd3c26fa7",
+      "bytes": 432
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\model-round-2\\events.jsonl",
+      "sha256": "41c9ff86c6fba9ad100fd332ec95cc1895719a0fe8a077c0b489939d408b5134",
+      "bytes": 913
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\model-round-2\\answer.json",
+      "sha256": "344d4d4c69431dee170151d3f49518392884132f7d6405e3465d46cc6677661a",
+      "bytes": 532
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\action-2.json",
+      "sha256": "56abd4e3948cb962e5c888a0c88021d7f59eacac25255fd12cac5f65bea7d481",
+      "bytes": 333
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\feedback-2.json",
+      "sha256": "89ae9ede8127a87ffbea7c3c5e9bf0c2c47cd031a21a71431c1501a17dcdf4ad",
+      "bytes": 23833
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\environment\\round-02.event.json",
+      "sha256": "f5a167e7bcd3e571716a2f0241763fd9e66da3dffe705d616958381a45b6b3d0",
+      "bytes": 1363
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\environment\\round-02.feedback.json",
+      "sha256": "06e0073216696707b3eff41ee2d74e266fb4b75d70070c1a6f11ebd06d1801f9",
+      "bytes": 22581
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\environment\\round-01.event.json",
+      "sha256": "c5465062148fd1f0617042b7a5acc94712d09429b443315559ca29de11028272",
+      "bytes": 1262
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\environment\\round-01.candidates.jsonl",
+      "sha256": "1dae2de2a407c9ce7108bd4531f1e23ea028b1666e4fee6dc7c76b850a010823",
+      "bytes": 15539
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\environment\\round-01.feedback.json",
+      "sha256": "606ce544ed614374a351cfe96d022a91417dd4081c3080fb6181cac96e16b539",
+      "bytes": 6202
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\environment\\round-02.candidates.jsonl",
+      "sha256": "6b4704b4de6e9fd075245d50ed5202ea961e7b2a8efcb24d96e10518d820588e",
+      "bytes": 73802
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\environment\\STATE-000.json",
+      "sha256": "ed64f45a7c79c3ea132b6a3bc14dc78da03f41f60eed7f72c609b609e8525893",
+      "bytes": 621
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\environment\\STATE-001.json",
+      "sha256": "f83bee5c083fc5275ac68e9c542bdde41e88345d5ccf847a1a2a323db1b0fbf1",
+      "bytes": 4577
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\A\\environment\\STATE-002.json",
+      "sha256": "2177a33bdbbedceb5c77efd532cc90329a68e2edd452821d5246853bef34ab98",
+      "bytes": 12641
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\model-round-2\\REQUEST.json",
+      "sha256": "cdd4e631e71149e6148aa8f93da2595d76f674ffe2a3da034a0eb1bdae8b5b83",
+      "bytes": 421
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\model-round-2\\RECEIPT.json",
+      "sha256": "0d06f4379c0cfe6a85bbe701eceefec67f4a470d33840f33802963f1fdc4d172",
+      "bytes": 428
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\model-round-2\\events.jsonl",
+      "sha256": "c25525c2250587f0234637d8f232a37d35e05f95041f1653be1a17592332049a",
+      "bytes": 849
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\model-round-2\\answer.json",
+      "sha256": "bf4df3af6282fd29ae3fcd3f24e165017fc2c5afd27b433afc64b2ba82810ed9",
+      "bytes": 472
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\action-2.json",
+      "sha256": "3cc33cbbdd096c9aea8e0b3956494530a7b91d2e5e65edde8f706424fd3388c7",
+      "bytes": 515
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\feedback-2.json",
+      "sha256": "fa1043ea26d1b7689bc8c3f5c80c7d9a959b2c881ad40b38481b144630031d97",
+      "bytes": 8135
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\environment\\round-02.event.json",
+      "sha256": "8a613ca20f96d5ed8ba2c443824db0d05f662f859dd4a47931f3129727f32909",
+      "bytes": 1564
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\environment\\round-02.feedback.json",
+      "sha256": "e2d0fb3339a5734f49b0fb5eb519be750f4e15ee1d588b24cb31d9acf3a93b5c",
+      "bytes": 7683
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\environment\\round-01.event.json",
+      "sha256": "cb02d8c20d044e4779b371e90067fea0885309002d1cc56fc5c43e95a3d82cef",
+      "bytes": 1246
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\environment\\round-01.candidates.jsonl",
+      "sha256": "dbb90067cfd894fe9dae6c29ef25bcc43f84de6a921155168eb95415f10beda9",
+      "bytes": 12943
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\environment\\round-01.feedback.json",
+      "sha256": "fc126d7903cf0118babbcd9f44a9c19b33987323c917192987595beb9797c137",
+      "bytes": 5457
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\environment\\round-02.candidates.jsonl",
+      "sha256": "91779e6e9fcce1787c0af65133c2ee149455e49d4678d395ae8a69556667d3b4",
+      "bytes": 21402
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\environment\\STATE-000.json",
+      "sha256": "6c687c1d77266321c4d0f1f3883fe25a82e7640d37355a606106b5e4da9f3d12",
+      "bytes": 621
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\environment\\STATE-001.json",
+      "sha256": "770f5eae5bcc1697a8022f1e3942b7d9da6e5202822cc347c0c62548acd8b11a",
+      "bytes": 4289
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r1\\shared\\B\\environment\\STATE-002.json",
+      "sha256": "3bc19b1aa2b37bcf7133e7d75a2b059729996df2a892f78ad439ff2b808d8a55",
+      "bytes": 6593
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\PAIR_RECEIPT.json",
+      "sha256": "b945cf4b88ae1b63021738ff8c4528447e6a80f5428b74bd782e605970e132e6",
+      "bytes": 1639
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\INITIAL_RESULTS.json",
+      "sha256": "786df06af42cc57eba1a2ba00eec525a3e3352508ef87cdeda712ebb0f3b26ee",
+      "bytes": 16947
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\A\\model-round-1\\REQUEST.json",
+      "sha256": "5e2ff8a8084290ca8f6635c8fa2ae1733f1dffd129c16132b6ac494403ee99eb",
+      "bytes": 422
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\A\\model-round-1\\RECEIPT.json",
+      "sha256": "5d1f3c84c47d6c8b835344900628979aa3956faa38b0635e287c65144ba660b6",
+      "bytes": 430
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\A\\model-round-1\\events.jsonl",
+      "sha256": "0e9baefb7460e69d4574cddfaf0a41ef1dadcd89fef4790a5403d9219d654e9c",
+      "bytes": 792
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\A\\model-round-1\\answer.json",
+      "sha256": "2a425bc3781198c199b497010fecf41f6a7f7d499ad09035bbbb4d61d6d51f40",
+      "bytes": 412
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\A\\action-1.json",
+      "sha256": "ab2789a87930a652276e8fb23fdd5e6b0379a42e739505e4f22fc1c77df6d80e",
+      "bytes": 238
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\A\\feedback-1.json",
+      "sha256": "8fa250795ab7ebe71a898ef8da9d218016c80bf7ef49f68c23a8ddd5cfc733fb",
+      "bytes": 6574
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\A\\environment\\round-01.event.json",
+      "sha256": "2f7569ceea156a77b3b9d3ee6194c2be9b0763506516eb56581fdf5e29b5823e",
+      "bytes": 1257
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\A\\environment\\round-01.feedback.json",
+      "sha256": "ab81d461c728dde7e5ccac657b0ad0231598a6b7898a25f1ce06630800bf01a4",
+      "bytes": 6202
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\A\\environment\\round-01.candidates.jsonl",
+      "sha256": "36e34160833d752612ffbf7939b1d74cc5d6a4a04a96c1ceaf9434af1af4387b",
+      "bytes": 15539
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\A\\environment\\STATE-000.json",
+      "sha256": "61d212fb6c978d01d217256f5fd96b6090cea16067a458c6c0b4e64d41f8c066",
+      "bytes": 621
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\A\\environment\\STATE-001.json",
+      "sha256": "ddff49ef3d81748dd9e31c35a9605f99aa145a4abc40ec7c19cc3514f44070ba",
+      "bytes": 4577
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\B\\model-round-1\\REQUEST.json",
+      "sha256": "f625654ec20e88e58c62b85363aa9eeb82ad528af29e7037810e131bdd3d2718",
+      "bytes": 421
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\B\\model-round-1\\RECEIPT.json",
+      "sha256": "e647b5c5a1d6c355e1734faf07953dd5f298f8802cba521f2582931e0cace1e3",
+      "bytes": 429
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\B\\model-round-1\\events.jsonl",
+      "sha256": "2a07d34ff5601ae4743c9a137a4ff671dd548a022d50670f9303604b36fd602a",
+      "bytes": 758
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\B\\model-round-1\\answer.json",
+      "sha256": "539215c2fff59bcd847f3d15b30c54595a0d4665410e869c9c83ea42887ca62c",
+      "bytes": 379
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\B\\action-1.json",
+      "sha256": "e838441dab75ba3804b4f09ad8489f8435128d7bbf0429e198e566c22bb94a8f",
+      "bytes": 228
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\B\\feedback-1.json",
+      "sha256": "9162c256eda297a4c41e0c4fa6f51b291a8905be79412c8daf079288a9d350d8",
+      "bytes": 5789
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\B\\environment\\round-01.event.json",
+      "sha256": "035dc306d8a3bcf32b96cf369e90ee2e50aa9f203547315795b317c32cec3a27",
+      "bytes": 1247
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\B\\environment\\round-01.feedback.json",
+      "sha256": "0411d743296d93aa3d048a27b120626c4e07606a8c544dd70db4a43ba3280c84",
+      "bytes": 5457
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\B\\environment\\round-01.candidates.jsonl",
+      "sha256": "b8c9fd19c31287706a23d2206658fa5a3516af1f28c056ff084f42e8b93eea1b",
+      "bytes": 12943
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\B\\environment\\STATE-000.json",
+      "sha256": "cc0fbfc2248742401d51b103b6daa9400377134c661b93a74754bfacfb3fa5d3",
+      "bytes": 621
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\initial\\B\\environment\\STATE-001.json",
+      "sha256": "499b1ee72022fea589316068eb734451b650d1d665c249ba91ff3b002f828165",
+      "bytes": 4289
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\BRANCH_RESULT.json",
+      "sha256": "78609004f6b0d51bcbe8b1eb6ec3cc31c4aefc132d056e81bdea4380bdb2f1e0",
+      "bytes": 82499
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\model-round-2\\REQUEST.json",
+      "sha256": "258acec31561f10f650681361d02018b5f81c12fef4f66eb5ac46596c4d89213",
+      "bytes": 422
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\model-round-2\\RECEIPT.json",
+      "sha256": "7146286236269009e242a9bb7fd81b4dfa8112fd6d406c65c8260fc16606f009",
+      "bytes": 432
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\model-round-2\\events.jsonl",
+      "sha256": "c4ab993275e1439a008193979b2b30188ca15b06e4262ef28c3e0a3c15195149",
+      "bytes": 887
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\model-round-2\\answer.json",
+      "sha256": "a4cdfa82c22d4795f241b7b84fd00d72c188b3a5ef2adc9025bde9fa37aee111",
+      "bytes": 506
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\action-2.json",
+      "sha256": "e5061b422920b526adfe65dab44faeaeef944df43343c24efdced218a09a3103",
+      "bytes": 343
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\feedback-2.json",
+      "sha256": "61286c14c275dfa3f0ce2bb9cb5bc13b2140bbf16cf52286d0d740dced91aeac",
+      "bytes": 23826
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\environment\\round-02.event.json",
+      "sha256": "a209aa0daaa55a2ef80f3b7cb1225c9fedcdfc9059341d8882182a49c4259e9c",
+      "bytes": 1370
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\environment\\round-02.feedback.json",
+      "sha256": "9680a1790d8001af79c6eda289afaeb5a05572aa2b213a500b2ff5e28d473b2b",
+      "bytes": 22574
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\environment\\round-01.event.json",
+      "sha256": "2f7569ceea156a77b3b9d3ee6194c2be9b0763506516eb56581fdf5e29b5823e",
+      "bytes": 1257
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\environment\\round-01.candidates.jsonl",
+      "sha256": "36e34160833d752612ffbf7939b1d74cc5d6a4a04a96c1ceaf9434af1af4387b",
+      "bytes": 15539
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\environment\\round-01.feedback.json",
+      "sha256": "ab81d461c728dde7e5ccac657b0ad0231598a6b7898a25f1ce06630800bf01a4",
+      "bytes": 6202
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\environment\\round-02.candidates.jsonl",
+      "sha256": "8e3671ed43d0792107703dc62653375c18dd945082e54b609aee52558ba97b7a",
+      "bytes": 72969
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\environment\\STATE-000.json",
+      "sha256": "61d212fb6c978d01d217256f5fd96b6090cea16067a458c6c0b4e64d41f8c066",
+      "bytes": 621
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\environment\\STATE-001.json",
+      "sha256": "ddff49ef3d81748dd9e31c35a9605f99aa145a4abc40ec7c19cc3514f44070ba",
+      "bytes": 4577
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\A\\environment\\STATE-002.json",
+      "sha256": "fbc31a2ab4c2da514ce60b34c9803c22419fb88a28499c622ffff3d515e125db",
+      "bytes": 12641
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\model-round-2\\REQUEST.json",
+      "sha256": "ef5432428ce06472811029d27702e094915f4d09459df9061b8422d57928f230",
+      "bytes": 421
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\model-round-2\\RECEIPT.json",
+      "sha256": "bb5c0a8a32d716991b1e1d52ed4ae6bd78b69d1b4b1696c81d27533134808069",
+      "bytes": 426
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\model-round-2\\events.jsonl",
+      "sha256": "f8832ab2dbe50ba65b297a0ce4f1158685b1c612a43e956f67102b4687f32025",
+      "bytes": 827
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\model-round-2\\answer.json",
+      "sha256": "baa8f20148b0ad11f71b421693aa303a75a618da6100385a4277e496fd192816",
+      "bytes": 450
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\action-2.json",
+      "sha256": "c7d5ba003a1e0116bea64a87afa66f9a10422041da1cf1038bd84d3bdedbca0d",
+      "bytes": 394
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\feedback-2.json",
+      "sha256": "ef7a77cb61a22941e526a6326fbe9e6c59f82c67ad559bea66cac5345d32cfc0",
+      "bytes": 26970
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\environment\\round-02.event.json",
+      "sha256": "6995b9e257e864f71f16e7a2ee953c6342afbfcad87281912f9e3f7713be677e",
+      "bytes": 1433
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\environment\\round-02.feedback.json",
+      "sha256": "9550d1d1b5a6bd61997ab82c4536396526237d29b5b928a22bc325887c250eea",
+      "bytes": 25558
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\environment\\round-01.event.json",
+      "sha256": "035dc306d8a3bcf32b96cf369e90ee2e50aa9f203547315795b317c32cec3a27",
+      "bytes": 1247
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\environment\\round-01.candidates.jsonl",
+      "sha256": "b8c9fd19c31287706a23d2206658fa5a3516af1f28c056ff084f42e8b93eea1b",
+      "bytes": 12943
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\environment\\round-01.feedback.json",
+      "sha256": "0411d743296d93aa3d048a27b120626c4e07606a8c544dd70db4a43ba3280c84",
+      "bytes": 5457
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\environment\\round-02.candidates.jsonl",
+      "sha256": "66658ab796e2b37cd80348a14e87149f410e479a29b5e36315b197491358a42e",
+      "bytes": 83614
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\environment\\STATE-000.json",
+      "sha256": "cc0fbfc2248742401d51b103b6daa9400377134c661b93a74754bfacfb3fa5d3",
+      "bytes": 621
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\environment\\STATE-001.json",
+      "sha256": "499b1ee72022fea589316068eb734451b650d1d665c249ba91ff3b002f828165",
+      "bytes": 4289
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\private\\B\\environment\\STATE-002.json",
+      "sha256": "9fe0fc053d7e02c0160ad67e92e9ecebde19d5fea1a5034c366e02be621eed87",
+      "bytes": 13505
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\BRANCH_RESULT.json",
+      "sha256": "0be6f1105d2c85f80ee2464fee9109147110635131888294bb201da8e26e21a2",
+      "bytes": 50748
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\model-round-2\\REQUEST.json",
+      "sha256": "ca80f068b9b3f4646c835b27a9967ba03e94441f2ff59101f99a3cc51a57ced8",
+      "bytes": 422
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\model-round-2\\RECEIPT.json",
+      "sha256": "a59ba6fc31e37c24641107c5d8c90bd8492462ab2d6803173878c64c20024096",
+      "bytes": 430
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\model-round-2\\events.jsonl",
+      "sha256": "ce35b47980bf17e7ddebd04399b3ba9bd1b0a583448a1956623866d6f0168553",
+      "bytes": 903
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\model-round-2\\answer.json",
+      "sha256": "2de637e21f8049f22fbc20652d26311772b33549063b4e30c8a61522b25641af",
+      "bytes": 522
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\action-2.json",
+      "sha256": "f4fae8211a05b06eeef5a09d1cc3d33da88158209d55e42e65e0721dcd0c84e6",
+      "bytes": 332
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\feedback-2.json",
+      "sha256": "ede6e9ae8415a6d7ed769e79575644b0f83779463735349edf478e5b1511bd13",
+      "bytes": 23833
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\environment\\round-02.event.json",
+      "sha256": "3e3835209b93ab52974c81afd2a61d13e009d433f0a22d1b0598b32bf179efb5",
+      "bytes": 1362
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\environment\\round-02.feedback.json",
+      "sha256": "a90280ce514895fd451e7c4b1c9effe37c22cc1c5642871e56d3b21b58ac724a",
+      "bytes": 22581
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\environment\\round-01.event.json",
+      "sha256": "2f7569ceea156a77b3b9d3ee6194c2be9b0763506516eb56581fdf5e29b5823e",
+      "bytes": 1257
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\environment\\round-01.candidates.jsonl",
+      "sha256": "36e34160833d752612ffbf7939b1d74cc5d6a4a04a96c1ceaf9434af1af4387b",
+      "bytes": 15539
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\environment\\round-01.feedback.json",
+      "sha256": "ab81d461c728dde7e5ccac657b0ad0231598a6b7898a25f1ce06630800bf01a4",
+      "bytes": 6202
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\environment\\round-02.candidates.jsonl",
+      "sha256": "8c4b064878cba94ea3d991d8512b491257c40f4ae7591a1bd9f10da777bf17c6",
+      "bytes": 73723
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\environment\\STATE-000.json",
+      "sha256": "61d212fb6c978d01d217256f5fd96b6090cea16067a458c6c0b4e64d41f8c066",
+      "bytes": 621
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\environment\\STATE-001.json",
+      "sha256": "ddff49ef3d81748dd9e31c35a9605f99aa145a4abc40ec7c19cc3514f44070ba",
+      "bytes": 4577
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\A\\environment\\STATE-002.json",
+      "sha256": "fb06e73e8ecc841639145ef5d6e61ce9498de298c62d610cdc2e6d8e0cfbde72",
+      "bytes": 12641
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\model-round-2\\REQUEST.json",
+      "sha256": "9bf3f6a16f034c02c405731708ed13e84cec2d48da959f296465973268800f0c",
+      "bytes": 421
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\model-round-2\\RECEIPT.json",
+      "sha256": "352bff25fbc254b60bc9a6e362131df61645beae904c2e35d37761e5aaad7bef",
+      "bytes": 425
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\model-round-2\\events.jsonl",
+      "sha256": "2d2df318dd5b87c545afe02c1e4fd80109d6f0d15cfc2caecdb8ba577898c144",
+      "bytes": 929
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\model-round-2\\answer.json",
+      "sha256": "d755357a9712528e329eb99d24fbd07c660df73ae94540c49fab97f8ebf7c96c",
+      "bytes": 554
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\action-2.json",
+      "sha256": "e2a60b5a2ba4375c8b6c290540462c2735eda38dae4d7039b9ae913c518c0ff1",
+      "bytes": 558
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\feedback-2.json",
+      "sha256": "503c36977814fc062248089b118a84a1a6bbd94189f313d67c3be8ffa347ab17",
+      "bytes": 2254
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\environment\\round-02.event.json",
+      "sha256": "7810c634ce5c78022302963db5da20d558542d351a2f49864bc73d7f7442f576",
+      "bytes": 1601
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\environment\\round-02.feedback.json",
+      "sha256": "3ab75e0f01451b46c6ae831b6140e504e410bd25ae68e45b5b3cdd43957d6576",
+      "bytes": 2102
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\environment\\round-01.event.json",
+      "sha256": "035dc306d8a3bcf32b96cf369e90ee2e50aa9f203547315795b317c32cec3a27",
+      "bytes": 1247
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\environment\\round-01.candidates.jsonl",
+      "sha256": "b8c9fd19c31287706a23d2206658fa5a3516af1f28c056ff084f42e8b93eea1b",
+      "bytes": 12943
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\environment\\round-01.feedback.json",
+      "sha256": "0411d743296d93aa3d048a27b120626c4e07606a8c544dd70db4a43ba3280c84",
+      "bytes": 5457
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\environment\\round-02.candidates.jsonl",
+      "sha256": "cd1a40de1956d9a002f34ccb7d4958e8c0a0eb8b3b84aae9bdad67a831dcfdb3",
+      "bytes": 1357
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\environment\\STATE-000.json",
+      "sha256": "cc0fbfc2248742401d51b103b6daa9400377134c661b93a74754bfacfb3fa5d3",
+      "bytes": 621
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\environment\\STATE-001.json",
+      "sha256": "499b1ee72022fea589316068eb734451b650d1d665c249ba91ff3b002f828165",
+      "bytes": 4289
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-20-v1__r2\\shared\\B\\environment\\STATE-002.json",
+      "sha256": "c5beba51e5782f502ab2977bc639ef49b1cff2da0d17f4a08f3bd37724b2a019",
+      "bytes": 4433
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\PAIR_RECEIPT.json",
+      "sha256": "6ad91d253a2059bce9832579a0a3b6409b24a17306025b860a7e0b64285357be",
+      "bytes": 1639
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\INITIAL_RESULTS.json",
+      "sha256": "344ed6b9dd2e627800debb81a6ecf583146cf40ec0e93deb3a39cb542ddfe5df",
+      "bytes": 16973
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\A\\model-round-1\\REQUEST.json",
+      "sha256": "fbafe54e046813e970ddb58090d24c06d51fa9f3d198ada7108b4334f298a31b",
+      "bytes": 422
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\A\\model-round-1\\RECEIPT.json",
+      "sha256": "4f32ba3071d55a05d9df767e50277aa344a4bf5b769edd34c9f797d85b8fc0df",
+      "bytes": 430
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\A\\model-round-1\\events.jsonl",
+      "sha256": "d67df2919def906baf3aecf6ca063dcd87c8f800a9d63cc9bf058cc52bc123be",
+      "bytes": 813
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\A\\model-round-1\\answer.json",
+      "sha256": "cb7a547a293077b181682571bad6a96eac4332332281f3603eeb436c00d1aa18",
+      "bytes": 433
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\A\\action-1.json",
+      "sha256": "982b5205e0698c6b59ba44fb149abcf4251ee9094a90e62ffc40c107ae15dc19",
+      "bytes": 238
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\A\\feedback-1.json",
+      "sha256": "21e4ee2ca55f1dacdf062b9bd6431106bf22b110e16ef3c69fba2627b94d348d",
+      "bytes": 6960
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\A\\environment\\round-01.event.json",
+      "sha256": "3f3a4d78faa01768cf2247a8e5d3f70415f882e675c7cfa03b6e986be26ea414",
+      "bytes": 1263
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\A\\environment\\round-01.feedback.json",
+      "sha256": "c7ecabf971d9d68d40b8b04924ac1cda1de4b4e078e2a72bae55619e718925a2",
+      "bytes": 6560
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\A\\environment\\round-01.candidates.jsonl",
+      "sha256": "5d3f16913b64f275f42c9a28abde9f67e10fe96354541351ca93f04250d47bf5",
+      "bytes": 16287
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\A\\environment\\STATE-000.json",
+      "sha256": "71ddeb821f3ddc33639dfe5916242ad9153c0139482b3857e4c00e6bc447f736",
+      "bytes": 622
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\A\\environment\\STATE-001.json",
+      "sha256": "3b5a83024d1c8491b3453aac65002c294d9e9845525d353b2349b9693d06deaa",
+      "bytes": 4913
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\B\\model-round-1\\REQUEST.json",
+      "sha256": "67a195f27e5665e3aed00ef0d7b511e39537fb0bb97c6acda3256f8de1567cf4",
+      "bytes": 421
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\B\\model-round-1\\RECEIPT.json",
+      "sha256": "796b63469cb97f84311fb4f066ffc5d18b0c866fc0e06cbff3334253be3c6f91",
+      "bytes": 427
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\B\\model-round-1\\events.jsonl",
+      "sha256": "9356e69e8790db7d4b67a8ae25901022a82ca5ad257866b13030a9e223955a7c",
+      "bytes": 750
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\B\\model-round-1\\answer.json",
+      "sha256": "41143544ae8be086c4842929466b90ea3d1eb8e3fe88a46ebc97108ee937908f",
+      "bytes": 373
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\B\\action-1.json",
+      "sha256": "cfe5eccdafc05c4b5c758569e3410bb59cd9b61e88546f11c0e8108f56008e67",
+      "bytes": 218
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\B\\feedback-1.json",
+      "sha256": "d2c278d00b7a4c12d5a83da43b8420081a2ae2ea68ec022f66eb9b9b909556c2",
+      "bytes": 5381
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\B\\environment\\round-01.event.json",
+      "sha256": "2473183b68c717d399a155902a39892c5be01493ffdc34b8c3cc0e5cadb25617",
+      "bytes": 1234
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\B\\environment\\round-01.feedback.json",
+      "sha256": "c4cf9f2b0621194863abafb9b7dbd3add9cdff28b1e2add5cfa78c26bbda71ae",
+      "bytes": 5061
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\B\\environment\\round-01.candidates.jsonl",
+      "sha256": "48c1ea8fabc2a25b472afe10c33769bc79b272a890ca549b1daa59478463b459",
+      "bytes": 10785
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\B\\environment\\STATE-000.json",
+      "sha256": "283082bac62c972e6dbc97313c5758b66daf1097bf1bf4dfe1813020b0aed9b0",
+      "bytes": 622
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\initial\\B\\environment\\STATE-001.json",
+      "sha256": "99062e62f67ecedfd696977da968e1fef1c14009c0c0c86b5933efd1964e9243",
+      "bytes": 4336
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\BRANCH_RESULT.json",
+      "sha256": "1c7abf83bfcff935dae09c9685d9528e77bb6887c17a1a8d7e2253c32fbbac3b",
+      "bytes": 84365
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\model-round-2\\REQUEST.json",
+      "sha256": "0032979eeb4b8ee22dc136fb7228847b49cc9bdd02858ec5a789452c0fd01cee",
+      "bytes": 422
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\model-round-2\\RECEIPT.json",
+      "sha256": "c92ea2d70d5b7f2163da39169fb1ac709d2cc89bc68e93f7a9844119ce71cfa0",
+      "bytes": 432
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\model-round-2\\events.jsonl",
+      "sha256": "28cc309aeb51edd9bf26eba068552acab9063badc914f6dc6e8dcbe15e1e3a9c",
+      "bytes": 925
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\model-round-2\\answer.json",
+      "sha256": "9b643b1c64c8229c4ca78955fbbd5913f0336e55cdc06fadcdb9ea99990662a4",
+      "bytes": 544
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\action-2.json",
+      "sha256": "01a9ff123bae3a49704b0d1f93f01e2b7bfee28d82b9c9322aaaddcf3b36ab7c",
+      "bytes": 343
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\feedback-2.json",
+      "sha256": "895d17149ef4a3ca4e35cb7f60a6fea9b01d34460a1fb7d3c555e63f5b1811cb",
+      "bytes": 24248
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\environment\\round-02.event.json",
+      "sha256": "11d728721f4a2326d09ac545fdce02d061f7c422828f83bbf2ed27d967dddf64",
+      "bytes": 1375
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\environment\\round-02.feedback.json",
+      "sha256": "abbe726631b06f246fbd365ee1a58656e2850c4c25b75ff61f97c6c87156596a",
+      "bytes": 22972
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\environment\\round-01.event.json",
+      "sha256": "3f3a4d78faa01768cf2247a8e5d3f70415f882e675c7cfa03b6e986be26ea414",
+      "bytes": 1263
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\environment\\round-01.candidates.jsonl",
+      "sha256": "5d3f16913b64f275f42c9a28abde9f67e10fe96354541351ca93f04250d47bf5",
+      "bytes": 16287
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\environment\\round-01.feedback.json",
+      "sha256": "c7ecabf971d9d68d40b8b04924ac1cda1de4b4e078e2a72bae55619e718925a2",
+      "bytes": 6560
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\environment\\round-02.candidates.jsonl",
+      "sha256": "30860ffcd4110c1b9c592c6b34cbec3eec3e5a1c3f1005ce691ac880b486cdbf",
+      "bytes": 76415
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\environment\\STATE-000.json",
+      "sha256": "71ddeb821f3ddc33639dfe5916242ad9153c0139482b3857e4c00e6bc447f736",
+      "bytes": 622
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\environment\\STATE-001.json",
+      "sha256": "3b5a83024d1c8491b3453aac65002c294d9e9845525d353b2349b9693d06deaa",
+      "bytes": 4913
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\A\\environment\\STATE-002.json",
+      "sha256": "bf1cc2d5d4bed01c9dd99bab700662f5b56b92bfc7edd24b56612c730c6d44d0",
+      "bytes": 12929
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\model-round-2\\REQUEST.json",
+      "sha256": "6a5b186b68b7ab6850e3e85f2ba408b9906b76270a2fd9adb36e9fded3ba26f0",
+      "bytes": 421
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\model-round-2\\RECEIPT.json",
+      "sha256": "8a37eadb6548cb5c0714dfc99b75c23e59343eb617ffc574d393e2f12f24f736",
+      "bytes": 427
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\model-round-2\\events.jsonl",
+      "sha256": "18dbd8f47ce4e78efcd108f31eed3c2f664d6fcde706ee2f34df0bb7b0c2cc42",
+      "bytes": 748
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\model-round-2\\answer.json",
+      "sha256": "017a5a7e2bf3ec633089219c2edd9d36dc062cd85a19585860edbdb1353ba41c",
+      "bytes": 371
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\action-2.json",
+      "sha256": "495ed20eaf29a1f36a72f86e6cff7ffd076a4554f68f41b37f732735deb211f8",
+      "bytes": 397
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\feedback-2.json",
+      "sha256": "fcaac65ea131a12ba97f7212e5abedc90cb3546de5abd706ecec1496258c288d",
+      "bytes": 27410
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\environment\\round-02.event.json",
+      "sha256": "587914d0fa8e371ced41e7470a93997752f4d06b329e4e26156fa0ccb759b66f",
+      "bytes": 1436
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\environment\\round-02.feedback.json",
+      "sha256": "5b03d6fecec9506eb6ea0432b92b20573c9c1e803526c20d30b07fd6444a2d26",
+      "bytes": 25974
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\environment\\round-01.event.json",
+      "sha256": "2473183b68c717d399a155902a39892c5be01493ffdc34b8c3cc0e5cadb25617",
+      "bytes": 1234
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\environment\\round-01.candidates.jsonl",
+      "sha256": "48c1ea8fabc2a25b472afe10c33769bc79b272a890ca549b1daa59478463b459",
+      "bytes": 10785
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\environment\\round-01.feedback.json",
+      "sha256": "c4cf9f2b0621194863abafb9b7dbd3add9cdff28b1e2add5cfa78c26bbda71ae",
+      "bytes": 5061
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\environment\\round-02.candidates.jsonl",
+      "sha256": "29b70c6f1a16adb2c9573542e8cd7dae771709caa0bb827d16b34553cbaafda9",
+      "bytes": 87050
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\environment\\STATE-000.json",
+      "sha256": "283082bac62c972e6dbc97313c5758b66daf1097bf1bf4dfe1813020b0aed9b0",
+      "bytes": 622
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\environment\\STATE-001.json",
+      "sha256": "99062e62f67ecedfd696977da968e1fef1c14009c0c0c86b5933efd1964e9243",
+      "bytes": 4336
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\private\\B\\environment\\STATE-002.json",
+      "sha256": "49197a605a6a5ab0291c19a7bca53b38246e476425ab93ff3cd052e8c6f49f36",
+      "bytes": 13505
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\BRANCH_RESULT.json",
+      "sha256": "9ffdae6c26915b0557534f1a1ae6c7465be98bdf713d6a7473c4d1c7f6a9fadb",
+      "bytes": 84324
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\model-round-2\\REQUEST.json",
+      "sha256": "0c70a39bde0506b97d285a1b86f614a5d79564402d9e8b94f2b245700ae07136",
+      "bytes": 422
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\model-round-2\\RECEIPT.json",
+      "sha256": "533c544ea4019354ef95724999e30703c885d1a31b680dc34601d03d5c41abbf",
+      "bytes": 432
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\model-round-2\\events.jsonl",
+      "sha256": "40d25b1efa0a5eba245ffd5a0be85935ff79bff20c7ff24d62d04cc7c17c2277",
+      "bytes": 901
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\model-round-2\\answer.json",
+      "sha256": "097191a375fb42b7b3dc3b91849c84e5d82505c76b47a6351a5f89df6a919261",
+      "bytes": 520
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\action-2.json",
+      "sha256": "eefb9d4b7feb1cfc455798e31f14cfa9127e0f8351012c62958038cdddce52b4",
+      "bytes": 332
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\feedback-2.json",
+      "sha256": "9eac33d4283b6b8f81b0594694692091b96363c965da5227037da46a8dc31582",
+      "bytes": 24262
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\environment\\round-02.event.json",
+      "sha256": "6317cbac60753689f1a9ff2efde38da0da4360554b40460b1b837fb1a46c1db0",
+      "bytes": 1363
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\environment\\round-02.feedback.json",
+      "sha256": "b1ee73e35647c57144b3f1b603e7f892215806406d5fb396ae23695e00323bda",
+      "bytes": 22986
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\environment\\round-01.event.json",
+      "sha256": "3f3a4d78faa01768cf2247a8e5d3f70415f882e675c7cfa03b6e986be26ea414",
+      "bytes": 1263
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\environment\\round-01.candidates.jsonl",
+      "sha256": "5d3f16913b64f275f42c9a28abde9f67e10fe96354541351ca93f04250d47bf5",
+      "bytes": 16287
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\environment\\round-01.feedback.json",
+      "sha256": "c7ecabf971d9d68d40b8b04924ac1cda1de4b4e078e2a72bae55619e718925a2",
+      "bytes": 6560
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\environment\\round-02.candidates.jsonl",
+      "sha256": "fb275451865cf9773024a9bf5acea484a05b600d27b8591d5d1cd9a6279c09ed",
+      "bytes": 76757
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\environment\\STATE-000.json",
+      "sha256": "71ddeb821f3ddc33639dfe5916242ad9153c0139482b3857e4c00e6bc447f736",
+      "bytes": 622
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\environment\\STATE-001.json",
+      "sha256": "3b5a83024d1c8491b3453aac65002c294d9e9845525d353b2349b9693d06deaa",
+      "bytes": 4913
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\A\\environment\\STATE-002.json",
+      "sha256": "617a5077ce0355b67b3fdb9024eaa7c2f36945be206e2615a4f3f70e66c50f73",
+      "bytes": 12929
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\model-round-2\\REQUEST.json",
+      "sha256": "0c64af290fc27b2d03feef62cb3a31d900eb6e853d01bec4ee72dd8467b98c5c",
+      "bytes": 421
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\model-round-2\\RECEIPT.json",
+      "sha256": "3233950d83f6f8d8ea2e6b6565f5c1dd9dcd6785a0a50db6d6c6825aafd0c3c3",
+      "bytes": 431
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\model-round-2\\events.jsonl",
+      "sha256": "3a16ac64bed020e7180437967a67b4a611c49afbaf242db03553343d2b75f7eb",
+      "bytes": 768
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\model-round-2\\answer.json",
+      "sha256": "864182e87ba34b7d18014feafa499e3ba52fcf13bad670a7dc45549807e2381f",
+      "bytes": 387
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\action-2.json",
+      "sha256": "c7d5ba003a1e0116bea64a87afa66f9a10422041da1cf1038bd84d3bdedbca0d",
+      "bytes": 394
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\feedback-2.json",
+      "sha256": "b4736d6f515110282a458f5bce6911f9041cd1bb8fcf14242e07932d528f198e",
+      "bytes": 27400
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\environment\\round-02.event.json",
+      "sha256": "956411681a27c46d21953d3b38ea701a4414a80d2512e238e62eff5e8f1b267b",
+      "bytes": 1428
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\environment\\round-02.feedback.json",
+      "sha256": "f4429dd57dbd04c4bff5de71e6bb6693b32953c7d3b03ba477beaa475e6f62ef",
+      "bytes": 25964
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\environment\\round-01.event.json",
+      "sha256": "2473183b68c717d399a155902a39892c5be01493ffdc34b8c3cc0e5cadb25617",
+      "bytes": 1234
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\environment\\round-01.candidates.jsonl",
+      "sha256": "48c1ea8fabc2a25b472afe10c33769bc79b272a890ca549b1daa59478463b459",
+      "bytes": 10785
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\environment\\round-01.feedback.json",
+      "sha256": "c4cf9f2b0621194863abafb9b7dbd3add9cdff28b1e2add5cfa78c26bbda71ae",
+      "bytes": 5061
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\environment\\round-02.candidates.jsonl",
+      "sha256": "d74b97d2e35dfc5b19dbaa84ece52f0cab40bf8d3bb928a9d09013b867e3af52",
+      "bytes": 86866
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\environment\\STATE-000.json",
+      "sha256": "283082bac62c972e6dbc97313c5758b66daf1097bf1bf4dfe1813020b0aed9b0",
+      "bytes": 622
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\environment\\STATE-001.json",
+      "sha256": "99062e62f67ecedfd696977da968e1fef1c14009c0c0c86b5933efd1964e9243",
+      "bytes": 4336
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r1\\shared\\B\\environment\\STATE-002.json",
+      "sha256": "03bcea9fca5e701cb187c14625b921ba298a1d61df6cd07e58a070cdcf7fe7a3",
+      "bytes": 13505
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\PAIR_RECEIPT.json",
+      "sha256": "8de0dab4601fcb77983c3bc52381e1dc2f7026a1f2de42a9820909fbe34edbc2",
+      "bytes": 1639
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\INITIAL_RESULTS.json",
+      "sha256": "b694eadce3859b7dc3cc88a16de5d2d199434769932289ce6e75818e35b5fd89",
+      "bytes": 17937
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\A\\model-round-1\\REQUEST.json",
+      "sha256": "dc93e2844ced5a0449fa914071948c48c6c8a70627110210219c5ac45855e4b2",
+      "bytes": 422
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\A\\model-round-1\\RECEIPT.json",
+      "sha256": "01d70f9542ce813e012907d9c018e2facbf03fab5ce3e73230fab6a55f7a3b7b",
+      "bytes": 431
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\A\\model-round-1\\events.jsonl",
+      "sha256": "d8771097ffd06064972eaceda52837029557022c20e82cedf9e58e818e9966f5",
+      "bytes": 763
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\A\\model-round-1\\answer.json",
+      "sha256": "0c5b4b0bb2a2c0772e2e132013f5ab8e15a03dc458a9756295214fe2293c068a",
+      "bytes": 383
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\A\\action-1.json",
+      "sha256": "ab2789a87930a652276e8fb23fdd5e6b0379a42e739505e4f22fc1c77df6d80e",
+      "bytes": 238
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\A\\feedback-1.json",
+      "sha256": "afbee1eb4f53d30ba539a67f72b4fc17ae606b83f689e0578abe3b8f9c89af40",
+      "bytes": 6960
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\A\\environment\\round-01.event.json",
+      "sha256": "478644a062e1ea026433d17334ab85bc01d5ee7c35845cf8b35076b891a12a24",
+      "bytes": 1258
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\A\\environment\\round-01.feedback.json",
+      "sha256": "d015cd20eee49114a4dd2f19b1f9867c407fc568a2096361141424aeb707427c",
+      "bytes": 6560
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\A\\environment\\round-01.candidates.jsonl",
+      "sha256": "6541c4ab44c8ce2f96d353d9bbaa284f65303dc7b78c136e63544e17bc5b8538",
+      "bytes": 16287
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\A\\environment\\STATE-000.json",
+      "sha256": "4b8120317a46a7779068b5f8db734e7185b5db86c9ef5ad54ca551604aeea664",
+      "bytes": 622
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\A\\environment\\STATE-001.json",
+      "sha256": "84dbff4154164a10a5367fa6620c63e664bc05460571a62fd7a48c3268996cad",
+      "bytes": 4913
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\B\\model-round-1\\REQUEST.json",
+      "sha256": "8accd7a930cc26854b371c15b31aaa0e245d674aa54537069279a01cf29fd44d",
+      "bytes": 421
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\B\\model-round-1\\RECEIPT.json",
+      "sha256": "66dc6de233ed359bb6882378ee999cf227e248c5c637523733ebf468713d9ffb",
+      "bytes": 426
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\B\\model-round-1\\events.jsonl",
+      "sha256": "b2a14aa777c1534a6e1512d55bb0e081213348dd60ac372484bf27c1116e4a70",
+      "bytes": 713
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\B\\model-round-1\\answer.json",
+      "sha256": "62f65a2afeae2f3c56f70e2595bc8627dfad9ce90c66dc40f8f62af007e61f69",
+      "bytes": 337
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\B\\action-1.json",
+      "sha256": "e838441dab75ba3804b4f09ad8489f8435128d7bbf0429e198e566c22bb94a8f",
+      "bytes": 228
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\B\\feedback-1.json",
+      "sha256": "5fd1815e0a0aca340f117d02721db117450fdf884c18827b5fd5cda7c45ad6b0",
+      "bytes": 6171
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\B\\environment\\round-01.event.json",
+      "sha256": "b8fd5ee0e2e835de8cdba0e30fbbab974117e99930cadbd71fddcb04dfe65cc6",
+      "bytes": 1247
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\B\\environment\\round-01.feedback.json",
+      "sha256": "23ac112ac303b696295a05776fd6706b47de40d0a0289a5f92bf2a3a2be9b854",
+      "bytes": 5811
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\B\\environment\\round-01.candidates.jsonl",
+      "sha256": "c4b82c5f1d23e0114a731cf771f8c86619609d0ef118e0b06d61a5d8a42a3932",
+      "bytes": 13581
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\B\\environment\\STATE-000.json",
+      "sha256": "bfd7948177d17b534a86b2dc2fcd5e81fb1a5f2069de6b31d3810e6fe8b1b6dc",
+      "bytes": 622
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\initial\\B\\environment\\STATE-001.json",
+      "sha256": "1df4d194cd69903636e3e3aabccacc97a9aafff1dbb68910935e2a03c6a330d0",
+      "bytes": 4625
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\BRANCH_RESULT.json",
+      "sha256": "ead7b53f22b9087f40acbae5cecb8bcff13398f716d99ccf02d7b87af8f979b5",
+      "bytes": 71159
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\model-round-2\\REQUEST.json",
+      "sha256": "c2238bc82fd25a525a7b06971810a248c0b40be7a30ed25e69e0673f80940d2d",
+      "bytes": 422
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\model-round-2\\RECEIPT.json",
+      "sha256": "a60f1a6196d29e3aa6df9ac39cf96bd2c3164a21dab99980a9a4b66ab5103024",
+      "bytes": 428
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\model-round-2\\events.jsonl",
+      "sha256": "4d6a0aedba6e8288f8b8560f6616c61b7be55a1619bee716304a2319125df69e",
+      "bytes": 918
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\model-round-2\\answer.json",
+      "sha256": "66c143c2e68e60b64ef828e78ff2a0d206307c14cb506c6218a88414cd109ac1",
+      "bytes": 541
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\action-2.json",
+      "sha256": "0da9b2ebcf5a19554a49ad9b55260b1876f1ffe76aa2ad44356870526dac2564",
+      "bytes": 343
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\feedback-2.json",
+      "sha256": "aab4b098943f4dd4b3bc67b2d1d3c147395ce1875a1f4842f4754250ed0af7bc",
+      "bytes": 24240
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\environment\\round-02.event.json",
+      "sha256": "0a6ac5fbfaf86eaaa62ab74f78e42c9167b25b8142b0c7fde2e111eb55e01755",
+      "bytes": 1370
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\environment\\round-02.feedback.json",
+      "sha256": "b0bf3132231d481c7a998364a787218dea3a4563cc135bf4e087fffd5c712e70",
+      "bytes": 22964
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\environment\\round-01.event.json",
+      "sha256": "478644a062e1ea026433d17334ab85bc01d5ee7c35845cf8b35076b891a12a24",
+      "bytes": 1258
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\environment\\round-01.candidates.jsonl",
+      "sha256": "6541c4ab44c8ce2f96d353d9bbaa284f65303dc7b78c136e63544e17bc5b8538",
+      "bytes": 16287
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\environment\\round-01.feedback.json",
+      "sha256": "d015cd20eee49114a4dd2f19b1f9867c407fc568a2096361141424aeb707427c",
+      "bytes": 6560
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\environment\\round-02.candidates.jsonl",
+      "sha256": "c5057ccac393d1221761f33ebb2718c80a989eaa700b3256fbb0085e7f8d5576",
+      "bytes": 76217
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\environment\\STATE-000.json",
+      "sha256": "4b8120317a46a7779068b5f8db734e7185b5db86c9ef5ad54ca551604aeea664",
+      "bytes": 622
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\environment\\STATE-001.json",
+      "sha256": "84dbff4154164a10a5367fa6620c63e664bc05460571a62fd7a48c3268996cad",
+      "bytes": 4913
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\A\\environment\\STATE-002.json",
+      "sha256": "8d758853962813c4765d2298bfc705c831f9be9a1898e374530338bd335015e4",
+      "bytes": 12929
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\model-round-2\\REQUEST.json",
+      "sha256": "21580d1d7d685426654cfb74a71a0d6a4460d97a2ff09cdfb1c9b55c20b17b86",
+      "bytes": 421
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\model-round-2\\RECEIPT.json",
+      "sha256": "1e8e1e058b3dce13e22186ab61c3c17318d91730c08fd449d8dd827410d27b60",
+      "bytes": 431
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\model-round-2\\events.jsonl",
+      "sha256": "8be66a370ff259e39e0cf908a3f0086a171703a005794a1d2224fcbb27f2e94f",
+      "bytes": 911
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\model-round-2\\answer.json",
+      "sha256": "7eee289108d91fbd24067cde72dc8482fda9d2d3d96c625a257b452b8f08faaf",
+      "bytes": 530
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\action-2.json",
+      "sha256": "71dea46b2f97b9f2c8f004e3866bfb01d687a9e669a687b102ae1421a9814fe5",
+      "bytes": 555
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\feedback-2.json",
+      "sha256": "89f7a39e6001fc665e1c2cf5cbdbf118f9863231daf069271da5d845a95234f0",
+      "bytes": 16802
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\environment\\round-02.event.json",
+      "sha256": "b04ba415985a186cc4e8db17564a513e8de51056f1e8d66b0a9f2919f1175dea",
+      "bytes": 1607
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\environment\\round-02.feedback.json",
+      "sha256": "d4dcfb003faa43a27f6a6f46269cc5021bf545f3e8f53f25d2649944f0556ce4",
+      "bytes": 15902
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\environment\\round-01.event.json",
+      "sha256": "b8fd5ee0e2e835de8cdba0e30fbbab974117e99930cadbd71fddcb04dfe65cc6",
+      "bytes": 1247
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\environment\\round-01.candidates.jsonl",
+      "sha256": "c4b82c5f1d23e0114a731cf771f8c86619609d0ef118e0b06d61a5d8a42a3932",
+      "bytes": 13581
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\environment\\round-01.feedback.json",
+      "sha256": "23ac112ac303b696295a05776fd6706b47de40d0a0289a5f92bf2a3a2be9b854",
+      "bytes": 5811
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\environment\\round-02.candidates.jsonl",
+      "sha256": "fe4d3332c48f8b8937ded58b631b55ca937a129cd72ce356b78ce2f124e8d649",
+      "bytes": 52628
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\environment\\STATE-000.json",
+      "sha256": "bfd7948177d17b534a86b2dc2fcd5e81fb1a5f2069de6b31d3810e6fe8b1b6dc",
+      "bytes": 622
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\environment\\STATE-001.json",
+      "sha256": "1df4d194cd69903636e3e3aabccacc97a9aafff1dbb68910935e2a03c6a330d0",
+      "bytes": 4625
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\private\\B\\environment\\STATE-002.json",
+      "sha256": "cd9a3ea8496e0fc842ceada671247a81c66fb0f95e65f43d46d35c7f7fd92e0d",
+      "bytes": 9953
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\BRANCH_RESULT.json",
+      "sha256": "a5f4d20bf414775b6d5595cc7efc2fc053222835cd1d80f864cf1518842331dc",
+      "bytes": 84344
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\model-round-2\\REQUEST.json",
+      "sha256": "e3bfe7a62cdc7d18962f54eabd8167ef110989c05a721c78882a69f84ef8d9bc",
+      "bytes": 422
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\model-round-2\\RECEIPT.json",
+      "sha256": "d01e6bbf20e1fda44a3835676a5cc67e56ec009c56c016d714285a1c63000059",
+      "bytes": 432
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\model-round-2\\events.jsonl",
+      "sha256": "dbb88b2e87aaaf0ec9613cd05337bf3f14599ff0ef0d88b43c3c404f7c1592fb",
+      "bytes": 881
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\model-round-2\\answer.json",
+      "sha256": "0ee3cf12fb40bba7746bbbe77ef651e3220438f3012a33afac31e12272245c8a",
+      "bytes": 500
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\action-2.json",
+      "sha256": "d6a06c790d7f3bd4fb55427a493d43186fa2fc7efa27a630499d6347228ee12e",
+      "bytes": 344
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\feedback-2.json",
+      "sha256": "41586102789f5a348b7dab510bb577a2d6d90231e07a12fa213ba64f80035a69",
+      "bytes": 24238
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\environment\\round-02.event.json",
+      "sha256": "140a93a1525dd998b871bf70aaea6c818fbbdda34ecff0256036c8f74e5e0fb1",
+      "bytes": 1371
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\environment\\round-02.feedback.json",
+      "sha256": "22ae40c868116aa0d471bca4831be023d433d52fce4e60707be380ed30ff733d",
+      "bytes": 22962
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\environment\\round-01.event.json",
+      "sha256": "478644a062e1ea026433d17334ab85bc01d5ee7c35845cf8b35076b891a12a24",
+      "bytes": 1258
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\environment\\round-01.candidates.jsonl",
+      "sha256": "6541c4ab44c8ce2f96d353d9bbaa284f65303dc7b78c136e63544e17bc5b8538",
+      "bytes": 16287
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\environment\\round-01.feedback.json",
+      "sha256": "d015cd20eee49114a4dd2f19b1f9867c407fc568a2096361141424aeb707427c",
+      "bytes": 6560
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\environment\\round-02.candidates.jsonl",
+      "sha256": "2b496d06b743321a3f37de321f2c5ef53b052981655b4556d5658ec14aa2af7d",
+      "bytes": 76222
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\environment\\STATE-000.json",
+      "sha256": "4b8120317a46a7779068b5f8db734e7185b5db86c9ef5ad54ca551604aeea664",
+      "bytes": 622
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\environment\\STATE-001.json",
+      "sha256": "84dbff4154164a10a5367fa6620c63e664bc05460571a62fd7a48c3268996cad",
+      "bytes": 4913
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\A\\environment\\STATE-002.json",
+      "sha256": "237b31ab09abad3c8bdeca4e3e86d449dedbb689eaf7ae9d3f8b7189c0b4ad61",
+      "bytes": 12929
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\model-round-2\\REQUEST.json",
+      "sha256": "243499a6dbcda0565257fc81968ea7b9e6ddc2cf38104f7fee1d7d7508f0ddea",
+      "bytes": 421
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\model-round-2\\RECEIPT.json",
+      "sha256": "9c648708d4028872d9f250b853b06904126c76e80df859e0b9051515659bcc3e",
+      "bytes": 425
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\model-round-2\\events.jsonl",
+      "sha256": "a02b837989ba27e3e5f9041fe85febcfff1595c9ab0cf81e01b96a39e0271745",
+      "bytes": 826
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\model-round-2\\answer.json",
+      "sha256": "50a488b9d5e04592f3b03d99b9e40c8b6270c7df914a754b5d236584bc75fe4a",
+      "bytes": 451
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\action-2.json",
+      "sha256": "5d400226412ad95533f06bd36dc19876c6f2862cf505718a20b1c3f2088b3980",
+      "bytes": 393
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\feedback-2.json",
+      "sha256": "14a4bd79bb668e847e520d73a952b5e9aa71264f1dcac67017ada75531dcff0b",
+      "bytes": 27400
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\environment\\round-02.event.json",
+      "sha256": "4a3ffd3fbbf15648cba753c3df229690ec059fe4f9d46c2d606eda15323c09a5",
+      "bytes": 1427
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\environment\\round-02.feedback.json",
+      "sha256": "97e8ed15f75aaa9343c4c3c021e42a3d9771153b0fdc56f17e944e4364649b83",
+      "bytes": 25964
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\environment\\round-01.event.json",
+      "sha256": "b8fd5ee0e2e835de8cdba0e30fbbab974117e99930cadbd71fddcb04dfe65cc6",
+      "bytes": 1247
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\environment\\round-01.candidates.jsonl",
+      "sha256": "c4b82c5f1d23e0114a731cf771f8c86619609d0ef118e0b06d61a5d8a42a3932",
+      "bytes": 13581
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\environment\\round-01.feedback.json",
+      "sha256": "23ac112ac303b696295a05776fd6706b47de40d0a0289a5f92bf2a3a2be9b854",
+      "bytes": 5811
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\environment\\round-02.candidates.jsonl",
+      "sha256": "05046a6752747e7b86c986e488d0c305464d1ccf58fd5bd181d29600be0d8ec5",
+      "bytes": 86823
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\environment\\STATE-000.json",
+      "sha256": "bfd7948177d17b534a86b2dc2fcd5e81fb1a5f2069de6b31d3810e6fe8b1b6dc",
+      "bytes": 622
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\environment\\STATE-001.json",
+      "sha256": "1df4d194cd69903636e3e3aabccacc97a9aafff1dbb68910935e2a03c6a330d0",
+      "bytes": 4625
+    },
+    {
+      "path": "runs\\cohort-v1\\synthetic-23-v1__r2\\shared\\B\\environment\\STATE-002.json",
+      "sha256": "71e73be3afed904a3c2f76a71368a82ac3f8ef80fd30bf7366175f4f3aea2c04",
+      "bytes": 13793
+    },
+    {
+      "path": "analysis\\COHORT_RESULTS.json",
+      "sha256": "af5d20326c3df76ddca47f4dc5cd8fb3861a270d662877b22639c8330da954ac",
+      "bytes": 18312
+    },
+    {
+      "path": "analysis\\PRIMARY_RESULTS.json",
+      "sha256": "5d884748187c90fb7413a9ba17e65103955ea736ad142da26826945c93f75ac8",
+      "bytes": 490816
+    },
+    {
+      "path": "analysis\\EXPLORATORY_M_MINUS_B.json",
+      "sha256": "a2db7a6c6f528b8d262ae93326bc9ff9348a465cf2bdd53d59ec40e29e817c65",
+      "bytes": 2787
+    },
+    {
+      "path": "runs\\browser-v1\\RECONCILIATION_RECEIPT.json",
+      "sha256": "771fabd0a4b1d294a85d12f9e90b6df23c8f164c9805bbcf032280fbf52b8e84",
+      "bytes": 2383
+    },
+    {
+      "path": "runs\\browser-v1\\synthetic-20-v1__r1__B__freebrowser\\TRUSTED_FINAL.json",
+      "sha256": "7f9ac76a131631e871913c50073e207d8b14bb1473e3f862a665d28528820f8d",
+      "bytes": 725
+    },
+    {
+      "path": "runs\\browser-v1\\synthetic-20-v1__r1__V__freebrowser\\TRUSTED_FINAL.json",
+      "sha256": "11b3ad54351f01012a87263e3897d8d0e237a22292fedc0a9c5e58b4ea40db38",
+      "bytes": 726
+    }
+  ],
+  "scope": "24 actual calls; initial work counted once. Four pairs/two exposed tasks; no cost gain observed, mixed duplicate/region effects. Same configured reviewer model family; no global optimum, autonomous memory or Apex admission."
+}

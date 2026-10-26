@@ -1,0 +1,32 @@
+{
+  "recorded_utc": "2026-10-26T18:19:40.471815+00:00",
+  "status": "PASS_ONE_CONTENT_FREE_CANARY_ONLY",
+  "route_tuple": {
+    "carrier": "existing Chrome browser",
+    "service": "OpenRouter Chat",
+    "router_model": "openrouter/free",
+    "resolved_ui_model": "Laguna S 2.1 (free)",
+    "resolved_ui_provider": "poolside"
+  },
+  "price_evidence": {
+    "official_source": "https://openrouter.ai/openrouter/free",
+    "retrieved_utc_date": "2026-10-26",
+    "web_reference_for_audit": "turn4view0 lines71-75,128-130,221-223",
+    "paraphrase": "The official model page says the router selects free models and charges zero for prompt and completion tokens.",
+    "scope": "Exact openrouter/free router selected alone. No alternative paid model selected."
+  },
+  "authority": "Parent bounded current browser census under CONTROL.json: one content-free canary on one independently proven-zero-cost existing route.",
+  "auth_names_only": [
+    "existing signed-in OpenRouter browser session"
+  ],
+  "health": "ADAPTER_OK exact response observed",
+  "native_tool_support": "Not exercised; browser tool selector displayed zero active tools. Router advertises feature filtering, not proof of specific tool execution.",
+  "quota_remaining": "Not inspected; one successful canary does not prove remaining quota.",
+  "reproducibility_hold": "Free router chooses among available free models; this does not establish a fixed backend route for paired experiments.",
+  "next_step": "No substantive experiment until root supplies frozen sanitized prompt and explicit route choice.",
+  "no_gen137_entry": true,
+  "no_keys_or_env_reads": true,
+  "no_login_account_billing_mutation": true,
+  "no_install_or_deployment": true,
+  "prior_vendor_census": "Preserved unchanged; this is later current-UI evidence, not a rewrite of earlier API-route HOLD."
+}

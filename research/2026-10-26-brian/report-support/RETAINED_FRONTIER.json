@@ -1,0 +1,114 @@
+[
+  {
+    "target_id": "p384",
+    "domain": "subgroup scalar order",
+    "original_files": 7,
+    "equation_signatures": 7,
+    "minimum_retained_operations": 421,
+    "S_M_frontier": [
+      [
+        380,
+        41
+      ],
+      [
+        381,
+        40
+      ]
+    ],
+    "witness_ids": [
+      "p384-844866b0703e",
+      "p384-0a8c5bb288ae"
+    ],
+    "scope": "minimum within this retained collection only"
+  },
+  {
+    "target_id": "curve25519",
+    "domain": "subgroup scalar order",
+    "original_files": 15,
+    "equation_signatures": 8,
+    "minimum_retained_operations": 279,
+    "S_M_frontier": [
+      [
+        247,
+        32
+      ]
+    ],
+    "witness_ids": [
+      "curve25519-3948e3c1692f"
+    ],
+    "scope": "minimum within this retained collection only"
+  },
+  {
+    "target_id": "p521",
+    "domain": "subgroup scalar order",
+    "original_files": 11,
+    "equation_signatures": 8,
+    "minimum_retained_operations": 581,
+    "S_M_frontier": [
+      [
+        516,
+        65
+      ],
+      [
+        517,
+        64
+      ]
+    ],
+    "witness_ids": [
+      "p521-35e0862c40b1",
+      "p521-8f4701f3aa81"
+    ],
+    "scope": "minimum within this retained collection only"
+  },
+  {
+    "target_id": "secp256k1",
+    "domain": "subgroup scalar order",
+    "original_files": 4,
+    "equation_signatures": 4,
+    "minimum_retained_operations": 288,
+    "S_M_frontier": [
+      [
+        253,
+        35
+      ]
+    ],
+    "witness_ids": [
+      "secp256k1-4f8fc44ad666"
+    ],
+    "scope": "minimum within this retained collection only"
+  },
+  {
+    "target_id": "p256",
+    "domain": "subgroup scalar order",
+    "original_files": 83,
+    "equation_signatures": 28,
+    "minimum_retained_operations": 284,
+    "S_M_frontier": [
+      [
+        251,
+        33
+      ]
+    ],
+    "witness_ids": [
+      "p256-46ba0fb4a029"
+    ],
+    "scope": "minimum within this retained collection only"
+  },
+  {
+    "target_id": "curve448-field",
+    "domain": "field prime",
+    "original_files": 1,
+    "equation_signatures": 1,
+    "minimum_retained_operations": 460,
+    "S_M_frontier": [
+      [
+        447,
+        13
+      ]
+    ],
+    "witness_ids": [
+      "curve448-field-e713757ba7b7"
+    ],
+    "scope": "minimum within this retained collection only"
+  }
+]

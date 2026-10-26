@@ -1,0 +1,27 @@
+%% Verified mapping from six emitted files to four byte hashes to one existing arithmetic DAG.
+%% This is artifact identity, not mutation-parent lineage.
+flowchart LR
+  f0["contiguous_guided<br/>candidate_00_285.json"]
+  f0 --> h2
+  f1["contiguous_guided<br/>candidate_03_285.json"]
+  f1 --> h1
+  f2["contiguous_random<br/>candidate_00_285.json"]
+  f2 --> h1
+  f3["contiguous_random<br/>candidate_04_285.json"]
+  f3 --> h2
+  f4["split_guided<br/>candidate_00_285.json"]
+  f4 --> h0
+  f5["split_random<br/>candidate_00_285.json"]
+  f5 --> h3
+  h0["Raw bytes SHA 114c5c4730c2"]
+  h0 -->|"current exact replay + canonical exponent triples"| arithmetic
+  h1["Raw bytes SHA 74156763547c"]
+  h1 -->|"current exact replay + canonical exponent triples"| arithmetic
+  h2["Raw bytes SHA 79ef7fbbaed9"]
+  h2 -->|"current exact replay + canonical exponent triples"| arithmetic
+  h3["Raw bytes SHA e5d9aac6daa3"]
+  h3 -->|"current exact replay + canonical exponent triples"| arithmetic
+  arithmetic["ONE arithmetic DAG<br/>285 =252S+33M<br/>graph SHA 21f4b33cbabf"]
+  seed["Existing285 source<br/>file SHA cf2f652a6fe1"]
+  seed --> arithmetic
+  arithmetic --> novelty["New arithmetic graphs:0<br/>Six files ≠ six discoveries"]

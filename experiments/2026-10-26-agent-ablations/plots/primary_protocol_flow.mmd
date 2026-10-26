@@ -1,0 +1,14 @@
+%% Source: ../PROTOCOL.v1.json + ../analysis/PRIMARY_RESULTS.json (5d884748...) + ../oracle/PRIMARY_AUDIT.v1.json (46cffc7c...)
+flowchart TB
+    P["Frozen protocol + amendments<br/>2 synthetic tasks × 2 repeat/order IDs"] --> C["Included Codex proposal controller<br/>B/N/S/I/M/O/T/V/A on Sol<br/>separate Luna baseline"]
+    C --> D["Three decision positions<br/>fresh model context per decision<br/>own actions + visible feedback only"]
+    D --> A["Proposed JSON action<br/>native tools disabled"]
+    A --> E["Frozen deterministic environment<br/>search cap64 candidates per action<br/>all additions charged"]
+    E --> F["Candidate-visible feedback<br/>V receives masked acknowledgment"]
+    F --> D
+    E --> W["Retained candidate schedules<br/>exact integer arithmetic"]
+    W --> O["Independent oracle + full cohort audit<br/>3098 valid candidate records<br/>40 aggregates +32 contrast pairs recomputed"]
+    O --> R["Frozen primary results<br/>39 complete +1 timeout<br/>best valid prefix preserved"]
+    R --> G["Separate figures:<br/>cost / action / regions / duplicates / realized work"]
+    X["Exploratory browser transport<br/>random free router;2 sends<br/>0 accepted JSON actions"] -. "excluded from primary cohort" .-> G
+    N["Interpretation ceiling<br/>2 tasks; repeat IDs are not controlled RNG seeds<br/>no Apex deployment or autonomous-learning claim"] --- G

@@ -1,0 +1,39 @@
+{
+  "schema": "bounded-addition-chain-raw-event-fields.v1",
+  "action_event": {
+    "environment_id":"unique trajectory namespace",
+    "event_id":"UUID also used as action_id/receipt_id",
+    "action_id":"UUID",
+    "round":"1..3",
+    "parsed_action":"original JSON object or null on parse refusal",
+    "status":"COMPLETE or REFUSED",
+    "reason":"typed refusal or null",
+    "configured_candidates":"proposal count before cap, not evaluations",
+    "evaluated_candidates":"actual raw candidate record count",
+    "censored_candidates":"not evaluated under cap/refusal",
+    "invalid_candidates":"evaluated candidates with valid=false",
+    "action_sha256":"captured action bytes digest",
+    "action_sha256_scope":"complete_original or captured_prefix_only"
+  },
+  "candidate_evaluation": {
+    "environment_id":"trajectory namespace",
+    "event_id":"environment_id:evaluation:global_ordinal",
+    "action_id":"earlier parent action UUID",
+    "candidate_id":"local round-candidate ID",
+    "global_evaluation_ordinal":"contiguous actual evaluations, starts1",
+    "round":"decision round",
+    "method":"explicit, binary, window or dictionary",
+    "candidate":"explicit parent-index JSON, null on construction refusal",
+    "assessment":"local exact arithmetic/cost/liveness assessment",
+    "raw_duplicate":"raw candidate hash seen earlier in same trajectory",
+    "canonical_schedule_duplicate":"commutative index schedule seen earlier"
+  },
+  "normalization_guidance": [
+    "One root model-call event becomes model_round and belongs to the root runner, not the harness.",
+    "Each raw action event maps to submit_action when parsed type=submit_chain, otherwise construct_action; retain invalid/refused subtype separately.",
+    "Each candidate JSONL row maps to candidate_evaluation, regardless valid/invalid/duplicate, with its action_id.",
+    "Root records provider calls/cost separately. Harness never invokes a model, provider, CLI subprocess or network.",
+    "Construct/search tool refusals make zero candidate evaluations but consume a model decision/action round.",
+    "A separately reviewed adapter should emit the independent oracle's normalized seq/kind format; this schema is not itself a budget PASS."
+  ]
+}

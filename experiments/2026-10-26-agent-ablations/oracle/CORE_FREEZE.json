@@ -1,0 +1,29 @@
+{
+  "schema": "blind-independent-oracle-freeze.v1",
+  "observed_utc": "2026-10-26T17:34:01.9773717Z",
+  "harness_implementation_read": false,
+  "candidate_outcomes_observed": false,
+  "code": [
+    {
+      "name": "evaluate.py",
+      "sha256": "826aff70f4a60f6527c2d2e3f4aa6181d009a60fb26c32f43743b0da03dc046d"
+    },
+    {
+      "name": "private_controls.py",
+      "sha256": "93b7ab42ca9f2cee4ca97e70fcf80f67132ebafd24b945360f876b660f8fbc3c"
+    },
+    {
+      "name": "generate_public_tasks.py",
+      "sha256": "84b4108b7e886bd8b789be1bb49fc8c7be3ebd3da126af713d74884a6b8f2dbc"
+    }
+  ],
+  "public_tasks_sha256": "09256c711cdb4ea7773bcc0a62921318f026128a11b49357d5b4858dade8cd94",
+  "public_interface_sha256": "dccfe461b9bafd65232b08a9a11e8032d2540351a9fc96b345af936af95d37a6",
+  "private_control_receipt_sha256": "0ebe564343b41ce3d20056305fb4d4eecbdca016be7b3c1fe0244f07cd7a9ad4",
+  "generation_receipt_sha256": "b2e483af0fa8d593bfeb770e205dfb1a1655c841e5db6869b9ca04f9ee938b8c",
+  "independence_ceiling": "distinct agent and pre-harness code path; same configured model family; no model-pretraining absence claim",
+  "isolation": "PROMPT_TOOL_DISABLED_CONVENTION_ONLY; shared filesystem has no oracle ACL isolation",
+  "blockers": [],
+  "cap_bytes": 4000000,
+  "actual_files_bytes_before_freeze": 55850.0
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "cohort-prelaunch-amendment.v2",
+  "utc": "2026-10-26T18:00:05.822727+00:00",
+  "prior_cohort_calls": 0,
+  "selected_runner": "control/run_cohort_v2.py",
+  "sha256": "bbfc713cc74d72d73b12280fb95812c449a6a32d5e38d16db25f53d8f2c0ea38",
+  "change": "Per-call horizon refusals before prompt preparation and immediately before invoke; no call after19:24:08Z.",
+  "event_identity_scope": "Key by pair/arm/worker/path plus event_id. Cloned initial work counted once actual; ordinal event IDs can collide across branches. Never deduplicate actual inference by bare event_id.",
+  "harness_oracle_schema_changed": false
+}

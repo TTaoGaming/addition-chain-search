@@ -1,0 +1,26 @@
+{
+  "pair": "split",
+  "arm": "guided",
+  "start_observed_utc": "2026-09-30T06:32:42.145133+00:00",
+  "terminal_observed_utc": "2026-09-30T06:32:43.446711+00:00",
+  "statuses": {
+    "OPTIMAL": 12
+  },
+  "attempted": 12,
+  "planned": 12,
+  "best_operations": 285,
+  "new_candidate_files": [
+    {
+      "path": "C:\\Dev\\work\\sigrun_regeneration_20260929T223621Z\\seat2\\obsidian_v1\\p256_episodes_wave_004\\split_guided\\candidate_00_285.json",
+      "sha256": "114c5c4730c21ccef62f01b6338a6657ca9f561a9fb3976c0558005cc9e7830d",
+      "bytes": 44801
+    }
+  ],
+  "process_cpu_counter_seconds": 1.34375,
+  "wall_seconds": 1.3014947999909054,
+  "local_checker": "MAKER_INVOCATION_NOT_DISTINCT_P4",
+  "seed_gate": "P4_VERIFIED_HIVE_ACK_PENDING",
+  "historical288_replays": 0,
+  "timeouts": "UNKNOWN_NOT_INFEASIBLE",
+  "scope": "Finite scaffold bands only; tail and dictionary fixed; no global optimum claim"
+}

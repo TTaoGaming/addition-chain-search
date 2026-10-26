@@ -1,0 +1,225 @@
+{
+  "schema": "addition-chain-graphs-lane-receipt.v1",
+  "observed_utc": "2026-10-26T15:56:54.880759+00:00",
+  "state": "ARTIFACT_READY",
+  "role": "Codex graph support; not an admitted Apex actor",
+  "files": [
+    {
+      "path": "figures/architecture_source_statement.json",
+      "sha256": "9fa69ea9e564c5dd794e1beac1bc8ade2e757bf673a998ea3ad70b07983a4ca5",
+      "bytes": 812
+    },
+    {
+      "path": "figures/blackboard_to_apex_proposal.mmd",
+      "sha256": "5179768b3abde424418b2a71ccd12f7095350290cd6951ad3d09e815334a1491",
+      "bytes": 2158
+    },
+    {
+      "path": "figures/blackboard_to_apex_proposal.png",
+      "sha256": "136af85e6722d6b332a219ba17b9db3ae25f766c37935cb9770b5cdb04b04482",
+      "bytes": 118484
+    },
+    {
+      "path": "figures/blackboard_to_apex_proposal.svg",
+      "sha256": "3daad47a8879d0d2c27dd161af19c42f7e64b2c114a1d3ea5484e93e2de8827d",
+      "bytes": 12335
+    },
+    {
+      "path": "figures/budgeted_policy_controls.csv",
+      "sha256": "3beea523fb5894153d92f573547cb05f7db6678030759e20d668842953f60cfe",
+      "bytes": 3000
+    },
+    {
+      "path": "figures/budgeted_policy_controls.png",
+      "sha256": "55a033ec6f7e861eb9c3207909e296f70201e133aa86e967cdfc2a5132b35fe9",
+      "bytes": 125310
+    },
+    {
+      "path": "figures/budgeted_policy_controls.svg",
+      "sha256": "dd6eb11666dc5b8763bbe6f3cde246c69f440068d8ed89c074158cd09742d300",
+      "bytes": 40558
+    },
+    {
+      "path": "figures/FIGURE_MANIFEST.json",
+      "sha256": "2b2f2ebb6e6eba6aa43cf622f13ed715d7acb8ca3f3218421e80c8719a1ba862",
+      "bytes": 7265
+    },
+    {
+      "path": "figures/GRAPH_VALIDATION_FIRST_FAILURE.json",
+      "sha256": "e6fbb0659f6090ebb072b27d58b55d4a4672fcf5648ec6aa8b6bce8b6b970578",
+      "bytes": 583
+    },
+    {
+      "path": "figures/history_and_representation.mmd",
+      "sha256": "1071011ffcfd8876f500a58a26498bd4c9b864e11d0b9ddfa2233226fa315dc8",
+      "bytes": 1297
+    },
+    {
+      "path": "figures/morning_selection_replication.csv",
+      "sha256": "b4c077b36e7ab6b6034b6a446d290f3cefa0fbda8018a1e62e87a43a72061e42",
+      "bytes": 547
+    },
+    {
+      "path": "figures/morning_selection_replication.png",
+      "sha256": "f10149b15806c3f1934b83e49fd3adf736280d2bf2fcd51f187c1120cfc5c13a",
+      "bytes": 115730
+    },
+    {
+      "path": "figures/morning_selection_replication.svg",
+      "sha256": "e5245e9fa0900aef7e705c44c916a4fc7be8718c6af379ce7bf0928e6b2d54b9",
+      "bytes": 32207
+    },
+    {
+      "path": "figures/p256_284_full_dag.csv",
+      "sha256": "0d2909c36239dc46b73486bc52475d47192b3b412cbb7e9fa057625f260794dc",
+      "bytes": 39164
+    },
+    {
+      "path": "figures/p256_284_full_dag.dot",
+      "sha256": "d5894cbad20a0edd5d241d7443b97fee03bfdc0a89a6f47d7c658d9c288872b3",
+      "bytes": 26863
+    },
+    {
+      "path": "figures/p256_284_full_dag.mmd",
+      "sha256": "319ddb492f6fc6829cddfffcb1c64a2626d82a8fcc0e759678c140ea8cb4e065",
+      "bytes": 15470
+    },
+    {
+      "path": "figures/p256_284_helper8415.mmd",
+      "sha256": "6c041c6d6994726c177f7dbea9c19a438571bd03b2b3cd77387ac5bea1249056",
+      "bytes": 843
+    },
+    {
+      "path": "figures/p256_284_paid_helper.png",
+      "sha256": "3005d324915443f6839f766a5b813306dbd57bdbce06a65a68b0b686bea90063",
+      "bytes": 96096
+    },
+    {
+      "path": "figures/p256_284_paid_helper.svg",
+      "sha256": "51a52c41fcd6c2e5800a53ad128f461281a5146ced46357d1a9de438c3e38a4b",
+      "bytes": 6871
+    },
+    {
+      "path": "figures/p384_reported_history.csv",
+      "sha256": "3af8cfebfdbb7165162343343061f7bd9f3894f9c23af4582c3d30b81a4b979b",
+      "bytes": 2066
+    },
+    {
+      "path": "figures/p384_representation_history.png",
+      "sha256": "1cb10e1db26c722ea23272f749e10348ba98063c6205bfca8debbf22b5da61a7",
+      "bytes": 119942
+    },
+    {
+      "path": "figures/p384_representation_history.svg",
+      "sha256": "e8b0ed1caac7748e9111d178b58a253693528967fe94ef80d542fd44594b887f",
+      "bytes": 19844
+    },
+    {
+      "path": "figures/retained_minimum_counts.csv",
+      "sha256": "30e3fd47e0bdb0375190a35bcf4c3d83edb8c418f36ae76b332b66e53c95be0f",
+      "bytes": 2617
+    },
+    {
+      "path": "figures/retained_witness_counts.png",
+      "sha256": "fa57ad6cbeee564fea903367bee437e1dc1737269ac33c1db08ef87e60c5aa67",
+      "bytes": 102964
+    },
+    {
+      "path": "figures/retained_witness_counts.svg",
+      "sha256": "a4cea6cefb5e249d2679a093ac5bd8c55579c04a946406e28a196539971468aa",
+      "bytes": 17385
+    },
+    {
+      "path": "figures/serialization_vs_arithmetic_identity.csv",
+      "sha256": "9d5e09ff98d691c4c9425cecc16ff417e59792be8ee66e44767fb38bd663936f",
+      "bytes": 1127
+    },
+    {
+      "path": "figures/serialization_vs_arithmetic_identity.mmd",
+      "sha256": "8d519dab774a484ed118c457eb3bc982f574d2cdeb3ca7406bc1d6608aa27914",
+      "bytes": 1216
+    },
+    {
+      "path": "tools/render_figures.py",
+      "sha256": "5909872272330d8f7af2ac1a27003d201cbdb94f91383f8100759b763d31568b",
+      "bytes": 35636
+    },
+    {
+      "path": "report-support/FIGURE_GUIDE.md",
+      "sha256": "e438f58d701de2e8613d9ca2cd577565b5db7a152764e960429d5e3635c8307b",
+      "bytes": 4330
+    }
+  ],
+  "PNG_visual_QA": "PASS6_FINAL_RENDERED_PNGS",
+  "Mermaid_structural_checks": {
+    "blackboard_to_apex_proposal.mmd": {
+      "declared_nodes_or_subgraphs": 21,
+      "edge_endpoint_references": 36,
+      "dangling_references": 0,
+      "render_engine": "NOT_RUN; structural source check only"
+    },
+    "history_and_representation.mmd": {
+      "declared_nodes_or_subgraphs": 12,
+      "edge_endpoint_references": 20,
+      "dangling_references": 0,
+      "render_engine": "NOT_RUN; structural source check only"
+    },
+    "p256_284_full_dag.mmd": {
+      "declared_nodes_or_subgraphs": 285,
+      "edge_endpoint_references": 634,
+      "dangling_references": 0,
+      "render_engine": "NOT_RUN; structural source check only"
+    },
+    "p256_284_helper8415.mmd": {
+      "declared_nodes_or_subgraphs": 18,
+      "edge_endpoint_references": 52,
+      "dangling_references": 0,
+      "render_engine": "NOT_RUN; structural source check only"
+    },
+    "serialization_vs_arithmetic_identity.mmd": {
+      "declared_nodes_or_subgraphs": 13,
+      "edge_endpoint_references": 24,
+      "dangling_references": 0,
+      "render_engine": "NOT_RUN; structural source check only"
+    }
+  },
+  "full_DAG_check": {
+    "rows": 284,
+    "base_nodes": 1,
+    "graph_edges": 317,
+    "all_parent_references_earlier": true,
+    "all_integer_parent_sums_exact": true,
+    "selected_helper_ancestor_operations": 17,
+    "selected_helper_S": 8,
+    "selected_helper_M": 9
+  },
+  "effects": {
+    "source_mutations": 0,
+    "provider_API_calls": 0,
+    "remote_writes": 0,
+    "installations": 0,
+    "search_runs": 0,
+    "model_token_use": "UNKNOWN configured Codex support usage"
+  },
+  "output_bytes": 952720,
+  "output_cap_bytes": 2000000,
+  "current_proposal_binding": {
+    "path": "inputs/architecture/GENOME-v1.md",
+    "sha256": "c2375b9105b35375ba81e157114919e5a2d717895cd86d8b369f86bda778a2bc",
+    "source_captured_git_blob": "727f01aa0718014d4c05bc54dcce2330d1765829",
+    "status": "SOURCE_EXPLICITLY_PROPOSED; installation not established here"
+  },
+  "known_limitations": [
+    "P-384 history is reconstructed episode order, not raw candidate trajectory or proven mutation parents",
+    "425 reported run and first-observed/capture clocks remain distinct",
+    "421-B discovery time remains unknown",
+    "historical controls are single-region cases; the new8-seed pilot tests one exposed target and deterministic selection packages, not agent skills/memory/cooperation",
+    "architecture figure is operator-described historical reconstruction plus cited unfinished proposal",
+    "no Mermaid renderer executed; generated source endpoint references were checked"
+  ],
+  "consumer": "/root integrator; acceptance and publication readback pending",
+  "first_failures": [
+    "GRAPH_VALIDATION_FIRST_FAILURE.json preserves the initial ad-hoc validation parser failure and correction",
+    "One apply_patch context mismatch made no file change; corrected patch rendered successfully"
+  ]
+}

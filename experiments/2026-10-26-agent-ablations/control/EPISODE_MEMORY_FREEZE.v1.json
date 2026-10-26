@@ -1,0 +1,42 @@
+{
+  "schema": "recorded-episode-memory-freeze.v1",
+  "utc": "2026-10-26T18:06:50.397210+00:00",
+  "before_live_calls": true,
+  "fixed_source_selection": "Primary v2 Sol baseline replicate1 for each task; all3 action records; no source selected by score.",
+  "source_validation": "Await full independent primary audit before memory launch.",
+  "pins": [
+    {
+      "path": "stimuli/episode-synthetic-20-v1.txt",
+      "sha256": "5d9283fc211057edd7f3c356115066ec6376e703596599b5ed67ca2b350d48e0",
+      "bytes": 4529,
+      "words": 356
+    },
+    {
+      "path": "stimuli/episode-synthetic-23-v1.txt",
+      "sha256": "d27810dad7e0dfdcb62c40618820796eb930b02ebeb1ffd099ae008d7aca947e",
+      "bytes": 3820,
+      "words": 313
+    },
+    {
+      "path": "control/EPISODE_SOURCE_DENOMINATORS.json",
+      "sha256": "82616dcd2311dfe9c90952a935cd26ef936b7699d1206664a2630c10d0891e6f",
+      "bytes": 6232,
+      "words": 105
+    },
+    {
+      "path": "control/MEMORY_RUN_ORDER.json",
+      "sha256": "14093f3342101dadc632081b0d169c20329bfe5116e7acd440b8b90bbac664b9",
+      "bytes": 5071,
+      "words": 410
+    },
+    {
+      "path": "control/run_episode_memory_v1.py",
+      "sha256": "058d52ab821f33831d25c931e537ca065604fe7458408819c3b055f871da81f1",
+      "bytes": 8137,
+      "words": 318
+    }
+  ],
+  "planned_trajectories": 12,
+  "planned_model_decisions": 36,
+  "novelty_denominator": "Every valid canonical index-schedule hash from each full source episode, not just visible retained-best file."
+}

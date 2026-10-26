@@ -1,0 +1,68 @@
+{
+  "schema": "two-worker-blackboard-ablation-preregistration.v1",
+  "status": "FROZEN_BEFORE_COHORT_CALLS",
+  "observed_utc": "2026-10-26 17:54:04 UTC",
+  "work": "BRIAN-AGENT-ABLATIONS-20261026",
+  "question": "Does supplying peer action/evaluation observations at the second decision change a two-worker team's allocation, duplicate regions or exact valid yield?",
+  "tasks": [
+    "synthetic-20-v1",
+    "synthetic-23-v1"
+  ],
+  "replicates": [
+    1,
+    2
+  ],
+  "task_status": "Same exposed synthetic tasks as primary study; not held-out confirmation.",
+  "fixed_team": {
+    "A": "gpt-6.1-sol",
+    "B": "gpt-6-luna",
+    "effort": "medium",
+    "native_tools": "disabled",
+    "operative_skill": "same frozen skill.txt in both arms",
+    "static_retrieved_memory": "none"
+  },
+  "paired_start": "Generate each worker's first decision once without peer observations. Preserve exact prompts/actions/visible feedback and environment states. Clone those admitted own-worker states into both branches. Both conditions start from the same actual initial work.",
+  "intervention": {
+    "shared": "For second decision, show own first observation plus peer's first action and candidate-visible feedback.",
+    "private": "For second decision, show own first observation and an empty peer-observation list.",
+    "labels": "Do not expose shared/private assignment label to candidate; only the peer-observation field differs."
+  },
+  "budget": {
+    "pairs": 4,
+    "initial_calls": 8,
+    "second_decision_calls": 16,
+    "total_new_model_calls": 24,
+    "per_branch_counterfactual_model_decisions": 4,
+    "max_search_evaluations_per_decision": 64,
+    "worker_environment_max_rounds": 2,
+    "concurrency_max": 2,
+    "paid_usd": 0
+  },
+  "actual_vs_branch_cost": "Initial calls/evaluations executed once and reused immutably across branches. Report actual total separately from equal per-branch accounting; do not double-count reused work as new inference.",
+  "randomization": {
+    "arm_order_seed": 202610261753,
+    "replicate_seed_claim": "No backend RNG seed control; replicate IDs only."
+  },
+  "environment": "Frozen harness/v1 source d9dceb2... and independent oracle unchanged, action schema v2 max_added<=2. Outputs remain under admitted runs/cohort-v1. No generated code execution.",
+  "primary_metrics": [
+    "same initial work identity across branches",
+    "second-round action/region change by worker",
+    "second-round regions not seen in team initial work",
+    "between-worker duplicate schedule overlap",
+    "team minimum exact valid charged cost",
+    "invalid/refused actions",
+    "realized evaluations and model tokens/wall"
+  ],
+  "final_evaluator": "Identical independent integer oracle. Each branch's final team pool is both workers' recorded candidates including common first work; choose min charged total, then M, then canonical parent-index schedule hash.",
+  "failure_rules": [
+    "No model retry; preserve typed failures.",
+    "If an initial worker fails, keep pair incomplete rather than inventing or replacing its state.",
+    "All4 pairs remain denominators.",
+    "No new call beyond19:24:08Z.",
+    "Versioned changes and first failures retained."
+  ],
+  "claims": "A tiny two-worker observation-sharing pilot under one constrained addition-chain interface. Static prompt skill and explicit peer feedback, not autonomous persistent memory or a qualified Apex implementation. Models' second-decision randomness remains unmatched.",
+  "acceptance": "Independent review of source/state cloning/prompt differences before live cohort calls; replay every resulting candidate and both branch aggregates.",
+  "source_root": "C:/Dev/work/brian-agent-ablations-20261026"
+}
+

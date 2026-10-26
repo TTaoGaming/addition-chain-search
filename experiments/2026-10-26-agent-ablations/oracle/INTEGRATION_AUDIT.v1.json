@@ -1,0 +1,466 @@
+{
+  "schema": "first-trajectory-independent-integration-audit.v1",
+  "observed_utc": "2026-10-26T17:45:39.768282+00:00",
+  "source_sha256": "83858109e67670bab07a3ef9a03b3df2b71c801442e81c688be0e87830637071",
+  "oracle_sha256": "826aff70f4a60f6527c2d2e3f4aa6181d009a60fb26c32f43743b0da03dc046d",
+  "harness_release_sha256": "e4a9a5d66c89d23438f3fabda85f1203a2336d787bde7d3c3d0a37205bcb6031",
+  "harness_source_sha256": "d9dceb2fc3c967e83277bbcc20be4115fd62ea30ede62f4b980be6c178fac723",
+  "original_runner_sha256": "699e1d9991a16b65cc23a28d03fdfde1459768174f422181635f58ca44fb3049",
+  "job_id": "synthetic-20-v1__r2__B__luna",
+  "job_sha256": "b9cb1835b679f632e2c0d27f8b134c7514b9c09045bc749992d1ca151b9506ea",
+  "round_checks": [
+    {
+      "round": 1,
+      "request_sha256": "5bf227623a855ae1573939d982444bc5f170042973caac8027cf2a8c89856f6d",
+      "stored_prompt_raw_sha256": "f9fa7dfec738590e8b707c18cf126cf5d28ca9e13808a04e031868b72b204e36",
+      "transport_prompt_utf8_sha256": "fa694d1300bd90085c3b481bcc8094e155ea408a503078926dcd74582d10b630",
+      "prompt_matches_frozen_template_and_visible_history": true,
+      "native_tool_events": 0,
+      "transformation_matches": true,
+      "raw_event_sha256": "f74f55d5b149a455f267708b72fdf583bedd59954ce7753d557901ff42b10527",
+      "status": "COMPLETE",
+      "reason": null,
+      "actual_evaluations": 10
+    },
+    {
+      "round": 2,
+      "request_sha256": "4b58ae3b5d2fbe2a2efc203ad5f5582ff9db81c1230d1b013b22d5368433fc77",
+      "stored_prompt_raw_sha256": "ad47e748c54b7fdec2f486cba50c0356ecdf4573088ca261bbbb8c9d9244cf3e",
+      "transport_prompt_utf8_sha256": "aaf90f647467fad0c707455de0d03caadefdc35bd73ecd76f9573b8509136ad5",
+      "prompt_matches_frozen_template_and_visible_history": true,
+      "native_tool_events": 0,
+      "transformation_matches": true,
+      "raw_event_sha256": "b9452267a7835e8fecaef207aa1ca4feb7483ee2bfb10079e9b629500f6ee7a0",
+      "status": "REFUSED",
+      "reason": "STRICT_INTEGER_OR_RANGE",
+      "actual_evaluations": 0
+    },
+    {
+      "round": 3,
+      "request_sha256": "9825f677dccb3067e3c5798e7e0e3c60d332f46afa96537dfa6fc858e7de7be8",
+      "stored_prompt_raw_sha256": "d3268b37bca9ff6be48d8c5354a7b06811bc4d438ff0443448ffd5e9d3ddefea",
+      "transport_prompt_utf8_sha256": "4d2f2cbac6edf3102aca70fd0e34d28d9267e620a22c4ca983aee7130e229087",
+      "prompt_matches_frozen_template_and_visible_history": true,
+      "native_tool_events": 0,
+      "transformation_matches": true,
+      "raw_event_sha256": "40899d567bb0430d3b1e3307ef357b111a8a69b64d2a5148410f6335beed1449",
+      "status": "COMPLETE",
+      "reason": null,
+      "actual_evaluations": 1
+    }
+  ],
+  "candidates_checked": 11,
+  "candidate_results": [
+    {
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:1",
+      "candidate_id": "round-01-candidate-01",
+      "arithmetic_valid": true,
+      "charged": {
+        "operations": 25,
+        "S": 19,
+        "M": 6
+      },
+      "live": {
+        "operations": 25,
+        "S": 19,
+        "M": 6
+      },
+      "independent_index_schedule_sha256": "1bd3000880efc0a0da9e6880f1c973c0528bef88582942e253c4e523b9a49db6",
+      "matches_harness": true
+    },
+    {
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:2",
+      "candidate_id": "round-01-candidate-02",
+      "arithmetic_valid": true,
+      "charged": {
+        "operations": 25,
+        "S": 19,
+        "M": 6
+      },
+      "live": {
+        "operations": 25,
+        "S": 19,
+        "M": 6
+      },
+      "independent_index_schedule_sha256": "e3c85ba065c139d60beb5ee2dbd0860150b2c5067d29da651eacb318763ea24f",
+      "matches_harness": true
+    },
+    {
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:3",
+      "candidate_id": "round-01-candidate-03",
+      "arithmetic_valid": true,
+      "charged": {
+        "operations": 27,
+        "S": 20,
+        "M": 7
+      },
+      "live": {
+        "operations": 27,
+        "S": 20,
+        "M": 7
+      },
+      "independent_index_schedule_sha256": "681ba3051f3b166370fb7a023144526d1a868d2593d97170333f6d66a01ccc7a",
+      "matches_harness": true
+    },
+    {
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:4",
+      "candidate_id": "round-01-candidate-04",
+      "arithmetic_valid": true,
+      "charged": {
+        "operations": 25,
+        "S": 19,
+        "M": 6
+      },
+      "live": {
+        "operations": 25,
+        "S": 19,
+        "M": 6
+      },
+      "independent_index_schedule_sha256": "9333dc500beba3765791752a8fe3047f4aa751d5033964f33b83126b65962063",
+      "matches_harness": true
+    },
+    {
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:5",
+      "candidate_id": "round-01-candidate-05",
+      "arithmetic_valid": true,
+      "charged": {
+        "operations": 27,
+        "S": 20,
+        "M": 7
+      },
+      "live": {
+        "operations": 27,
+        "S": 20,
+        "M": 7
+      },
+      "independent_index_schedule_sha256": "8f77e497e46091d183c21cb40b7bb24487c359b8e1062e685572734550a19a27",
+      "matches_harness": true
+    },
+    {
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:6",
+      "candidate_id": "round-01-candidate-06",
+      "arithmetic_valid": true,
+      "charged": {
+        "operations": 27,
+        "S": 20,
+        "M": 7
+      },
+      "live": {
+        "operations": 27,
+        "S": 20,
+        "M": 7
+      },
+      "independent_index_schedule_sha256": "8f77e497e46091d183c21cb40b7bb24487c359b8e1062e685572734550a19a27",
+      "matches_harness": true
+    },
+    {
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:7",
+      "candidate_id": "round-01-candidate-07",
+      "arithmetic_valid": true,
+      "charged": {
+        "operations": 31,
+        "S": 24,
+        "M": 7
+      },
+      "live": {
+        "operations": 31,
+        "S": 24,
+        "M": 7
+      },
+      "independent_index_schedule_sha256": "f4a871fb0955f16bf8234e0e1f241024b770968821657fc75fbceae311127f11",
+      "matches_harness": true
+    },
+    {
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:8",
+      "candidate_id": "round-01-candidate-08",
+      "arithmetic_valid": true,
+      "charged": {
+        "operations": 27,
+        "S": 20,
+        "M": 7
+      },
+      "live": {
+        "operations": 27,
+        "S": 20,
+        "M": 7
+      },
+      "independent_index_schedule_sha256": "8f77e497e46091d183c21cb40b7bb24487c359b8e1062e685572734550a19a27",
+      "matches_harness": true
+    },
+    {
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:9",
+      "candidate_id": "round-01-candidate-09",
+      "arithmetic_valid": true,
+      "charged": {
+        "operations": 30,
+        "S": 23,
+        "M": 7
+      },
+      "live": {
+        "operations": 30,
+        "S": 23,
+        "M": 7
+      },
+      "independent_index_schedule_sha256": "88e55171601e5fa2de43f63f9511aba78799c9f41918f5166bf6d78bec087d76",
+      "matches_harness": true
+    },
+    {
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:10",
+      "candidate_id": "round-01-candidate-10",
+      "arithmetic_valid": true,
+      "charged": {
+        "operations": 31,
+        "S": 23,
+        "M": 8
+      },
+      "live": {
+        "operations": 31,
+        "S": 23,
+        "M": 8
+      },
+      "independent_index_schedule_sha256": "1e572acf2ffd4c4526fd316be230f1fa6638a0eee97f9050370a550f9f5600b6",
+      "matches_harness": true
+    },
+    {
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:11",
+      "candidate_id": "round-03-candidate-01",
+      "arithmetic_valid": true,
+      "charged": {
+        "operations": 28,
+        "S": 19,
+        "M": 9
+      },
+      "live": {
+        "operations": 28,
+        "S": 19,
+        "M": 9
+      },
+      "independent_index_schedule_sha256": "bd4888571690975c2766a8d2849cb5dde0f054bede09bf74497e1337569c285a",
+      "matches_harness": true
+    }
+  ],
+  "final_independent_result": {
+    "state": "VALID_EXACT",
+    "arithmetic_valid": true,
+    "target_decimal": "750339",
+    "computed_output_decimal": "750339",
+    "output_index": 25,
+    "charged": {
+      "operations": 25,
+      "S": 19,
+      "M": 6
+    },
+    "live": {
+      "operations": 25,
+      "S": 19,
+      "M": 6
+    },
+    "dead": {
+      "operations": 0,
+      "node_indices": []
+    },
+    "repeated_exponent_values": [],
+    "all_node_exponents_decimal": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "10",
+      "20",
+      "40",
+      "45",
+      "90",
+      "180",
+      "183",
+      "366",
+      "732",
+      "1464",
+      "2928",
+      "2931",
+      "5862",
+      "11724",
+      "23448",
+      "46896",
+      "93792",
+      "187584",
+      "375168",
+      "750336",
+      "750339"
+    ],
+    "index_schedule_sha256": "9333dc500beba3765791752a8fe3047f4aa751d5033964f33b83126b65962063",
+    "commutative_index_schedule_sha256": "bc61c47029d739877c31813c5a0a8676af469cd06b0cd241183794537df7305a",
+    "index_identity_scope": "topological index schedule plus output and target; commutative variant sorts each parent pair; neither canonicalizes graph isomorphism",
+    "exponent_equation_signature_sha256": "79107daf1efc9eb067cf35941bfbe427ce15d62e92df5f87a9f3ff538b71369d",
+    "equation_signature_scope": "exponent-equation multiset only; loses repeated-node reference identity",
+    "ceiling": "exact integer construction/counts/ancestry; no global optimum, timing or learning claim",
+    "task_id": "synthetic-20-v1"
+  },
+  "final_matches_minimum_rank_over_all_recorded_candidates": true,
+  "budget_audit": {
+    "state": "PASS_NORMALIZED_BUDGET",
+    "actual_counters": {
+      "model_rounds": 3,
+      "construct_actions": 3,
+      "submit_actions": 0,
+      "candidate_evaluations": 11,
+      "provider_calls": 3,
+      "usd": 0
+    },
+    "evaluations_by_action": {
+      "9271eac5-70ac-4cc1-848f-f5ac4716a34a": 10,
+      "122db6c8-3fe3-4059-9ac2-5fd0111f456d": 1
+    },
+    "errors": [],
+    "ceiling": "normalized event counts only; compare to raw actions/provider receipts separately"
+  },
+  "normalized_events": [
+    {
+      "seq": 0,
+      "event_id": "model-round-1",
+      "kind": "model_round",
+      "usd": 0
+    },
+    {
+      "seq": 1,
+      "event_id": "included-provider-call-1",
+      "kind": "provider_call",
+      "usd": 0
+    },
+    {
+      "seq": 2,
+      "event_id": "9271eac5-70ac-4cc1-848f-f5ac4716a34a",
+      "kind": "construct_action",
+      "usd": 0
+    },
+    {
+      "seq": 3,
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:1",
+      "kind": "candidate_evaluation",
+      "usd": 0,
+      "action_id": "9271eac5-70ac-4cc1-848f-f5ac4716a34a"
+    },
+    {
+      "seq": 4,
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:2",
+      "kind": "candidate_evaluation",
+      "usd": 0,
+      "action_id": "9271eac5-70ac-4cc1-848f-f5ac4716a34a"
+    },
+    {
+      "seq": 5,
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:3",
+      "kind": "candidate_evaluation",
+      "usd": 0,
+      "action_id": "9271eac5-70ac-4cc1-848f-f5ac4716a34a"
+    },
+    {
+      "seq": 6,
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:4",
+      "kind": "candidate_evaluation",
+      "usd": 0,
+      "action_id": "9271eac5-70ac-4cc1-848f-f5ac4716a34a"
+    },
+    {
+      "seq": 7,
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:5",
+      "kind": "candidate_evaluation",
+      "usd": 0,
+      "action_id": "9271eac5-70ac-4cc1-848f-f5ac4716a34a"
+    },
+    {
+      "seq": 8,
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:6",
+      "kind": "candidate_evaluation",
+      "usd": 0,
+      "action_id": "9271eac5-70ac-4cc1-848f-f5ac4716a34a"
+    },
+    {
+      "seq": 9,
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:7",
+      "kind": "candidate_evaluation",
+      "usd": 0,
+      "action_id": "9271eac5-70ac-4cc1-848f-f5ac4716a34a"
+    },
+    {
+      "seq": 10,
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:8",
+      "kind": "candidate_evaluation",
+      "usd": 0,
+      "action_id": "9271eac5-70ac-4cc1-848f-f5ac4716a34a"
+    },
+    {
+      "seq": 11,
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:9",
+      "kind": "candidate_evaluation",
+      "usd": 0,
+      "action_id": "9271eac5-70ac-4cc1-848f-f5ac4716a34a"
+    },
+    {
+      "seq": 12,
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:10",
+      "kind": "candidate_evaluation",
+      "usd": 0,
+      "action_id": "9271eac5-70ac-4cc1-848f-f5ac4716a34a"
+    },
+    {
+      "seq": 13,
+      "event_id": "model-round-2",
+      "kind": "model_round",
+      "usd": 0
+    },
+    {
+      "seq": 14,
+      "event_id": "included-provider-call-2",
+      "kind": "provider_call",
+      "usd": 0
+    },
+    {
+      "seq": 15,
+      "event_id": "ea9d5985-5bfc-4484-b60e-747154c2064d",
+      "kind": "construct_action",
+      "usd": 0
+    },
+    {
+      "seq": 16,
+      "event_id": "model-round-3",
+      "kind": "model_round",
+      "usd": 0
+    },
+    {
+      "seq": 17,
+      "event_id": "included-provider-call-3",
+      "kind": "provider_call",
+      "usd": 0
+    },
+    {
+      "seq": 18,
+      "event_id": "122db6c8-3fe3-4059-9ac2-5fd0111f456d",
+      "kind": "construct_action",
+      "usd": 0
+    },
+    {
+      "seq": 19,
+      "event_id": "9de5843e-3618-4300-928a-4db4255b8913:evaluation:11",
+      "kind": "candidate_evaluation",
+      "usd": 0,
+      "action_id": "122db6c8-3fe3-4059-9ac2-5fd0111f456d"
+    }
+  ],
+  "ACK_only_demo_rounds_checked": 3,
+  "demo_records_checked": 8,
+  "source_findings": [
+    {
+      "id": "INTERFACE-MAX3",
+      "state": "CONFIRMED_FIRST_V1_REFUSAL",
+      "finding": "v1 prompt/schema permits max_added_digits3; frozen harness permits at most2. Actual first trajectory round2 refused."
+    },
+    {
+      "id": "OUTPUT-SCOPE-V2",
+      "state": "STATIC_BLOCKER_REPORTED",
+      "finding": "run_codex_v2.py chooses runs-v2; frozen harness permits only descendants of runs or harness. Await versioned runner routing correction."
+    }
+  ],
+  "verdict": "FIRST_V1_MATH_AND_BOUNDARIES_PASS_KEEP_SEPARATE; NEW_V2_SCOPE_BLOCKED_PENDING_ROUTING_CORRECTION",
+  "independence_ceiling": "same configured model family; separate oracle source frozen before harness exposure; no OS ACL isolation or Apex/runtime admission; included-route zero spend is configured, not externally billed proof"
+}

@@ -1,0 +1,94 @@
+{
+  "schema": "pre-outcome-independent-protocol-audit.v1",
+  "observed_utc": "2026-10-26T17:40:10.294919+00:00",
+  "protocol_sha256": "3912d9a4b3c9eab980731a57cab30683a2e9f7ee567d4959121f6b10d9493498",
+  "stimuli_manifest_sha256": "2e92b1ec3489ac7f98a023317fd819abfb4e6ea9f19aed5de13f3a431af674d5",
+  "source_sha256": "17f235e60b4e883927bd4ced49de1a7e1ebc70a69ca0cf03f2d9f173f9ceee2e",
+  "pins": [
+    {
+      "path": "stimuli/relevant.txt",
+      "sha256": "2598dc8eb86c55b4d85abde188490b8ee354722f572f5dce20adccfee9a06ef5",
+      "bytes": 678
+    },
+    {
+      "path": "stimuli/reordered.txt",
+      "sha256": "cf42b1f5b3ce81469e95e7d6ba458a76431520a5a43b4ed94a29a22a52051d94",
+      "bytes": 678
+    },
+    {
+      "path": "stimuli/irrelevant.txt",
+      "sha256": "34f5b8c3cade4b5d3412ec98998b4981361d7e9b1d813357851f80cf93cf1a59",
+      "bytes": 572
+    },
+    {
+      "path": "stimuli/skill.txt",
+      "sha256": "cf4926dcd0564f0b3768e76aab6baa72a224c70f26db34540462c0a5be51f112",
+      "bytes": 610
+    },
+    {
+      "path": "stimuli/action.schema.json",
+      "sha256": "56884cd9abc43abfa7e9740865805f8601bebdee28cf21d09f8a12c589dee4a7",
+      "bytes": 1997
+    },
+    {
+      "path": "stimuli/RUN_ORDER.json",
+      "sha256": "ffa6589ab731059c4b0684d796b488a671e91cfafc3150848cd1bc16e89890f6",
+      "bytes": 15679
+    },
+    {
+      "path": "stimuli/PROMPT_TEMPLATE.txt",
+      "sha256": "11573f79db5e1c4d8cb6c599acba994c29c4d408e35b1f33f46f44b7f1f72294",
+      "bytes": 1981
+    }
+  ],
+  "memory_word_counts": {
+    "relevant": 96,
+    "reordered": 96,
+    "irrelevant": 96
+  },
+  "memory_bytes": {
+    "relevant": 678,
+    "reordered": 678,
+    "irrelevant": 572
+  },
+  "reordered_is_exact_paragraph_reversal": true,
+  "trajectory_count": 40,
+  "decision_count": 120,
+  "cell_model_counts": {
+    "('B', 'gpt-6-luna')": 4,
+    "('B', 'gpt-6.1-sol')": 4,
+    "('S', 'gpt-6.1-sol')": 4,
+    "('I', 'gpt-6.1-sol')": 4,
+    "('T', 'gpt-6.1-sol')": 4,
+    "('A', 'gpt-6.1-sol')": 4,
+    "('O', 'gpt-6.1-sol')": 4,
+    "('N', 'gpt-6.1-sol')": 4,
+    "('M', 'gpt-6.1-sol')": 4,
+    "('V', 'gpt-6.1-sol')": 4
+  },
+  "frozen_arithmetic_core_unchanged": true,
+  "harness_or_runner_implementation_read": false,
+  "experimental_outcomes_read": false,
+  "findings": [
+    {
+      "id": "STIMULUS-1",
+      "severity": "LIMITATION",
+      "finding": "M-I is word-count matched, not byte/token matched; relevant packet has three paragraphs while irrelevant packet is a single paragraph ending mid-clause.",
+      "recommendation": "If retaining frozen stimuli, describe the content-packet contrast and disclose prose completeness/format as possible confounds; do not claim pure semantic relevance isolation."
+    },
+    {
+      "id": "BLINDING-1",
+      "severity": "IMPLEMENTATION_GUARD_TO_VERIFY",
+      "finding": "Run IDs contain treatment labels. memory_kind must be provided for all nonempty packets, and assignment IDs must not leak through visible feedback/history/receipt identifiers.",
+      "recommendation": "Inspect actual rendered prompts and visible results once runner/harness are frozen."
+    },
+    {
+      "id": "FEEDBACK-1",
+      "severity": "IMPLEMENTATION_GUARD_TO_VERIFY",
+      "finding": "Verifier-withheld cell requires all visible result paths to respect the frozen feedback mask.",
+      "recommendation": "Check costs, validity, incumbents, candidate schedules and receipt metadata for unintended feedback before interpreting V-B."
+    }
+  ],
+  "verdict": "PASS_SCOPED_PREREGISTRATION_WITH_STIMULUS_LIMITATION_AND_PENDING_IMPLEMENTATION_GUARDS",
+  "ceiling": "protocol/stimulus consistency; no inference outcome, implementation, OS isolation, family independence or Apex admission claim"
+}

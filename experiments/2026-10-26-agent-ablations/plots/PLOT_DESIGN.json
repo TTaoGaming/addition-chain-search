@@ -1,0 +1,47 @@
+{
+  "schema": "primary-v2-behavior-plot-plan.v1",
+  "recorded_utc": "2026-10-26T17:53:40.457568+00:00",
+  "state": "SCAFFOLD_READY_WAITING_ROOT_RESULTS",
+  "write_scope": "plots/ only",
+  "plot_cap_bytes": 4000000,
+  "cap_allocation": "Within existing report_and_control8MB; no cap increase",
+  "primary_partition": "runs/v2",
+  "excluded": [
+    "retained first-v1 integration trajectory",
+    "runs/v2/integration-smoke",
+    "unlaunched v2 runner data",
+    "vendor readiness as inferred model evidence"
+  ],
+  "required_result_top_level": [
+    "rows",
+    "contrasts",
+    "definitions"
+  ],
+  "trajectory_key": [
+    "task_id",
+    "replicate_id",
+    "cell_id",
+    "model"
+  ],
+  "planned_assignments": 40,
+  "principal_independent_units": 2,
+  "replicates_per_task": 2,
+  "replicate_RNG_seed_claim": false,
+  "input_sha256": {
+    "PROTOCOL.v1.json": "3912d9a4b3c9eab980731a57cab30683a2e9f7ee567d4959121f6b10d9493498",
+    "control/EXECUTION_FREEZE.v1.json": "2bfd98ae8bfbaa855eb4497d5f27b9e8e07e8ac282d57947d4093ccbe4427f00",
+    "control/INTERFACE_AMENDMENT.v2.json": "3c7967c8c3a160fa1ef6f05aecceb1ba4746d99b1476735a059fdf967ba8d49f",
+    "control/RUNNER_SCOPE_AMENDMENT.v3.json": "66a17f889a6a4ff0d221b5994a2393f136ed7a486e11ea314f6af966246412a8",
+    "control/STIMULUS_AMENDMENT.v1.json": "6c45fddc213af0e15d2a53de9017516fe77de45e51036b089a488f8f8aeec642",
+    "stimuli/MANIFEST.json": "2e92b1ec3489ac7f98a023317fd819abfb4e6ea9f19aed5de13f3a431af674d5",
+    "stimuli/PROMPT_TEMPLATE.v2.txt": "5c6a269254c8a2560b83eb5f209766346bf9387d6f03120321749801dd798ecc",
+    "stimuli/action.v2.schema.json": "f9bb19389ae914df9eb68c9b122358ddd7f6d0c344db083ae5453e16559b3383",
+    "stimuli/skill.txt": "cf4926dcd0564f0b3768e76aab6baa72a224c70f26db34540462c0a5be51f112",
+    "stimuli/relevant.txt": "2598dc8eb86c55b4d85abde188490b8ee354722f572f5dce20adccfee9a06ef5",
+    "stimuli/reordered.txt": "cf42b1f5b3ce81469e95e7d6ba458a76431520a5a43b4ed94a29a22a52051d94",
+    "stimuli/irrelevant.v2.txt": "2e698f8322de23c9524afe40dc034ef28c166e76416fe95d3cc43822267df697",
+    "stimuli/RUN_ORDER.json": "ffa6589ab731059c4b0684d796b488a671e91cfafc3150848cd1bc16e89890f6"
+  },
+  "root_result_release_required": true,
+  "PNG_or_SVG_results_created": false
+}

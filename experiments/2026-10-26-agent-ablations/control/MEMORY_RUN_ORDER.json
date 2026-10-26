@@ -1,0 +1,230 @@
+[
+  {
+    "id": "synthetic-23-v1__r1__U__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "U",
+      "name": "other_target_episode",
+      "label": "neutral",
+      "skill": true,
+      "memory": "episode-synthetic-20-v1",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r2__W__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "W",
+      "name": "same_target_episode",
+      "label": "neutral",
+      "skill": true,
+      "memory": "episode-synthetic-23-v1",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r2__C__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "C",
+      "name": "cold_no_episode",
+      "label": "neutral",
+      "skill": true,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r2__W__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "W",
+      "name": "same_target_episode",
+      "label": "neutral",
+      "skill": true,
+      "memory": "episode-synthetic-20-v1",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r1__C__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "C",
+      "name": "cold_no_episode",
+      "label": "neutral",
+      "skill": true,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r1__W__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "W",
+      "name": "same_target_episode",
+      "label": "neutral",
+      "skill": true,
+      "memory": "episode-synthetic-23-v1",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r2__U__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "U",
+      "name": "other_target_episode",
+      "label": "neutral",
+      "skill": true,
+      "memory": "episode-synthetic-23-v1",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r1__W__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "W",
+      "name": "same_target_episode",
+      "label": "neutral",
+      "skill": true,
+      "memory": "episode-synthetic-20-v1",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r2__U__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "U",
+      "name": "other_target_episode",
+      "label": "neutral",
+      "skill": true,
+      "memory": "episode-synthetic-20-v1",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r1__C__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "C",
+      "name": "cold_no_episode",
+      "label": "neutral",
+      "skill": true,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-20-v1__r1__U__sol",
+    "task": {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    "replicate": 1,
+    "cell": {
+      "id": "U",
+      "name": "other_target_episode",
+      "label": "neutral",
+      "skill": true,
+      "memory": "episode-synthetic-23-v1",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "id": "synthetic-23-v1__r2__C__sol",
+    "task": {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    },
+    "replicate": 2,
+    "cell": {
+      "id": "C",
+      "name": "cold_no_episode",
+      "label": "neutral",
+      "skill": true,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    "model": "gpt-6.1-sol"
+  }
+]

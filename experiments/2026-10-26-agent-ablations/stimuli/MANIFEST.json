@@ -1,0 +1,48 @@
+{
+  "schema": "frozen-ablation-stimuli.v1",
+  "pins": [
+    {
+      "path": "stimuli/relevant.txt",
+      "sha256": "2598dc8eb86c55b4d85abde188490b8ee354722f572f5dce20adccfee9a06ef5",
+      "bytes": 678
+    },
+    {
+      "path": "stimuli/reordered.txt",
+      "sha256": "cf42b1f5b3ce81469e95e7d6ba458a76431520a5a43b4ed94a29a22a52051d94",
+      "bytes": 678
+    },
+    {
+      "path": "stimuli/irrelevant.txt",
+      "sha256": "34f5b8c3cade4b5d3412ec98998b4981361d7e9b1d813357851f80cf93cf1a59",
+      "bytes": 572
+    },
+    {
+      "path": "stimuli/skill.txt",
+      "sha256": "cf4926dcd0564f0b3768e76aab6baa72a224c70f26db34540462c0a5be51f112",
+      "bytes": 610
+    },
+    {
+      "path": "stimuli/action.schema.json",
+      "sha256": "56884cd9abc43abfa7e9740865805f8601bebdee28cf21d09f8a12c589dee4a7",
+      "bytes": 1997
+    },
+    {
+      "path": "stimuli/RUN_ORDER.json",
+      "sha256": "ffa6589ab731059c4b0684d796b488a671e91cfafc3150848cd1bc16e89890f6",
+      "bytes": 15679
+    },
+    {
+      "path": "stimuli/PROMPT_TEMPLATE.txt",
+      "sha256": "11573f79db5e1c4d8cb6c599acba994c29c4d408e35b1f33f46f44b7f1f72294",
+      "bytes": 1981
+    }
+  ],
+  "memory_word_counts": {
+    "relevant": 96,
+    "reordered": 96,
+    "irrelevant": 96
+  },
+  "tokenizer_equivalence": "NOT_CLAIMED",
+  "run_count": 40,
+  "oracle_material_exposed": "task integer and binary count only; no oracle paths/source"
+}

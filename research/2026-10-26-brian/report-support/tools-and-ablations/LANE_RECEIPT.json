@@ -1,0 +1,86 @@
+{
+  "schema": "tools-ablation-lane-final-receipt.v1",
+  "observed_utc": "2026-10-26T15:54:01.737587+00:00",
+  "owner": "/root/tools_ablations; independent Codex support, not an admitted Apex actor",
+  "state": "ARTIFACT_READY_FOR_INTEGRATOR",
+  "write_scope": [
+    "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\report-support\\tools-and-ablations",
+    "C:\\Dev\\work\\brian-addition-chain-factory-20261026\\runs\\replicated-selection"
+  ],
+  "documented_tool_families": 11,
+  "implemented_and_executed_currently_in_catalogue": 3,
+  "new_experiment": {
+    "completed_arms": 16,
+    "assessments": 4096,
+    "seed_pairs": 8,
+    "paired_summary": {
+      "complete_pairs": 8,
+      "guided_wins": 5,
+      "ties": 3,
+      "guided_losses": 0,
+      "median_control_minus_guided": 1.0,
+      "mean_control_minus_guided": 1.25
+    },
+    "minimum_operations": 312,
+    "frontier_improvements": 0,
+    "final_arithmetic_graphs": 7,
+    "experiment_process_cpu_seconds": 1.9375,
+    "later_validation_process_cpu_seconds": 1.421875,
+    "current_validation": {
+      "scores_checked": 4096,
+      "certificates_replayed": 16,
+      "state": "PASS_SAVED_RUN"
+    }
+  },
+  "verification": {
+    "source_pins_checked": true,
+    "Python_AST_parse": "PASS",
+    "catalogue_rows": 11,
+    "Markdown_links": [
+      {
+        "from": "report-support\\tools-and-ablations\\TOOLS_AND_ABLATIONS.md",
+        "target": "../../runs/replicated-selection/PREREGISTRATION.json",
+        "exists": true
+      },
+      {
+        "from": "report-support\\tools-and-ablations\\TOOLS_AND_ABLATIONS.md",
+        "target": "../../runs/replicated-selection/PAIRED_RESULTS.csv",
+        "exists": true
+      },
+      {
+        "from": "report-support\\tools-and-ablations\\TOOLS_AND_ABLATIONS.md",
+        "target": "../../runs/replicated-selection/RESULT.json",
+        "exists": true
+      },
+      {
+        "from": "report-support\\tools-and-ablations\\TOOLS_AND_ABLATIONS.md",
+        "target": "../../runs/replicated-selection/POLICY_EFFECT_AUDIT.json",
+        "exists": true
+      },
+      {
+        "from": "report-support\\tools-and-ablations\\TOOLS_AND_ABLATIONS.md",
+        "target": "../../runs/replicated-selection/FILE_MANIFEST.json",
+        "exists": true
+      }
+    ],
+    "run_artifact_bytes": 826549
+  },
+  "effects": {
+    "additional_external_model_or_provider_calls": 0,
+    "provider_spend_usd": 0,
+    "included_Codex_usage": "UNKNOWN",
+    "source_edits": 0,
+    "GitHub_or_Slack_writes": 0,
+    "email_access_or_writes": 0,
+    "new_schedules": 0
+  },
+  "known_limits": [
+    "One exposed target, not held-out transfer",
+    "Selection package includes hash tie-salt difference",
+    "Different realized CPU and populations despite equal caps",
+    "Many final certificates are duplicate arithmetic graphs",
+    "Agent skills, persona, collaboration and autonomous-memory studies remain NOT_RUN"
+  ],
+  "next_owner": "/root integrator; distinct proof reviewer separate",
+  "next_action": "Review scope and citations, integrate tables/figures and publish only the user-authorized research export; preserve email text and specific checker restrictions."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "replicated-selection-saved-run-validation.v1",
+  "state": "PASS_SAVED_RUN",
+  "exact_forward_DP_scores_checked": 4096,
+  "final_certificates_replayed": 16,
+  "source_pin_checks": "PASS",
+  "current_process_cpu_seconds_for_this_audit": 1.421875,
+  "measurement_boundary": "This audit only; excludes original run and report preparation",
+  "independence": "Forward DP is separate from producer backward DP; final exact-integer replay uses frozen separate verifier implementation. Same configured model family, no distinct serving-family claim."
+}
