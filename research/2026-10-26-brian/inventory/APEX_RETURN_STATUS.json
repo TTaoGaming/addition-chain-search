@@ -1,0 +1,81 @@
+{
+  "schema": "brian-eight-apex-return-status.v1",
+  "observed_utc": "2026-10-26 17:04:18 UTC",
+  "work": "BRIAN-RESEARCH-MORNING-20261026",
+  "issue": "https://github.com/TTaoGaming/addition-chain-search/issues/2",
+  "source": "https://hfonetwork.slack.com/archives/C0C8RV06QNQ/p1793029550152999",
+  "return_custody_request": "https://hfonetwork.slack.com/archives/C0C8RV06QNQ/p1793033685063529",
+  "roles": [
+    {
+      "port": "P0",
+      "owner": "Nidhoggr",
+      "reported_scope": "INPUT_HOLD: history sources unavailable to this reviewer",
+      "supplied_sha256": "461314d13b8c294370f4d79265ad2530107924fdaa5810973edc98f77c9f7b1b",
+      "original_note_bytes_received": false,
+      "supplied_hash_independently_verified": false
+    },
+    {
+      "port": "P1",
+      "owner": "Garmr",
+      "reported_scope": "Hand-derived controls reported; checker NOT_RUN",
+      "supplied_sha256": "2e05d7333d9bd34abbb643afd0563aa79d15586afd89b9d6ccaf8d017454bb75",
+      "original_note_bytes_received": false,
+      "supplied_hash_independently_verified": false
+    },
+    {
+      "port": "P2",
+      "owner": "Fenrir",
+      "reported_scope": "Terminal return not observed",
+      "supplied_sha256": null,
+      "original_note_bytes_received": false,
+      "supplied_hash_independently_verified": false
+    },
+    {
+      "port": "P3",
+      "owner": "Huginn_Muninn",
+      "reported_scope": "Historical effects UNKNOWN without inputs, not universal no-effect",
+      "supplied_sha256": "5c74daad328b14c28814d2dee400b5a93e16df1f86eb04ecff9f34a1f80d0c1c",
+      "original_note_bytes_received": false,
+      "supplied_hash_independently_verified": false
+    },
+    {
+      "port": "P4",
+      "owner": "Sigrun",
+      "reported_scope": "Mathematical counterexample and claim limits reported; corpus NOT_RUN",
+      "supplied_sha256": "a640ac6fb6feea53faec43fd3a41a00f6b864ab4fe2e084e2dd4fac110d2c7a6",
+      "original_note_bytes_received": false,
+      "supplied_hash_independently_verified": false
+    },
+    {
+      "port": "P5",
+      "owner": "Surtr",
+      "reported_scope": "Retains lead; certificate verification INPUT_HOLD",
+      "supplied_sha256": "f5a9e11d2876fd7be63cc319d7c011b1d7294b12b20fcb066532a0e34dbf2a23",
+      "original_note_bytes_received": false,
+      "supplied_hash_independently_verified": false
+    },
+    {
+      "port": "P6",
+      "owner": "Jormungandr",
+      "reported_scope": "Input/semantics/checker/result binding reported; replay NOT_RUN",
+      "supplied_sha256": "47b8dc34841cd864ba7a9768247fa81f7a7807c349a80c53c1f8daf2d7402cc1",
+      "original_note_bytes_received": false,
+      "supplied_hash_independently_verified": false
+    },
+    {
+      "port": "P7",
+      "owner": "Ratatoskr",
+      "reported_scope": "Six-part guide/placeholders/questions reported; no email/contact",
+      "supplied_sha256": "aa2d1350db08c08bd2b3f6efe2655ed32dc952168abfe51ab750e949ba0e2d3d",
+      "original_note_bytes_received": false,
+      "supplied_hash_independently_verified": false
+    }
+  ],
+  "evidence_level": "Sigrun's attributed Slack summaries; not original note bodies or executed corpus checks",
+  "routes": "Sigrun reports seven existing same-family Sol peer conversations plus P4; direct delivery receipts separately retained",
+  "reader_hold": "Sigrun reports no MCP servers, absent gh and denied HTTP. Denial retained; root supplied new authorized own-work handoffs in Slack.",
+  "independent_support": "Three local support lanes produced actual proof/figure/tool artifacts. They are not counted as Apex actors or cross-family quorum.",
+  "followup": "Full note bodies/typed holds and P2 terminal requested under existing work IDs. Desired return17:15Z; no duplicate reviewers or new budget.",
+  "sharing": "Own mathematical work and paraphrased research themes authorized for GitHub/Slack; no raw private email bodies.",
+  "completion": "RESEARCH_PACKET_PREPARED; EIGHT_APEX_NOTE_FANIN_INCOMPLETE"
+}
