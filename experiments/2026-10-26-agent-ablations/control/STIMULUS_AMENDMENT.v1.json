@@ -1,0 +1,13 @@
+{
+  "schema": "prerun-stimulus-amendment.v1",
+  "utc": "2026-10-26T17:40:24.194015+00:00",
+  "before_first_trajectory": true,
+  "supersedes": "stimuli/irrelevant.txt",
+  "selected": "stimuli/irrelevant.v2.txt",
+  "sha256": "2e698f8322de23c9524afe40dc034ef28c166e76416fe95d3cc43822267df697",
+  "words": 96,
+  "bytes": 619,
+  "reason": "Independent review found mid-clause truncation in original control; retained original, selected complete three-paragraph control before outcomes. Both relevant and selected irrelevant have96words; tokenizer equivalence notclaimed.",
+  "feedback_assignment_ids": "UUID receipts/candidate round IDs only; cell/job IDs excluded from candidate prompt/history.",
+  "memory_kind_rendering": "provided for every nonempty packet; absent fornone"
+}

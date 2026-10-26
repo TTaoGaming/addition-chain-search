@@ -1,0 +1,20 @@
+{
+  "schema": "independent-cohort-preflight-closure.v2",
+  "observed_utc": "2026-10-26T18:01:05.020354+00:00",
+  "verdict": "SOURCE_PREFLIGHT_HOLD_CLOSED_LAUNCH_ONLY_AFTER_PRIMARY_AUDIT_AND_CARRIER_ADMISSION",
+  "source_sha256": "bbfc713cc74d72d73b12280fb95812c449a6a32d5e38d16db25f53d8f2c0ea38",
+  "amendment_sha256": "9e8f4d7ec49a52724327f150c1fb19fb1c03ebec9dd808c83b4af3d7f9cba537",
+  "prior_preflight_receipt_sha256": "273c1b2b1e3dc3073ffcbbc8ebf4f7ecf28b2842422b3ee4d51c4f6f235f10eb",
+  "reviewed_source_delta": "Only two horizon checks added: call entry and immediately before adapter.invoke. Existing v1 preserved.",
+  "static_guards_verified": 2,
+  "root_reported_negative_control": "STOP past plus forbidden invoke returned HORIZON_REFUSED_BEFORE_INVOKE; forbidden invoke not called. Reviewer did not rerun.",
+  "event_identity_scope": "Key by pair/arm/worker/path plus event_id. Cloned initial work counted once actual; ordinal event IDs can collide across branches. Never deduplicate actual inference by bare event_id.",
+  "reported_prior_cohort_calls": 0,
+  "reviewer_launched_inference": false,
+  "remaining_gates": [
+    "Primary40terminal and full primary audit complete",
+    "Root admits at most2 cohort CLI calls with carrier total<=4",
+    "Post-run compare actual clone file hashes and every candidate/team aggregate independently"
+  ],
+  "ceiling": "Static pre-call closure only; no actual cohort outcome or OS-isolation proof. Oracle/harness/treatments unchanged."
+}

@@ -1,0 +1,68 @@
+{
+  "schema": "thrud.budgeted_dispatch.v1",
+  "authority": "Direct user request2026-10-26: launch free-vendor/Codex behavior ablations for two hours",
+  "work": "BRIAN-AGENT-ABLATIONS-20261026",
+  "started_utc": "2026-10-26T17:24:08Z",
+  "check_back_at": "2026-10-26T19:24:08Z",
+  "root": "C:\\Dev\\work\\brian-agent-ablations-20261026",
+  "original_proof_bundle_read_only": "C:\\Dev\\work\\brian-addition-chain-factory-20261026",
+  "carrier_pool": {
+    "max_active": 4,
+    "builders": 2,
+    "independent_reviewers": 1,
+    "model": "configured included Codex default; no paid model API"
+  },
+  "provider_budget": {
+    "aggregate_usd": 0,
+    "per_job_usd": 0,
+    "free_to_paid_fallback": false,
+    "free_status_required_before_call": true
+  },
+  "artifacts": {
+    "total_cap_bytes": 50000000,
+    "scope_caps": {
+      "harness": 12000000,
+      "oracle": 4000000,
+      "vendors": 4000000,
+      "runs": 22000000,
+      "report_and_control": 8000000
+    }
+  },
+  "ownership": {
+    "root": "protocol, launch/runner integration, runs, publication",
+    "tools_ablations": "harness only",
+    "proof_review": "oracle only; no authoring harness",
+    "graphs_mermaids": "vendors only initially; later plots upon frozen results"
+  },
+  "effects_allowed": [
+    "bounded local research writes under this root",
+    "included Codex calls",
+    "verified free-vendor calls within existing admitted routes",
+    "sanitized GitHub/Slack research updates under existing issue2/PR3"
+  ],
+  "effects_prohibited": [
+    "paid APIs/fallback",
+    "credentials/.env reads or disclosure",
+    "cap increases",
+    "factory repair after refusal",
+    "email/contact",
+    "deployment/merge/install",
+    "protected runtime/scheduler mutation",
+    "source edits/deletion/move"
+  ],
+  "acceptance": [
+    "preregistration before actual cell outcomes",
+    "raw prompts/actions/results and exact candidate identity",
+    "separate exact-integer evaluator",
+    "paired task-level behavior metrics and failures",
+    "distinct review and source-bound sanitized results"
+  ],
+  "stop_lines": [
+    "2026-10-26T19:24:08Z no new live model call",
+    "quota refusal",
+    "unknown/free-cost-route failure for affected vendor only",
+    "write-scope collision",
+    "artifact cap"
+  ]
+}
+

@@ -1,0 +1,10 @@
+{
+  "schema": "stimulus-amendment-independent-audit.v1",
+  "amendment_sha256": "6c45fddc213af0e15d2a53de9017516fe77de45e51036b089a488f8f8aeec642",
+  "selected_packet_sha256": "2e698f8322de23c9524afe40dc034ef28c166e76416fe95d3cc43822267df697",
+  "words": 96,
+  "bytes": 619,
+  "complete_paragraphs": 3,
+  "reported_utc_precedes_first_request": true,
+  "ceiling": "local recorded timestamps and preserved bytes; no external publication clock proof"
+}

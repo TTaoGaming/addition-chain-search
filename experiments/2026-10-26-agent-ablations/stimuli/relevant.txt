@@ -1,0 +1,5 @@
+Episode A, public training target 15: the binary construction used 6 charged operations. The retained sequence [1,2,3,6,12,15] used 5. Its helper nodes were constructed and charged; there is no shortest-chain claim.
+
+Episode B, public training target 31: the binary construction used 8 charged operations. The retained sequence [1,2,3,5,10,15,30,31] used 7. This is a valid construction, not a claim about the present task.
+
+Episode C, identity accounting: repeated exponent values can have different index consumers. Distinct serialized files may describe the same arithmetic schedule. Track parent indices and charged rows separately from filenames; dead rows remain charged.

@@ -1,0 +1,16 @@
+{
+  "observed_utc": "2026-10-26T18:58:15.503548+00:00",
+  "state": "PASS_SCOPED_PNG_VISUAL_QA_AND_SVG_STRUCTURE",
+  "checks": [
+    "Opened final PNG with view_image; checked readable paired labels, exact values, legends and source-scope caveats without visible clipping or overlap.",
+    "All source pins and accepted primary pins unchanged. SVG XML parses and retains editable text.",
+    "Actual execution, copied state accounting and mathematical outcomes are explicitly distinct."
+  ],
+  "limits": [
+    "SVG not browser-rasterized; no formal color-vision simulation.",
+    "Descriptive small exposed-task study; no inferential confidence intervals or autonomous-learning claim."
+  ],
+  "svg_editable_text_nodes": 182,
+  "png_sha256": "4bfc3197b5522b5279d73b617dffee5f8614b906218d31b8e73ce854d79f20e7",
+  "svg_sha256": "a851e2e5e56446fd7aa81b54c6cb2692a76b8fdaa4fb66d9820a12b3a6a9a916"
+}

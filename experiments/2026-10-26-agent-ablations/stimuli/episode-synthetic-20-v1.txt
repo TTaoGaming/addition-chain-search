@@ -1,0 +1,283 @@
+{
+  "kind": "recorded_completed_search_episode",
+  "source_run": "synthetic-20-v1__r1__B__sol",
+  "exact_source_target": 750339,
+  "source_task": "synthetic-20-v1",
+  "source_model": "gpt-6.1-sol",
+  "actions_and_summaries": [
+    {
+      "action": {
+        "type": "search",
+        "method": "window",
+        "knobs": {
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "variants": [
+            "fixed",
+            "sliding"
+          ]
+        },
+        "max_evaluations": 64
+      },
+      "status": "COMPLETE",
+      "refusal_reason": null,
+      "evaluated_candidates": 12,
+      "valid_candidates": 12,
+      "best_charged_cost": 25
+    },
+    {
+      "action": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            3
+          ],
+          "candidate_digits": [
+            5,
+            7,
+            11,
+            13,
+            15,
+            17,
+            23,
+            27,
+            31,
+            45
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "status": "COMPLETE",
+      "refusal_reason": null,
+      "evaluated_candidates": 56,
+      "valid_candidates": 56,
+      "best_charged_cost": 25
+    },
+    {
+      "action": {
+        "type": "submit_chain",
+        "steps": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            12,
+            0
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            15,
+            15
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            17,
+            17
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            19,
+            19
+          ],
+          [
+            20,
+            20
+          ],
+          [
+            21,
+            0
+          ],
+          [
+            22,
+            22
+          ],
+          [
+            23,
+            22
+          ]
+        ],
+        "output_index": 24
+      },
+      "status": "COMPLETE",
+      "refusal_reason": null,
+      "evaluated_candidates": 1,
+      "valid_candidates": 1,
+      "best_charged_cost": 24
+    }
+  ],
+  "retained_best_candidate": {
+    "steps": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        22,
+        22
+      ],
+      [
+        23,
+        22
+      ]
+    ],
+    "output_index": 24
+  },
+  "retained_best_cost": {
+    "operations": 24,
+    "S": 17,
+    "M": 7
+  },
+  "scope": "This is prior known work, not a new discovery. The source target is explicitly labeled; compare it with the current task before using the certificate."
+}

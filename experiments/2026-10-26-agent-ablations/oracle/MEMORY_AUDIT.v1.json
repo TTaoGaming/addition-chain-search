@@ -1,0 +1,189 @@
+{
+  "schema": "full-independent-memory-and-logical-audit.v1",
+  "observed_utc": "2026-10-26T18:53:53.047275+00:00",
+  "verdict": "VERIFICATION_PASS_MEMORY_AND_COMBINED_LOGICAL_CLAIMS_WITH_SCOPED_LIMITS",
+  "audit_code_sha256": "598a90df09d5ac0554f866543595523b5814f1204a11671c3845950f4f3ca371",
+  "raw_memory_audit_sha256": "a4f37d1c51887e4d3f6c3353416ea8e97e4f486e46bcc68a9aca1c2b04512088",
+  "producer_result_sha256": "99a15f538bdf37b0c39bd340ace13140936d59e8e55e6cc3834641ba0aea2b8a",
+  "producer_csv_sha256": "3749e1b3b5b152d029d944ccd001d0cfd3b061b0e1c78e69dccd2a84c698bd2a",
+  "source_denominator_sha256": "82616dcd2311dfe9c90952a935cd26ef936b7699d1206664a2630c10d0891e6f",
+  "analysis_clarification_sha256": "d4923f99f210cb22e6b91858c0937f5da2a7346bafdb659993c78a9e400c4fec",
+  "totals": {
+    "trajectories": 12,
+    "completed": 12,
+    "attempted_rounds": 36,
+    "returned_rounds": 36,
+    "candidate_evaluations": 939,
+    "native_tool_events": 0,
+    "model_input_tokens": 628795,
+    "model_output_tokens": 17169,
+    "strict_source_improvement_trajectories": 3,
+    "strict_full_primary_improvement_trajectories": 0
+  },
+  "contrast_summaries": [
+    {
+      "contrast": "same_target_minus_other_target",
+      "cost_deltas": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "contrast": "same_target_minus_cold",
+      "cost_deltas": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "contrast": "other_target_minus_cold",
+      "cost_deltas": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    }
+  ],
+  "all12_packet_mappings_and_extended_fields_match": true,
+  "packet_mapping": [
+    {
+      "trajectory_id": "synthetic-23-v1__r1__U__sol",
+      "packet_task": "synthetic-20-v1",
+      "words": 356,
+      "bytes": 4529,
+      "retained_schedule_matches": 0,
+      "direct_submission_matches": 0
+    },
+    {
+      "trajectory_id": "synthetic-23-v1__r2__W__sol",
+      "packet_task": "synthetic-23-v1",
+      "words": 313,
+      "bytes": 3820,
+      "retained_schedule_matches": 54,
+      "direct_submission_matches": 1
+    },
+    {
+      "trajectory_id": "synthetic-20-v1__r2__C__sol",
+      "packet_task": null,
+      "words": 0,
+      "bytes": 0,
+      "retained_schedule_matches": 0,
+      "direct_submission_matches": 0
+    },
+    {
+      "trajectory_id": "synthetic-20-v1__r2__W__sol",
+      "packet_task": "synthetic-20-v1",
+      "words": 356,
+      "bytes": 4529,
+      "retained_schedule_matches": 2,
+      "direct_submission_matches": 2
+    },
+    {
+      "trajectory_id": "synthetic-20-v1__r1__C__sol",
+      "packet_task": null,
+      "words": 0,
+      "bytes": 0,
+      "retained_schedule_matches": 0,
+      "direct_submission_matches": 0
+    },
+    {
+      "trajectory_id": "synthetic-23-v1__r1__W__sol",
+      "packet_task": "synthetic-23-v1",
+      "words": 313,
+      "bytes": 3820,
+      "retained_schedule_matches": 15,
+      "direct_submission_matches": 1
+    },
+    {
+      "trajectory_id": "synthetic-20-v1__r2__U__sol",
+      "packet_task": "synthetic-23-v1",
+      "words": 313,
+      "bytes": 3820,
+      "retained_schedule_matches": 0,
+      "direct_submission_matches": 0
+    },
+    {
+      "trajectory_id": "synthetic-20-v1__r1__W__sol",
+      "packet_task": "synthetic-20-v1",
+      "words": 356,
+      "bytes": 4529,
+      "retained_schedule_matches": 2,
+      "direct_submission_matches": 2
+    },
+    {
+      "trajectory_id": "synthetic-23-v1__r2__U__sol",
+      "packet_task": "synthetic-20-v1",
+      "words": 356,
+      "bytes": 4529,
+      "retained_schedule_matches": 0,
+      "direct_submission_matches": 0
+    },
+    {
+      "trajectory_id": "synthetic-23-v1__r1__C__sol",
+      "packet_task": null,
+      "words": 0,
+      "bytes": 0,
+      "retained_schedule_matches": 0,
+      "direct_submission_matches": 0
+    },
+    {
+      "trajectory_id": "synthetic-20-v1__r1__U__sol",
+      "packet_task": "synthetic-23-v1",
+      "words": 313,
+      "bytes": 3820,
+      "retained_schedule_matches": 0,
+      "direct_submission_matches": 0
+    },
+    {
+      "trajectory_id": "synthetic-23-v1__r2__C__sol",
+      "packet_task": null,
+      "words": 0,
+      "bytes": 0,
+      "retained_schedule_matches": 0,
+      "direct_submission_matches": 0
+    }
+  ],
+  "warm_matching_evaluations": 73,
+  "warm_direct_submission_matches": 6,
+  "warm_direct_matches_task_replicate_order": [
+    2,
+    2,
+    1,
+    1
+  ],
+  "current_target_incumbents_fixed_for_all_WUC": {
+    "synthetic-20-v1": 24,
+    "synthetic-23-v1": 31
+  },
+  "full_primary_frontier": {
+    "synthetic-20-v1": 24,
+    "synthetic-23-v1": 29
+  },
+  "combined_actual_counts": {
+    "primary_calls": 119,
+    "cohort_calls": 24,
+    "memory_calls": 36,
+    "included_actual_calls": 179,
+    "returned_calls": 178,
+    "primary_candidate_records": 3098,
+    "cohort_actual_records": 908,
+    "memory_records": 939,
+    "actual_candidate_records_total": 4945,
+    "excluded_browser_substantive_attempts": 2,
+    "accepted_browser_actions": 0
+  },
+  "logical_limits": [
+    "Warm matching counts are observed schedule identity, not evidence of a copying mechanism; direct submissions reported separately.",
+    "Three source-relative cost improvements do not beat full-primary frontier24/29. New index schedules do not prove new mathematical graphs or global novelty.",
+    "Primary TIMEOUT retains valid partial24-cost; completion and valid-candidate rates remain separate and timeout token usage is unknown.",
+    "Cohort cost deltas allzero, mixed duplication/region effects; static peer snapshot, not persistent autonomous cooperation.",
+    "Memory packets are unequal in size and expose known target-specific certificates. Four paired observations/two exposed tasks do not establish general memory benefits.",
+    "Browser B late body parsed only, timing UNKNOWN. V131.504s send-to-stop-request violates120s bound; no controlled browser B/V math comparison."
+  ],
+  "independence_ceiling": "same configured reviewer model family; separate arithmetic code frozen before harness; no OS ACL isolation, optimality or Apex/runtime admission"
+}

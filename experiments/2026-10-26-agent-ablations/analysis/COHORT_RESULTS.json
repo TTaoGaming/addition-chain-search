@@ -1,0 +1,714 @@
+{
+  "schema": "paired-cohort-results.v1",
+  "created_utc": "2026-10-26T18:42:42.113493+00:00",
+  "rows": [
+    {
+      "pair_id": "synthetic-20-v1__r1",
+      "task_id": "synthetic-20-v1",
+      "replicate_id": 1,
+      "arm": "private",
+      "state": "COMPLETED",
+      "best_valid_cost": 25,
+      "best_S": 19,
+      "best_M": 6,
+      "best_identity": "6c70e29a195adf6ab10bafcc4f9a5e95817fa7f43faad727d65e58219778c69a",
+      "branch_evaluations_including_common_initial": 142,
+      "unique_schedules": 37,
+      "duplicate_evaluations": 105,
+      "between_worker_schedule_overlap": 21,
+      "second_worker_schedule_overlap": 15,
+      "new_second_regions_over_team_initial": 94,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            23,
+            45,
+            51
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            2,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 59408,
+      "branch_output_tokens_including_common_initial": 1432
+    },
+    {
+      "pair_id": "synthetic-20-v1__r1",
+      "task_id": "synthetic-20-v1",
+      "replicate_id": 1,
+      "arm": "shared",
+      "state": "COMPLETED",
+      "best_valid_cost": 25,
+      "best_S": 19,
+      "best_M": 6,
+      "best_identity": "6c70e29a195adf6ab10bafcc4f9a5e95817fa7f43faad727d65e58219778c69a",
+      "branch_evaluations_including_common_initial": 94,
+      "unique_schedules": 31,
+      "duplicate_evaluations": 63,
+      "between_worker_schedule_overlap": 8,
+      "second_worker_schedule_overlap": 0,
+      "new_second_regions_over_team_initial": 72,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            3,
+            5,
+            7,
+            11,
+            13,
+            15,
+            23,
+            45,
+            51,
+            55
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            21,
+            25,
+            31
+          ],
+          "candidate_digits": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31,
+            33
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 77698,
+      "branch_output_tokens_including_common_initial": 1556
+    },
+    {
+      "pair_id": "synthetic-20-v1__r2",
+      "task_id": "synthetic-20-v1",
+      "replicate_id": 2,
+      "arm": "private",
+      "state": "COMPLETED",
+      "best_valid_cost": 25,
+      "best_S": 19,
+      "best_M": 6,
+      "best_identity": "6c70e29a195adf6ab10bafcc4f9a5e95817fa7f43faad727d65e58219778c69a",
+      "branch_evaluations_including_common_initial": 142,
+      "unique_schedules": 38,
+      "duplicate_evaluations": 104,
+      "between_worker_schedule_overlap": 12,
+      "second_worker_schedule_overlap": 5,
+      "new_second_regions_over_team_initial": 113,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            3
+          ],
+          "candidate_digits": [
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            19,
+            23,
+            27,
+            45
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 59406,
+      "branch_output_tokens_including_common_initial": 954
+    },
+    {
+      "pair_id": "synthetic-20-v1__r2",
+      "task_id": "synthetic-20-v1",
+      "replicate_id": 2,
+      "arm": "shared",
+      "state": "COMPLETED",
+      "best_valid_cost": 25,
+      "best_S": 19,
+      "best_M": 6,
+      "best_identity": "6c70e29a195adf6ab10bafcc4f9a5e95817fa7f43faad727d65e58219778c69a",
+      "branch_evaluations_including_common_initial": 79,
+      "unique_schedules": 30,
+      "duplicate_evaluations": 49,
+      "between_worker_schedule_overlap": 8,
+      "second_worker_schedule_overlap": 0,
+      "new_second_regions_over_team_initial": 57,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            23,
+            27,
+            55
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31
+          ],
+          "candidate_digits": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 61312,
+      "branch_output_tokens_including_common_initial": 958
+    },
+    {
+      "pair_id": "synthetic-23-v1__r1",
+      "task_id": "synthetic-23-v1",
+      "replicate_id": 1,
+      "arm": "private",
+      "state": "COMPLETED",
+      "best_valid_cost": 31,
+      "best_S": 23,
+      "best_M": 8,
+      "best_identity": "78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9",
+      "branch_evaluations_including_common_initial": 140,
+      "unique_schedules": 67,
+      "duplicate_evaluations": 73,
+      "between_worker_schedule_overlap": 17,
+      "second_worker_schedule_overlap": 8,
+      "new_second_regions_over_team_initial": 110,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            5
+          ],
+          "candidate_digits": [
+            3,
+            7,
+            9,
+            11,
+            13,
+            15,
+            21,
+            27,
+            31,
+            53
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            2,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 59342,
+      "branch_output_tokens_including_common_initial": 1311
+    },
+    {
+      "pair_id": "synthetic-23-v1__r1",
+      "task_id": "synthetic-23-v1",
+      "replicate_id": 1,
+      "arm": "shared",
+      "state": "COMPLETED",
+      "best_valid_cost": 31,
+      "best_S": 23,
+      "best_M": 8,
+      "best_identity": "78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9",
+      "branch_evaluations_including_common_initial": 140,
+      "unique_schedules": 50,
+      "duplicate_evaluations": 90,
+      "between_worker_schedule_overlap": 18,
+      "second_worker_schedule_overlap": 10,
+      "new_second_regions_over_team_initial": 108,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            3,
+            5,
+            7,
+            9,
+            13,
+            19,
+            23,
+            27,
+            31,
+            41
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 61180,
+      "branch_output_tokens_including_common_initial": 1496
+    },
+    {
+      "pair_id": "synthetic-23-v1__r2",
+      "task_id": "synthetic-23-v1",
+      "replicate_id": 2,
+      "arm": "private",
+      "state": "COMPLETED",
+      "best_valid_cost": 31,
+      "best_S": 23,
+      "best_M": 8,
+      "best_identity": "78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9",
+      "branch_evaluations_including_common_initial": 115,
+      "unique_schedules": 43,
+      "duplicate_evaluations": 72,
+      "between_worker_schedule_overlap": 10,
+      "second_worker_schedule_overlap": 0,
+      "new_second_regions_over_team_initial": 93,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            5
+          ],
+          "candidate_digits": [
+            3,
+            7,
+            9,
+            11,
+            13,
+            15,
+            21,
+            27,
+            31,
+            63
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31
+          ],
+          "candidate_digits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 59472,
+      "branch_output_tokens_including_common_initial": 1276
+    },
+    {
+      "pair_id": "synthetic-23-v1__r2",
+      "task_id": "synthetic-23-v1",
+      "replicate_id": 2,
+      "arm": "shared",
+      "state": "COMPLETED",
+      "best_valid_cost": 31,
+      "best_S": 23,
+      "best_M": 8,
+      "best_identity": "78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9",
+      "branch_evaluations_including_common_initial": 142,
+      "unique_schedules": 54,
+      "duplicate_evaluations": 88,
+      "between_worker_schedule_overlap": 16,
+      "second_worker_schedule_overlap": 5,
+      "new_second_regions_over_team_initial": 115,
+      "second_action_A": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1,
+            5
+          ],
+          "candidate_digits": [
+            3,
+            7,
+            11,
+            13,
+            15,
+            17,
+            21,
+            27,
+            31,
+            63
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "second_action_B": {
+        "type": "search",
+        "method": "dictionary",
+        "knobs": {
+          "max_window_bits": 6,
+          "base_digits": [
+            1
+          ],
+          "candidate_digits": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "max_added_digits": 2
+        },
+        "max_evaluations": 64
+      },
+      "branch_accounted_model_calls": 4,
+      "branch_input_tokens_including_common_initial": 61440,
+      "branch_output_tokens_including_common_initial": 1013
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "synthetic-20-v1__r1",
+      "task_id": "synthetic-20-v1",
+      "replicate_id": 1,
+      "state": "COMPLETED",
+      "shared_cost": 25,
+      "private_cost": 25,
+      "cost_shared_minus_private": 0,
+      "duplicate_evaluations_shared_minus_private": -42,
+      "worker_overlap_shared_minus_private": -13,
+      "new_second_regions_shared_minus_private": -22,
+      "action_A_changed": true,
+      "action_B_changed": true
+    },
+    {
+      "pair_id": "synthetic-20-v1__r2",
+      "task_id": "synthetic-20-v1",
+      "replicate_id": 2,
+      "state": "COMPLETED",
+      "shared_cost": 25,
+      "private_cost": 25,
+      "cost_shared_minus_private": 0,
+      "duplicate_evaluations_shared_minus_private": -55,
+      "worker_overlap_shared_minus_private": -4,
+      "new_second_regions_shared_minus_private": -56,
+      "action_A_changed": true,
+      "action_B_changed": true
+    },
+    {
+      "pair_id": "synthetic-23-v1__r1",
+      "task_id": "synthetic-23-v1",
+      "replicate_id": 1,
+      "state": "COMPLETED",
+      "shared_cost": 31,
+      "private_cost": 31,
+      "cost_shared_minus_private": 0,
+      "duplicate_evaluations_shared_minus_private": 17,
+      "worker_overlap_shared_minus_private": 1,
+      "new_second_regions_shared_minus_private": -2,
+      "action_A_changed": true,
+      "action_B_changed": true
+    },
+    {
+      "pair_id": "synthetic-23-v1__r2",
+      "task_id": "synthetic-23-v1",
+      "replicate_id": 2,
+      "state": "COMPLETED",
+      "shared_cost": 31,
+      "private_cost": 31,
+      "cost_shared_minus_private": 0,
+      "duplicate_evaluations_shared_minus_private": 16,
+      "worker_overlap_shared_minus_private": 6,
+      "new_second_regions_shared_minus_private": 22,
+      "action_A_changed": true,
+      "action_B_changed": true
+    }
+  ],
+  "totals": {
+    "pairs": 4,
+    "branches": 8,
+    "actual_model_calls": 24,
+    "returned_calls": 24,
+    "actual_candidate_evaluations_initial_once": 908,
+    "sum_counterfactual_branch_evaluations": 994,
+    "actual_model_input_tokens": 384238,
+    "actual_model_output_tokens": 8321,
+    "native_tool_events": 0
+  },
+  "identity_scope": "Every record/event keyed by pair/arm/worker/path; cloned ordinal event IDs are not globally unique. Initial execution counted once actual; both counterfactual branches include it for their equal4-decision accounting. Schedule identity is not general DAG isomorphism.",
+  "validation": "AWAITING_INDEPENDENT_COHORT_AUDIT"
+}

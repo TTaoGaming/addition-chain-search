@@ -1,0 +1,4026 @@
+{
+  "schema": "episode-memory-results.v1",
+  "created_utc": "2026-10-26T18:52:16.109309+00:00",
+  "rows": [
+    {
+      "trajectory_id": "synthetic-23-v1__r1__U__sol",
+      "task_id": "synthetic-23-v1",
+      "target": 7162463,
+      "replicate_id": 1,
+      "cell_id": "U",
+      "cell_name": "other_target_episode",
+      "model": "gpt-6.1-sol",
+      "state": "COMPLETED",
+      "failure_or_censor_reason": null,
+      "tools": true,
+      "feedback": true,
+      "skill": true,
+      "memory": "episode-synthetic-20-v1",
+      "public_baseline": 35,
+      "best_valid_cost": 30,
+      "best_S": 21,
+      "best_M": 9,
+      "best_identity": "d41d13dd7326d6ebdfb595740311e3b6538dcf8d07efd4fa780bb35420dc73d5",
+      "best_live": 30,
+      "best_dead": 0,
+      "attempted_rounds": 3,
+      "returned_rounds": 3,
+      "environment_rounds": 3,
+      "action_sequence": [
+        {
+          "type": "search",
+          "method": "window",
+          "knobs": {
+            "widths": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "variants": [
+              "fixed",
+              "sliding"
+            ]
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1,
+              3
+            ],
+            "candidate_digits": [
+              5,
+              7,
+              9,
+              11,
+              13,
+              15,
+              21,
+              27,
+              31,
+              45
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "submit_chain",
+          "steps": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              12
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              14,
+              14
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              3
+            ],
+            [
+              18,
+              18
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              20,
+              20
+            ],
+            [
+              21,
+              21
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              23,
+              3
+            ],
+            [
+              24,
+              24
+            ],
+            [
+              25,
+              25
+            ],
+            [
+              26,
+              2
+            ],
+            [
+              27,
+              27
+            ],
+            [
+              28,
+              28
+            ],
+            [
+              29,
+              2
+            ]
+          ],
+          "output_index": 30
+        }
+      ],
+      "action_family_sequence": [
+        "search:window",
+        "search:dictionary",
+        "submit_chain:explicit"
+      ],
+      "region_sequence": [
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"digits\":[1,3],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,31,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "explicit:d41d13dd7326d6ebdfb595740311e3b6538dcf8d07efd4fa780bb35420dc73d5"
+      ],
+      "realized_evaluations": 69,
+      "unique_regions": 69,
+      "valid_candidates": 69,
+      "invalid_candidates": 0,
+      "refused_actions": 0,
+      "unique_schedule_count": 50,
+      "duplicate_candidates": 19,
+      "native_tool_events": 0,
+      "model_input_tokens": 53574,
+      "model_cached_input_tokens": 39936,
+      "model_output_tokens": 1493,
+      "model_reasoning_output_tokens": 968,
+      "model_wall_s": 49.17483569984324,
+      "search_cpu_s": 0.015625,
+      "started_utc": "2026-10-26T18:39:07.682347+00:00",
+      "ended_utc": "2026-10-26T18:39:57.667630+00:00",
+      "independent_validation": "AWAITING_FULL_ORACLE_AUDIT",
+      "improvement_over_binary": 5,
+      "duplicate_fraction": 0.2753623188405797,
+      "aggregation_min_matches_records": true,
+      "current_target_source_incumbent": 31,
+      "full_primary_incumbent": 29,
+      "source_pool_schedule_count": 56,
+      "strict_cost_improvement_over_current_source": true,
+      "strict_cost_improvement_over_full_primary": false,
+      "current_source_schedule_overlap_evaluations": 22,
+      "current_source_unique_schedule_overlap": 17,
+      "distinct_schedules_outside_current_source": 33,
+      "distinct_schedules_outside_full_primary": 6,
+      "best_is_current_source_schedule": false,
+      "supplied_packet_source_task": "synthetic-20-v1",
+      "supplied_packet_words": 356,
+      "supplied_packet_bytes": 4529,
+      "evaluations_matching_supplied_retained_schedule": 0,
+      "direct_submissions_matching_supplied_retained": 0,
+      "valid_overlap_with_supplied_episode": 0
+    },
+    {
+      "trajectory_id": "synthetic-23-v1__r2__W__sol",
+      "task_id": "synthetic-23-v1",
+      "target": 7162463,
+      "replicate_id": 2,
+      "cell_id": "W",
+      "cell_name": "same_target_episode",
+      "model": "gpt-6.1-sol",
+      "state": "COMPLETED",
+      "failure_or_censor_reason": null,
+      "tools": true,
+      "feedback": true,
+      "skill": true,
+      "memory": "episode-synthetic-23-v1",
+      "public_baseline": 35,
+      "best_valid_cost": 31,
+      "best_S": 23,
+      "best_M": 8,
+      "best_identity": "78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9",
+      "best_live": 31,
+      "best_dead": 0,
+      "attempted_rounds": 3,
+      "returned_rounds": 3,
+      "environment_rounds": 3,
+      "action_sequence": [
+        {
+          "type": "submit_chain",
+          "steps": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              11
+            ],
+            [
+              12,
+              4
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              14,
+              14
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              17
+            ],
+            [
+              18,
+              4
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              20,
+              20
+            ],
+            [
+              21,
+              21
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              23,
+              23
+            ],
+            [
+              24,
+              4
+            ],
+            [
+              25,
+              25
+            ],
+            [
+              26,
+              26
+            ],
+            [
+              27,
+              2
+            ],
+            [
+              28,
+              28
+            ],
+            [
+              29,
+              29
+            ],
+            [
+              30,
+              2
+            ]
+          ],
+          "output_index": 31
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1,
+              3,
+              5
+            ],
+            "candidate_digits": [
+              7,
+              9,
+              11,
+              13,
+              15,
+              21,
+              23,
+              27,
+              31,
+              63
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1,
+              3,
+              5
+            ],
+            "candidate_digits": [
+              35,
+              39,
+              45,
+              47,
+              49,
+              51,
+              57,
+              59,
+              61,
+              63
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 56
+        }
+      ],
+      "action_family_sequence": [
+        "submit_chain:explicit",
+        "search:dictionary",
+        "search:dictionary"
+      ],
+      "region_sequence": [
+        "explicit:78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9",
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,23,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,23,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,23,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,31,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,35],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,39],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,47],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,49],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,57],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,35,39],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,35,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,35,47],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,35,49],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,35,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,35,57],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,35,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,35,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,35,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,39,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,39,47],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,39,49],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,39,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,39,57],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,39,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,39,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,39,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,45,47],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,45,49],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,45,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,45,57],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,45,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,45,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,45,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,47,49],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,47,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,47,57],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,47,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,47,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,47,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,49,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,49,57],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,49,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,49,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,49,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,51,57],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,51,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,51,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,51,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,57,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,57,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,57,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,59,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,59,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,61,63],\"max_window_bits\":6},\"method\":\"dictionary\"}"
+      ],
+      "realized_evaluations": 113,
+      "unique_regions": 111,
+      "valid_candidates": 113,
+      "invalid_candidates": 0,
+      "refused_actions": 0,
+      "unique_schedule_count": 24,
+      "duplicate_candidates": 89,
+      "native_tool_events": 0,
+      "model_input_tokens": 52072,
+      "model_cached_input_tokens": 26624,
+      "model_output_tokens": 1240,
+      "model_reasoning_output_tokens": 696,
+      "model_wall_s": 47.941392600070685,
+      "search_cpu_s": 0.0,
+      "started_utc": "2026-10-26T18:39:07.682347+00:00",
+      "ended_utc": "2026-10-26T18:39:56.438000+00:00",
+      "independent_validation": "AWAITING_FULL_ORACLE_AUDIT",
+      "improvement_over_binary": 4,
+      "duplicate_fraction": 0.7876106194690266,
+      "aggregation_min_matches_records": true,
+      "current_target_source_incumbent": 31,
+      "full_primary_incumbent": 29,
+      "source_pool_schedule_count": 56,
+      "strict_cost_improvement_over_current_source": false,
+      "strict_cost_improvement_over_full_primary": false,
+      "current_source_schedule_overlap_evaluations": 87,
+      "current_source_unique_schedule_overlap": 8,
+      "distinct_schedules_outside_current_source": 16,
+      "distinct_schedules_outside_full_primary": 0,
+      "best_is_current_source_schedule": true,
+      "supplied_packet_source_task": "synthetic-23-v1",
+      "supplied_packet_words": 313,
+      "supplied_packet_bytes": 3820,
+      "evaluations_matching_supplied_retained_schedule": 54,
+      "direct_submissions_matching_supplied_retained": 1,
+      "valid_overlap_with_supplied_episode": 87
+    },
+    {
+      "trajectory_id": "synthetic-20-v1__r2__C__sol",
+      "task_id": "synthetic-20-v1",
+      "target": 750339,
+      "replicate_id": 2,
+      "cell_id": "C",
+      "cell_name": "cold_no_episode",
+      "model": "gpt-6.1-sol",
+      "state": "COMPLETED",
+      "failure_or_censor_reason": null,
+      "tools": true,
+      "feedback": true,
+      "skill": true,
+      "memory": "none",
+      "public_baseline": 28,
+      "best_valid_cost": 24,
+      "best_S": 17,
+      "best_M": 7,
+      "best_identity": "330ababe24941245f2c8a1c4760236ce02302f8d83c99bfdd92e306fbf6aadb9",
+      "best_live": 24,
+      "best_dead": 0,
+      "attempted_rounds": 3,
+      "returned_rounds": 3,
+      "environment_rounds": 3,
+      "action_sequence": [
+        {
+          "type": "search",
+          "method": "window",
+          "knobs": {
+            "widths": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "variants": [
+              "fixed",
+              "sliding"
+            ]
+          },
+          "max_evaluations": 12
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1,
+              3
+            ],
+            "candidate_digits": [
+              5,
+              7,
+              9,
+              11,
+              13,
+              15,
+              23,
+              27,
+              51,
+              55
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "submit_chain",
+          "steps": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              8
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              11
+            ],
+            [
+              12,
+              12
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              14,
+              2
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              17
+            ],
+            [
+              18,
+              18
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              20,
+              20
+            ],
+            [
+              21,
+              21
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              23,
+              2
+            ]
+          ],
+          "output_index": 24
+        }
+      ],
+      "action_family_sequence": [
+        "search:window",
+        "search:dictionary",
+        "submit_chain:explicit"
+      ],
+      "region_sequence": [
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"digits\":[1,3],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,23,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,23,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,23,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,51,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "explicit:330ababe24941245f2c8a1c4760236ce02302f8d83c99bfdd92e306fbf6aadb9"
+      ],
+      "realized_evaluations": 69,
+      "unique_regions": 69,
+      "valid_candidates": 69,
+      "invalid_candidates": 0,
+      "refused_actions": 0,
+      "unique_schedule_count": 26,
+      "duplicate_candidates": 43,
+      "native_tool_events": 0,
+      "model_input_tokens": 50119,
+      "model_cached_input_tokens": 39936,
+      "model_output_tokens": 1741,
+      "model_reasoning_output_tokens": 1249,
+      "model_wall_s": 63.23120669997297,
+      "search_cpu_s": 0.0,
+      "started_utc": "2026-10-26T18:39:56.438000+00:00",
+      "ended_utc": "2026-10-26T18:41:00.477284+00:00",
+      "independent_validation": "AWAITING_FULL_ORACLE_AUDIT",
+      "improvement_over_binary": 4,
+      "duplicate_fraction": 0.6231884057971014,
+      "aggregation_min_matches_records": true,
+      "current_target_source_incumbent": 24,
+      "full_primary_incumbent": 24,
+      "source_pool_schedule_count": 17,
+      "strict_cost_improvement_over_current_source": false,
+      "strict_cost_improvement_over_full_primary": false,
+      "current_source_schedule_overlap_evaluations": 50,
+      "current_source_unique_schedule_overlap": 15,
+      "distinct_schedules_outside_current_source": 11,
+      "distinct_schedules_outside_full_primary": 1,
+      "best_is_current_source_schedule": false,
+      "supplied_packet_source_task": null,
+      "supplied_packet_words": 0,
+      "supplied_packet_bytes": 0,
+      "evaluations_matching_supplied_retained_schedule": 0,
+      "direct_submissions_matching_supplied_retained": 0,
+      "valid_overlap_with_supplied_episode": 0
+    },
+    {
+      "trajectory_id": "synthetic-20-v1__r2__W__sol",
+      "task_id": "synthetic-20-v1",
+      "target": 750339,
+      "replicate_id": 2,
+      "cell_id": "W",
+      "cell_name": "same_target_episode",
+      "model": "gpt-6.1-sol",
+      "state": "COMPLETED",
+      "failure_or_censor_reason": null,
+      "tools": true,
+      "feedback": true,
+      "skill": true,
+      "memory": "episode-synthetic-20-v1",
+      "public_baseline": 28,
+      "best_valid_cost": 24,
+      "best_S": 17,
+      "best_M": 7,
+      "best_identity": "7e61f8cb5ee4afef37f00f2e217120c50894380265fd7965218ea59645878824",
+      "best_live": 24,
+      "best_dead": 0,
+      "attempted_rounds": 3,
+      "returned_rounds": 3,
+      "environment_rounds": 3,
+      "action_sequence": [
+        {
+          "type": "submit_chain",
+          "steps": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              11
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              14,
+              14
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              17
+            ],
+            [
+              18,
+              18
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              20,
+              20
+            ],
+            [
+              21,
+              0
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              23,
+              22
+            ]
+          ],
+          "output_index": 24
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1,
+              3
+            ],
+            "candidate_digits": [
+              9,
+              19,
+              21,
+              25,
+              29,
+              33,
+              37,
+              39,
+              41,
+              43
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "submit_chain",
+          "steps": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              11
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              14,
+              14
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              17
+            ],
+            [
+              18,
+              18
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              20,
+              20
+            ],
+            [
+              21,
+              0
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              23,
+              22
+            ]
+          ],
+          "output_index": 24
+        }
+      ],
+      "action_family_sequence": [
+        "submit_chain:explicit",
+        "search:dictionary",
+        "submit_chain:explicit"
+      ],
+      "region_sequence": [
+        "explicit:7e61f8cb5ee4afef37f00f2e217120c50894380265fd7965218ea59645878824",
+        "{\"knobs\":{\"digits\":[1,3],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,25],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,29],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,33],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,37],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,39],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,19],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,25],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,29],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,33],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,37],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,39],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19,25],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19,29],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19,33],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19,37],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19,39],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21,25],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21,29],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21,33],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21,37],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21,39],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,25,29],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,25,33],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,25,37],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,25,39],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,25,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,25,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,29,33],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,29,37],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,29,39],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,29,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,29,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,33,37],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,33,39],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,33,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,33,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,37,39],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,37,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,37,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,39,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,39,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,41,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "explicit:7e61f8cb5ee4afef37f00f2e217120c50894380265fd7965218ea59645878824"
+      ],
+      "realized_evaluations": 58,
+      "unique_regions": 57,
+      "valid_candidates": 58,
+      "invalid_candidates": 0,
+      "refused_actions": 0,
+      "unique_schedule_count": 3,
+      "duplicate_candidates": 55,
+      "native_tool_events": 0,
+      "model_input_tokens": 52252,
+      "model_cached_input_tokens": 26624,
+      "model_output_tokens": 962,
+      "model_reasoning_output_tokens": 383,
+      "model_wall_s": 36.99186189984903,
+      "search_cpu_s": 0.0,
+      "started_utc": "2026-10-26T18:39:57.679408+00:00",
+      "ended_utc": "2026-10-26T18:40:35.627616+00:00",
+      "independent_validation": "AWAITING_FULL_ORACLE_AUDIT",
+      "improvement_over_binary": 4,
+      "duplicate_fraction": 0.9482758620689655,
+      "aggregation_min_matches_records": true,
+      "current_target_source_incumbent": 24,
+      "full_primary_incumbent": 24,
+      "source_pool_schedule_count": 17,
+      "strict_cost_improvement_over_current_source": false,
+      "strict_cost_improvement_over_full_primary": false,
+      "current_source_schedule_overlap_evaluations": 48,
+      "current_source_unique_schedule_overlap": 2,
+      "distinct_schedules_outside_current_source": 1,
+      "distinct_schedules_outside_full_primary": 0,
+      "best_is_current_source_schedule": true,
+      "supplied_packet_source_task": "synthetic-20-v1",
+      "supplied_packet_words": 356,
+      "supplied_packet_bytes": 4529,
+      "evaluations_matching_supplied_retained_schedule": 2,
+      "direct_submissions_matching_supplied_retained": 2,
+      "valid_overlap_with_supplied_episode": 48
+    },
+    {
+      "trajectory_id": "synthetic-20-v1__r1__C__sol",
+      "task_id": "synthetic-20-v1",
+      "target": 750339,
+      "replicate_id": 1,
+      "cell_id": "C",
+      "cell_name": "cold_no_episode",
+      "model": "gpt-6.1-sol",
+      "state": "COMPLETED",
+      "failure_or_censor_reason": null,
+      "tools": true,
+      "feedback": true,
+      "skill": true,
+      "memory": "none",
+      "public_baseline": 28,
+      "best_valid_cost": 24,
+      "best_S": 18,
+      "best_M": 6,
+      "best_identity": "18b9ab457620be4aaa3e6cbde45a1646f9e257a93506f15250200d3126b408a9",
+      "best_live": 24,
+      "best_dead": 0,
+      "attempted_rounds": 3,
+      "returned_rounds": 3,
+      "environment_rounds": 3,
+      "action_sequence": [
+        {
+          "type": "search",
+          "method": "window",
+          "knobs": {
+            "widths": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "variants": [
+              "fixed",
+              "sliding"
+            ]
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1
+            ],
+            "candidate_digits": [
+              3,
+              5,
+              7,
+              11,
+              13,
+              15,
+              23,
+              27,
+              45
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "submit_chain",
+          "steps": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              8,
+              7
+            ],
+            [
+              9,
+              2
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              11
+            ],
+            [
+              12,
+              12
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              14,
+              2
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              17
+            ],
+            [
+              18,
+              18
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              20,
+              20
+            ],
+            [
+              21,
+              21
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              23,
+              2
+            ]
+          ],
+          "output_index": 24
+        }
+      ],
+      "action_family_sequence": [
+        "search:window",
+        "search:dictionary",
+        "submit_chain:explicit"
+      ],
+      "region_sequence": [
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"digits\":[1],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,11,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,11,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,11,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,11,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,11,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,13,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,13,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,13,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,13,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,15,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,15,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,15,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,23,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,23,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,27,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "explicit:18b9ab457620be4aaa3e6cbde45a1646f9e257a93506f15250200d3126b408a9"
+      ],
+      "realized_evaluations": 59,
+      "unique_regions": 59,
+      "valid_candidates": 59,
+      "invalid_candidates": 0,
+      "refused_actions": 0,
+      "unique_schedule_count": 22,
+      "duplicate_candidates": 37,
+      "native_tool_events": 0,
+      "model_input_tokens": 49494,
+      "model_cached_input_tokens": 39936,
+      "model_output_tokens": 1785,
+      "model_reasoning_output_tokens": 1299,
+      "model_wall_s": 69.1001913996879,
+      "search_cpu_s": 0.0,
+      "started_utc": "2026-10-26T18:40:35.629761+00:00",
+      "ended_utc": "2026-10-26T18:41:45.491812+00:00",
+      "independent_validation": "AWAITING_FULL_ORACLE_AUDIT",
+      "improvement_over_binary": 4,
+      "duplicate_fraction": 0.6271186440677966,
+      "aggregation_min_matches_records": true,
+      "current_target_source_incumbent": 24,
+      "full_primary_incumbent": 24,
+      "source_pool_schedule_count": 17,
+      "strict_cost_improvement_over_current_source": false,
+      "strict_cost_improvement_over_full_primary": false,
+      "current_source_schedule_overlap_evaluations": 36,
+      "current_source_unique_schedule_overlap": 14,
+      "distinct_schedules_outside_current_source": 8,
+      "distinct_schedules_outside_full_primary": 1,
+      "best_is_current_source_schedule": false,
+      "supplied_packet_source_task": null,
+      "supplied_packet_words": 0,
+      "supplied_packet_bytes": 0,
+      "evaluations_matching_supplied_retained_schedule": 0,
+      "direct_submissions_matching_supplied_retained": 0,
+      "valid_overlap_with_supplied_episode": 0
+    },
+    {
+      "trajectory_id": "synthetic-23-v1__r1__W__sol",
+      "task_id": "synthetic-23-v1",
+      "target": 7162463,
+      "replicate_id": 1,
+      "cell_id": "W",
+      "cell_name": "same_target_episode",
+      "model": "gpt-6.1-sol",
+      "state": "COMPLETED",
+      "failure_or_censor_reason": null,
+      "tools": true,
+      "feedback": true,
+      "skill": true,
+      "memory": "episode-synthetic-23-v1",
+      "public_baseline": 35,
+      "best_valid_cost": 31,
+      "best_S": 23,
+      "best_M": 8,
+      "best_identity": "78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9",
+      "best_live": 31,
+      "best_dead": 0,
+      "attempted_rounds": 3,
+      "returned_rounds": 3,
+      "environment_rounds": 3,
+      "action_sequence": [
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1,
+              3,
+              5
+            ],
+            "candidate_digits": [
+              7,
+              9,
+              11,
+              13,
+              15,
+              21,
+              23,
+              27,
+              31,
+              63
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1,
+              3
+            ],
+            "candidate_digits": [
+              5,
+              7,
+              11,
+              17,
+              19,
+              25,
+              27,
+              35,
+              43,
+              55
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "submit_chain",
+          "steps": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              11
+            ],
+            [
+              12,
+              4
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              14,
+              14
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              17
+            ],
+            [
+              18,
+              4
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              20,
+              20
+            ],
+            [
+              21,
+              21
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              23,
+              23
+            ],
+            [
+              24,
+              4
+            ],
+            [
+              25,
+              25
+            ],
+            [
+              26,
+              26
+            ],
+            [
+              27,
+              2
+            ],
+            [
+              28,
+              28
+            ],
+            [
+              29,
+              29
+            ],
+            [
+              30,
+              2
+            ]
+          ],
+          "output_index": 31
+        }
+      ],
+      "action_family_sequence": [
+        "search:dictionary",
+        "search:dictionary",
+        "submit_chain:explicit"
+      ],
+      "region_sequence": [
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,23,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,23,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,23,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,31,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,17],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,25],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,35],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,17],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,19],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,25],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,35],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,17],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,19],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,25],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,35],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,17],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,19],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,25],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,35],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,17,19],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,17,25],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,17,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,17,35],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,17,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,17,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19,25],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19,35],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,25,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,25,35],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,25,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,25,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27,35],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,35,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,35,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,43,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "explicit:78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9"
+      ],
+      "realized_evaluations": 113,
+      "unique_regions": 109,
+      "valid_candidates": 113,
+      "invalid_candidates": 0,
+      "refused_actions": 0,
+      "unique_schedule_count": 30,
+      "duplicate_candidates": 83,
+      "native_tool_events": 0,
+      "model_input_tokens": 58739,
+      "model_cached_input_tokens": 26624,
+      "model_output_tokens": 1075,
+      "model_reasoning_output_tokens": 537,
+      "model_wall_s": 39.95901109999977,
+      "search_cpu_s": 0.015625,
+      "started_utc": "2026-10-26T18:41:00.477284+00:00",
+      "ended_utc": "2026-10-26T18:41:41.257341+00:00",
+      "independent_validation": "AWAITING_FULL_ORACLE_AUDIT",
+      "improvement_over_binary": 4,
+      "duplicate_fraction": 0.7345132743362832,
+      "aggregation_min_matches_records": true,
+      "current_target_source_incumbent": 31,
+      "full_primary_incumbent": 29,
+      "source_pool_schedule_count": 56,
+      "strict_cost_improvement_over_current_source": false,
+      "strict_cost_improvement_over_full_primary": false,
+      "current_source_schedule_overlap_evaluations": 51,
+      "current_source_unique_schedule_overlap": 8,
+      "distinct_schedules_outside_current_source": 22,
+      "distinct_schedules_outside_full_primary": 0,
+      "best_is_current_source_schedule": true,
+      "supplied_packet_source_task": "synthetic-23-v1",
+      "supplied_packet_words": 313,
+      "supplied_packet_bytes": 3820,
+      "evaluations_matching_supplied_retained_schedule": 15,
+      "direct_submissions_matching_supplied_retained": 1,
+      "valid_overlap_with_supplied_episode": 51
+    },
+    {
+      "trajectory_id": "synthetic-20-v1__r2__U__sol",
+      "task_id": "synthetic-20-v1",
+      "target": 750339,
+      "replicate_id": 2,
+      "cell_id": "U",
+      "cell_name": "other_target_episode",
+      "model": "gpt-6.1-sol",
+      "state": "COMPLETED",
+      "failure_or_censor_reason": null,
+      "tools": true,
+      "feedback": true,
+      "skill": true,
+      "memory": "episode-synthetic-23-v1",
+      "public_baseline": 28,
+      "best_valid_cost": 24,
+      "best_S": 18,
+      "best_M": 6,
+      "best_identity": "9b669de754099d0bd8808922b0232eb3f491b72bfe1b6c4027993a46536e4da6",
+      "best_live": 24,
+      "best_dead": 0,
+      "attempted_rounds": 3,
+      "returned_rounds": 3,
+      "environment_rounds": 3,
+      "action_sequence": [
+        {
+          "type": "search",
+          "method": "window",
+          "knobs": {
+            "widths": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "variants": [
+              "fixed",
+              "sliding"
+            ]
+          },
+          "max_evaluations": 12
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1
+            ],
+            "candidate_digits": [
+              3,
+              5,
+              7,
+              11,
+              13,
+              15,
+              23,
+              27,
+              45,
+              51
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 56
+        },
+        {
+          "type": "submit_chain",
+          "steps": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              11
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              14,
+              14
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              17
+            ],
+            [
+              18,
+              18
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              20,
+              20
+            ],
+            [
+              21,
+              0
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              23,
+              22
+            ]
+          ],
+          "output_index": 24
+        }
+      ],
+      "action_family_sequence": [
+        "search:window",
+        "search:dictionary",
+        "submit_chain:explicit"
+      ],
+      "region_sequence": [
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"digits\":[1],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,7,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,11,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,11,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,11,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,11,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,11,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,11,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,13,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,13,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,13,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,13,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,13,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,15,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,15,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,15,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,15,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,23,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,23,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,23,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,27,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,27,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,45,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "explicit:9b669de754099d0bd8808922b0232eb3f491b72bfe1b6c4027993a46536e4da6"
+      ],
+      "realized_evaluations": 69,
+      "unique_regions": 69,
+      "valid_candidates": 69,
+      "invalid_candidates": 0,
+      "refused_actions": 0,
+      "unique_schedule_count": 29,
+      "duplicate_candidates": 40,
+      "native_tool_events": 0,
+      "model_input_tokens": 53163,
+      "model_cached_input_tokens": 13312,
+      "model_output_tokens": 1658,
+      "model_reasoning_output_tokens": 1132,
+      "model_wall_s": 65.66650939988904,
+      "search_cpu_s": 0.015625,
+      "started_utc": "2026-10-26T18:41:41.259181+00:00",
+      "ended_utc": "2026-10-26T18:42:47.770348+00:00",
+      "independent_validation": "AWAITING_FULL_ORACLE_AUDIT",
+      "improvement_over_binary": 4,
+      "duplicate_fraction": 0.5797101449275363,
+      "aggregation_min_matches_records": true,
+      "current_target_source_incumbent": 24,
+      "full_primary_incumbent": 24,
+      "source_pool_schedule_count": 17,
+      "strict_cost_improvement_over_current_source": false,
+      "strict_cost_improvement_over_full_primary": false,
+      "current_source_schedule_overlap_evaluations": 36,
+      "current_source_unique_schedule_overlap": 14,
+      "distinct_schedules_outside_current_source": 15,
+      "distinct_schedules_outside_full_primary": 0,
+      "best_is_current_source_schedule": false,
+      "supplied_packet_source_task": "synthetic-23-v1",
+      "supplied_packet_words": 313,
+      "supplied_packet_bytes": 3820,
+      "evaluations_matching_supplied_retained_schedule": 0,
+      "direct_submissions_matching_supplied_retained": 0,
+      "valid_overlap_with_supplied_episode": 0
+    },
+    {
+      "trajectory_id": "synthetic-20-v1__r1__W__sol",
+      "task_id": "synthetic-20-v1",
+      "target": 750339,
+      "replicate_id": 1,
+      "cell_id": "W",
+      "cell_name": "same_target_episode",
+      "model": "gpt-6.1-sol",
+      "state": "COMPLETED",
+      "failure_or_censor_reason": null,
+      "tools": true,
+      "feedback": true,
+      "skill": true,
+      "memory": "episode-synthetic-20-v1",
+      "public_baseline": 28,
+      "best_valid_cost": 24,
+      "best_S": 17,
+      "best_M": 7,
+      "best_identity": "7e61f8cb5ee4afef37f00f2e217120c50894380265fd7965218ea59645878824",
+      "best_live": 24,
+      "best_dead": 0,
+      "attempted_rounds": 3,
+      "returned_rounds": 3,
+      "environment_rounds": 3,
+      "action_sequence": [
+        {
+          "type": "submit_chain",
+          "steps": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              11
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              14,
+              14
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              17
+            ],
+            [
+              18,
+              18
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              20,
+              20
+            ],
+            [
+              21,
+              0
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              23,
+              22
+            ]
+          ],
+          "output_index": 24
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1
+            ],
+            "candidate_digits": [
+              3,
+              5,
+              9,
+              19,
+              21,
+              29,
+              47,
+              55,
+              59,
+              61
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 56
+        },
+        {
+          "type": "submit_chain",
+          "steps": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              11
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              14,
+              14
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              17
+            ],
+            [
+              18,
+              18
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              20,
+              20
+            ],
+            [
+              21,
+              0
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              23,
+              22
+            ]
+          ],
+          "output_index": 24
+        }
+      ],
+      "action_family_sequence": [
+        "submit_chain:explicit",
+        "search:dictionary",
+        "submit_chain:explicit"
+      ],
+      "region_sequence": [
+        "explicit:7e61f8cb5ee4afef37f00f2e217120c50894380265fd7965218ea59645878824",
+        "{\"knobs\":{\"digits\":[1],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,19],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,29],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,47],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,19],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,29],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,47],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,19],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,29],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,47],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,9,19],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,9,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,9,29],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,9,47],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,9,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,9,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,9,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,19,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,19,29],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,19,47],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,19,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,19,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,19,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,21,29],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,21,47],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,21,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,21,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,21,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,29,47],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,29,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,29,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,29,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,47,55],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,47,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,47,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,55,59],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,55,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,59,61],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "explicit:7e61f8cb5ee4afef37f00f2e217120c50894380265fd7965218ea59645878824"
+      ],
+      "realized_evaluations": 58,
+      "unique_regions": 57,
+      "valid_candidates": 58,
+      "invalid_candidates": 0,
+      "refused_actions": 0,
+      "unique_schedule_count": 15,
+      "duplicate_candidates": 43,
+      "native_tool_events": 0,
+      "model_input_tokens": 52251,
+      "model_cached_input_tokens": 26624,
+      "model_output_tokens": 1218,
+      "model_reasoning_output_tokens": 626,
+      "model_wall_s": 48.148943200008944,
+      "search_cpu_s": 0.0,
+      "started_utc": "2026-10-26T18:41:45.509367+00:00",
+      "ended_utc": "2026-10-26T18:42:34.446934+00:00",
+      "independent_validation": "AWAITING_FULL_ORACLE_AUDIT",
+      "improvement_over_binary": 4,
+      "duplicate_fraction": 0.7413793103448276,
+      "aggregation_min_matches_records": true,
+      "current_target_source_incumbent": 24,
+      "full_primary_incumbent": 24,
+      "source_pool_schedule_count": 17,
+      "strict_cost_improvement_over_current_source": false,
+      "strict_cost_improvement_over_full_primary": false,
+      "current_source_schedule_overlap_evaluations": 26,
+      "current_source_unique_schedule_overlap": 5,
+      "distinct_schedules_outside_current_source": 10,
+      "distinct_schedules_outside_full_primary": 3,
+      "best_is_current_source_schedule": true,
+      "supplied_packet_source_task": "synthetic-20-v1",
+      "supplied_packet_words": 356,
+      "supplied_packet_bytes": 4529,
+      "evaluations_matching_supplied_retained_schedule": 2,
+      "direct_submissions_matching_supplied_retained": 2,
+      "valid_overlap_with_supplied_episode": 26
+    },
+    {
+      "trajectory_id": "synthetic-23-v1__r2__U__sol",
+      "task_id": "synthetic-23-v1",
+      "target": 7162463,
+      "replicate_id": 2,
+      "cell_id": "U",
+      "cell_name": "other_target_episode",
+      "model": "gpt-6.1-sol",
+      "state": "COMPLETED",
+      "failure_or_censor_reason": null,
+      "tools": true,
+      "feedback": true,
+      "skill": true,
+      "memory": "episode-synthetic-20-v1",
+      "public_baseline": 35,
+      "best_valid_cost": 30,
+      "best_S": 22,
+      "best_M": 8,
+      "best_identity": "aa256fd35a363399fc894b8b8c39dbe6b7b5215a1ef10cd15d46c7cf42898b2e",
+      "best_live": 30,
+      "best_dead": 0,
+      "attempted_rounds": 3,
+      "returned_rounds": 3,
+      "environment_rounds": 3,
+      "action_sequence": [
+        {
+          "type": "search",
+          "method": "window",
+          "knobs": {
+            "widths": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "variants": [
+              "fixed",
+              "sliding"
+            ]
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1,
+              3
+            ],
+            "candidate_digits": [
+              5,
+              7,
+              9,
+              11,
+              13,
+              15,
+              21,
+              23,
+              27,
+              31
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "submit_chain",
+          "steps": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              12
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              14,
+              14
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              3
+            ],
+            [
+              18,
+              18
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              20,
+              20
+            ],
+            [
+              21,
+              21
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              23,
+              3
+            ],
+            [
+              24,
+              24
+            ],
+            [
+              25,
+              25
+            ],
+            [
+              26,
+              2
+            ],
+            [
+              27,
+              27
+            ],
+            [
+              28,
+              28
+            ],
+            [
+              29,
+              2
+            ]
+          ],
+          "output_index": 30
+        }
+      ],
+      "action_family_sequence": [
+        "search:window",
+        "search:dictionary",
+        "submit_chain:explicit"
+      ],
+      "region_sequence": [
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"digits\":[1,3],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,21,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,23,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,23,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "explicit:aa256fd35a363399fc894b8b8c39dbe6b7b5215a1ef10cd15d46c7cf42898b2e"
+      ],
+      "realized_evaluations": 69,
+      "unique_regions": 69,
+      "valid_candidates": 69,
+      "invalid_candidates": 0,
+      "refused_actions": 0,
+      "unique_schedule_count": 51,
+      "duplicate_candidates": 18,
+      "native_tool_events": 0,
+      "model_input_tokens": 53565,
+      "model_cached_input_tokens": 26624,
+      "model_output_tokens": 1547,
+      "model_reasoning_output_tokens": 1018,
+      "model_wall_s": 54.15073709981516,
+      "search_cpu_s": 0.0,
+      "started_utc": "2026-10-26T18:42:34.448934+00:00",
+      "ended_utc": "2026-10-26T18:43:29.406129+00:00",
+      "independent_validation": "AWAITING_FULL_ORACLE_AUDIT",
+      "improvement_over_binary": 5,
+      "duplicate_fraction": 0.2608695652173913,
+      "aggregation_min_matches_records": true,
+      "current_target_source_incumbent": 31,
+      "full_primary_incumbent": 29,
+      "source_pool_schedule_count": 56,
+      "strict_cost_improvement_over_current_source": true,
+      "strict_cost_improvement_over_full_primary": false,
+      "current_source_schedule_overlap_evaluations": 22,
+      "current_source_unique_schedule_overlap": 18,
+      "distinct_schedules_outside_current_source": 33,
+      "distinct_schedules_outside_full_primary": 0,
+      "best_is_current_source_schedule": false,
+      "supplied_packet_source_task": "synthetic-20-v1",
+      "supplied_packet_words": 356,
+      "supplied_packet_bytes": 4529,
+      "evaluations_matching_supplied_retained_schedule": 0,
+      "direct_submissions_matching_supplied_retained": 0,
+      "valid_overlap_with_supplied_episode": 0
+    },
+    {
+      "trajectory_id": "synthetic-23-v1__r1__C__sol",
+      "task_id": "synthetic-23-v1",
+      "target": 7162463,
+      "replicate_id": 1,
+      "cell_id": "C",
+      "cell_name": "cold_no_episode",
+      "model": "gpt-6.1-sol",
+      "state": "COMPLETED",
+      "failure_or_censor_reason": null,
+      "tools": true,
+      "feedback": true,
+      "skill": true,
+      "memory": "none",
+      "public_baseline": 35,
+      "best_valid_cost": 30,
+      "best_S": 22,
+      "best_M": 8,
+      "best_identity": "aa256fd35a363399fc894b8b8c39dbe6b7b5215a1ef10cd15d46c7cf42898b2e",
+      "best_live": 30,
+      "best_dead": 0,
+      "attempted_rounds": 3,
+      "returned_rounds": 3,
+      "environment_rounds": 3,
+      "action_sequence": [
+        {
+          "type": "search",
+          "method": "window",
+          "knobs": {
+            "widths": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "variants": [
+              "fixed",
+              "sliding"
+            ]
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1,
+              5
+            ],
+            "candidate_digits": [
+              3,
+              7,
+              9,
+              11,
+              13,
+              15,
+              21,
+              27,
+              31,
+              63
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "submit_chain",
+          "steps": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              12
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              14,
+              14
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              3
+            ],
+            [
+              18,
+              18
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              20,
+              20
+            ],
+            [
+              21,
+              21
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              23,
+              3
+            ],
+            [
+              24,
+              24
+            ],
+            [
+              25,
+              25
+            ],
+            [
+              26,
+              2
+            ],
+            [
+              27,
+              27
+            ],
+            [
+              28,
+              28
+            ],
+            [
+              29,
+              2
+            ]
+          ],
+          "output_index": 30
+        }
+      ],
+      "action_family_sequence": [
+        "search:window",
+        "search:dictionary",
+        "submit_chain:explicit"
+      ],
+      "region_sequence": [
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"digits\":[1,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,15,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,15,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,15,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,15,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,21,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,21,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,21,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,27,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,27,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,31,63],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "explicit:aa256fd35a363399fc894b8b8c39dbe6b7b5215a1ef10cd15d46c7cf42898b2e"
+      ],
+      "realized_evaluations": 69,
+      "unique_regions": 69,
+      "valid_candidates": 69,
+      "invalid_candidates": 0,
+      "refused_actions": 0,
+      "unique_schedule_count": 43,
+      "duplicate_candidates": 26,
+      "native_tool_events": 0,
+      "model_input_tokens": 50203,
+      "model_cached_input_tokens": 39936,
+      "model_output_tokens": 1409,
+      "model_reasoning_output_tokens": 900,
+      "model_wall_s": 47.804304000223055,
+      "search_cpu_s": 0.0,
+      "started_utc": "2026-10-26T18:42:47.772067+00:00",
+      "ended_utc": "2026-10-26T18:43:36.321590+00:00",
+      "independent_validation": "AWAITING_FULL_ORACLE_AUDIT",
+      "improvement_over_binary": 5,
+      "duplicate_fraction": 0.37681159420289856,
+      "aggregation_min_matches_records": true,
+      "current_target_source_incumbent": 31,
+      "full_primary_incumbent": 29,
+      "source_pool_schedule_count": 56,
+      "strict_cost_improvement_over_current_source": true,
+      "strict_cost_improvement_over_full_primary": false,
+      "current_source_schedule_overlap_evaluations": 68,
+      "current_source_unique_schedule_overlap": 42,
+      "distinct_schedules_outside_current_source": 1,
+      "distinct_schedules_outside_full_primary": 0,
+      "best_is_current_source_schedule": false,
+      "supplied_packet_source_task": null,
+      "supplied_packet_words": 0,
+      "supplied_packet_bytes": 0,
+      "evaluations_matching_supplied_retained_schedule": 0,
+      "direct_submissions_matching_supplied_retained": 0,
+      "valid_overlap_with_supplied_episode": 0
+    },
+    {
+      "trajectory_id": "synthetic-20-v1__r1__U__sol",
+      "task_id": "synthetic-20-v1",
+      "target": 750339,
+      "replicate_id": 1,
+      "cell_id": "U",
+      "cell_name": "other_target_episode",
+      "model": "gpt-6.1-sol",
+      "state": "COMPLETED",
+      "failure_or_censor_reason": null,
+      "tools": true,
+      "feedback": true,
+      "skill": true,
+      "memory": "episode-synthetic-23-v1",
+      "public_baseline": 28,
+      "best_valid_cost": 24,
+      "best_S": 18,
+      "best_M": 6,
+      "best_identity": "7f5440aa4eb07d5e0f1fbbfcec3a206b8266d4a55bd01a994f0f31ab4db7b6fe",
+      "best_live": 24,
+      "best_dead": 0,
+      "attempted_rounds": 3,
+      "returned_rounds": 3,
+      "environment_rounds": 3,
+      "action_sequence": [
+        {
+          "type": "search",
+          "method": "window",
+          "knobs": {
+            "widths": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "variants": [
+              "fixed",
+              "sliding"
+            ]
+          },
+          "max_evaluations": 12
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1,
+              3
+            ],
+            "candidate_digits": [
+              5,
+              7,
+              9,
+              11,
+              13,
+              15,
+              23,
+              27,
+              45,
+              51
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "submit_chain",
+          "steps": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              11
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              14,
+              13
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              17,
+              17
+            ],
+            [
+              18,
+              18
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              20,
+              20
+            ],
+            [
+              21,
+              21
+            ],
+            [
+              22,
+              22
+            ],
+            [
+              23,
+              2
+            ]
+          ],
+          "output_index": 24
+        }
+      ],
+      "action_family_sequence": [
+        "search:window",
+        "search:dictionary",
+        "submit_chain:explicit"
+      ],
+      "region_sequence": [
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"digits\":[1,3],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,7,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,9,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,11,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,15],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,13,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,23],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,15,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,23,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,23,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,23,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27,45],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,27,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,45,51],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "explicit:7f5440aa4eb07d5e0f1fbbfcec3a206b8266d4a55bd01a994f0f31ab4db7b6fe"
+      ],
+      "realized_evaluations": 69,
+      "unique_regions": 69,
+      "valid_candidates": 69,
+      "invalid_candidates": 0,
+      "refused_actions": 0,
+      "unique_schedule_count": 23,
+      "duplicate_candidates": 46,
+      "native_tool_events": 0,
+      "model_input_tokens": 53164,
+      "model_cached_input_tokens": 26624,
+      "model_output_tokens": 1529,
+      "model_reasoning_output_tokens": 1019,
+      "model_wall_s": 49.13420390035026,
+      "search_cpu_s": 0.015625,
+      "started_utc": "2026-10-26T18:43:29.409127+00:00",
+      "ended_utc": "2026-10-26T18:44:19.352376+00:00",
+      "independent_validation": "AWAITING_FULL_ORACLE_AUDIT",
+      "improvement_over_binary": 4,
+      "duplicate_fraction": 0.6666666666666666,
+      "aggregation_min_matches_records": true,
+      "current_target_source_incumbent": 24,
+      "full_primary_incumbent": 24,
+      "source_pool_schedule_count": 17,
+      "strict_cost_improvement_over_current_source": false,
+      "strict_cost_improvement_over_full_primary": false,
+      "current_source_schedule_overlap_evaluations": 58,
+      "current_source_unique_schedule_overlap": 15,
+      "distinct_schedules_outside_current_source": 8,
+      "distinct_schedules_outside_full_primary": 0,
+      "best_is_current_source_schedule": false,
+      "supplied_packet_source_task": "synthetic-23-v1",
+      "supplied_packet_words": 313,
+      "supplied_packet_bytes": 3820,
+      "evaluations_matching_supplied_retained_schedule": 0,
+      "direct_submissions_matching_supplied_retained": 0,
+      "valid_overlap_with_supplied_episode": 0
+    },
+    {
+      "trajectory_id": "synthetic-23-v1__r2__C__sol",
+      "task_id": "synthetic-23-v1",
+      "target": 7162463,
+      "replicate_id": 2,
+      "cell_id": "C",
+      "cell_name": "cold_no_episode",
+      "model": "gpt-6.1-sol",
+      "state": "COMPLETED",
+      "failure_or_censor_reason": null,
+      "tools": true,
+      "feedback": true,
+      "skill": true,
+      "memory": "none",
+      "public_baseline": 35,
+      "best_valid_cost": 31,
+      "best_S": 23,
+      "best_M": 8,
+      "best_identity": "78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9",
+      "best_live": 31,
+      "best_dead": 0,
+      "attempted_rounds": 3,
+      "returned_rounds": 3,
+      "environment_rounds": 3,
+      "action_sequence": [
+        {
+          "type": "search",
+          "method": "window",
+          "knobs": {
+            "widths": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "variants": [
+              "fixed",
+              "sliding"
+            ]
+          },
+          "max_evaluations": 12
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 5,
+            "base_digits": [
+              1,
+              5
+            ],
+            "candidate_digits": [
+              3,
+              7,
+              9,
+              11,
+              13,
+              15,
+              21,
+              23,
+              27,
+              31
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 64
+        },
+        {
+          "type": "search",
+          "method": "dictionary",
+          "knobs": {
+            "max_window_bits": 6,
+            "base_digits": [
+              1,
+              3,
+              5
+            ],
+            "candidate_digits": [
+              7,
+              9,
+              11,
+              13,
+              17,
+              21,
+              27,
+              31,
+              41,
+              43
+            ],
+            "max_added_digits": 2
+          },
+          "max_evaluations": 64
+        }
+      ],
+      "action_family_sequence": [
+        "search:window",
+        "search:dictionary",
+        "search:dictionary"
+      ],
+      "region_sequence": [
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":1},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":2},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":3},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":4},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":5},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"fixed\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"variant\":\"sliding\",\"width\":6},\"method\":\"window\"}",
+        "{\"knobs\":{\"digits\":[1,5],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,15],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,21],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,23],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,27],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,31],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,15],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,23],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,31],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,9],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,11],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,13],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,15],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,21],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,23],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,27],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,7,31],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,11],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,13],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,15],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,21],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,23],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,27],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,9,31],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11,13],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11,15],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11,21],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11,23],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11,27],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,11,31],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13,15],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13,21],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13,23],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13,27],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,13,31],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,15,21],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,15,23],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,15,27],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,15,31],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,21,23],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,21,27],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,21,31],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,23,27],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,23,31],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,5,27,31],\"max_window_bits\":5},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,17],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,9],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,17],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,7,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,11],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,17],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,9,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,13],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,17],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,11,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,17],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,13,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,17,21],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,17,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,17,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,17,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,17,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21,27],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,21,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27,31],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,27,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,31,41],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,31,43],\"max_window_bits\":6},\"method\":\"dictionary\"}",
+        "{\"knobs\":{\"digits\":[1,3,5,41,43],\"max_window_bits\":6},\"method\":\"dictionary\"}"
+      ],
+      "realized_evaluations": 124,
+      "unique_regions": 124,
+      "valid_candidates": 124,
+      "invalid_candidates": 0,
+      "refused_actions": 0,
+      "unique_schedule_count": 60,
+      "duplicate_candidates": 64,
+      "native_tool_events": 0,
+      "model_input_tokens": 50199,
+      "model_cached_input_tokens": 39936,
+      "model_output_tokens": 1512,
+      "model_reasoning_output_tokens": 1104,
+      "model_wall_s": 60.42078429996036,
+      "search_cpu_s": 0.015625,
+      "started_utc": "2026-10-26T18:43:36.321590+00:00",
+      "ended_utc": "2026-10-26T18:44:37.599112+00:00",
+      "independent_validation": "AWAITING_FULL_ORACLE_AUDIT",
+      "improvement_over_binary": 4,
+      "duplicate_fraction": 0.5161290322580645,
+      "aggregation_min_matches_records": true,
+      "current_target_source_incumbent": 31,
+      "full_primary_incumbent": 29,
+      "source_pool_schedule_count": 56,
+      "strict_cost_improvement_over_current_source": false,
+      "strict_cost_improvement_over_full_primary": false,
+      "current_source_schedule_overlap_evaluations": 112,
+      "current_source_unique_schedule_overlap": 49,
+      "distinct_schedules_outside_current_source": 11,
+      "distinct_schedules_outside_full_primary": 0,
+      "best_is_current_source_schedule": true,
+      "supplied_packet_source_task": null,
+      "supplied_packet_words": 0,
+      "supplied_packet_bytes": 0,
+      "evaluations_matching_supplied_retained_schedule": 0,
+      "direct_submissions_matching_supplied_retained": 0,
+      "valid_overlap_with_supplied_episode": 0
+    }
+  ],
+  "contrasts": [
+    {
+      "contrast": "same_target_minus_other_target",
+      "treatment": "W",
+      "control": "U",
+      "treatment_model": "gpt-6.1-sol",
+      "control_model": "gpt-6.1-sol",
+      "pairs": [
+        {
+          "task_id": "synthetic-20-v1",
+          "replicate_id": 1,
+          "treatment_id": "synthetic-20-v1__r1__W__sol",
+          "control_id": "synthetic-20-v1__r1__U__sol",
+          "treatment_state": "COMPLETED",
+          "control_state": "COMPLETED",
+          "cost_treatment": 24,
+          "cost_control": 24,
+          "cost_delta_treatment_minus_control": 0,
+          "action_sequence_changed": true,
+          "action_families_changed": true,
+          "final_identity_changed": true,
+          "unique_regions_delta": -12,
+          "evaluations_delta": -11,
+          "duplicates_delta": -3,
+          "invalid_delta": 0
+        },
+        {
+          "task_id": "synthetic-20-v1",
+          "replicate_id": 2,
+          "treatment_id": "synthetic-20-v1__r2__W__sol",
+          "control_id": "synthetic-20-v1__r2__U__sol",
+          "treatment_state": "COMPLETED",
+          "control_state": "COMPLETED",
+          "cost_treatment": 24,
+          "cost_control": 24,
+          "cost_delta_treatment_minus_control": 0,
+          "action_sequence_changed": true,
+          "action_families_changed": true,
+          "final_identity_changed": true,
+          "unique_regions_delta": -12,
+          "evaluations_delta": -11,
+          "duplicates_delta": 15,
+          "invalid_delta": 0
+        },
+        {
+          "task_id": "synthetic-23-v1",
+          "replicate_id": 1,
+          "treatment_id": "synthetic-23-v1__r1__W__sol",
+          "control_id": "synthetic-23-v1__r1__U__sol",
+          "treatment_state": "COMPLETED",
+          "control_state": "COMPLETED",
+          "cost_treatment": 31,
+          "cost_control": 30,
+          "cost_delta_treatment_minus_control": 1,
+          "action_sequence_changed": true,
+          "action_families_changed": true,
+          "final_identity_changed": true,
+          "unique_regions_delta": 40,
+          "evaluations_delta": 44,
+          "duplicates_delta": 64,
+          "invalid_delta": 0
+        },
+        {
+          "task_id": "synthetic-23-v1",
+          "replicate_id": 2,
+          "treatment_id": "synthetic-23-v1__r2__W__sol",
+          "control_id": "synthetic-23-v1__r2__U__sol",
+          "treatment_state": "COMPLETED",
+          "control_state": "COMPLETED",
+          "cost_treatment": 31,
+          "cost_control": 30,
+          "cost_delta_treatment_minus_control": 1,
+          "action_sequence_changed": true,
+          "action_families_changed": true,
+          "final_identity_changed": true,
+          "unique_regions_delta": 42,
+          "evaluations_delta": 44,
+          "duplicates_delta": 71,
+          "invalid_delta": 0
+        }
+      ]
+    },
+    {
+      "contrast": "same_target_minus_cold",
+      "treatment": "W",
+      "control": "C",
+      "treatment_model": "gpt-6.1-sol",
+      "control_model": "gpt-6.1-sol",
+      "pairs": [
+        {
+          "task_id": "synthetic-20-v1",
+          "replicate_id": 1,
+          "treatment_id": "synthetic-20-v1__r1__W__sol",
+          "control_id": "synthetic-20-v1__r1__C__sol",
+          "treatment_state": "COMPLETED",
+          "control_state": "COMPLETED",
+          "cost_treatment": 24,
+          "cost_control": 24,
+          "cost_delta_treatment_minus_control": 0,
+          "action_sequence_changed": true,
+          "action_families_changed": true,
+          "final_identity_changed": true,
+          "unique_regions_delta": -2,
+          "evaluations_delta": -1,
+          "duplicates_delta": 6,
+          "invalid_delta": 0
+        },
+        {
+          "task_id": "synthetic-20-v1",
+          "replicate_id": 2,
+          "treatment_id": "synthetic-20-v1__r2__W__sol",
+          "control_id": "synthetic-20-v1__r2__C__sol",
+          "treatment_state": "COMPLETED",
+          "control_state": "COMPLETED",
+          "cost_treatment": 24,
+          "cost_control": 24,
+          "cost_delta_treatment_minus_control": 0,
+          "action_sequence_changed": true,
+          "action_families_changed": true,
+          "final_identity_changed": true,
+          "unique_regions_delta": -12,
+          "evaluations_delta": -11,
+          "duplicates_delta": 12,
+          "invalid_delta": 0
+        },
+        {
+          "task_id": "synthetic-23-v1",
+          "replicate_id": 1,
+          "treatment_id": "synthetic-23-v1__r1__W__sol",
+          "control_id": "synthetic-23-v1__r1__C__sol",
+          "treatment_state": "COMPLETED",
+          "control_state": "COMPLETED",
+          "cost_treatment": 31,
+          "cost_control": 30,
+          "cost_delta_treatment_minus_control": 1,
+          "action_sequence_changed": true,
+          "action_families_changed": true,
+          "final_identity_changed": true,
+          "unique_regions_delta": 40,
+          "evaluations_delta": 44,
+          "duplicates_delta": 57,
+          "invalid_delta": 0
+        },
+        {
+          "task_id": "synthetic-23-v1",
+          "replicate_id": 2,
+          "treatment_id": "synthetic-23-v1__r2__W__sol",
+          "control_id": "synthetic-23-v1__r2__C__sol",
+          "treatment_state": "COMPLETED",
+          "control_state": "COMPLETED",
+          "cost_treatment": 31,
+          "cost_control": 31,
+          "cost_delta_treatment_minus_control": 0,
+          "action_sequence_changed": true,
+          "action_families_changed": true,
+          "final_identity_changed": false,
+          "unique_regions_delta": -13,
+          "evaluations_delta": -11,
+          "duplicates_delta": 25,
+          "invalid_delta": 0
+        }
+      ]
+    },
+    {
+      "contrast": "other_target_minus_cold",
+      "treatment": "U",
+      "control": "C",
+      "treatment_model": "gpt-6.1-sol",
+      "control_model": "gpt-6.1-sol",
+      "pairs": [
+        {
+          "task_id": "synthetic-20-v1",
+          "replicate_id": 1,
+          "treatment_id": "synthetic-20-v1__r1__U__sol",
+          "control_id": "synthetic-20-v1__r1__C__sol",
+          "treatment_state": "COMPLETED",
+          "control_state": "COMPLETED",
+          "cost_treatment": 24,
+          "cost_control": 24,
+          "cost_delta_treatment_minus_control": 0,
+          "action_sequence_changed": true,
+          "action_families_changed": false,
+          "final_identity_changed": true,
+          "unique_regions_delta": 10,
+          "evaluations_delta": 10,
+          "duplicates_delta": 9,
+          "invalid_delta": 0
+        },
+        {
+          "task_id": "synthetic-20-v1",
+          "replicate_id": 2,
+          "treatment_id": "synthetic-20-v1__r2__U__sol",
+          "control_id": "synthetic-20-v1__r2__C__sol",
+          "treatment_state": "COMPLETED",
+          "control_state": "COMPLETED",
+          "cost_treatment": 24,
+          "cost_control": 24,
+          "cost_delta_treatment_minus_control": 0,
+          "action_sequence_changed": true,
+          "action_families_changed": false,
+          "final_identity_changed": true,
+          "unique_regions_delta": 0,
+          "evaluations_delta": 0,
+          "duplicates_delta": -3,
+          "invalid_delta": 0
+        },
+        {
+          "task_id": "synthetic-23-v1",
+          "replicate_id": 1,
+          "treatment_id": "synthetic-23-v1__r1__U__sol",
+          "control_id": "synthetic-23-v1__r1__C__sol",
+          "treatment_state": "COMPLETED",
+          "control_state": "COMPLETED",
+          "cost_treatment": 30,
+          "cost_control": 30,
+          "cost_delta_treatment_minus_control": 0,
+          "action_sequence_changed": true,
+          "action_families_changed": false,
+          "final_identity_changed": true,
+          "unique_regions_delta": 0,
+          "evaluations_delta": 0,
+          "duplicates_delta": -7,
+          "invalid_delta": 0
+        },
+        {
+          "task_id": "synthetic-23-v1",
+          "replicate_id": 2,
+          "treatment_id": "synthetic-23-v1__r2__U__sol",
+          "control_id": "synthetic-23-v1__r2__C__sol",
+          "treatment_state": "COMPLETED",
+          "control_state": "COMPLETED",
+          "cost_treatment": 30,
+          "cost_control": 31,
+          "cost_delta_treatment_minus_control": -1,
+          "action_sequence_changed": true,
+          "action_families_changed": true,
+          "final_identity_changed": true,
+          "unique_regions_delta": -55,
+          "evaluations_delta": -55,
+          "duplicates_delta": -46,
+          "invalid_delta": 0
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "trajectories": 12,
+    "completed": 12,
+    "attempted_rounds": 36,
+    "returned_rounds": 36,
+    "candidate_evaluations": 939,
+    "native_tool_events": 0,
+    "model_input_tokens": 628795,
+    "model_output_tokens": 17169,
+    "strict_source_improvement_trajectories": 3,
+    "strict_full_primary_improvement_trajectories": 0
+  },
+  "denominators": "All W/U/C for a task use same current-target source pool/incumbent. Supplied-packet copies are separate. New index-schedule hashes alone are not new mathematical graphs. Full primary best24/29 also reported; no global novelty claim.",
+  "validation": "AWAITING_INDEPENDENT_MEMORY_AUDIT",
+  "copy_semantics": "Matching evaluations include deterministic-tool rediscovery; only the direct-submission field counts explicit submissions. Neither alone proves a model's copying mechanism or mathematical novelty. Provisional v1 broad-copy field was renamed before final audit."
+}

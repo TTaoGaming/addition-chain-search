@@ -1,0 +1,126 @@
+{
+  "schema": "independent-episode-memory-preflight.v1",
+  "observed_utc": "2026-10-26T18:11:04.893266+00:00",
+  "verdict": "CONDITIONAL_RELEASE_AFTER_FULL_PRIMARY_AUDIT_AND_CARRIER_ADMISSION",
+  "source_sha256": "ab94c0b532e7f59b432ec3554d70322e0176562f3dabd79f62c180e40bddcdcd",
+  "protocol_sha256": "188ffa9ba49794397ee47fa72a337cea1f510d3b431c97d15e871991d5869e12",
+  "freeze_sha256": "d76fb1c603e87f8694bf067c0752ce41394a3fea174506edd3a5a545eb7f2384",
+  "runner_sha256": "058d52ab821f33831d25c931e537ca065604fe7458408819c3b055f871da81f1",
+  "source_eligibility": [
+    {
+      "task_id": "synthetic-20-v1",
+      "source_id": "synthetic-20-v1__r1__B__sol",
+      "state": "ELIGIBLE_COMPLETED_FIXED_SOURCE",
+      "source_job_sha256": "e1cee926cb64e7034b4b5c49c8d732ae14b7f1b49e5fa9bb6c0f536bf691dd29",
+      "source_final_sha256": "1b68501d63adde6d62c7b991d28bf5070dea0f12492103d5a32b4f5286a78fdf",
+      "source_run_receipt_sha256": "92a901ab23642c844df1a6bf74840a53b4fb45b8e92990f72c227c606097bb8b",
+      "all_candidate_file_and_event_pins": [
+        {
+          "path": "runs\\v2\\synthetic-20-v1__r1__B__sol\\environment\\round-01.candidates.jsonl",
+          "sha256": "50ca3237b498e16c52ec2046c7885fb23e27fafaa74aeb9484dc62ca8af1365b"
+        },
+        {
+          "path": "runs\\v2\\synthetic-20-v1__r1__B__sol\\environment\\round-01.event.json",
+          "sha256": "be0a20098c875edec5dbc17f3b3d22d2dfb5ae9af4de8e2cfab9913e740fadc4"
+        },
+        {
+          "path": "runs\\v2\\synthetic-20-v1__r1__B__sol\\environment\\round-02.candidates.jsonl",
+          "sha256": "027e338677a57f72a9db3709ae6b3864d52551a5d11b55aef1610db03e8025bb"
+        },
+        {
+          "path": "runs\\v2\\synthetic-20-v1__r1__B__sol\\environment\\round-02.event.json",
+          "sha256": "c2532b46aab38ec4cdc01d5ac28606c1796644219a8ab33418032df7be1c2b96"
+        },
+        {
+          "path": "runs\\v2\\synthetic-20-v1__r1__B__sol\\environment\\round-03.candidates.jsonl",
+          "sha256": "999d54e8e88f6d806f2520254d806a419bc31d0badf035cee9004ca9d6ae88d4"
+        },
+        {
+          "path": "runs\\v2\\synthetic-20-v1__r1__B__sol\\environment\\round-03.event.json",
+          "sha256": "d7b404e6647b114afd17b83cb1dc35c6c0d13e35da04299b6f31f34364220823"
+        }
+      ],
+      "source_records": 69,
+      "valid_records": 69,
+      "full_valid_schedule_denominator_count": 17,
+      "retained_best_charged": {
+        "operations": 24,
+        "S": 17,
+        "M": 7
+      },
+      "packet_sha256": "5d9283fc211057edd7f3c356115066ec6376e703596599b5ed67ca2b350d48e0",
+      "packet_matches_fixed_all3_actions_and_summaries": true
+    },
+    {
+      "task_id": "synthetic-23-v1",
+      "source_id": "synthetic-23-v1__r1__B__sol",
+      "state": "ELIGIBLE_COMPLETED_FIXED_SOURCE",
+      "source_job_sha256": "8bce93e5ba3662a45da2f601b32e71c60cef8f7d66c858403c280d8dd198bb6b",
+      "source_final_sha256": "b12fd9c88b6d68f91a907cb2dfbc980810e2ea154dea9ba975f931aa5468eca6",
+      "source_run_receipt_sha256": "143ac78a18f617a31d3fe2f4e0cfa676735b3a0843d8df2a8b7582bb62f17628",
+      "all_candidate_file_and_event_pins": [
+        {
+          "path": "runs\\v2\\synthetic-23-v1__r1__B__sol\\environment\\round-01.candidates.jsonl",
+          "sha256": "dc8375025c19ce575d952641cf274173e68bb61ba1f99c5b59b580bae52a51c5"
+        },
+        {
+          "path": "runs\\v2\\synthetic-23-v1__r1__B__sol\\environment\\round-01.event.json",
+          "sha256": "ca683573e681b71f02ca55d637b3cbef3089a2d96789e7a6bf204d31afe7748a"
+        },
+        {
+          "path": "runs\\v2\\synthetic-23-v1__r1__B__sol\\environment\\round-02.candidates.jsonl",
+          "sha256": "f2878bfee30a05426e8bd05a6f5c756361e312d7a403e43004fb085d961af13b"
+        },
+        {
+          "path": "runs\\v2\\synthetic-23-v1__r1__B__sol\\environment\\round-02.event.json",
+          "sha256": "487e6b2bb47586954556a0200c0c0e873dd359946cb045c3840c3be4e2f543c2"
+        },
+        {
+          "path": "runs\\v2\\synthetic-23-v1__r1__B__sol\\environment\\round-03.candidates.jsonl",
+          "sha256": "187332311151aba17c6a5f34904b3b7033a7e730d9d4ef0418fd000587dfcba7"
+        },
+        {
+          "path": "runs\\v2\\synthetic-23-v1__r1__B__sol\\environment\\round-03.event.json",
+          "sha256": "f113313f363900f3d0949dfebba394e21c7ac2dbe0c7623565dc02869c970bb7"
+        }
+      ],
+      "source_records": 124,
+      "valid_records": 124,
+      "full_valid_schedule_denominator_count": 56,
+      "retained_best_charged": {
+        "operations": 31,
+        "S": 23,
+        "M": 8
+      },
+      "packet_sha256": "d27810dad7e0dfdcb62c40618820796eb930b02ebeb1ffd099ae008d7aca947e",
+      "packet_matches_fixed_all3_actions_and_summaries": true
+    }
+  ],
+  "assignments": 12,
+  "planned_new_calls": 36,
+  "per_call_horizon_guards": 2,
+  "reviewer_launched_inference": false,
+  "findings": [
+    {
+      "id": "MEMORY-ESTIMAND",
+      "severity": "SCOPE",
+      "finding": "W-U compares authentic target-specific outcome/certificate exposure with another episode, including unequal length. It is a warm-episode package effect, not isolated memory machinery or autonomous retrieval."
+    },
+    {
+      "id": "MEMORY-NOVELTY",
+      "severity": "ANALYSIS_GUARD",
+      "finding": "Use the complete fixed-source schedule sets. A certificate equal to the source incumbent is retrieval/rediscovery, not a new improvement. Novelty is relative to the specified source episode only, not the entire primary corpus."
+    },
+    {
+      "id": "MEMORY-CALL-COUNT",
+      "severity": "ANALYSIS_GUARD",
+      "finding": "A late horizon guard may leave REQUEST.json but make no call. Count actual subprocess/model events and typed guard returns, not REQUEST files alone."
+    }
+  ],
+  "remaining_gates": [
+    "All40 primary assignments terminal and full independent primary audit accepted",
+    "Cohort or other live calls idle before memory admission; total carriers<=4",
+    "Audit actual memory prompts, all candidates and full12-trajectory denominators after execution"
+  ],
+  "ceiling": "fixed source eligibility/provenance and source arithmetic replay only; no memory-condition outcomes, global novelty, optimality, OS isolation or Apex admission"
+}

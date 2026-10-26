@@ -1,0 +1,64 @@
+{
+  "schema": "independent-cohort-preflight.v1",
+  "observed_utc": "2026-10-26T17:59:48.172509+00:00",
+  "verdict": "HOLD_PER_CALL_HORIZON_GUARD_BEFORE_COHORT_LAUNCH",
+  "inputs": [
+    {
+      "path": "COHORT_PROTOCOL.v1.json",
+      "sha256": "1e04c82d8bb335b95d03ebec34d3f8df42702b169135cec349fde73df97d5562"
+    },
+    {
+      "path": "control/run_cohort_v1.py",
+      "sha256": "29538020ceacccfcfdf430826e49f3635b9465a66f8e83a4ec21f16198d635a4"
+    },
+    {
+      "path": "stimuli/COHORT_TEMPLATE.v1.txt",
+      "sha256": "1143dd80bec27a9db22f869c205673ee4dce68b3032be2b277ef0a3cd7c2e06e"
+    },
+    {
+      "path": "control/COHORT_RUN_ORDER.json",
+      "sha256": "5931ea2405d654fc9b9787bf1130729141dc35158d650b388eacf116033decaf"
+    }
+  ],
+  "cohort_inference_launched_by_reviewer": false,
+  "candidate_or_harness_code_executed_by_reviewer": false,
+  "checks": {
+    "embedded_and_frozen_template_equal": true,
+    "frozen_order_matches_recomputed_seeded_arm_order": true,
+    "pairs": 4,
+    "actual_initial_calls": 8,
+    "actual_second_calls": 16,
+    "actual_total_calls": 24,
+    "counterfactual_per_branch_decisions": 4,
+    "own_history_and_initial_state_common_between_branches_by_source": true,
+    "shared_peer_packet_only_initial_action_and_visible_feedback": true,
+    "trusted_export_not_used_in_prompt": true,
+    "no_explicit_arm_name_in_prompt_template": true,
+    "outputs_descend_admitted_runs_path": true,
+    "clone_compares_relative_file_SHA256_maps": true,
+    "within_runner_max_active_calls": 2
+  },
+  "findings": [
+    {
+      "id": "COHORT-HORIZON-1",
+      "severity": "PRELAUNCH_GUARD",
+      "finding": "call() lacks a STOP check immediately before adapter.invoke; shared adapter can launch a1second call after STOP. Add a versioned refusal at each inference call."
+    },
+    {
+      "id": "COHORT-IDENTITY-1",
+      "severity": "ANALYSIS_GUARD",
+      "finding": "Exact environment clones reuse environment_id and initial raw IDs; second branches can repeat evaluation ordinals/IDs with different actual contents. Qualify evidence by pair/arm/worker/path. Count reused initial work once, and actual second calls separately."
+    },
+    {
+      "id": "COHORT-ESTIMAND-1",
+      "severity": "SCOPE",
+      "finding": "The intervention is one static peer-observation packet, including extra context length; not persistent memory, free-form worker communication or a pure coordination mechanism. Second-call RNG remains unmatched; only2tasks/4paired starts."
+    },
+    {
+      "id": "COHORT-CLOSURE-1",
+      "severity": "RUNTIME_GATE",
+      "finding": "Launch only after primary calls and primary audit are terminal/idle. This source has per-stage concurrency2, no global cross-study semaphore. Root owns carrier admission."
+    }
+  ],
+  "independence_ceiling": "static pre-call support review; same configured model family; actual clone/provenance and every output remain pending independent post-run audit; no Apex or OS-ACL admission"
+}

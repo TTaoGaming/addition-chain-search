@@ -1,0 +1,195 @@
+{
+  "schema": "bounded-addition-chain-harness-controls.v1",
+  "state": "PASS",
+  "controls": [
+    {
+      "control": "positive_exact_binary_endpoint",
+      "state": "PASS"
+    },
+    {
+      "control": "future_reference_rejected",
+      "state": "PASS"
+    },
+    {
+      "control": "boolean_index_rejected",
+      "state": "PASS"
+    },
+    {
+      "control": "wrong_endpoint_rejected",
+      "state": "PASS"
+    },
+    {
+      "control": "base_output_rejected",
+      "state": "PASS"
+    },
+    {
+      "control": "row_cap_rejected",
+      "state": "PASS"
+    },
+    {
+      "control": "dead_row_allowed_and_fully_charged",
+      "state": "PASS"
+    },
+    {
+      "control": "duplicate_exponents_allowed_indices_charged",
+      "state": "PASS"
+    },
+    {
+      "control": "commutative_duplicate_identity",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-20-v1-fixed-w1",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-20-v1-sliding-w1",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-20-v1-fixed-w2",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-20-v1-sliding-w2",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-20-v1-fixed-w3",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-20-v1-sliding-w3",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-20-v1-fixed-w4",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-20-v1-sliding-w4",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-20-v1-fixed-w5",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-20-v1-sliding-w5",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-20-v1-fixed-w6",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-20-v1-sliding-w6",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-20-v1-dictionary",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-23-v1-fixed-w1",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-23-v1-sliding-w1",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-23-v1-fixed-w2",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-23-v1-sliding-w2",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-23-v1-fixed-w3",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-23-v1-sliding-w3",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-23-v1-fixed-w4",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-23-v1-sliding-w4",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-23-v1-fixed-w5",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-23-v1-sliding-w5",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-23-v1-fixed-w6",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-23-v1-sliding-w6",
+      "state": "PASS"
+    },
+    {
+      "control": "synthetic-23-v1-dictionary",
+      "state": "PASS"
+    },
+    {
+      "control": "configured137_capped64",
+      "state": "PASS"
+    },
+    {
+      "control": "feedback_on_exact_cost",
+      "state": "PASS"
+    },
+    {
+      "control": "restart_round_accounting",
+      "state": "PASS"
+    },
+    {
+      "control": "round4_refused",
+      "state": "PASS"
+    },
+    {
+      "control": "tools_off_refuses_search_no_evaluation",
+      "state": "PASS"
+    },
+    {
+      "control": "tools_off_explicit_chain_available",
+      "state": "PASS"
+    },
+    {
+      "control": "feedback_off_only_ack",
+      "state": "PASS"
+    },
+    {
+      "control": "feedback_off_invalid_action_same_shape",
+      "state": "PASS"
+    },
+    {
+      "control": "hidden_final_aggregation_retains_lower_charged_binary",
+      "state": "PASS"
+    },
+    {
+      "control": "duplicate_recorded_not_new_credit",
+      "state": "PASS"
+    },
+    {
+      "control": "path_traversal_refused",
+      "state": "PASS"
+    }
+  ],
+  "control_count": 46,
+  "source_sha256": "df2bc78e1583c4020e70779732ddc1aacbf5fd47b0d205fb257ceae7c276e6e4",
+  "public_tasks_sha256": "09256c711cdb4ea7773bcc0a62921318f026128a11b49357d5b4858dade8cd94",
+  "oracle_private_files_read": false,
+  "artifact_directory": "C:\\Dev\\work\\brian-agent-ablations-20261026\\harness\\v1\\test-artifacts\\1793036175938380800"
+}

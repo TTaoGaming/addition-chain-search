@@ -1,0 +1,9 @@
+pair_id,task_id,replicate_id,arm,state,best_valid_cost,best_S,best_M,best_identity,branch_evaluations_including_common_initial,unique_schedules,duplicate_evaluations,between_worker_schedule_overlap,second_worker_schedule_overlap,new_second_regions_over_team_initial,branch_accounted_model_calls,branch_input_tokens_including_common_initial,branch_output_tokens_including_common_initial
+synthetic-20-v1__r1,synthetic-20-v1,1,private,COMPLETED,25,19,6,6c70e29a195adf6ab10bafcc4f9a5e95817fa7f43faad727d65e58219778c69a,142,37,105,21,15,94,4,59408,1432
+synthetic-20-v1__r1,synthetic-20-v1,1,shared,COMPLETED,25,19,6,6c70e29a195adf6ab10bafcc4f9a5e95817fa7f43faad727d65e58219778c69a,94,31,63,8,0,72,4,77698,1556
+synthetic-20-v1__r2,synthetic-20-v1,2,private,COMPLETED,25,19,6,6c70e29a195adf6ab10bafcc4f9a5e95817fa7f43faad727d65e58219778c69a,142,38,104,12,5,113,4,59406,954
+synthetic-20-v1__r2,synthetic-20-v1,2,shared,COMPLETED,25,19,6,6c70e29a195adf6ab10bafcc4f9a5e95817fa7f43faad727d65e58219778c69a,79,30,49,8,0,57,4,61312,958
+synthetic-23-v1__r1,synthetic-23-v1,1,private,COMPLETED,31,23,8,78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9,140,67,73,17,8,110,4,59342,1311
+synthetic-23-v1__r1,synthetic-23-v1,1,shared,COMPLETED,31,23,8,78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9,140,50,90,18,10,108,4,61180,1496
+synthetic-23-v1__r2,synthetic-23-v1,2,private,COMPLETED,31,23,8,78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9,115,43,72,10,0,93,4,59472,1276
+synthetic-23-v1__r2,synthetic-23-v1,2,shared,COMPLETED,31,23,8,78730f82cbcbc6dfcd93507a82ba1ac2861e29058861aca9cc195be248961ec9,142,54,88,16,5,115,4,61440,1013

@@ -47,3 +47,4 @@ All recorded candidates were valid in both feedback conditions. The study theref
 - Index-schedule identity preserves row order, multiplicity and output and normalizes parent commutation. It is not general graph-isomorphism canonicalization; a new hash alone is not a new mathematical discovery.
 
 The separately preregistered shared-blackboard and recorded-episode memory experiments follow this pilot. Raw private emails and credential values are excluded from the research export.
+

@@ -1,0 +1,25 @@
+{
+  "schema": "public-included-codex-adapter-projection.v1",
+  "original_source_sha256": "784ade926202437dc0e48a18a2c779d4c397a4622a61dfcbd4eb02dd9c57a4b7",
+  "cli_version": "0.164.0-alpha.11.1",
+  "default_model_confirmed": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "disabled_features": [
+    "apps",
+    "plugins",
+    "hooks",
+    "plugin_hooks",
+    "memories",
+    "multi_agent",
+    "shell_tool",
+    "computer_use",
+    "browser_use",
+    "browser_use_external",
+    "tool_search",
+    "image_generation",
+    "workspace_dependencies",
+    "in_app_browser",
+    "shell_snapshot"
+  ],
+  "scope": "Sanitized adapter capability metadata; account-route/config/executable/private values omitted."
+}

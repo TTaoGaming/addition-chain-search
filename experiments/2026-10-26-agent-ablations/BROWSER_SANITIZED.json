@@ -1,0 +1,47 @@
+{
+  "schema": "public-browser-transport-projection.v1",
+  "source_receipt_sha256": "151f5dc8b1e62e20f00b4c4de860c9d5d75bb6d69628e260017fc8cd6e91c63a",
+  "source_reconciliation_sha256": "771fabd0a4b1d294a85d12f9e90b6df23c8f164c9805bbcf032280fbf52b8e84",
+  "actual_substantive_sends": 2,
+  "accepted_controlled_actions": 0,
+  "environment_evaluations": 0,
+  "automatic_retries": 0,
+  "served_model_labels": [
+    {
+      "cell": "B",
+      "requested_model": "openrouter/free",
+      "resolved_ui_model": "Flint (free)",
+      "provider_ui_label": "recursive"
+    },
+    {
+      "cell": "V",
+      "requested_model": "openrouter/free",
+      "resolved_ui_model": "Flint (free)",
+      "provider_ui_label": "recursive"
+    }
+  ],
+  "B": {
+    "first_capture_utc": "2026-10-26T18:27:53.220Z",
+    "first_captured_final_text_bytes": 0,
+    "first_capture_preserved": true,
+    "late_body_observed_utc": "2026-10-26T18:38:43.698Z",
+    "late_body_sha256": "f713df37292dc3fbb5ded4c433a072c31f20211268afd2df78b27ffb30bcf792",
+    "late_body_bytes": 723,
+    "completion_time": "UNKNOWN; late text observed only during reconciliation, outside browser horizon",
+    "per_call_120s_compliance": "UNKNOWN",
+    "stop_enforcement": "No B stop sent atbound; UIhad disabled Send and reported73s metadata, but finalbody remained ambiguous. Bound enforcement was not established.",
+    "late_body_used_as_controlled_result": false
+  },
+  "V": {
+    "send_utc": "2026-10-26T18:28:32.899Z",
+    "stop_request_utc": "2026-10-26T18:30:44.403Z",
+    "send_to_stop_request_seconds": 131.504,
+    "strict_120s_stop_bound": "FAILED",
+    "overrun_seconds": 11.504,
+    "first_capture_preserved": true,
+    "final_cost_ui_metadata": null
+  },
+  "post_reconciliation_active_stop_visible": false,
+  "conclusion": "Two attempted external trajectories; no accepted controlled JSON actions and no completed B/V math comparison. B finaltext capture was delayed, not proven empty provider output. V exceeded stop bound. No latebody is pooled into primary or predeadline controlled results.",
+  "no_room_or_account_identifiers": true
+}

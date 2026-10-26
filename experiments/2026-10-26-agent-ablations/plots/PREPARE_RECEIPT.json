@@ -1,0 +1,27 @@
+{
+  "schema": "plot-scaffold-receipt.v1",
+  "recorded_utc": "2026-10-26T17:53:40.457568+00:00",
+  "state": "SCAFFOLD_READY_RETURNING_IDLE",
+  "source_pins": "PLOT_DESIGN.json",
+  "files": [
+    {
+      "path": "plots/CAPTION_PLAN.md",
+      "sha256": "7404d04b66f7253e50fdbcc52b63aea3e44bc3937fedccd00234531b8ac996c6",
+      "bytes": 2732
+    },
+    {
+      "path": "plots/PLOT_DESIGN.json",
+      "sha256": "1c77b174faae81d39c9be2c2a09ef3cbffa7f79a62611165a8f411b41df680c3",
+      "bytes": 2295
+    },
+    {
+      "path": "plots/render_primary.py",
+      "sha256": "3699007ba2a1f5e0d60687f5e1e6d1ed5611dd249c6edc77e205212685f6e5ad",
+      "bytes": 3391
+    }
+  ],
+  "bytes_before_receipt": 8418,
+  "results_rendered": false,
+  "source_or_other_lane_writes": 0,
+  "next_event": "Root signals verified PRIMARY_RESULTS release; do not poll or synthesize outcomes"
+}

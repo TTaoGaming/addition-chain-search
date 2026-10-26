@@ -1,0 +1,19 @@
+{
+  "schema": "cohort-table-and-primary-appendix-audit.v1",
+  "observed_utc": "2026-10-26T18:48:14.833238+00:00",
+  "verdict": "VERIFICATION_PASS",
+  "cohort_full_audit_sha256": "a953bfe29797675b2561b2c9955bcbe8ac8477b453fef2721ae850c1323161bb",
+  "cohort_csv_sha256": "008725f62cad435ca7b4393fd2473beb33bd187218d66dc5d78ab7980912f2f4",
+  "cohort_csv_rows_checked": 8,
+  "all_physical_cohort_request_paths_match24_actual_calls": true,
+  "request_path_comparison_scope": "Both expected and filesystem-relative paths normalized to forward slashes; original mixed-separator assertion preserved separately.",
+  "M_minus_B_appendix_sha256": "a2db7a6c6f528b8d262ae93326bc9ff9348a465cf2bdd53d59ec40e29e817c65",
+  "M_minus_B_all4_pair_fields_recomputed": true,
+  "M_minus_B_cost_deltas": [
+    0,
+    0,
+    0,
+    -1
+  ],
+  "browser_limit": "LateB parsed only; no arithmetic validation/action application. V131.504s is saved send-to-stop-request duration, not certified provider completion latency."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "episode-memory-analysis-clarification.v1",
+  "observed_utc": "2026-10-26 18:26:30 UTC",
+  "before_memory_calls": true,
+  "current_target_denominator": "For W/U/C on each target, strict improvement and source-relative schedule overlap use that SAME current target's frozen Sol-B-rep1 episode:750339 incumbent24,7162463 incumbent31. Never compare U against the other target's cost.",
+  "supplied_packet_overlap": "Report separately against the actual packet that W/U received, including exact retained-certificate copies. Do not substitute supplied-packet pool for current-target control denominator.",
+  "broader_frontier": "Also report against the best from the entire completed primary study. A gain over a31-cost source episode is not a new study frontier if a29-cost primary witness already exists.",
+  "identity": "Exact normalized parent-index schedules preserve roworder/multiplicity/output; a new schedule hash alone does not prove a new mathematical graph or global novelty."
+}
+

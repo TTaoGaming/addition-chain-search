@@ -1,0 +1,7 @@
+Operative search skill:
+- Treat every helper as paid; preserve exact earlier-index dependencies.
+- Keep a valid incumbent when feedback supplies one.
+- Before another tool request, compare its region with earlier requests; avoid repeating an identical region without a reason.
+- Explore a different construction family or parameter region when the previous attempt did not improve the incumbent.
+- Check target equality and all indices before submitting a direct chain.
+- Use measured candidate costs, when supplied, to allocate the remaining decisions. An assertion of improvement is not a valid certificate.

@@ -1,0 +1,126 @@
+{
+  "schema": "primary-figures.v1",
+  "created_utc": "2026-10-26T18:37:34.206599+00:00",
+  "state": "PASS_SCOPED_FIGURES_READY_FOR_INDEPENDENT_REVIEW",
+  "source_pins": {
+    "analysis/PRIMARY_RESULTS.json": "5d884748187c90fb7413a9ba17e65103955ea736ad142da26826945c93f75ac8",
+    "analysis/PRIMARY_RESULTS.csv": "0cddea566120c3468b165dd782a6ecd11c4db1f9fc6d1b46ac1783ed0271f2bf",
+    "oracle/PRIMARY_AUDIT.v1.json": "46cffc7c2c8a988446ac5c35ccd4e9a3289246a20f0504c08f17139a024ac7af",
+    "PROTOCOL.v1.json": "3912d9a4b3c9eab980731a57cab30683a2e9f7ee567d4959121f6b10d9493498",
+    "control/EXECUTION_FREEZE.v1.json": "2bfd98ae8bfbaa855eb4497d5f27b9e8e07e8ac282d57947d4093ccbe4427f00",
+    "control/INTERFACE_AMENDMENT.v2.json": "3c7967c8c3a160fa1ef6f05aecceb1ba4746d99b1476735a059fdf967ba8d49f",
+    "control/STIMULUS_AMENDMENT.v1.json": "6c45fddc213af0e15d2a53de9017516fe77de45e51036b089a488f8f8aeec642",
+    "control/RUNNER_SCOPE_AMENDMENT.v3.json": "66a17f889a6a4ff0d221b5994a2393f136ed7a486e11ea314f6af966246412a8"
+  },
+  "renderer_sha256": "4dd7b4967fbf0d3cfeb0f071befa073d3aa1690424103d89f58c497d6402ce16",
+  "figures": [
+    "primary_paired_costs",
+    "primary_paired_behavior",
+    "primary_raw_trajectories",
+    "primary_budget_completion"
+  ],
+  "rows": 40,
+  "independent_tasks": 2,
+  "repeat_ids": [
+    1,
+    2
+  ],
+  "complete": 39,
+  "censored_timeout": 1,
+  "scope_cap_bytes": 4000000,
+  "bytes_before_receipt": 1635616,
+  "source_mutations": [],
+  "files": [
+    {
+      "path": "CAPTION_GUIDE.md",
+      "bytes": 8938,
+      "sha256": "3c2641936b321c1bc3770a30f1d788b4c1bf3f1d0ae0d2f2d5d9f808b495db9a"
+    },
+    {
+      "path": "CAPTION_PLAN.md",
+      "bytes": 2732,
+      "sha256": "7404d04b66f7253e50fdbcc52b63aea3e44bc3937fedccd00234531b8ac996c6"
+    },
+    {
+      "path": "finalize_figures.py",
+      "bytes": 3320,
+      "sha256": "47662fd253799c21347914bf3d8c29c1f084d836a60e088f274a3f71f6a11c56"
+    },
+    {
+      "path": "PLOT_DATA.json",
+      "bytes": 488848,
+      "sha256": "fef99ecc8ac0d02151cc7f32cb8a8c4598da5bc7a04cb6c93451fd41209efdd8"
+    },
+    {
+      "path": "PLOT_DESIGN.json",
+      "bytes": 2295,
+      "sha256": "1c77b174faae81d39c9be2c2a09ef3cbffa7f79a62611165a8f411b41df680c3"
+    },
+    {
+      "path": "PREPARE_RECEIPT.json",
+      "bytes": 891,
+      "sha256": "a6647d2455463b59e5dd03cbe33f3d556f98986c11369b2b6a38b61b185862c4"
+    },
+    {
+      "path": "primary_budget_completion.png",
+      "bytes": 182810,
+      "sha256": "ce2f6e69d77dd107bbd731c99e70eaf3212f5a993d1cf638fe7109952b08a610"
+    },
+    {
+      "path": "primary_budget_completion.svg",
+      "bytes": 43217,
+      "sha256": "f847bacb8adc81d1188bc46b903fdc52b441f794afbb75e98d56796812c827a7"
+    },
+    {
+      "path": "primary_paired_behavior.png",
+      "bytes": 178558,
+      "sha256": "9e8a6cdab5a005ccb6a48d7076b883278c69d85a61d1001e8238744e021fcd49"
+    },
+    {
+      "path": "primary_paired_behavior.svg",
+      "bytes": 65364,
+      "sha256": "212ae7671b32c97a46306eb4f012507352bf6c1b5c5a602c9c5deace38e97381"
+    },
+    {
+      "path": "primary_paired_costs.png",
+      "bytes": 171688,
+      "sha256": "cbae6cd5efe5368d1cf98f496b8a72fa24add7892de13ab7b239cd6a6005559c"
+    },
+    {
+      "path": "primary_paired_costs.svg",
+      "bytes": 63237,
+      "sha256": "e41ca3d27c31498cee08ed23b542293d129dbe3c99b1ed0100d506ef7abd441e"
+    },
+    {
+      "path": "primary_protocol_flow.mmd",
+      "bytes": 1382,
+      "sha256": "cc9ad855c979a21674774b3526fc74f4aed4262586bb77acbfdb953c74f669db"
+    },
+    {
+      "path": "primary_raw_trajectories.png",
+      "bytes": 290547,
+      "sha256": "b5d5d0aacf2c4cad1869894e0f67e5dd4f5f723570536e3efdde0671bde7f2f9"
+    },
+    {
+      "path": "primary_raw_trajectories.svg",
+      "bytes": 111666,
+      "sha256": "09dd7fdeb2b737222596952d71efa60fe2c745d91b32edd346fbe1c4a0253522"
+    },
+    {
+      "path": "render_primary.py",
+      "bytes": 16379,
+      "sha256": "4dd7b4967fbf0d3cfeb0f071befa073d3aa1690424103d89f58c497d6402ce16"
+    },
+    {
+      "path": "study_flow.mmd",
+      "bytes": 595,
+      "sha256": "2b33a1b60851d665b7f5b01e6c73653e399aacad763e22af9701d48cbf61ab7f"
+    },
+    {
+      "path": "VISUAL_QA.json",
+      "bytes": 3149,
+      "sha256": "6c133889829108c427c8241849ebfcefdee3b2442b6c50a87f72de2b6ee0556d"
+    }
+  ],
+  "visual_qa_sha256": "6c133889829108c427c8241849ebfcefdee3b2442b6c50a87f72de2b6ee0556d"
+}

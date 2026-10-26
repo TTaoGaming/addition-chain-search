@@ -1,0 +1,107 @@
+{
+  "schema": "public-agent-ablation-manifest-addendum.v1",
+  "base_manifest_sha256": "6ee06e3e1a660bef873968937ede1c939f6e0bef62d6d3b0f7d1cfd0f348098e",
+  "frozen_utc": "2026-10-26T19:04:19.048865+00:00",
+  "files": [
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/.gitattributes",
+      "bytes": 63,
+      "sha256": "76a26662c7a91fb1819d71a81fd5eedc8620e0f839a887b86bca032e626324a0",
+      "git_blob_sha1": "0fb4dd2dc291280337eae26d039c1c83eb388252"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/analysis/EPISODE_MEMORY_RESULTS.csv",
+      "bytes": 6810,
+      "sha256": "3749e1b3b5b152d029d944ccd001d0cfd3b061b0e1c78e69dccd2a84c698bd2a",
+      "git_blob_sha1": "5a39ee31d8a26261375b492749437aced68e4a3c"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/analysis/EPISODE_MEMORY_RESULTS.json",
+      "bytes": 165708,
+      "sha256": "99a15f538bdf37b0c39bd340ace13140936d59e8e55e6cc3834641ba0aea2b8a",
+      "git_blob_sha1": "3dce61c8738ff2a5a5bc0cffcbc318adba776c61"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/analysis/EPISODE_MEMORY_RESULTS.provisional.v1.json",
+      "bytes": 164547,
+      "sha256": "ba27d8c15d2d2176b8ed26a564631c6db0b72783018bf42301c6a9512cc29ebc",
+      "git_blob_sha1": "f625e63f80d5196cb57c5eab500e41ccaaccfd1f"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/analysis/extract_episode_memory.py",
+      "bytes": 11688,
+      "sha256": "6bce29a5e65d6a83dc605c4f70f7c13a98dabc4252603c1ec9fbe7b15f50897e",
+      "git_blob_sha1": "91b5c9b219dfc7510cad9c8b82579cc840c3ca52"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/analysis/prepare_memory_extractor.py",
+      "bytes": 5678,
+      "sha256": "cdd5534637cd5050a0c585d4c46cec5ce9fa0b795dfb8bdd4f0e3ac06dff7c0b",
+      "git_blob_sha1": "dcefe92d5cb27067286c67ef0c809d51eadcbde3"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/analysis/WRITEUP_GUIDE.md",
+      "bytes": 2906,
+      "sha256": "169e363f55615e328c7ae62353216253d8e7d90b457b642363636a3fa94a2f14",
+      "git_blob_sha1": "277505b5626ea2110bcde6fceff4589f28cc08c7"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/FINAL_SUMMARY.json",
+      "bytes": 4106,
+      "sha256": "c38b85c56a93c2ade9e74904657f5c783c32aae1a62c3230adf29823543fa7af",
+      "git_blob_sha1": "4f0fc915277a35d2c5f7232048a93e54293132d3"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/plots/MEMORY_CAPTION.md",
+      "bytes": 3704,
+      "sha256": "a3320318f881451a1e29c5d6652bf9a13c9f7eac50f77edab1a6fe0e4d561d4d",
+      "git_blob_sha1": "f96975014beb8be8bb37e2b814ad69dbc19df655"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/plots/MEMORY_PLOT_DATA.json",
+      "bytes": 165708,
+      "sha256": "99a15f538bdf37b0c39bd340ace13140936d59e8e55e6cc3834641ba0aea2b8a",
+      "git_blob_sha1": "3dce61c8738ff2a5a5bc0cffcbc318adba776c61"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/plots/render_memory_supplement.py",
+      "bytes": 7733,
+      "sha256": "98ab5763d577b26b016aeffca8cfb6d5b6fe09425a9694d2b2f13d6da9f18a63",
+      "git_blob_sha1": "81dc73a42c8ff6c6b6e47b3a74dca2e582c78b43"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/plots/supplement_episode_memory.png",
+      "bytes": 320275,
+      "sha256": "4bfc3197b5522b5279d73b617dffee5f8614b906218d31b8e73ce854d79f20e7",
+      "git_blob_sha1": "a2bc0738b08b4a542c37504f65d7ce17757cc0e4"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/plots/supplement_episode_memory.svg",
+      "bytes": 76970,
+      "sha256": "a851e2e5e56446fd7aa81b54c6cb2692a76b8fdaa4fb66d9820a12b3a6a9a916",
+      "git_blob_sha1": "c09c9f7221acfe3630670536851b12991d5f397e"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/plots/SUPPLEMENT_MEMORY_QA.json",
+      "bytes": 909,
+      "sha256": "68334b4c7aeb7e152af8d835a38cc680de16de26930c5f9766ddaf5218615179",
+      "git_blob_sha1": "2455ab3e2a244f816f84d2800cd7714ffb884774"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/plots/SUPPLEMENT_MEMORY_RECEIPT.json",
+      "bytes": 3628,
+      "sha256": "d5f32c1014169b8f5e78f380d9a76657a9846157aed1562b4ca8eddd94a6fffe",
+      "git_blob_sha1": "45a8c5741f78ce455e14f48d5f23d6baf8aebb1b"
+    },
+    {
+      "repo_relative_path": "experiments/2026-10-26-agent-ablations/README.md",
+      "bytes": 4884,
+      "sha256": "f6455b286e9882e300dd6cb9efbcaa6d55571bf7394c2703f19fc5cbc22956c3",
+      "git_blob_sha1": "21b5a91e2721ebee2d754e9cf80e1dcaafed9ce1"
+    }
+  ],
+  "previous_archives_reused_unchanged": true,
+  "source_scope": "Only new, missing or changed source files after the base plan. No duplicate staging copies or archive rewrites.",
+  "verification_scope": "Frozen replay verifies59ZIPs, archive member digests, frozen oracle pin and5128 explicit candidate arithmetic records. It does not automatically verify arbitrary documentation/addendum file pins. These source/Git blob pins are checked separately by root upload and immutable commit identity.",
+  "email_scan": "PASS: no address matches in added planned text; private emails were not task inputs. Specific browser UI/account exclusions from base remain."
+}
