@@ -14,7 +14,7 @@ This is an evidence guide, not an email draft. Pick the points you want to make 
 
 | Question | Observed result | Honest interpretation |
 |---|---|---|
-| Did score-guided selection help? | New paired replication: eight seeds, 256 assessments per arm, 4,096 total assessments; five wins, three ties, no losses. Median control-minus-guided advantage was one operation. Best result was 312. | This selection package sometimes helped inside one exposed target and evaluator. It did not improve the retained 284 witness. Policies also differ in their hash tie salt. |
+| Did score-guided selection help? | New paired replication: eight seeds, 256 assessments per seed per arm, 4,096 total assessments; five wins, three ties, no losses. Median control-minus-guided advantage was one operation. Best result was 312. | This selection package sometimes helped inside one exposed target and evaluator. It did not improve the retained 284 witness. Policies also differ in their hash tie salt. |
 | Did the tested use of history help? | Historical P-521 case ordering: 1,024 attempts per arm; manually history-informed order returned 587, SHA order 586; both worse than the 582 incumbent. | This particular ordering lost. It was not an autonomous-memory experiment. |
 | Did fixing the inner-DP secondary tie rule change this search? | Old versus corrected runs had zero observed state/score ordinal changes in the tested region. | A code correction can have no measured search effect in that region. This does not prove universal irrelevance. |
 
