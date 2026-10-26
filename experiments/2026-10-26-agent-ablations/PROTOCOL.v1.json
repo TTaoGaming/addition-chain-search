@@ -1,0 +1,196 @@
+{
+  "schema": "addition-chain-agent-ablation-preregistration.v1",
+  "status": "FROZEN_BEFORE_FIRST_EXPERIMENTAL_TRAJECTORY",
+  "work": "BRIAN-AGENT-ABLATIONS-20261026",
+  "window": {
+    "start_utc": "2026-10-26T17:24:08Z",
+    "stop_live_calls_utc": "2026-10-26T19:24:08Z",
+    "last_planned_new_trajectory_utc": "2026-10-26T19:12:00Z"
+  },
+  "questions": [
+    "Which treatments change actual action/region selection and candidate output?",
+    "Which improve exact valid charged operation count under this bounded interface?",
+    "How do name framing, operative skill, retrieved memory, search tools, feedback and actual model differ?"
+  ],
+  "tasks": [
+    {
+      "id": "synthetic-20-v1",
+      "target": 750339,
+      "binary_baseline": 28
+    },
+    {
+      "id": "synthetic-23-v1",
+      "target": 7162463,
+      "binary_baseline": 35
+    }
+  ],
+  "task_public_manifest_sha256": "09256c711cdb4ea7773bcc0a62921318f026128a11b49357d5b4858dade8cd94",
+  "models": {
+    "primary": "gpt-6.1-sol",
+    "backend_contrast": "gpt-6-luna",
+    "effort": "medium",
+    "route": "included ChatGPT CLI; separate live content-free canaries returned exact ADAPTER_OK"
+  },
+  "replicate_ids": [
+    1,
+    2
+  ],
+  "replicate_seed_claim": "IDs and randomized ordering only; CLI model RNG seed is not controllable or claimed",
+  "rounds": 3,
+  "per_search_action_max_evaluations": 64,
+  "max_rows": 256,
+  "cells": [
+    {
+      "id": "B",
+      "name": "baseline",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    {
+      "id": "N",
+      "name": "name_only",
+      "label": "Apex Nidhoggr",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    {
+      "id": "S",
+      "name": "skill_only",
+      "label": "neutral",
+      "skill": true,
+      "memory": "none",
+      "tools": true,
+      "feedback": true
+    },
+    {
+      "id": "M",
+      "name": "relevant_memory",
+      "label": "neutral",
+      "skill": false,
+      "memory": "relevant",
+      "tools": true,
+      "feedback": true
+    },
+    {
+      "id": "O",
+      "name": "same_memory_reordered",
+      "label": "neutral",
+      "skill": false,
+      "memory": "reordered",
+      "tools": true,
+      "feedback": true
+    },
+    {
+      "id": "I",
+      "name": "irrelevant_memory",
+      "label": "neutral",
+      "skill": false,
+      "memory": "irrelevant",
+      "tools": true,
+      "feedback": true
+    },
+    {
+      "id": "T",
+      "name": "search_tools_absent",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": false,
+      "feedback": true
+    },
+    {
+      "id": "V",
+      "name": "verifier_feedback_withheld",
+      "label": "neutral",
+      "skill": false,
+      "memory": "none",
+      "tools": true,
+      "feedback": false
+    },
+    {
+      "id": "A",
+      "name": "combined_exploratory",
+      "label": "Apex Nidhoggr",
+      "skill": true,
+      "memory": "relevant",
+      "tools": true,
+      "feedback": true
+    }
+  ],
+  "planned_trajectories": {
+    "primary": 36,
+    "second_model_baseline": 4,
+    "total": 40,
+    "decisions": 120
+  },
+  "primary_contrasts": [
+    "N-B: name-only framing",
+    "S-B: operative instruction packet",
+    "M-I: retrieved content relevance under approximate size control",
+    "O-M: order of same memory facts",
+    "T-B: construction/search tool availability",
+    "V-B: access to verifier feedback",
+    "second-model B versus primary B: actual backend at same effort setting"
+  ],
+  "exploratory_contrasts": [
+    "M-B: content plus length",
+    "A-B: bundled change, not isolated causal attribution"
+  ],
+  "common_prompt_facts": [
+    "exact task target/domain",
+    "binary baseline counts only",
+    "all grammar/limits/tools state",
+    "all prior action/visible feedback pairs from that trajectory only",
+    "no private correspondence; no access to outcome keys; no generated code"
+  ],
+  "memory": {
+    "source": "Public training examples15/31 and index-dependency lesson; no final target-outcome tuning",
+    "reordered": "Identical relevant paragraphs reversed; order sensitivity, not relevance",
+    "irrelevant": "Nonmisleading archive/filename metadata prose matched by word count; token counts measured when available and exact tokenizer equivalence not claimed"
+  },
+  "skill": "Separate frozen operative instruction packet about valid topological construction, charged helpers, deduplication, diverse regions and preserving valid incumbents; file hash pinned before first trajectory.",
+  "environment": "harness/v1 release must be frozen by hash before experiment; no executable candidate code. Tool-off refuses construct/search; all attempted actions including refusals consume rounds.",
+  "final_evaluation": "Identical independent exact-integer evaluator across all cells; lowest charged-cost valid candidate over all recorded candidates, M then canonical index-schedule identity for ties. No binary fallback counted as model success.",
+  "primary_metrics": [
+    "valid best charged S+M cost",
+    "improvement over public binary baseline",
+    "valid trajectory fraction",
+    "action and region sequence",
+    "unique candidate schedule identities and duplicate rates",
+    "search versus direct-chain choices",
+    "invalid/refused proposals",
+    "feedback-responsive allocation changes"
+  ],
+  "secondary_metrics": [
+    "assessment calls",
+    "realized CPU/wall/model tokens",
+    "model/feedback overhead",
+    "first failures/timeouts",
+    "same final witness across different actions"
+  ],
+  "analysis": "Four paired task×replicate observations per primary contrast; report each raw pair and descriptive summaries. Task is principal independent unit. No broad causal learning, global optimality, crypto speed/security or Apex runtime claim.",
+  "assignment": {
+    "order_seed": 202610261724,
+    "order": "Python random.Random(seed).shuffle over all40 cells before launch; no optional stopping by outcome",
+    "concurrency": "At most2 candidate CLI calls once harness/vendor support idle; with root+one reviewer no more4 active carriers"
+  },
+  "failure_rules": [
+    "No automatic inference retry; preserve first output and censor typed failures",
+    "No native tool events allowed in candidate CLI stream; censor if observed",
+    "Schema/parse errors retained",
+    "harness fixes require versioned release and prechange failures retained; affected cells rerun only as separately marked replacement",
+    "no new live call after horizon; preserve incomplete cells"
+  ],
+  "blinding": "Candidates have CLI native tools disabled and receive only experiment prompts/visible feedback. Shared OS filesystem is not an ACL isolation boundary. Oracle author freezes independent core before seeing harness implementation.",
+  "privacy": "Own research authorized for GitHub/Slack. Raw email bodies, credentials and restricted checker material excluded.",
+  "spend": {
+    "paid_usd_ceiling": 0,
+    "no_fallback": true,
+    "external_vendor": "NOT_ADMITTED unless independent zero-cost route qualifies; no imputed vendor comparisons"
+  }
+}
